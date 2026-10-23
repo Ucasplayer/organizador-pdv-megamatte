@@ -135,6 +135,7 @@
    "name": "CAFETERIA BEBIDAS QUENTES",
    "img": "img/cat-20.jpg",
    "items": [
+    "462",
     "11668",
     "11672",
     "11443",
@@ -153,7 +154,6 @@
     "11445",
     "11666",
     "11667",
-    "462",
     "463",
     "470",
     "11063"
@@ -2025,6 +2025,10 @@
  },
  "log": [
   {
+   "t": "2026-10-23T17:43:32.751Z",
+   "msg": "Mudou a ordem dos produtos em CAFETERIA BEBIDAS QUENTES"
+  },
+  {
    "t": "2026-10-23T17:43:18.650Z",
    "msg": "Moveu ESPRESSO 50ML, ESPRESSO DUPLO 100ML, ESPRESSO DUPLO C/LEITE 200ML e mais 1 de CAFETERIA ESPRESSO para CAFETERIA BEBIDAS QUENTES"
   },
@@ -2053,5 +2057,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-23T17:43:18.652Z"
+ "savedAt": "2026-10-23T17:43:32.754Z"
 }
