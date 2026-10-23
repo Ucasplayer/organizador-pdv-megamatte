@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 14:43:07. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:43:20. Gerado automaticamente pelo Organizador do PDV.
 
-- Produtos que mudaram de categoria: **0**
+- Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **0**
 - Categorias novas: **0**
@@ -21,9 +21,14 @@ _Nenhuma._
 
 _Nenhuma._
 
-## Produtos que mudaram de categoria (0)
+## Produtos que mudaram de categoria (4)
 
-_Nenhuma._
+| Cód. | Produto | Saiu de | Entrou em | Fica em |
+|---|---|---|---|---|
+| 462 | ESPRESSO 50ML | CAFETERIA ESPRESSO | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
+| 463 | ESPRESSO DUPLO 100ML | CAFETERIA ESPRESSO | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
+| 470 | ESPRESSO DUPLO C/LEITE 200ML | CAFETERIA ESPRESSO | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
+| 11063 | ESPRESSO MACCHIATO 50ML | CAFETERIA ESPRESSO | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 
 ## Produtos novos (1)
 
@@ -152,14 +157,10 @@ _Nenhuma._
 59. P.MATE OU GUARANA 300ML GRATIS — cód. 11931
 60. PL-MEGAMATTE DAY MATE 300ML/500ML — cód. 11893
 
-### 4. CAFETERIA ESPRESSO (grupo 7) — 4 produtos
+### 4. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
 
-1. ESPRESSO 50ML — cód. 462
-2. ESPRESSO DUPLO 100ML — cód. 463
-3. ESPRESSO DUPLO C/LEITE 200ML — cód. 470
-4. ESPRESSO MACCHIATO 50ML — cód. 11063
 
-### 5. CAFETERIA BEBIDAS QUENTES (grupo 20) — 18 produtos
+### 5. CAFETERIA BEBIDAS QUENTES (grupo 20) — 22 produtos
 
 1. CAPPUCCINO DE DOCE DE LEITE 100ML — cód. 11668
 2. CAPPUCCINO DE DOCE DE LEITE 200ML — cód. 11672
@@ -179,6 +180,10 @@ _Nenhuma._
 16. CAPPUCCINO COM NUTELLA 200ML — cód. 11445
 17. CAPPUCCINO DE PACOCA 100ML — cód. 11666
 18. CAPPUCCINO OVOMALTINE 100ML — cód. 11667
+19. ESPRESSO 50ML — cód. 462
+20. ESPRESSO DUPLO 100ML — cód. 463
+21. ESPRESSO DUPLO C/LEITE 200ML — cód. 470
+22. ESPRESSO MACCHIATO 50ML — cód. 11063
 
 ### 6. AÇAÍ (grupo 8) — 25 produtos
 
@@ -501,3 +506,4 @@ _Nenhuma._
 - 23/10/2026, 11:24:58 — Excluiu a categoria TESTE SITE
 - 23/10/2026, 14:35:51 — Mudou a ordem das categorias na tela
 - 23/10/2026, 14:43:06 — Mudou a ordem das categorias na tela
+- 23/10/2026, 14:43:18 — Moveu ESPRESSO 50ML, ESPRESSO DUPLO 100ML, ESPRESSO DUPLO C/LEITE 200ML e mais 1 de CAFETERIA ESPRESSO para CAFETERIA BEBIDAS QUENTES

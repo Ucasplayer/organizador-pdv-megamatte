@@ -127,12 +127,7 @@
    "code": "7",
    "name": "CAFETERIA ESPRESSO",
    "img": "img/cat-7.jpg",
-   "items": [
-    "462",
-    "463",
-    "470",
-    "11063"
-   ]
+   "items": []
   },
   {
    "id": "c20",
@@ -157,7 +152,11 @@
     "11664",
     "11445",
     "11666",
-    "11667"
+    "11667",
+    "462",
+    "463",
+    "470",
+    "11063"
    ]
   },
   {
@@ -2026,6 +2025,10 @@
  },
  "log": [
   {
+   "t": "2026-10-23T17:43:18.650Z",
+   "msg": "Moveu ESPRESSO 50ML, ESPRESSO DUPLO 100ML, ESPRESSO DUPLO C/LEITE 200ML e mais 1 de CAFETERIA ESPRESSO para CAFETERIA BEBIDAS QUENTES"
+  },
+  {
    "t": "2026-10-23T17:43:06.457Z",
    "msg": "Mudou a ordem das categorias na tela"
   },
@@ -2050,5 +2053,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-23T17:43:06.460Z"
+ "savedAt": "2026-10-23T17:43:18.652Z"
 }
