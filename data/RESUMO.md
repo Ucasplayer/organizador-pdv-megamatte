@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 14:45:36. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:45:40. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
@@ -182,7 +182,23 @@ _Nenhuma._
 21. MOCACCINO 100ML — cód. 11671
 22. MOCACCINO 200ML — cód. 11064
 
-### 5. AÇAÍ (grupo 8) — 25 produtos
+### 5. CAFETERIA BEBIDAS GELADAS (grupo 21) — 13 produtos
+
+1. CAPPUCCINO COM NUTELLA GELADO 300ML — cód. 11309
+2. CAPPUCCINO COM NUTELLA GELADO 500ML — cód. 11310
+3. CAPPUCCINO TRAD GELADO 300ML — cód. 11448
+4. CAPPUCCINO TRAD GELADO 500ML — cód. 11857
+5. CHOCOLATE GELADO 300ML — cód. 1806
+6. CHOCOLATE GELADO 500ML — cód. 11595
+7. FRAPPE OVOMALTINE 300ML — cód. 11449
+8. FRAPPE OVOMALTINE 500ML — cód. 11859
+9. MATE OVOMALTINE 300ML — cód. 11451
+10. MATE OVOMALTINE 500ML — cód. 11452
+11. MATE OVOMALTINE 700ML — cód. 11453
+12. MONTE SEU ACAI 300ML — cód. 11804
+13. MONTE SEU ACAI 500ML — cód. 11858
+
+### 6. AÇAÍ (grupo 8) — 25 produtos
 
 1. ACAI 300ML — cód. 446
 2. ACAI 500ML — cód. 458
@@ -210,7 +226,7 @@ _Nenhuma._
 24. MONTE SEU ACAI 500ML — cód. 11858
 25. MONTE SEU ACAI 700ML — cód. 11873
 
-### 6. GUARANA NATURAL (grupo 5) — 14 produtos
+### 7. GUARANA NATURAL (grupo 5) — 14 produtos
 
 1. GUARA FRUTA 300ML — cód. 11037
 2. GUARA FRUTA 500ML — cód. 11038
@@ -227,24 +243,8 @@ _Nenhuma._
 13. GVITAMINA 500 ML — cód. 11202
 14. GVITAMINA 700 ML — cód. 11203
 
-### 7. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
+### 8. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
 
-
-### 8. CAFETERIA BEBIDAS GELADAS (grupo 21) — 13 produtos
-
-1. CAPPUCCINO COM NUTELLA GELADO 300ML — cód. 11309
-2. CAPPUCCINO COM NUTELLA GELADO 500ML — cód. 11310
-3. CAPPUCCINO TRAD GELADO 300ML — cód. 11448
-4. CAPPUCCINO TRAD GELADO 500ML — cód. 11857
-5. CHOCOLATE GELADO 300ML — cód. 1806
-6. CHOCOLATE GELADO 500ML — cód. 11595
-7. FRAPPE OVOMALTINE 300ML — cód. 11449
-8. FRAPPE OVOMALTINE 500ML — cód. 11859
-9. MATE OVOMALTINE 300ML — cód. 11451
-10. MATE OVOMALTINE 500ML — cód. 11452
-11. MATE OVOMALTINE 700ML — cód. 11453
-12. MONTE SEU ACAI 300ML — cód. 11804
-13. MONTE SEU ACAI 500ML — cód. 11858
 
 ### 9. MEGASHAKES (grupo 9) — 9 produtos
 
@@ -508,4 +508,4 @@ _Nenhuma._
 - 23/10/2026, 14:43:06 — Mudou a ordem das categorias na tela
 - 23/10/2026, 14:43:18 — Moveu ESPRESSO 50ML, ESPRESSO DUPLO 100ML, ESPRESSO DUPLO C/LEITE 200ML e mais 1 de CAFETERIA ESPRESSO para CAFETERIA BEBIDAS QUENTES
 - 23/10/2026, 14:45:01 — Mudou a ordem dos produtos em CAFETERIA BEBIDAS QUENTES
-- 23/10/2026, 14:45:34 — Mudou a ordem das categorias na tela
+- 23/10/2026, 14:45:39 — Mudou a ordem das categorias na tela
