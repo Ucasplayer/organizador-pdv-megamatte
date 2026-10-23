@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 11:46:21. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:35:53. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **0**
 - Produtos novos: **1**
@@ -41,7 +41,7 @@ _Nenhuma._
 
 ## Ordem na tela
 
-- A ordem das categorias não mudou.
+- A ordem das categorias mudou (ver estrutura abaixo).
 - A ordem dos produtos não mudou.
 
 ## Estrutura final (na ordem da tela)
@@ -56,29 +56,7 @@ _Nenhuma._
 6. P.MP - 8 PQ/BRO + SUCO — cód. 11910
 7. P.MP - SANDUICHE + MATE OU GUA — cód. 11908
 
-### 2. LOJISTA (NOVO) (grupo 111) — 19 produtos
-
-1. P.LOJ - 1 COOKIE + CAFE 100ML — cód. 11996
-2. P.LOJ - 1 COOKIE + CAFE 200ML — cód. 11997
-3. P.LOJ - 12 PQ/BRO + CAFE 200ML — cód. 11943
-4. P.LOJ - 12 PQ/BRO + MATE OU GUA — cód. 11962
-5. P.LOJ - 12 PQ/BRO + SUCO — cód. 11969
-6. P.LOJ - 6 PQ/BRO + CAFE 100ML — cód. 11994
-7. P.LOJ - 6 PQ/BRO + CAFE 200ML — cód. 11995
-8. P.LOJ - 6 PQ/BRO + CAFE 50ML — cód. 11965
-9. P.LOJ - 6 PQ/BRO + MATE OU GUA — cód. 11967
-10. P.LOJ - 6 PQ/BRO + SUCO — cód. 11960
-11. P.LOJ - 8 PQ/BRO + MATE OU GUA — cód. 11912
-12. P.LOJ - 8 PQ/BRO + SUCO — cód. 11961
-13. P.LOJ - SALGADO — cód. 12047
-14. P.LOJ - SALGADO + CAFE 200ML — cód. 11941
-15. P.LOJ - SALGADO + MATE OU GUA — cód. 11966
-16. P.LOJ - SALGADO + SUCO — cód. 11963
-17. P.LOJ - SANDUICHE + MATE OU GUA — cód. 11974
-18. P.LOJ - SANDUICHE + SUCO — cód. 11979
-19. PROM -  LOJISTA — cód. 11795
-
-### 3. PAO DE QUEIJO (grupo 19) — 8 produtos
+### 2. PAO DE QUEIJO (grupo 19) — 8 produtos
 
 1. P.12 P.QUEIJO — cód. 2562
 2. P.18 PQ COPO MARCELO MENT — cód. 12200
@@ -89,7 +67,7 @@ _Nenhuma._
 7. PAO DE QUEIJO UNID — cód. 491
 8. PL-P.12 PQ — cód. 12061
 
-### 4. SALGADOS (grupo 3) — 29 produtos
+### 3. SALGADOS (grupo 3) — 29 produtos
 
 1. CHEESEB. FORNO CHEDDAR — cód. 524
 2. CHEESEB. FORNO TRADICIONAL — cód. 11863
@@ -121,7 +99,7 @@ _Nenhuma._
 28. QUICHE 4 QUEIJOS — cód. 12076
 29. QUICHE INT ALHO PORO — cód. 12077
 
-### 5. MATE (grupo 4) — 60 produtos
+### 4. MATE (grupo 4) — 60 produtos
 
 1. ERVA MATE CX 250G — cód. 11086
 2. MATE 1L — cód. 226
@@ -184,7 +162,7 @@ _Nenhuma._
 59. P.MATE OU GUARANA 300ML GRATIS — cód. 11931
 60. PL-MEGAMATTE DAY MATE 300ML/500ML — cód. 11893
 
-### 6. GUARANA NATURAL (grupo 5) — 14 produtos
+### 5. GUARANA NATURAL (grupo 5) — 14 produtos
 
 1. GUARA FRUTA 300ML — cód. 11037
 2. GUARA FRUTA 500ML — cód. 11038
@@ -201,7 +179,7 @@ _Nenhuma._
 13. GVITAMINA 500 ML — cód. 11202
 14. GVITAMINA 700 ML — cód. 11203
 
-### 7. AÇAÍ (grupo 8) — 25 produtos
+### 6. AÇAÍ (grupo 8) — 25 produtos
 
 1. ACAI 300ML — cód. 446
 2. ACAI 500ML — cód. 458
@@ -229,14 +207,14 @@ _Nenhuma._
 24. MONTE SEU ACAI 500ML — cód. 11858
 25. MONTE SEU ACAI 700ML — cód. 11873
 
-### 8. CAFETERIA ESPRESSO (grupo 7) — 4 produtos
+### 7. CAFETERIA ESPRESSO (grupo 7) — 4 produtos
 
 1. ESPRESSO 50ML — cód. 462
 2. ESPRESSO DUPLO 100ML — cód. 463
 3. ESPRESSO DUPLO C/LEITE 200ML — cód. 470
 4. ESPRESSO MACCHIATO 50ML — cód. 11063
 
-### 9. CAFETERIA BEBIDAS QUENTES (grupo 20) — 18 produtos
+### 8. CAFETERIA BEBIDAS QUENTES (grupo 20) — 18 produtos
 
 1. CAPPUCCINO DE DOCE DE LEITE 100ML — cód. 11668
 2. CAPPUCCINO DE DOCE DE LEITE 200ML — cód. 11672
@@ -257,7 +235,7 @@ _Nenhuma._
 17. CAPPUCCINO DE PACOCA 100ML — cód. 11666
 18. CAPPUCCINO OVOMALTINE 100ML — cód. 11667
 
-### 10. CAFETERIA BEBIDAS GELADAS (grupo 21) — 13 produtos
+### 9. CAFETERIA BEBIDAS GELADAS (grupo 21) — 13 produtos
 
 1. CAPPUCCINO COM NUTELLA GELADO 300ML — cód. 11309
 2. CAPPUCCINO COM NUTELLA GELADO 500ML — cód. 11310
@@ -273,7 +251,7 @@ _Nenhuma._
 12. MONTE SEU ACAI 300ML — cód. 11804
 13. MONTE SEU ACAI 500ML — cód. 11858
 
-### 11. MEGASHAKES (grupo 9) — 9 produtos
+### 10. MEGASHAKES (grupo 9) — 9 produtos
 
 1. MEGASHAKE ACAI 300ML — cód. 305
 2. MEGASHAKE ACAI 500ML — cód. 345
@@ -285,7 +263,7 @@ _Nenhuma._
 8. MEGASHAKE MORANGO 500ML — cód. 363
 9. MEGASHAKE MORANGO 700ML — cód. 10575
 
-### 12. VITAMINAS (grupo 10) — 9 produtos
+### 11. VITAMINAS (grupo 10) — 9 produtos
 
 1. VIT.BANANA C/AVEIA 300ML — cód. 2102
 2. VIT.BANANA C/AVEIA 500ML — cód. 2103
@@ -297,7 +275,7 @@ _Nenhuma._
 8. VIT.MORANGO AO LEITE 500ML — cód. 887
 9. VIT.MORANGO AO LEITE 700ML — cód. 10687
 
-### 13. SUCOS (grupo 11) — 39 produtos
+### 12. SUCOS (grupo 11) — 39 produtos
 
 1. S.ABACAXI 300ML — cód. 616
 2. S.ABACAXI 500ML — cód. 850
@@ -339,7 +317,7 @@ _Nenhuma._
 38. S.UVA 500ML — cód. 870
 39. S.UVA 700ML — cód. 10678
 
-### 14. ÁGUA (grupo 12) — 6 produtos
+### 13. ÁGUA (grupo 12) — 6 produtos
 
 1. AGUA DE COCO 200ML — cód. 11011
 2. AGUA MINERAL S/GAS 510ML — cód. 2027
@@ -348,27 +326,27 @@ _Nenhuma._
 5. AGUA DE COCO 500ML — cód. 1801
 6. AGUA DE COCO 700ML — cód. 10597
 
-### 15. SANDUICHES CHAPA (grupo 13) — 3 produtos
+### 14. SANDUICHES CHAPA (grupo 13) — 3 produtos
 
 1. PAO FRANCES NA CHAPA — cód. 10361
 2. SAND. MEGALEVE — cód. 10233
 3. SAND. MEGAMISTO — cód. 2551
 
-### 16. SANDUÍCHES GOURMET (grupo 14) — 4 produtos
+### 15. SANDUÍCHES GOURMET (grupo 14) — 4 produtos
 
 1. SAND. ABOBRINHA GREL PAST BERINJELA CIAB — cód. 11114
 2. SAND. CIABATTA CARNE ASSADA — cód. 10362
 3. SAND. COSTELA NO PÃO AUSTRALIANO — cód. 11118
 4. SAND. FRANGO TOMATE SECO AZEITO BAGUETE — cód. 11113
 
-### 17. SANDUÍCHES NATURAIS (grupo 15) — 4 produtos
+### 16. SANDUÍCHES NATURAIS (grupo 15) — 4 produtos
 
 1. SAND. NAT. ATUM COM REQUEIJÃO — cód. 11179
 2. SAND. NAT. FRANGO COM CENOURA — cód. 11180
 3. SAND. NAT. PEITO DE PERU — cód. 11181
 4. SAND. NAT. SALPICAO DE FRANGO — cód. 11182
 
-### 18. SOBREMESAS (grupo 6) — 34 produtos
+### 17. SOBREMESAS (grupo 6) — 34 produtos
 
 1. BOLO DE BANANA INT MEGAMATTE — cód. 11689
 2. BOLO DE CENOURA MEGAMATTE — cód. 11768
@@ -405,7 +383,7 @@ _Nenhuma._
 33. TORTA ESPECIAL FATIA — cód. 10231
 34. TORTA ESPECIAL INTEIRA — cód. 10298
 
-### 19. PROMOÇÕES (grupo 2) — 27 produtos
+### 18. PROMOÇÕES (grupo 2) — 27 produtos
 
 1. KIT CAFE 1 — cód. 10708
 2. KIT CAFE 2 — cód. 10709
@@ -435,7 +413,7 @@ _Nenhuma._
 26. PROM - SALGADO + MATE — cód. 15015
 27. PROMO COOKIE DE CHOCOLATE UNID — cód. 11294
 
-### 20. EXTRA (grupo 18) — 12 produtos
+### 19. EXTRA (grupo 18) — 12 produtos
 
 1. ADICIONAL MATE FRUTA — cód. 11790
 2. PORCAO DE AMENDOIM — cód. 607
@@ -450,7 +428,7 @@ _Nenhuma._
 11. PORCAO DE PROTEINATO — cód. 613
 12. PORCAO OVOMALTINE FLOCOS — cód. 11457
 
-### 21. CONGELADOS (grupo 45) — 7 produtos
+### 20. CONGELADOS (grupo 45) — 7 produtos
 
 1. CG - BROINHA 1KG — cód. 10261
 2. CG - PAO DE QUEIJO 1KG — cód. 2127
@@ -460,7 +438,7 @@ _Nenhuma._
 6. CG - PAO DE BATATA — cód. 11368
 7. CG - PASTEL — cód. 11369
 
-### 22. FOLDER CAFETERIA (grupo 93) — 9 produtos
+### 21. FOLDER CAFETERIA (grupo 93) — 9 produtos
 
 1. FCD CAPP 200ML — cód. 12048
 2. FCD CAPP 200ML+1COOKIE — cód. 12654
@@ -472,7 +450,7 @@ _Nenhuma._
 8. FCD ESPRESSO 50ML — cód. 12650
 9. FCD SAND. MEGAMISTO — cód. 12655
 
-### 23. FOLDER COMBOS (grupo 92) — 8 produtos
+### 22. FOLDER COMBOS (grupo 92) — 8 produtos
 
 1. FCDC ACAI 300ML+GRANOLA — cód. 12661
 2. FCDC MEGASHAKE300ML+6PQ/BRO — cód. 12665
@@ -483,7 +461,7 @@ _Nenhuma._
 7. FCDC SALGADO — cód. 12662
 8. FCDC SALGADO+MATE300ML — cód. 12666
 
-### 24. COFFEE PARTY TERÊ (grupo 101) — 7 produtos
+### 23. COFFEE PARTY TERÊ (grupo 101) — 7 produtos
 
 1. P.MATE OU GUARANA 300ML GRATIS — cód. 11931
 2. PL-BARRA 75% — cód. 15505
@@ -493,9 +471,32 @@ _Nenhuma._
 6. PL-PAO DE MEL — cód. 15508
 7. PL-TRUFA — cód. 15504
 
+### 24. LOJISTA (NOVO) (grupo 111) — 19 produtos
+
+1. P.LOJ - 1 COOKIE + CAFE 100ML — cód. 11996
+2. P.LOJ - 1 COOKIE + CAFE 200ML — cód. 11997
+3. P.LOJ - 12 PQ/BRO + CAFE 200ML — cód. 11943
+4. P.LOJ - 12 PQ/BRO + MATE OU GUA — cód. 11962
+5. P.LOJ - 12 PQ/BRO + SUCO — cód. 11969
+6. P.LOJ - 6 PQ/BRO + CAFE 100ML — cód. 11994
+7. P.LOJ - 6 PQ/BRO + CAFE 200ML — cód. 11995
+8. P.LOJ - 6 PQ/BRO + CAFE 50ML — cód. 11965
+9. P.LOJ - 6 PQ/BRO + MATE OU GUA — cód. 11967
+10. P.LOJ - 6 PQ/BRO + SUCO — cód. 11960
+11. P.LOJ - 8 PQ/BRO + MATE OU GUA — cód. 11912
+12. P.LOJ - 8 PQ/BRO + SUCO — cód. 11961
+13. P.LOJ - SALGADO — cód. 12047
+14. P.LOJ - SALGADO + CAFE 200ML — cód. 11941
+15. P.LOJ - SALGADO + MATE OU GUA — cód. 11966
+16. P.LOJ - SALGADO + SUCO — cód. 11963
+17. P.LOJ - SANDUICHE + MATE OU GUA — cód. 11974
+18. P.LOJ - SANDUICHE + SUCO — cód. 11979
+19. PROM -  LOJISTA — cód. 11795
+
 ## Histórico de alterações
 
 - 23/10/2026, 11:24:25 — Criou a categoria TESTE SITE
 - 23/10/2026, 11:24:34 — Criou o produto AIA IAI em TESTE SITE
 - 23/10/2026, 11:24:46 — Excluiu AIA IAI de TESTE SITE
 - 23/10/2026, 11:24:58 — Excluiu a categoria TESTE SITE
+- 23/10/2026, 14:35:51 — Mudou a ordem das categorias na tela
