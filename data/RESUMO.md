@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 14:45:55. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:46:54. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
@@ -375,7 +375,17 @@ _Nenhuma._
 33. TORTA ESPECIAL FATIA — cód. 10231
 34. TORTA ESPECIAL INTEIRA — cód. 10298
 
-### 16. PROMOÇÕES (grupo 2) — 27 produtos
+### 16. CONGELADOS (grupo 45) — 7 produtos
+
+1. CG - BROINHA 1KG — cód. 10261
+2. CG - PAO DE QUEIJO 1KG — cód. 2127
+3. CG - CROISSANT — cód. 11361
+4. CG - FOLHADO — cód. 11362
+5. CG - FOLHADO INT — cód. 11363
+6. CG - PAO DE BATATA — cód. 11368
+7. CG - PASTEL — cód. 11369
+
+### 17. PROMOÇÕES (grupo 2) — 27 produtos
 
 1. KIT CAFE 1 — cód. 10708
 2. KIT CAFE 2 — cód. 10709
@@ -405,7 +415,7 @@ _Nenhuma._
 26. PROM - SALGADO + MATE — cód. 15015
 27. PROMO COOKIE DE CHOCOLATE UNID — cód. 11294
 
-### 17. EXTRA (grupo 18) — 12 produtos
+### 18. EXTRA (grupo 18) — 12 produtos
 
 1. ADICIONAL MATE FRUTA — cód. 11790
 2. PORCAO DE AMENDOIM — cód. 607
@@ -419,16 +429,6 @@ _Nenhuma._
 10. PORCAO DE PACOCA — cód. 10763
 11. PORCAO DE PROTEINATO — cód. 613
 12. PORCAO OVOMALTINE FLOCOS — cód. 11457
-
-### 18. CONGELADOS (grupo 45) — 7 produtos
-
-1. CG - BROINHA 1KG — cód. 10261
-2. CG - PAO DE QUEIJO 1KG — cód. 2127
-3. CG - CROISSANT — cód. 11361
-4. CG - FOLHADO — cód. 11362
-5. CG - FOLHADO INT — cód. 11363
-6. CG - PAO DE BATATA — cód. 11368
-7. CG - PASTEL — cód. 11369
 
 ### 19. FOLDER CAFETERIA (grupo 93) — 9 produtos
 
@@ -508,4 +508,4 @@ _Nenhuma._
 - 23/10/2026, 14:43:06 — Mudou a ordem das categorias na tela
 - 23/10/2026, 14:43:18 — Moveu ESPRESSO 50ML, ESPRESSO DUPLO 100ML, ESPRESSO DUPLO C/LEITE 200ML e mais 1 de CAFETERIA ESPRESSO para CAFETERIA BEBIDAS QUENTES
 - 23/10/2026, 14:45:01 — Mudou a ordem dos produtos em CAFETERIA BEBIDAS QUENTES
-- 23/10/2026, 14:45:53 — Mudou a ordem das categorias na tela
+- 23/10/2026, 14:46:52 — Mudou a ordem das categorias na tela
