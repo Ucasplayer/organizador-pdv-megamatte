@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 11:24:35. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 11:24:48. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **0**
 - Produtos novos: **1**
@@ -13,7 +13,7 @@ Atualizado em 23/10/2026, 11:24:35. Gerado automaticamente pelo Organizador do P
 
 | Categoria | Qtd. produtos |
 |---|---|
-| TESTE SITE | 1 |
+| TESTE SITE | 0 |
 
 ## Categorias excluídas (0)
 
@@ -31,7 +31,7 @@ _Nenhuma._
 
 | Cód. | Produto | Categorias |
 |---|---|---|
-| — | AIA IAI | TESTE SITE |
+| — | AIA IAI |  |
 
 ## Produtos retirados do PDV (0)
 
@@ -495,11 +495,11 @@ _Nenhuma._
 6. PL-PAO DE MEL — cód. 15508
 7. PL-TRUFA — cód. 15504
 
-### 25. TESTE SITE (NOVA) — 1 produtos
+### 25. TESTE SITE (NOVA) — 0 produtos
 
-1. AIA IAI — cód. —
 
 ## Histórico de alterações
 
 - 23/10/2026, 11:24:25 — Criou a categoria TESTE SITE
 - 23/10/2026, 11:24:34 — Criou o produto AIA IAI em TESTE SITE
+- 23/10/2026, 11:24:46 — Excluiu AIA IAI de TESTE SITE

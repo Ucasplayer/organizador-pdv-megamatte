@@ -573,9 +573,7 @@
    "code": "",
    "name": "TESTE SITE",
    "img": null,
-   "items": [
-    "novo-mvl29x2t"
-   ],
+   "items": [],
    "isNew": true
   }
  ],
@@ -2036,6 +2034,10 @@
  },
  "log": [
   {
+   "t": "2026-10-23T14:24:46.981Z",
+   "msg": "Excluiu AIA IAI de TESTE SITE"
+  },
+  {
    "t": "2026-10-23T14:24:34.230Z",
    "msg": "Criou o produto AIA IAI em TESTE SITE"
   },
@@ -2044,5 +2046,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-23T14:24:34.231Z"
+ "savedAt": "2026-10-23T14:24:46.983Z"
 }
