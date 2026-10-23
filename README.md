@@ -16,6 +16,7 @@ Cada salvamento vira um commit, com a descrição da alteração na mensagem —
 ## Arquivos do site
 
 - `index.html` — o site inteiro (tela de categorias, tela de produtos, janelas, resumo).
+- `sugestao.json` — a proposta de organização do botão **✨ Minha sugestão** (a Marina pode aplicar com um clique e desfazer).
 - `seed.json` — como o PDV está **hoje** (gerado a partir dos CSVs exportados do Linx). É a base de comparação do resumo.
 - `img/` — imagens das categorias recortadas da tela do PDV.
 - `api/data.js` — função da Vercel que lê e grava os dados no GitHub.

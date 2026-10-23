@@ -31,6 +31,17 @@ button:disabled{cursor:not-allowed}
 .save.saving .dot{background:var(--yellow);animation:pulse 1s infinite}
 .save.error .dot,.save.local .dot{background:var(--red)}
 @keyframes pulse{50%{opacity:.3}}
+.sug-btn{background:var(--yellow);color:#000;border:0;border-radius:20px;padding:8px 16px;font-weight:800;font-size:14px;box-shadow:0 2px 8px rgba(0,0,0,.3);white-space:nowrap}
+.sug-btn:hover{background:#FFF176}
+.sug-list{margin:6px 0 4px;padding:0;list-style:none;counter-reset:n}
+.sug-list li{position:relative;padding:8px 8px 8px 40px;border-bottom:1px solid #E3ECF3;line-height:1.4}
+.sug-list li::before{counter-increment:n;content:counter(n);position:absolute;left:4px;top:8px;width:26px;height:26px;border-radius:50%;background:var(--yellow);color:#000;font-weight:800;display:flex;align-items:center;justify-content:center;font-size:13px}
+.sug-list b{display:block;color:#0A3150}
+.sug-list span{color:#3D5A73;font-size:13px}
+.sug-cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:6px;margin-top:6px}
+.sug-cats div{background:#F1F5F9;border-left:4px solid var(--btn);padding:6px 8px;font-size:12px;font-weight:700;text-transform:uppercase}
+.sug-cats div.new{border-left-color:var(--green)}
+.sug-cats small{display:block;font-weight:400;color:#56708A;text-transform:none}
 .help-btn{background:transparent;border:1px solid var(--muted);color:var(--white);border-radius:20px;padding:6px 12px;font-size:13px}
 .help-btn:hover{background:rgba(255,255,255,.1)}
 
@@ -154,6 +165,8 @@ main{background:var(--panel);border:1px solid var(--line);display:flex;flex-dire
 @media (max-width:900px){
   .layout{grid-template-columns:1fr}
   .side{order:2;max-height:260px}
+  .layout{flex:none;min-height:auto}
+  main{min-height:auto}
   .grid-wrap{flex:none;overflow:visible}
   :root{--tile-w:128px}
   .tb{min-width:0;flex:1 1 45%}
@@ -162,6 +175,7 @@ main{background:var(--panel);border:1px solid var(--line);display:flex;flex-dire
 @media (max-width:480px){
   .top{flex-wrap:wrap}
   .save{margin-left:0}
+  .sug-btn{order:3}
   .layout{padding:6px}
   .grid-wrap{margin:0 6px}
   :root{--tile-w:104px}
@@ -177,6 +191,7 @@ main{background:var(--panel);border:1px solid var(--line);display:flex;flex-dire
     <span class="mark"><i style="background:var(--orange)"></i><i style="background:var(--green)"></i><i style="background:#fff"></i><i style="background:var(--yellow)"></i></span>
     <span>Organizador do PDV<small>Mega Matte · categorias e produtos</small></span>
   </div>
+  <button class="sug-btn" id="sug-btn" type="button">✨ Minha sugestão</button>
   <div class="save" id="save"><span class="dot"></span><span id="save-text">Carregando…</span></div>
   <button class="help-btn" id="help-btn" type="button">❔ Como usar</button>
 </header>
@@ -523,6 +538,7 @@ function toggleSel(code) { S.selected.has(code) ? S.selected.delete(code) : S.se
 $('#back').onclick = goHome;
 $('#undo-btn').onclick = undo;
 $('#help-btn').onclick = showHelp;
+$('#sug-btn').onclick = showSuggestion;
 document.addEventListener('keydown', e => {
   if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'z' && !document.querySelector('.overlay')) { e.preventDefault(); undo(); }
 });
@@ -842,6 +858,46 @@ function download(name, content, type) {
   a.href = URL.createObjectURL(new Blob([content], { type }));
   a.download = name; document.body.appendChild(a); a.click();
   setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+}
+
+// ===================== Minha sugestão =====================
+let SUG = null;
+async function showSuggestion() {
+  if (!SUG) {
+    try { SUG = await fetch('sugestao.json', { cache: 'no-store' }).then(r => r.json()); }
+    catch (e) { return toast('Não foi possível carregar a sugestão.'); }
+  }
+  const m = modal(`
+    <h3>✨ Minha sugestão de organização</h3>
+    <div class="body">
+      <p>Uma proposta para deixar o PDV mais fácil de usar no caixa: <b>${SUG.categories.length} categorias</b> no lugar de ${S.original.categories.length}, sem produtos repetidos e nenhum produto apagado. O que muda:</p>
+      <ol class="sug-list">${SUG.notes.map(([t, d]) => `<li><b>${esc(t)}</b><span>${esc(d)}</span></li>`).join('')}</ol>
+      <h4 style="margin:16px 0 4px;color:#0A3150">Como fica a tela (na ordem)</h4>
+      <div class="sug-cats">${SUG.categories.map(c => `<div class="${c.isNew ? 'new' : ''}">${esc(c.name)}<small>${c.items.length} produtos${c.isNew ? ' · nova' : ''}</small></div>`).join('')}</div>
+      <p style="margin-top:14px"><b>Aplicar</b> troca a organização atual por esta. Depois dá para mexer em tudo normalmente, e o botão <b>Desfazer</b> volta como estava.</p>
+    </div>
+    <div class="actions">
+      <button class="mbtn" data-close type="button">Agora não</button>
+      <button class="mbtn primary" data-apply type="button">✨ Aplicar sugestão</button>
+    </div>`, { wide: true });
+  $('[data-apply]', m.el).onclick = () => { m.close(); applySuggestion(); };
+}
+
+function applySuggestion() {
+  const next = clone(SUG.categories);
+  // mantém produtos criados aqui (que não existem no PDV original)
+  const byId = Object.fromEntries(next.map(c => [c.id, c]));
+  cats().forEach(c => {
+    const created = c.items.filter(code => !S.original.products[code]);
+    if (!created.length) return;
+    let target = byId[c.id] || next.find(x => norm(x.name) === norm(c.name));
+    if (!target) { target = { ...clone(c), items: [] }; next.push(target); byId[target.id] = target; }
+    created.forEach(code => { if (!target.items.includes(code)) target.items.push(code); });
+  });
+  change('Aplicou a "Minha sugestão" de organização', () => { S.data.categories = next; });
+  goHome();
+  $('#grid-wrap').scrollTop = 0;
+  toast('✨ Sugestão aplicada. Use Desfazer se quiser voltar.');
 }
 
 // ===================== Ajuda =====================
