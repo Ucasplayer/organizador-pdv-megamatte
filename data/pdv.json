@@ -2,21 +2,6 @@
  "version": 1,
  "categories": [
   {
-   "id": "c110",
-   "code": "110",
-   "name": "MINI PREÇOS (NOVOS)",
-   "img": "img/cat-110.jpg",
-   "items": [
-    "12017",
-    "11795",
-    "11911",
-    "11909",
-    "11901",
-    "11910",
-    "11908"
-   ]
-  },
-  {
    "id": "c19",
    "code": "19",
    "name": "PAO DE QUEIJO",
@@ -524,6 +509,21 @@
     "12664",
     "12662",
     "12666"
+   ]
+  },
+  {
+   "id": "c110",
+   "code": "110",
+   "name": "MINI PREÇOS (NOVOS)",
+   "img": "img/cat-110.jpg",
+   "items": [
+    "12017",
+    "11795",
+    "11911",
+    "11909",
+    "11901",
+    "11910",
+    "11908"
    ]
   },
   {
@@ -2026,6 +2026,10 @@
  },
  "log": [
   {
+   "t": "2026-10-23T17:40:14.175Z",
+   "msg": "Mudou a ordem das categorias na tela"
+  },
+  {
    "t": "2026-10-23T17:35:51.661Z",
    "msg": "Mudou a ordem das categorias na tela"
   },
@@ -2046,5 +2050,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-23T17:37:25.839Z"
+ "savedAt": "2026-10-23T17:40:14.181Z"
 }
