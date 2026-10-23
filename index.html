@@ -89,6 +89,22 @@ main{background:var(--panel);border:1px solid var(--line);display:flex;flex-dire
 .tile.selected .also{display:none}
 .noimg{display:flex !important;flex-direction:column;align-items:center;justify-content:center;background:#fff !important;color:#bbb;font-size:11px;gap:2px}
 .noimg svg{width:34px;height:34px;opacity:.45}
+.tile.prod .img{background:#fff}
+.ph-wrap{display:grid;grid-template-columns:240px 1fr;gap:14px;align-items:start;margin-top:6px}
+.ph-frame{aspect-ratio:160/84;width:100%;background:#fff;border:2px solid #DCE5EE;overflow:hidden;display:flex;align-items:center;justify-content:center;color:#9AA9B7;font-size:12px;flex-direction:column}
+.ph-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.ph-frame .gen{width:100%;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;padding:8px;font-weight:900;font-size:17px;color:#fff;background:linear-gradient(90deg,var(--orange) 50%,var(--green) 50%);text-transform:uppercase}
+.ph-cap{display:block;color:#6A8299;font-size:12px;margin-top:4px;text-align:center}
+.ph-drop{border:3px dashed #9DB7CC;background:#F2F7FB;color:#0B4C79;padding:16px 10px;text-align:center;font-weight:700;cursor:pointer;line-height:1.4}
+.ph-drop:hover,.ph-drop.over{background:#E1EEF8;border-color:var(--btn)}
+.ph-drop small{display:block;font-weight:400;color:#56708A}
+.ph-fit{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+.ph-fit button{flex:1;border:2px solid #DCE5EE;background:#fff;padding:7px;font-size:12.5px;font-weight:700;color:#123}
+.ph-fit button.on{border-color:var(--btn);background:#EAF3FA}
+.ph-remove{background:none;border:0;color:#B3261E;font-weight:700;padding:6px 0;margin-top:6px;font-size:13px}
+.mbtn:disabled{opacity:.6;cursor:wait}
+.sum td img{height:42px;aspect-ratio:160/84;object-fit:cover;border:1px solid #DCE5EE;display:block}
+@media (max-width:600px){.ph-wrap{grid-template-columns:1fr}}
 .add-tile{border:3px dashed #9DB7CC;background:#F2F7FB;color:#0B4C79;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-weight:700;font-size:14px;min-height:120px;text-align:center;padding:8px}
 .add-tile:hover{background:#E1EEF8;transform:none;box-shadow:none}
 .add-tile .plus{font-size:34px;line-height:1}
@@ -349,8 +365,7 @@ async function saveNow() {
     if (r.status === 401) {
       S.pendingMsgs.unshift(...msgs);
       S.saving = false;
-      const p = await askText({ title: 'Senha para salvar', text: 'Digite a senha de edição que o Lucas passou. Ela fica guardada neste computador.', label: 'Senha', type: 'password', ok: 'Salvar' });
-      if (p) { lsSet(LS_PASS, p); saveNow(); } else setSaveState('error', 'Não salvo — falta a senha');
+      if (await askPassword()) saveNow(); else setSaveState('error', 'Não salvo — falta a senha');
       return;
     }
     if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -364,6 +379,12 @@ async function saveNow() {
   } finally {
     S.saving = false;
   }
+}
+
+async function askPassword() {
+  const p = await askText({ title: 'Senha para salvar', text: 'Digite a senha de edição que o Lucas passou. Ela fica guardada neste computador.', label: 'Senha', type: 'password', ok: 'Salvar' });
+  if (p) lsSet(LS_PASS, p);
+  return !!p;
 }
 
 function setSaveState(state, text) {
@@ -438,10 +459,10 @@ function renderCategory() {
   [...S.selected].forEach(code => { if (!c.items.includes(code)) S.selected.delete(code); });
   $('#title').innerHTML = `PRODUTOS — ${esc(c.name)}
     <span class="cat-actions">
-      <button class="mini-btn" data-act="rename-cat" type="button">✎ Renomear categoria</button>
+      <button class="mini-btn" data-act="rename-cat" type="button">✎ Editar nome e foto</button>
       <button class="mini-btn danger" data-act="del-cat" type="button">🗑 Excluir categoria</button>
     </span>`;
-  $('#title [data-act="rename-cat"]').onclick = () => renameCategory(c.id);
+  $('#title [data-act="rename-cat"]').onclick = () => editCategory(c.id);
   $('#title [data-act="del-cat"]').onclick = () => deleteCategory(c.id);
   $('#hint').textContent = S.selected.size
     ? `${S.selected.size} produto(s) selecionado(s). Agora escolha um botão lá embaixo (Mover, Copiar, Excluir…).`
@@ -454,7 +475,7 @@ function renderCategory() {
     const isNewCode = String(code).startsWith('novo-');
     return `
     <div class="tile prod ${S.selected.has(code) ? 'selected' : ''}" data-code="${esc(code)}" title="${esc(p.name)}${others.length ? '\nTambém está em: ' + esc(others.map(o => o.name).join(', ')) : ''}">
-      <div class="img noimg">${CAMERA}<span>sem imagem</span></div>
+      ${p.img ? `<div class="img"><img src="${esc(p.img)}" alt="" loading="lazy"></div>` : `<div class="img noimg">${CAMERA}<span>sem imagem</span></div>`}
       <span class="badge ${isNewCode || p.isNew ? 'new' : ''}">${isNewCode ? 'NOVO' : esc(code)}</span>
       ${others.length ? `<span class="also">+${others.length} categ.</span>` : ''}
       <div class="label">${esc(p.name)}</div>
@@ -500,7 +521,7 @@ function renderToolbar() {
       btn('t-newprod', '＋ Novo Produto') +
       btn('t-move', '➜ Mover para…' + nb, { disabled: !n }) +
       btn('t-copy', '⧉ Colocar também em…' + nb, { disabled: !n }) +
-      btn('t-rename', '✎ Renomear Produto', { disabled: n !== 1 }) +
+      btn('t-rename', '✎ Editar Nome e Foto', { disabled: n !== 1 }) +
       btn('t-del', '🗑 Excluir' + nb, { cls: 'danger', disabled: !n }) +
       btn('t-all', n && n === catById(S.catId).items.length ? '☐ Desmarcar todos' : '☑ Marcar todos', { disabled: !catById(S.catId).items.length }) +
       btn('t-search', '🔍 Procurar Produto');
@@ -513,7 +534,7 @@ function renderToolbar() {
   on('t-newprod', newProduct);
   on('t-move', () => moveOrCopy('move'));
   on('t-copy', () => moveOrCopy('copy'));
-  on('t-rename', renameProduct);
+  on('t-rename', editProduct);
   on('t-del', deleteProducts);
   on('t-all', () => {
     const c = catById(S.catId);
@@ -555,12 +576,17 @@ async function newCategory(after) {
   return id;
 }
 
-async function renameCategory(id) {
+async function editCategory(id) {
   const c = catById(id);
-  const name = await askText({ title: 'Renomear categoria', label: 'Novo nome', value: c.name, ok: 'Salvar nome' });
-  if (!name || name.toUpperCase() === c.name) return;
-  const nm = name.toUpperCase();
-  change(`Renomeou a categoria ${c.name} para ${nm}`, () => { catById(id).name = nm; });
+  const res = await editBox({ title: `Editar categoria ${c.name}`, kind: 'cat', id: c.code || c.id, name: c.name, img: c.img, fit: 'cover' });
+  if (!res) return;
+  const nm = res.name.toUpperCase();
+  const msgs = [];
+  if (nm !== c.name) msgs.push(`Renomeou a categoria ${c.name} para ${nm}`);
+  if (res.img !== undefined) msgs.push(res.img ? `Trocou a foto da categoria ${nm}` : `Tirou a foto da categoria ${nm}`);
+  if (!msgs.length) return;
+  change(msgs.map((x, i) => i ? x[0].toLowerCase() + x.slice(1) : x).join(' e '), () => { const cc = catById(id); cc.name = nm; if (res.img !== undefined) cc.img = res.img; });
+  if (res.img !== undefined) toast('✓ Foto da categoria salva');
 }
 
 async function deleteCategory(id) {
@@ -645,14 +671,142 @@ async function deleteProducts() {
   S.selected.clear(); render();
 }
 
-async function renameProduct() {
+async function editProduct() {
   const code = [...S.selected][0];
   const p = prod(code);
-  const name = await askText({ title: 'Renomear produto', label: 'Novo nome', value: p.name, ok: 'Salvar nome', sub: catsOf(code).length > 1 ? 'O nome muda em todas as categorias onde o produto aparece.' : '' });
-  if (!name || name.toUpperCase() === p.name) return;
-  const nm = name.toUpperCase();
-  change(`Renomeou o produto ${p.name} para ${nm}`, () => { S.data.products[code].name = nm; });
+  const many = catsOf(code).length > 1;
+  const res = await editBox({ title: 'Editar produto', kind: 'prod', id: code, name: p.name, img: p.img || null, fit: 'contain',
+    sub: many ? 'O nome e a foto mudam em todas as categorias onde o produto aparece.' : '' });
+  if (!res) return;
+  const nm = res.name.toUpperCase();
+  const msgs = [];
+  if (nm !== p.name) msgs.push(`Renomeou o produto ${p.name} para ${nm}`);
+  if (res.img !== undefined) msgs.push(res.img ? `Trocou a foto do produto ${nm}` : `Tirou a foto do produto ${nm}`);
+  if (!msgs.length) return;
+  change(msgs.map((x, i) => i ? x[0].toLowerCase() + x.slice(1) : x).join(' e '), () => {
+    const pp = S.data.products[code]; pp.name = nm;
+    if (res.img !== undefined) { if (res.img) pp.img = res.img; else delete pp.img; }
+  });
   S.selected.clear(); render();
+  if (res.img !== undefined) toast('✓ Foto do produto salva');
+}
+
+// ===================== Fotos =====================
+const PH_W = 480, PH_H = 252; // mesma proporção do bloco do PDV (160x84)
+
+function loadImg(blob) {
+  return new Promise((resolve, reject) => {
+    const url = URL.createObjectURL(blob);
+    const im = new Image();
+    im.onload = () => resolve(im);
+    im.onerror = () => { URL.revokeObjectURL(url); reject(new Error('Esse arquivo não é uma imagem que o navegador consiga abrir.')); };
+    im.src = url;
+  });
+}
+
+function drawPhoto(im, fit) {
+  const cv = document.createElement('canvas');
+  cv.width = PH_W; cv.height = PH_H;
+  const g = cv.getContext('2d');
+  g.fillStyle = '#fff'; g.fillRect(0, 0, PH_W, PH_H);
+  const sc = fit === 'cover' ? Math.max(PH_W / im.width, PH_H / im.height) : Math.min(PH_W / im.width, PH_H / im.height);
+  const w = im.width * sc, h = im.height * sc;
+  g.imageSmoothingQuality = 'high';
+  g.drawImage(im, (PH_W - w) / 2, (PH_H - h) / 2, w, h);
+  return cv.toDataURL('image/jpeg', 0.86);
+}
+
+async function uploadPhoto(kind, id, label, dataUrl) {
+  if (S.mode === 'local') return dataUrl;
+  for (let tries = 0; tries < 2; tries++) {
+    const headers = { 'Content-Type': 'application/json' };
+    const pass = lsGet(LS_PASS);
+    if (pass) headers['x-senha'] = pass;
+    const r = await fetch('api/image', { method: 'POST', headers, body: JSON.stringify({ kind, id, label, data: dataUrl }) });
+    if (r.status === 401) { if (await askPassword()) continue; throw new Error('Falta a senha de edição.'); }
+    if (r.status === 503) return dataUrl;
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(j.error || ('HTTP ' + r.status));
+    return j.url;
+  }
+  throw new Error('Senha incorreta.');
+}
+
+function photoFile(img) {
+  const m = /[?&]f=([^&]+)/.exec(img || '');
+  return m ? m[1] : '';
+}
+
+function editBox({ title, kind, id, name, img, fit, sub = '' }) {
+  return new Promise(resolve => {
+    let chosen = null;      // imagem carregada (Image)
+    let fitMode = fit;
+    let newImg;             // undefined = sem mudança, null = removida, string = dataURL nova
+    const m = modal(`
+      <h3>${esc(title)}</h3>
+      <div class="body">
+        <label class="field"><span>Nome</span><input id="ed-name" value="${esc(name)}">${sub ? `<small>${esc(sub)}</small>` : ''}</label>
+        <span style="display:block;font-weight:700;font-size:13px;margin-top:14px">Foto</span>
+        <div class="ph-wrap">
+          <div><div class="ph-frame" id="ph-frame"></div><span class="ph-cap">Como vai aparecer no PDV</span></div>
+          <div>
+            <div class="ph-drop" id="ph-drop" tabindex="0" role="button">📷 Escolher foto do computador
+              <small>ou arraste a foto para cá, ou copie uma imagem e cole aqui com Ctrl+V</small></div>
+            <input type="file" id="ph-file" accept="image/*" hidden>
+            <div class="ph-fit" id="ph-fit" hidden>
+              <button type="button" data-fit="cover">Preencher o espaço<br><small style="font-weight:400">corta as bordas</small></button>
+              <button type="button" data-fit="contain">Mostrar a foto inteira<br><small style="font-weight:400">com fundo branco</small></button>
+            </div>
+            <button class="ph-remove" id="ph-remove" type="button" ${img ? '' : 'hidden'}>🗑 Tirar a foto</button>
+          </div>
+        </div>
+      </div>
+      <div class="actions"><button class="mbtn" data-close type="button">Cancelar</button><button class="mbtn primary" data-ok type="button">Salvar</button></div>`, { wide: true });
+    m.onClose = v => { document.removeEventListener('paste', onPaste); resolve(v); };
+    const frame = $('#ph-frame', m.el), drop = $('#ph-drop', m.el), file = $('#ph-file', m.el), fitBox = $('#ph-fit', m.el), rm = $('#ph-remove', m.el);
+    const nameIn = $('#ed-name', m.el);
+    const show = () => {
+      const src = newImg === undefined ? img : newImg;
+      frame.innerHTML = src ? `<img src="${esc(src)}" alt="">` : (kind === 'cat' ? `<div class="gen">${esc(nameIn.value || name)}</div>` : `${CAMERA}<span>sem imagem</span>`);
+      fitBox.hidden = !chosen;
+      fitBox.querySelectorAll('[data-fit]').forEach(b => b.classList.toggle('on', b.dataset.fit === fitMode));
+      rm.hidden = !src;
+    };
+    const take = async blob => {
+      if (!blob || !/^image\//.test(blob.type || 'image/')) return toast('Isso não é uma imagem.');
+      try { chosen = await loadImg(blob); newImg = drawPhoto(chosen, fitMode); show(); }
+      catch (e) { toast(e.message); }
+    };
+    const onPaste = e => {
+      const it = [...(e.clipboardData || {}).items || []].find(i => i.type.startsWith('image/'));
+      if (it) { e.preventDefault(); take(it.getAsFile()); }
+    };
+    document.addEventListener('paste', onPaste);
+    drop.onclick = () => file.click();
+    drop.onkeydown = e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); file.click(); } };
+    file.onchange = () => take(file.files[0]);
+    drop.ondragover = e => { e.preventDefault(); drop.classList.add('over'); };
+    drop.ondragleave = () => drop.classList.remove('over');
+    drop.ondrop = e => { e.preventDefault(); drop.classList.remove('over'); take(e.dataTransfer.files[0]); };
+    fitBox.onclick = e => { const b = e.target.closest('[data-fit]'); if (!b || !chosen) return; fitMode = b.dataset.fit; newImg = drawPhoto(chosen, fitMode); show(); };
+    rm.onclick = () => { chosen = null; newImg = null; show(); };
+    nameIn.oninput = () => { if (kind === 'cat' && !(newImg === undefined ? img : newImg)) show(); };
+    const okBtn = $('[data-ok]', m.el);
+    okBtn.onclick = async () => {
+      const nm = nameIn.value.trim();
+      if (!nm) return nameIn.focus();
+      let finalImg = newImg;
+      if (typeof newImg === 'string') {
+        okBtn.disabled = true; okBtn.textContent = 'Enviando foto…';
+        try { finalImg = await uploadPhoto(kind, id, nm, newImg); }
+        catch (e) { okBtn.disabled = false; okBtn.textContent = 'Salvar'; return toast('Não foi possível enviar a foto: ' + e.message); }
+      }
+      m.close({ name: nm, img: finalImg });
+    };
+    nameIn.addEventListener('keydown', e => { if (e.key === 'Enter') okBtn.click(); });
+    show();
+    nameIn.focus();
+  });
 }
 
 async function newProduct() {
@@ -761,12 +915,21 @@ function computeDiff() {
     return common.join() !== c.items.filter(x => o.items.includes(x)).join();
   }).map(c => c.name);
   const byName = (a, b) => a.name.localeCompare(b.name);
-  return { newCats, delCats, renCats, catOrderChanged, moved: moved.sort(byName), removed: removed.sort(byName), added: added.sort(byName), renamed, reordered };
+  const photos = [];
+  D.categories.forEach(c => {
+    const before = oCat[c.id] ? oCat[c.id].img : null;
+    if ((c.img || null) !== (before || null)) photos.push({ type: 'Categoria', code: c.code || 'nova', name: c.name, img: c.img || null });
+  });
+  Object.keys(D.products).forEach(code => {
+    const p = D.products[code], o = O.products[code];
+    if ((p.img || null) !== ((o && o.img) || null) && (placeD[code] || p.img)) photos.push({ type: 'Produto', code, name: p.name, img: p.img || null });
+  });
+  return { newCats, delCats, renCats, catOrderChanged, moved: moved.sort(byName), removed: removed.sort(byName), added: added.sort(byName), renamed, reordered, photos };
 }
 
 function showSummary() {
   const d = computeDiff();
-  const total = d.newCats.length + d.delCats.length + d.renCats.length + d.moved.length + d.removed.length + d.added.length + d.renamed.length + d.reordered.length + (d.catOrderChanged ? 1 : 0);
+  const total = d.photos.length + d.newCats.length + d.delCats.length + d.renCats.length + d.moved.length + d.removed.length + d.added.length + d.renamed.length + d.reordered.length + (d.catOrderChanged ? 1 : 0);
   const sec = (title, rows, head, cols) => `<h4>${title} (${rows.length})</h4>` + (rows.length
     ? `<table><tr>${head.map(h => `<th>${h}</th>`).join('')}</tr>${rows.map(r => `<tr>${cols(r).map(v => `<td>${v}</td>`).join('')}</tr>`).join('')}</table>`
     : '<div class="none">Nenhuma.</div>');
@@ -781,6 +944,7 @@ function showSummary() {
         <div><b>${d.removed.length}</b><span>produtos retirados</span></div>
         <div><b>${d.newCats.length}</b><span>categorias novas</span></div>
         <div><b>${d.delCats.length}</b><span>categorias excluídas</span></div>
+        <div><b>${d.photos.length}</b><span>fotos trocadas</span></div>
       </div>
       ${total === 0 ? '<p class="none">Nada foi alterado ainda.</p>' : ''}
       ${sec('Categorias novas', d.newCats, ['Categoria', 'Produtos'], c => [esc(c.name), c.items.length])}
@@ -790,6 +954,7 @@ function showSummary() {
       ${sec('Produtos novos', d.added, ['Cód.', 'Produto', 'Em'], r => [codeOf(r.code), esc(r.name), esc(r.cats.join(', ') || '(nenhuma)')])}
       ${sec('Produtos retirados do PDV', d.removed, ['Cód.', 'Produto', 'Estava em'], r => [codeOf(r.code), esc(r.name), esc(r.from.join(', '))])}
       ${sec('Produtos renomeados', d.renamed, ['Cód.', 'Antes', 'Agora'], r => [codeOf(r.code), esc(r.from), esc(r.to)])}
+      ${sec('Fotos trocadas', d.photos, ['Foto', 'Tipo', 'Cód.', 'Nome'], r => [r.img ? `<a href="${esc(r.img)}" target="_blank" rel="noopener"><img src="${esc(r.img)}" alt=""></a>` : '<i>foto removida</i>', r.type, codeOf(r.code), esc(r.name)])}
       <h4>Ordem na tela</h4>
       <div class="none">${d.catOrderChanged ? 'A ordem das categorias mudou. ' : 'A ordem das categorias não mudou. '}${d.reordered.length ? 'Ordem dos produtos mudou em: ' + esc(d.reordered.join(', ')) + '.' : 'A ordem dos produtos não mudou.'}</div>
     </div>
@@ -808,7 +973,7 @@ function summaryMarkdown() {
   const L = [];
   const cc = c => String(c).startsWith('novo-') ? '—' : c;
   L.push('# Resumo das mudanças no PDV', '', `Atualizado em ${when}. Gerado automaticamente pelo Organizador do PDV.`, '');
-  L.push(`- Produtos que mudaram de categoria: **${d.moved.length}**`, `- Produtos novos: **${d.added.length}**`, `- Produtos retirados do PDV: **${d.removed.length}**`, `- Categorias novas: **${d.newCats.length}**`, `- Categorias excluídas: **${d.delCats.length}**`, `- Categorias renomeadas: **${d.renCats.length}**`, '');
+  L.push(`- Fotos trocadas: **${d.photos.length}** (as fotos ficam na pasta data/img)`, `- Produtos que mudaram de categoria: **${d.moved.length}**`, `- Produtos novos: **${d.added.length}**`, `- Produtos retirados do PDV: **${d.removed.length}**`, `- Categorias novas: **${d.newCats.length}**`, `- Categorias excluídas: **${d.delCats.length}**`, `- Categorias renomeadas: **${d.renCats.length}**`, '');
   const tbl = (title, head, rows) => {
     L.push(`## ${title} (${rows.length})`, '');
     if (!rows.length) { L.push('_Nenhuma._', ''); return; }
@@ -823,6 +988,8 @@ function summaryMarkdown() {
   tbl('Produtos novos', ['Cód.', 'Produto', 'Categorias'], d.added.map(r => [cc(r.code), r.name, r.cats.join(', ')]));
   tbl('Produtos retirados do PDV', ['Cód.', 'Produto', 'Estava em'], d.removed.map(r => [cc(r.code), r.name, r.from.join(', ')]));
   tbl('Produtos renomeados', ['Cód.', 'Antes', 'Agora'], d.renamed.map(r => [cc(r.code), r.from, r.to]));
+  const mdImg = img => { const f = photoFile(img); return f ? `![foto](img/${f}) [abrir](img/${f})` : (img ? '(foto salva só no navegador)' : 'foto removida'); };
+  tbl('Fotos trocadas', ['Foto', 'Tipo', 'Cód.', 'Nome'], d.photos.map(r => [mdImg(r.img), r.type, cc(r.code), r.name]));
   L.push('## Ordem na tela', '', d.catOrderChanged ? '- A ordem das categorias mudou (ver estrutura abaixo).' : '- A ordem das categorias não mudou.',
     d.reordered.length ? `- Ordem dos produtos mudou em: ${d.reordered.join(', ')}` : '- A ordem dos produtos não mudou.', '');
   L.push('## Estrutura final (na ordem da tela)', '');
@@ -838,7 +1005,7 @@ function summaryMarkdown() {
 
 function finalCsv() {
   const q = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
-  const head = ['Ordem Categoria', 'Grupo', 'Descrição do Grupo', 'Ordem Produto', 'Produto', 'Descrição do produto', 'Situação'];
+  const head = ['Ordem Categoria', 'Grupo', 'Descrição do Grupo', 'Ordem Produto', 'Produto', 'Descrição do produto', 'Situação', 'Foto do produto', 'Foto da categoria'];
   const oPlace = {};
   S.original.categories.forEach(c => c.items.forEach(p => (oPlace[p] = oPlace[p] || new Set()).add(c.id)));
   const rows = [head.map(q).join(';')];
@@ -848,7 +1015,8 @@ function finalCsv() {
     if (!S.original.products[code]) sit = 'Produto novo';
     else if (!(oPlace[code] && oPlace[code].has(c.id))) sit = 'Entrou nesta categoria';
     if (c.isNew) sit += ' (categoria nova)';
-    rows.push([i + 1, c.code || 'NOVA', c.name, j + 1, String(code).startsWith('novo-') ? '' : code, p.name, sit].map(q).join(';'));
+    rows.push([i + 1, c.code || 'NOVA', c.name, j + 1, String(code).startsWith('novo-') ? '' : code, p.name, sit,
+      photoFile(p.img) ? 'img/' + photoFile(p.img) : '', photoFile(c.img) ? 'img/' + photoFile(c.img) : ''].map(q).join(';'));
   }));
   return '﻿' + rows.join('\r\n');
 }
@@ -910,7 +1078,8 @@ function showHelp() {
       <p><b>➜ Mudar produto de categoria:</b> clique no(s) produto(s) para marcar (fica com borda amarela e ✓) e depois em <b>Mover para…</b>. Escolha a categoria de destino.</p>
       <p><b>⧉ Produto em mais de uma categoria:</b> marque e clique em <b>Colocar também em…</b>. A etiqueta verde <i>+1 categ.</i> mostra que o produto aparece em outro lugar também.</p>
       <p><b>＋ Criar:</b> use <b>Nova Categoria</b> (na tela inicial) ou <b>Novo Produto</b> (dentro de uma categoria).</p>
-      <p><b>🗑 Excluir:</b> marque os produtos e clique em <b>Excluir</b>. Para excluir ou renomear uma categoria, abra a categoria e use os botões ao lado do nome dela.</p>
+      <p><b>🗑 Excluir:</b> marque os produtos e clique em <b>Excluir</b>. Para excluir uma categoria, abra a categoria e use o botão ao lado do nome dela.</p>
+      <p><b>🖼 Nome e foto:</b> marque um produto e clique em <b>Editar Nome e Foto</b>. Para a categoria, abra a categoria e clique em <b>Editar nome e foto</b> ao lado do nome. Dá para escolher a foto do computador, arrastar ou colar (Ctrl+V).</p>
       <p><b>↕ Mudar a ordem:</b> arraste a categoria ou o produto para a posição que quiser.</p>
       <p><b>↶ Errou?</b> Clique em <b>Desfazer</b> quantas vezes precisar.</p>
       <p><b>📋 Resumo das Mudanças</b> (tela inicial) mostra tudo o que já foi alterado.</p>

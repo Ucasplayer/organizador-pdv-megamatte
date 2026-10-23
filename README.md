@@ -10,6 +10,7 @@ Tudo o que ela muda é salvo automaticamente neste repositório, na pasta `data/
 | `RESUMO.md` | **Leia este.** Lista o que mudou em relação ao PDV atual (produtos movidos, novos, retirados, categorias novas/excluídas/renomeadas), a estrutura final completa na ordem da tela e o histórico de alterações. |
 | `pdv-final.csv` | Planilha (abre no Excel) com a estrutura final: categoria, grupo, produto, código, ordem e situação (Mantido / Entrou nesta categoria / Produto novo). |
 | `pdv.json` | Dados brutos usados pelo site. |
+| `img/` | Fotos que foram trocadas no site. O `RESUMO.md` mostra qual foto é de qual categoria/produto. |
 
 Cada salvamento vira um commit, com a descrição da alteração na mensagem — o histórico de commits mostra a sequência exata do que foi feito.
 
@@ -20,6 +21,7 @@ Cada salvamento vira um commit, com a descrição da alteração na mensagem —
 - `seed.json` — como o PDV está **hoje** (gerado a partir dos CSVs exportados do Linx). É a base de comparação do resumo.
 - `img/` — imagens das categorias recortadas da tela do PDV.
 - `api/data.js` — função da Vercel que lê e grava os dados no GitHub.
+- `api/image.js` — envia e mostra as fotos de categorias e produtos (ficam em `data/img/`).
 - `vercel.json` — faz a Vercel **não** refazer o deploy quando só a pasta `data/` muda.
 
 ## Colocar no ar na Vercel (uma vez só)
