@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 14:40:15. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:40:18. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **0**
 - Produtos novos: **1**
@@ -461,17 +461,7 @@ _Nenhuma._
 6. P.MP - 8 PQ/BRO + SUCO — cód. 11910
 7. P.MP - SANDUICHE + MATE OU GUA — cód. 11908
 
-### 23. COFFEE PARTY TERÊ (grupo 101) — 7 produtos
-
-1. P.MATE OU GUARANA 300ML GRATIS — cód. 11931
-2. PL-BARRA 75% — cód. 15505
-3. PL-BARRA DIET — cód. 15506
-4. PL-DEMAIS BARRAS — cód. 15507
-5. PL-LINGUA DE GATO — cód. 15503
-6. PL-PAO DE MEL — cód. 15508
-7. PL-TRUFA — cód. 15504
-
-### 24. LOJISTA (NOVO) (grupo 111) — 19 produtos
+### 23. LOJISTA (NOVO) (grupo 111) — 19 produtos
 
 1. P.LOJ - 1 COOKIE + CAFE 100ML — cód. 11996
 2. P.LOJ - 1 COOKIE + CAFE 200ML — cód. 11997
@@ -493,6 +483,16 @@ _Nenhuma._
 18. P.LOJ - SANDUICHE + SUCO — cód. 11979
 19. PROM -  LOJISTA — cód. 11795
 
+### 24. COFFEE PARTY TERÊ (grupo 101) — 7 produtos
+
+1. P.MATE OU GUARANA 300ML GRATIS — cód. 11931
+2. PL-BARRA 75% — cód. 15505
+3. PL-BARRA DIET — cód. 15506
+4. PL-DEMAIS BARRAS — cód. 15507
+5. PL-LINGUA DE GATO — cód. 15503
+6. PL-PAO DE MEL — cód. 15508
+7. PL-TRUFA — cód. 15504
+
 ## Histórico de alterações
 
 - 23/10/2026, 11:24:25 — Criou a categoria TESTE SITE
@@ -500,4 +500,4 @@ _Nenhuma._
 - 23/10/2026, 11:24:46 — Excluiu AIA IAI de TESTE SITE
 - 23/10/2026, 11:24:58 — Excluiu a categoria TESTE SITE
 - 23/10/2026, 14:35:51 — Mudou a ordem das categorias na tela
-- 23/10/2026, 14:40:14 — Mudou a ordem das categorias na tela
+- 23/10/2026, 14:40:17 — Mudou a ordem das categorias na tela
