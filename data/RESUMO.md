@@ -1,21 +1,23 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 14:47:11. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:47:50. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **0**
 - Categorias novas: **0**
-- Categorias excluídas: **0**
+- Categorias excluídas: **1**
 - Categorias renomeadas: **0**
 
 ## Categorias novas (0)
 
 _Nenhuma._
 
-## Categorias excluídas (0)
+## Categorias excluídas (1)
 
-_Nenhuma._
+| Cód. | Categoria |
+|---|---|
+| 7 | CAFETERIA ESPRESSO |
 
 ## Categorias renomeadas (0)
 
@@ -25,10 +27,10 @@ _Nenhuma._
 
 | Cód. | Produto | Saiu de | Entrou em | Fica em |
 |---|---|---|---|---|
-| 462 | ESPRESSO 50ML | CAFETERIA ESPRESSO | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
-| 463 | ESPRESSO DUPLO 100ML | CAFETERIA ESPRESSO | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
-| 470 | ESPRESSO DUPLO C/LEITE 200ML | CAFETERIA ESPRESSO | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
-| 11063 | ESPRESSO MACCHIATO 50ML | CAFETERIA ESPRESSO | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
+| 462 | ESPRESSO 50ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
+| 463 | ESPRESSO DUPLO 100ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
+| 470 | ESPRESSO DUPLO C/LEITE 200ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
+| 11063 | ESPRESSO MACCHIATO 50ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 
 ## Produtos novos (1)
 
@@ -472,10 +474,7 @@ _Nenhuma._
 6. P.MP - 8 PQ/BRO + SUCO — cód. 11910
 7. P.MP - SANDUICHE + MATE OU GUA — cód. 11908
 
-### 22. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
-
-
-### 23. FOLDER CAFETERIA (grupo 93) — 9 produtos
+### 22. FOLDER CAFETERIA (grupo 93) — 9 produtos
 
 1. FCD CAPP 200ML — cód. 12048
 2. FCD CAPP 200ML+1COOKIE — cód. 12654
@@ -487,7 +486,7 @@ _Nenhuma._
 8. FCD ESPRESSO 50ML — cód. 12650
 9. FCD SAND. MEGAMISTO — cód. 12655
 
-### 24. FOLDER COMBOS (grupo 92) — 8 produtos
+### 23. FOLDER COMBOS (grupo 92) — 8 produtos
 
 1. FCDC ACAI 300ML+GRANOLA — cód. 12661
 2. FCDC MEGASHAKE300ML+6PQ/BRO — cód. 12665
@@ -509,3 +508,4 @@ _Nenhuma._
 - 23/10/2026, 14:43:18 — Moveu ESPRESSO 50ML, ESPRESSO DUPLO 100ML, ESPRESSO DUPLO C/LEITE 200ML e mais 1 de CAFETERIA ESPRESSO para CAFETERIA BEBIDAS QUENTES
 - 23/10/2026, 14:45:01 — Mudou a ordem dos produtos em CAFETERIA BEBIDAS QUENTES
 - 23/10/2026, 14:47:09 — Mudou a ordem das categorias na tela
+- 23/10/2026, 14:47:49 — Excluiu a categoria CAFETERIA ESPRESSO
