@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 15:55:51. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 16:01:18. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **1** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **2** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **0**
@@ -47,11 +47,12 @@ _Nenhuma._
 
 _Nenhuma._
 
-## Fotos trocadas (1)
+## Fotos trocadas (2)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
 | ![foto](img/cat-20-mvlc6i6d.jpg) [abrir](img/cat-20-mvlc6i6d.jpg) | Categoria | 20 | CAFETERIA BEBIDAS QUENTES |
+| ![foto](img/cat-21-mvlcdisy.jpg) [abrir](img/cat-21-mvlcdisy.jpg) | Categoria | 21 | CAFETERIA BEBIDAS GELADAS |
 
 ## Ordem na tela
 
@@ -517,3 +518,4 @@ _Nenhuma._
 - 23/10/2026, 14:47:09 — Mudou a ordem das categorias na tela
 - 23/10/2026, 14:47:49 — Excluiu a categoria CAFETERIA ESPRESSO
 - 23/10/2026, 15:55:49 — Trocou a foto da categoria CAFETERIA BEBIDAS QUENTES
+- 23/10/2026, 16:01:17 — Trocou a foto da categoria CAFETERIA BEBIDAS GELADAS
