@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 14:44:41. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:45:02. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
@@ -173,9 +173,9 @@ _Nenhuma._
 9. CAPPUCCINO COM NUTELLA 100ML — cód. 11664
 10. CAPPUCCINO COM NUTELLA 200ML — cód. 11445
 11. CAPPUCCINO OVOMALTINE 100ML — cód. 11667
-12. CAPPUCCINO DE PACOCA 100ML — cód. 11666
-13. CAPPUCCINO DE PACOCA 200ML — cód. 11443
-14. CAPPUCCINO OVOMALTINE 200ML — cód. 11444
+12. CAPPUCCINO OVOMALTINE 200ML — cód. 11444
+13. CAPPUCCINO DE PACOCA 100ML — cód. 11666
+14. CAPPUCCINO DE PACOCA 200ML — cód. 11443
 15. CHOCOLATE QUENTE 100ML — cód. 11670
 16. CHOCOLATE QUENTE 200ML — cód. 467
 17. CHOCOLATE QUENTE C/CAFE CHANTILLY 100ML — cód. 11677
@@ -507,4 +507,4 @@ _Nenhuma._
 - 23/10/2026, 14:35:51 — Mudou a ordem das categorias na tela
 - 23/10/2026, 14:43:06 — Mudou a ordem das categorias na tela
 - 23/10/2026, 14:43:18 — Moveu ESPRESSO 50ML, ESPRESSO DUPLO 100ML, ESPRESSO DUPLO C/LEITE 200ML e mais 1 de CAFETERIA ESPRESSO para CAFETERIA BEBIDAS QUENTES
-- 23/10/2026, 14:44:39 — Mudou a ordem dos produtos em CAFETERIA BEBIDAS QUENTES
+- 23/10/2026, 14:45:01 — Mudou a ordem dos produtos em CAFETERIA BEBIDAS QUENTES
