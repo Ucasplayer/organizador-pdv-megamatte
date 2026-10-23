@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 14:45:26. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:45:36. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
@@ -182,10 +182,7 @@ _Nenhuma._
 21. MOCACCINO 100ML — cód. 11671
 22. MOCACCINO 200ML — cód. 11064
 
-### 5. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
-
-
-### 6. AÇAÍ (grupo 8) — 25 produtos
+### 5. AÇAÍ (grupo 8) — 25 produtos
 
 1. ACAI 300ML — cód. 446
 2. ACAI 500ML — cód. 458
@@ -213,7 +210,7 @@ _Nenhuma._
 24. MONTE SEU ACAI 500ML — cód. 11858
 25. MONTE SEU ACAI 700ML — cód. 11873
 
-### 7. GUARANA NATURAL (grupo 5) — 14 produtos
+### 6. GUARANA NATURAL (grupo 5) — 14 produtos
 
 1. GUARA FRUTA 300ML — cód. 11037
 2. GUARA FRUTA 500ML — cód. 11038
@@ -229,6 +226,9 @@ _Nenhuma._
 12. GVITAMINA 300 ML — cód. 11201
 13. GVITAMINA 500 ML — cód. 11202
 14. GVITAMINA 700 ML — cód. 11203
+
+### 7. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
+
 
 ### 8. CAFETERIA BEBIDAS GELADAS (grupo 21) — 13 produtos
 
@@ -508,4 +508,4 @@ _Nenhuma._
 - 23/10/2026, 14:43:06 — Mudou a ordem das categorias na tela
 - 23/10/2026, 14:43:18 — Moveu ESPRESSO 50ML, ESPRESSO DUPLO 100ML, ESPRESSO DUPLO C/LEITE 200ML e mais 1 de CAFETERIA ESPRESSO para CAFETERIA BEBIDAS QUENTES
 - 23/10/2026, 14:45:01 — Mudou a ordem dos produtos em CAFETERIA BEBIDAS QUENTES
-- 23/10/2026, 14:45:25 — Mudou a ordem das categorias na tela
+- 23/10/2026, 14:45:34 — Mudou a ordem das categorias na tela
