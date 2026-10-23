@@ -567,14 +567,6 @@
     "15508",
     "15504"
    ]
-  },
-  {
-   "id": "nmvl29qhq",
-   "code": "",
-   "name": "TESTE SITE",
-   "img": null,
-   "items": [],
-   "isNew": true
   }
  ],
  "products": {
@@ -2034,6 +2026,10 @@
  },
  "log": [
   {
+   "t": "2026-10-23T14:24:58.469Z",
+   "msg": "Excluiu a categoria TESTE SITE"
+  },
+  {
    "t": "2026-10-23T14:24:46.981Z",
    "msg": "Excluiu AIA IAI de TESTE SITE"
   },
@@ -2046,5 +2042,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-23T14:24:46.983Z"
+ "savedAt": "2026-10-23T14:24:58.472Z"
 }
