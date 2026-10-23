@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 14:45:49. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:45:55. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
@@ -267,10 +267,7 @@ _Nenhuma._
 8. VIT.MORANGO AO LEITE 500ML — cód. 887
 9. VIT.MORANGO AO LEITE 700ML — cód. 10687
 
-### 10. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
-
-
-### 11. SUCOS (grupo 11) — 39 produtos
+### 10. SUCOS (grupo 11) — 39 produtos
 
 1. S.ABACAXI 300ML — cód. 616
 2. S.ABACAXI 500ML — cód. 850
@@ -312,7 +309,7 @@ _Nenhuma._
 38. S.UVA 500ML — cód. 870
 39. S.UVA 700ML — cód. 10678
 
-### 12. ÁGUA (grupo 12) — 6 produtos
+### 11. ÁGUA (grupo 12) — 6 produtos
 
 1. AGUA DE COCO 200ML — cód. 11011
 2. AGUA MINERAL S/GAS 510ML — cód. 2027
@@ -321,27 +318,27 @@ _Nenhuma._
 5. AGUA DE COCO 500ML — cód. 1801
 6. AGUA DE COCO 700ML — cód. 10597
 
-### 13. SANDUICHES CHAPA (grupo 13) — 3 produtos
+### 12. SANDUICHES CHAPA (grupo 13) — 3 produtos
 
 1. PAO FRANCES NA CHAPA — cód. 10361
 2. SAND. MEGALEVE — cód. 10233
 3. SAND. MEGAMISTO — cód. 2551
 
-### 14. SANDUÍCHES GOURMET (grupo 14) — 4 produtos
+### 13. SANDUÍCHES GOURMET (grupo 14) — 4 produtos
 
 1. SAND. ABOBRINHA GREL PAST BERINJELA CIAB — cód. 11114
 2. SAND. CIABATTA CARNE ASSADA — cód. 10362
 3. SAND. COSTELA NO PÃO AUSTRALIANO — cód. 11118
 4. SAND. FRANGO TOMATE SECO AZEITO BAGUETE — cód. 11113
 
-### 15. SANDUÍCHES NATURAIS (grupo 15) — 4 produtos
+### 14. SANDUÍCHES NATURAIS (grupo 15) — 4 produtos
 
 1. SAND. NAT. ATUM COM REQUEIJÃO — cód. 11179
 2. SAND. NAT. FRANGO COM CENOURA — cód. 11180
 3. SAND. NAT. PEITO DE PERU — cód. 11181
 4. SAND. NAT. SALPICAO DE FRANGO — cód. 11182
 
-### 16. SOBREMESAS (grupo 6) — 34 produtos
+### 15. SOBREMESAS (grupo 6) — 34 produtos
 
 1. BOLO DE BANANA INT MEGAMATTE — cód. 11689
 2. BOLO DE CENOURA MEGAMATTE — cód. 11768
@@ -378,7 +375,7 @@ _Nenhuma._
 33. TORTA ESPECIAL FATIA — cód. 10231
 34. TORTA ESPECIAL INTEIRA — cód. 10298
 
-### 17. PROMOÇÕES (grupo 2) — 27 produtos
+### 16. PROMOÇÕES (grupo 2) — 27 produtos
 
 1. KIT CAFE 1 — cód. 10708
 2. KIT CAFE 2 — cód. 10709
@@ -408,7 +405,7 @@ _Nenhuma._
 26. PROM - SALGADO + MATE — cód. 15015
 27. PROMO COOKIE DE CHOCOLATE UNID — cód. 11294
 
-### 18. EXTRA (grupo 18) — 12 produtos
+### 17. EXTRA (grupo 18) — 12 produtos
 
 1. ADICIONAL MATE FRUTA — cód. 11790
 2. PORCAO DE AMENDOIM — cód. 607
@@ -423,7 +420,7 @@ _Nenhuma._
 11. PORCAO DE PROTEINATO — cód. 613
 12. PORCAO OVOMALTINE FLOCOS — cód. 11457
 
-### 19. CONGELADOS (grupo 45) — 7 produtos
+### 18. CONGELADOS (grupo 45) — 7 produtos
 
 1. CG - BROINHA 1KG — cód. 10261
 2. CG - PAO DE QUEIJO 1KG — cód. 2127
@@ -433,7 +430,7 @@ _Nenhuma._
 6. CG - PAO DE BATATA — cód. 11368
 7. CG - PASTEL — cód. 11369
 
-### 20. FOLDER CAFETERIA (grupo 93) — 9 produtos
+### 19. FOLDER CAFETERIA (grupo 93) — 9 produtos
 
 1. FCD CAPP 200ML — cód. 12048
 2. FCD CAPP 200ML+1COOKIE — cód. 12654
@@ -445,7 +442,7 @@ _Nenhuma._
 8. FCD ESPRESSO 50ML — cód. 12650
 9. FCD SAND. MEGAMISTO — cód. 12655
 
-### 21. FOLDER COMBOS (grupo 92) — 8 produtos
+### 20. FOLDER COMBOS (grupo 92) — 8 produtos
 
 1. FCDC ACAI 300ML+GRANOLA — cód. 12661
 2. FCDC MEGASHAKE300ML+6PQ/BRO — cód. 12665
@@ -456,7 +453,7 @@ _Nenhuma._
 7. FCDC SALGADO — cód. 12662
 8. FCDC SALGADO+MATE300ML — cód. 12666
 
-### 22. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
+### 21. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
 
 1. P.MP - SANDUICHE + SUCO — cód. 12017
 2. PROM -  LOJISTA — cód. 11795
@@ -466,7 +463,7 @@ _Nenhuma._
 6. P.MP - 8 PQ/BRO + SUCO — cód. 11910
 7. P.MP - SANDUICHE + MATE OU GUA — cód. 11908
 
-### 23. LOJISTA (NOVO) (grupo 111) — 19 produtos
+### 22. LOJISTA (NOVO) (grupo 111) — 19 produtos
 
 1. P.LOJ - 1 COOKIE + CAFE 100ML — cód. 11996
 2. P.LOJ - 1 COOKIE + CAFE 200ML — cód. 11997
@@ -488,7 +485,7 @@ _Nenhuma._
 18. P.LOJ - SANDUICHE + SUCO — cód. 11979
 19. PROM -  LOJISTA — cód. 11795
 
-### 24. COFFEE PARTY TERÊ (grupo 101) — 7 produtos
+### 23. COFFEE PARTY TERÊ (grupo 101) — 7 produtos
 
 1. P.MATE OU GUARANA 300ML GRATIS — cód. 11931
 2. PL-BARRA 75% — cód. 15505
@@ -497,6 +494,9 @@ _Nenhuma._
 5. PL-LINGUA DE GATO — cód. 15503
 6. PL-PAO DE MEL — cód. 15508
 7. PL-TRUFA — cód. 15504
+
+### 24. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
+
 
 ## Histórico de alterações
 
@@ -508,4 +508,4 @@ _Nenhuma._
 - 23/10/2026, 14:43:06 — Mudou a ordem das categorias na tela
 - 23/10/2026, 14:43:18 — Moveu ESPRESSO 50ML, ESPRESSO DUPLO 100ML, ESPRESSO DUPLO C/LEITE 200ML e mais 1 de CAFETERIA ESPRESSO para CAFETERIA BEBIDAS QUENTES
 - 23/10/2026, 14:45:01 — Mudou a ordem dos produtos em CAFETERIA BEBIDAS QUENTES
-- 23/10/2026, 14:45:47 — Mudou a ordem das categorias na tela
+- 23/10/2026, 14:45:53 — Mudou a ordem das categorias na tela

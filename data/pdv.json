@@ -263,13 +263,6 @@
    ]
   },
   {
-   "id": "c7",
-   "code": "7",
-   "name": "CAFETERIA ESPRESSO",
-   "img": "img/cat-7.jpg",
-   "items": []
-  },
-  {
    "id": "c11",
    "code": "11",
    "name": "SUCOS",
@@ -566,6 +559,13 @@
     "15508",
     "15504"
    ]
+  },
+  {
+   "id": "c7",
+   "code": "7",
+   "name": "CAFETERIA ESPRESSO",
+   "img": "img/cat-7.jpg",
+   "items": []
   }
  ],
  "products": {
@@ -2025,7 +2025,7 @@
  },
  "log": [
   {
-   "t": "2026-10-23T17:45:47.674Z",
+   "t": "2026-10-23T17:45:53.937Z",
    "msg": "Mudou a ordem das categorias na tela"
   },
   {
@@ -2061,5 +2061,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-23T17:45:47.678Z"
+ "savedAt": "2026-10-23T17:45:53.941Z"
 }
