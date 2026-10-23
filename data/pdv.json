@@ -159,7 +159,7 @@
    "id": "c20",
    "code": "20",
    "name": "CAFETERIA BEBIDAS QUENTES",
-   "img": "api/image?f=cat-20-mvlc4lzp.jpg",
+   "img": "api/image?f=cat-20-mvlc6i6d.jpg",
    "items": [
     "462",
     "463",
@@ -2018,7 +2018,7 @@
  },
  "log": [
   {
-   "t": "2026-10-23T18:54:22.185Z",
+   "t": "2026-10-23T18:55:49.757Z",
    "msg": "Trocou a foto da categoria CAFETERIA BEBIDAS QUENTES"
   },
   {
@@ -2062,5 +2062,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-23T18:54:22.189Z"
+ "savedAt": "2026-10-23T18:55:49.760Z"
 }
