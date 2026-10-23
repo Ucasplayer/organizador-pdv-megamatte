@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 14:45:43. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:45:49. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
@@ -243,10 +243,7 @@ _Nenhuma._
 13. GVITAMINA 500 ML — cód. 11202
 14. GVITAMINA 700 ML — cód. 11203
 
-### 8. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
-
-
-### 9. MEGASHAKES (grupo 9) — 9 produtos
+### 8. MEGASHAKES (grupo 9) — 9 produtos
 
 1. MEGASHAKE ACAI 300ML — cód. 305
 2. MEGASHAKE ACAI 500ML — cód. 345
@@ -258,7 +255,7 @@ _Nenhuma._
 8. MEGASHAKE MORANGO 500ML — cód. 363
 9. MEGASHAKE MORANGO 700ML — cód. 10575
 
-### 10. VITAMINAS (grupo 10) — 9 produtos
+### 9. VITAMINAS (grupo 10) — 9 produtos
 
 1. VIT.BANANA C/AVEIA 300ML — cód. 2102
 2. VIT.BANANA C/AVEIA 500ML — cód. 2103
@@ -269,6 +266,9 @@ _Nenhuma._
 7. VIT.MORANGO AO LEITE 300ML — cód. 886
 8. VIT.MORANGO AO LEITE 500ML — cód. 887
 9. VIT.MORANGO AO LEITE 700ML — cód. 10687
+
+### 10. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
+
 
 ### 11. SUCOS (grupo 11) — 39 produtos
 
@@ -508,4 +508,4 @@ _Nenhuma._
 - 23/10/2026, 14:43:06 — Mudou a ordem das categorias na tela
 - 23/10/2026, 14:43:18 — Moveu ESPRESSO 50ML, ESPRESSO DUPLO 100ML, ESPRESSO DUPLO C/LEITE 200ML e mais 1 de CAFETERIA ESPRESSO para CAFETERIA BEBIDAS QUENTES
 - 23/10/2026, 14:45:01 — Mudou a ordem dos produtos em CAFETERIA BEBIDAS QUENTES
-- 23/10/2026, 14:45:41 — Mudou a ordem das categorias na tela
+- 23/10/2026, 14:45:47 — Mudou a ordem das categorias na tela
