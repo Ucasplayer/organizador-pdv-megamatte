@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 14:43:52. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:44:09. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
@@ -47,7 +47,7 @@ _Nenhuma._
 ## Ordem na tela
 
 - A ordem das categorias mudou (ver estrutura abaixo).
-- A ordem dos produtos não mudou.
+- Ordem dos produtos mudou em: CAFETERIA BEBIDAS QUENTES
 
 ## Estrutura final (na ordem da tela)
 
@@ -172,15 +172,15 @@ _Nenhuma._
 8. CAPPUCCINO OVOMALTINE 200ML — cód. 11444
 9. CAPPUCCINO TRADICIONAL 100ML — cód. 11665
 10. CAPPUCCINO TRADICIONAL 200ML — cód. 2506
-11. CHOCOLATE QUENTE 100ML — cód. 11670
-12. CHOCOLATE QUENTE 200ML — cód. 467
-13. CHOCOLATE QUENTE C/CAFE CHANTILLY 100ML — cód. 11677
-14. CHOCOLATE QUENTE C/CAFE CHANTILLY 200ML — cód. 11446
-15. MEGANELLA 100ML — cód. 11669
-16. MEGANELLA 200ML — cód. 2002
-17. MOCACCINO 100ML — cód. 11671
-18. MOCACCINO 200ML — cód. 11064
-19. CAPPUCCINO COM NUTELLA 100ML — cód. 11664
+11. CAPPUCCINO COM NUTELLA 100ML — cód. 11664
+12. CHOCOLATE QUENTE 100ML — cód. 11670
+13. CHOCOLATE QUENTE 200ML — cód. 467
+14. CHOCOLATE QUENTE C/CAFE CHANTILLY 100ML — cód. 11677
+15. CHOCOLATE QUENTE C/CAFE CHANTILLY 200ML — cód. 11446
+16. MEGANELLA 100ML — cód. 11669
+17. MEGANELLA 200ML — cód. 2002
+18. MOCACCINO 100ML — cód. 11671
+19. MOCACCINO 200ML — cód. 11064
 20. CAPPUCCINO COM NUTELLA 200ML — cód. 11445
 21. CAPPUCCINO DE PACOCA 100ML — cód. 11666
 22. CAPPUCCINO OVOMALTINE 100ML — cód. 11667
@@ -507,4 +507,4 @@ _Nenhuma._
 - 23/10/2026, 14:35:51 — Mudou a ordem das categorias na tela
 - 23/10/2026, 14:43:06 — Mudou a ordem das categorias na tela
 - 23/10/2026, 14:43:18 — Moveu ESPRESSO 50ML, ESPRESSO DUPLO 100ML, ESPRESSO DUPLO C/LEITE 200ML e mais 1 de CAFETERIA ESPRESSO para CAFETERIA BEBIDAS QUENTES
-- 23/10/2026, 14:43:50 — Mudou a ordem dos produtos em CAFETERIA BEBIDAS QUENTES
+- 23/10/2026, 14:44:07 — Mudou a ordem dos produtos em CAFETERIA BEBIDAS QUENTES
