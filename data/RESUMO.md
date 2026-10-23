@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 14:41:30. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:43:03. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **0**
 - Produtos novos: **1**
@@ -152,7 +152,14 @@ _Nenhuma._
 59. P.MATE OU GUARANA 300ML GRATIS — cód. 11931
 60. PL-MEGAMATTE DAY MATE 300ML/500ML — cód. 11893
 
-### 4. GUARANA NATURAL (grupo 5) — 14 produtos
+### 4. CAFETERIA ESPRESSO (grupo 7) — 4 produtos
+
+1. ESPRESSO 50ML — cód. 462
+2. ESPRESSO DUPLO 100ML — cód. 463
+3. ESPRESSO DUPLO C/LEITE 200ML — cód. 470
+4. ESPRESSO MACCHIATO 50ML — cód. 11063
+
+### 5. GUARANA NATURAL (grupo 5) — 14 produtos
 
 1. GUARA FRUTA 300ML — cód. 11037
 2. GUARA FRUTA 500ML — cód. 11038
@@ -168,13 +175,6 @@ _Nenhuma._
 12. GVITAMINA 300 ML — cód. 11201
 13. GVITAMINA 500 ML — cód. 11202
 14. GVITAMINA 700 ML — cód. 11203
-
-### 5. CAFETERIA ESPRESSO (grupo 7) — 4 produtos
-
-1. ESPRESSO 50ML — cód. 462
-2. ESPRESSO DUPLO 100ML — cód. 463
-3. ESPRESSO DUPLO C/LEITE 200ML — cód. 470
-4. ESPRESSO MACCHIATO 50ML — cód. 11063
 
 ### 6. AÇAÍ (grupo 8) — 25 produtos
 
@@ -500,4 +500,4 @@ _Nenhuma._
 - 23/10/2026, 11:24:46 — Excluiu AIA IAI de TESTE SITE
 - 23/10/2026, 11:24:58 — Excluiu a categoria TESTE SITE
 - 23/10/2026, 14:35:51 — Mudou a ordem das categorias na tela
-- 23/10/2026, 14:41:28 — Mudou a ordem das categorias na tela
+- 23/10/2026, 14:43:02 — Mudou a ordem das categorias na tela
