@@ -1,0 +1,988 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Organizador do PDV</title>
+<meta name="description" content="Organize as categorias e os produtos do PDV Mega Matte.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23085082'/%3E%3Crect x='5' y='6' width='10' height='9' fill='%23EB8022'/%3E%3Crect x='17' y='6' width='10' height='9' fill='%231E9A4B'/%3E%3Crect x='5' y='17' width='10' height='9' fill='%23fff'/%3E%3Crect x='17' y='17' width='10' height='9' fill='%23FFE600'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#085082; --panel:#0A3150; --panel-2:#07314A; --line:#0D5C93;
+  --btn:#3399FF; --btn-hover:#4DA6FF; --btn-text:#fff;
+  --label:#535353; --yellow:#FFE600; --orange:#EB8022; --green:#1E9A4B;
+  --red:#E53935; --white:#fff; --muted:#9FC3DE;
+  --tile-w:158px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--white);font-family:"Segoe UI",Tahoma,Verdana,Arial,sans-serif;font-size:14px;display:flex;flex-direction:column;min-height:100vh}
+button{font-family:inherit;cursor:pointer}
+button:disabled{cursor:not-allowed}
+
+/* ===== Topo ===== */
+.top{display:flex;align-items:center;gap:12px;padding:8px 14px;background:var(--panel-2);border-bottom:2px solid var(--line)}
+.brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:16px}
+.brand .mark{display:grid;grid-template-columns:10px 10px;gap:2px}
+.brand .mark i{width:10px;height:10px;display:block}
+.brand small{display:block;font-weight:400;font-size:12px;color:var(--muted)}
+.save{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:13px;padding:6px 12px;border-radius:20px;background:rgba(255,255,255,.08);white-space:nowrap}
+.save .dot{width:10px;height:10px;border-radius:50%;background:#7CD992;flex:none}
+.save.saving .dot{background:var(--yellow);animation:pulse 1s infinite}
+.save.error .dot,.save.local .dot{background:var(--red)}
+@keyframes pulse{50%{opacity:.3}}
+.help-btn{background:transparent;border:1px solid var(--muted);color:var(--white);border-radius:20px;padding:6px 12px;font-size:13px}
+.help-btn:hover{background:rgba(255,255,255,.1)}
+
+/* ===== Layout ===== */
+.layout{flex:1;display:grid;grid-template-columns:270px 1fr;gap:10px;padding:10px;min-height:0}
+.side{background:var(--panel);border:1px solid var(--line);display:flex;flex-direction:column;min-height:0}
+.side h2{margin:0;padding:8px 10px;font-size:14px;background:var(--panel-2);border-bottom:1px solid var(--line)}
+.side .sub{display:flex;justify-content:space-between;padding:4px 10px;font-size:12px;font-weight:700;background:#0B4C79}
+.log{flex:1;overflow:auto;background:#fff;color:#123;margin:0;padding:0;list-style:none;min-height:120px}
+.log li{padding:7px 10px;border-bottom:1px solid #E3ECF3;font-size:12.5px;line-height:1.35}
+.log li time{display:block;color:#6A8299;font-size:11px}
+.log li:first-child{background:linear-gradient(#BFE0FF,#E6F3FF)}
+.log .empty{color:#6A8299;font-style:italic;background:#fff !important}
+.side .foot{padding:10px;display:flex;flex-direction:column;gap:8px}
+.side .count{display:flex;justify-content:space-between;align-items:baseline;font-weight:700}
+.side .count b{color:var(--yellow);font-size:20px}
+
+main{background:var(--panel);border:1px solid var(--line);display:flex;flex-direction:column;min-width:0;min-height:0}
+.title-bar{padding:16px 16px 6px;text-align:center;font-weight:700;font-size:20px;letter-spacing:.3px}
+.title-bar .cat-actions{display:inline-flex;gap:6px;margin-left:10px;vertical-align:middle}
+.mini-btn{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:4px;padding:4px 10px;font-size:12px;font-weight:600}
+.mini-btn:hover{background:rgba(255,255,255,.22)}
+.mini-btn.danger:hover{background:var(--red);border-color:var(--red)}
+.hint{text-align:center;color:var(--muted);font-size:13px;padding:0 16px 10px;min-height:24px}
+.grid-wrap{flex:1;overflow:auto;background:#fff;margin:0 10px;border:3px solid #fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(var(--tile-w),1fr));gap:5px;padding:2px}
+.back{margin:10px;padding:18px;background:var(--panel-2);border:1px solid var(--line);color:#fff;font-size:18px;font-weight:700}
+.back:hover{background:#0B4C79}
+
+/* ===== Blocos (categorias e produtos) ===== */
+.tile{position:relative;background:#222;cursor:pointer;user-select:none;-webkit-user-select:none;outline:3px solid transparent;outline-offset:-3px;transition:transform .08s}
+.tile:hover{transform:translateY(-1px);box-shadow:0 3px 10px rgba(0,0,0,.35)}
+.tile .img{aspect-ratio:160/84;overflow:hidden;background:#333;display:block}
+.tile .img img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
+.tile .gen{width:100%;height:100%;display:flex;align-items:center;justify-content:center;text-align:center;padding:8px;font-weight:900;font-size:17px;line-height:1.05;color:#fff;text-shadow:0 2px 0 rgba(0,0,0,.35);background:linear-gradient(90deg,var(--orange) 50%,var(--green) 50%);text-transform:uppercase;word-break:break-word}
+.tile .badge{position:absolute;top:0;left:0;background:#4A4A4A;color:#fff;font-weight:700;font-size:12px;padding:2px 6px;min-width:30px}
+.tile .badge.new{background:var(--yellow);color:#000}
+.tile .label{background:var(--label);color:#fff;font-weight:700;font-size:11.5px;padding:3px 22px 3px 4px;min-height:32px;line-height:1.25;text-transform:uppercase;word-break:break-word}
+.tile .qty{position:absolute;right:3px;bottom:5px;background:var(--yellow);color:#000;border-radius:10px;font-size:11px;font-weight:800;min-width:20px;height:18px;padding:0 5px;display:flex;align-items:center;justify-content:center}
+.tile.selected{outline-color:var(--yellow)}
+.tile.selected::after{content:"✓";position:absolute;top:4px;right:4px;width:26px;height:26px;border-radius:50%;background:var(--yellow);color:#000;font-weight:900;display:flex;align-items:center;justify-content:center;font-size:16px;box-shadow:0 1px 4px rgba(0,0,0,.4)}
+.tile.flash{animation:flash 1.4s 2}
+@keyframes flash{50%{outline-color:var(--yellow);transform:scale(1.04)}}
+.tile .also{position:absolute;top:0;right:0;background:#1E9A4B;color:#fff;font-size:10.5px;font-weight:700;padding:2px 5px}
+.tile.selected .also{display:none}
+.noimg{display:flex !important;flex-direction:column;align-items:center;justify-content:center;background:#fff !important;color:#bbb;font-size:11px;gap:2px}
+.noimg svg{width:34px;height:34px;opacity:.45}
+.add-tile{border:3px dashed #9DB7CC;background:#F2F7FB;color:#0B4C79;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font-weight:700;font-size:14px;min-height:120px;text-align:center;padding:8px}
+.add-tile:hover{background:#E1EEF8;transform:none;box-shadow:none}
+.add-tile .plus{font-size:34px;line-height:1}
+.sortable-ghost{opacity:.35}
+.sortable-chosen{outline-color:#3399FF !important}
+.empty-cat{grid-column:1/-1;text-align:center;color:#56708A;padding:30px 10px;font-size:15px}
+
+/* ===== Barra de botões ===== */
+.toolbar{position:sticky;bottom:0;z-index:5;background:var(--panel-2);border-top:2px solid var(--line);padding:10px;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.tb{background:var(--btn);color:var(--btn-text);border:0;min-width:140px;padding:11px 14px;font-weight:700;font-size:13.5px;text-shadow:0 1px 1px rgba(0,0,0,.25);display:flex;align-items:center;justify-content:center;gap:6px}
+.tb:hover:not(:disabled){background:var(--btn-hover)}
+.tb:disabled{background:#5C86AD;color:#B9CCDD;text-shadow:none}
+.tb.danger:not(:disabled){background:#D9443B}
+.tb.danger:hover:not(:disabled){background:#EE5A50}
+.tb.green{background:#1E9A4B}
+.tb.green:hover{background:#27B058}
+.tb .n{background:var(--yellow);color:#000;border-radius:10px;padding:0 7px;font-size:12px}
+
+/* ===== Janelas ===== */
+.overlay{position:fixed;inset:0;background:rgba(0,20,40,.65);display:flex;align-items:center;justify-content:center;padding:16px;z-index:50}
+.modal{background:#fff;color:#123;width:min(560px,100%);max-height:92vh;display:flex;flex-direction:column;box-shadow:0 10px 40px rgba(0,0,0,.5);border-top:6px solid var(--btn)}
+.modal.wide{width:min(980px,100%)}
+.modal h3{margin:0;padding:16px 18px 6px;font-size:19px;color:#0A3150}
+.modal .body{padding:8px 18px 14px;overflow:auto}
+.modal p{margin:6px 0 10px;line-height:1.45}
+.modal .actions{display:flex;gap:8px;justify-content:flex-end;padding:12px 18px;background:#F1F5F9;border-top:1px solid #DCE5EE;flex-wrap:wrap}
+.mbtn{border:0;padding:10px 18px;font-weight:700;font-size:14px;background:#DCE5EE;color:#123}
+.mbtn:hover{filter:brightness(.95)}
+.mbtn.primary{background:var(--btn);color:#fff}
+.mbtn.danger{background:#D9443B;color:#fff}
+.field{display:block;margin:10px 0}
+.field span{display:block;font-weight:700;font-size:13px;margin-bottom:4px}
+.field small{display:block;color:#6A8299;font-weight:400;margin-top:3px}
+.field input{width:100%;padding:11px 12px;font-size:16px;border:2px solid #B9CCDD;font-family:inherit}
+.field input:focus{outline:none;border-color:var(--btn)}
+.pick{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px}
+.pick button{display:flex;flex-direction:column;border:2px solid #DCE5EE;background:#fff;padding:0;text-align:left;color:#123}
+.pick button:hover{border-color:var(--btn)}
+.pick .thumb{aspect-ratio:160/70;width:100%;overflow:hidden}
+.pick .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.pick .thumb .gen{font-size:13px}
+.pick .nm{padding:5px 6px;font-weight:700;font-size:12px;text-transform:uppercase}
+.pick .nm small{display:block;font-weight:400;color:#6A8299;text-transform:none}
+.pick .new-cat{align-items:center;justify-content:center;min-height:90px;border-style:dashed;color:#0B4C79;font-weight:700}
+.chips{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.chip{border:1px solid #9DB7CC;background:#EAF3FA;color:#0B4C79;border-radius:14px;padding:3px 10px;font-size:12px;font-weight:700}
+.chip:hover{background:#D3E7F7}
+.chip.warn{background:#FFF4D6;border-color:#E9C46A;color:#7A5600}
+.results{list-style:none;margin:8px 0 0;padding:0}
+.results li{padding:9px 4px;border-bottom:1px solid #E3ECF3}
+.results .pname{font-weight:700}
+.results .pcode{color:#6A8299;font-size:12px;margin-left:6px}
+
+/* Resumo */
+.sum-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin:6px 0 14px}
+.sum-stats div{background:#F1F5F9;border-left:4px solid var(--btn);padding:8px 10px}
+.sum-stats b{display:block;font-size:22px;color:#0A3150}
+.sum-stats span{font-size:12px;color:#56708A}
+.sum h4{margin:16px 0 6px;font-size:15px;color:#0A3150;border-bottom:2px solid #DCE5EE;padding-bottom:4px}
+.sum table{border-collapse:collapse;width:100%;font-size:13px}
+.sum td,.sum th{border-bottom:1px solid #E3ECF3;padding:5px 6px;text-align:left;vertical-align:top}
+.sum th{background:#F1F5F9;font-size:12px}
+.sum .none{color:#6A8299;font-style:italic;font-size:13px}
+.arrow{color:#1E9A4B;font-weight:800}
+.strike{text-decoration:line-through;color:#A33}
+
+/* Aviso */
+.toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(20px);background:#0A3150;color:#fff;padding:12px 18px;border-left:5px solid var(--yellow);box-shadow:0 6px 24px rgba(0,0,0,.4);opacity:0;pointer-events:none;transition:.25s;z-index:60;max-width:90vw;font-weight:600}
+.toast.show{opacity:1;transform:translateX(-50%)}
+.banner{background:#7A1E1E;color:#fff;padding:8px 14px;font-size:13px;text-align:center}
+.banner[hidden]{display:none}
+.loading{position:fixed;inset:0;background:var(--bg);display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700;z-index:70}
+
+@media (max-width:900px){
+  .layout{grid-template-columns:1fr}
+  .side{order:2;max-height:260px}
+  .grid-wrap{flex:none;overflow:visible}
+  :root{--tile-w:128px}
+  .tb{min-width:0;flex:1 1 45%}
+  .title-bar{font-size:17px}
+}
+@media (max-width:480px){
+  .top{flex-wrap:wrap}
+  .save{margin-left:0}
+  .layout{padding:6px}
+  .grid-wrap{margin:0 6px}
+  :root{--tile-w:104px}
+  .tile .label{font-size:10.5px}
+}
+</style>
+</head>
+<body>
+<div class="loading" id="loading">Carregando…</div>
+
+<header class="top">
+  <div class="brand">
+    <span class="mark"><i style="background:var(--orange)"></i><i style="background:var(--green)"></i><i style="background:#fff"></i><i style="background:var(--yellow)"></i></span>
+    <span>Organizador do PDV<small>Mega Matte · categorias e produtos</small></span>
+  </div>
+  <div class="save" id="save"><span class="dot"></span><span id="save-text">Carregando…</span></div>
+  <button class="help-btn" id="help-btn" type="button">❔ Como usar</button>
+</header>
+<div class="banner" id="banner" hidden></div>
+
+<div class="layout">
+  <aside class="side">
+    <h2>Alterações feitas</h2>
+    <div class="sub"><span>O que mudou</span><span>Quando</span></div>
+    <ul class="log" id="log"></ul>
+    <div class="foot">
+      <div class="count"><span>Total de alterações:</span><b id="log-count">0</b></div>
+      <button class="tb" id="undo-btn" type="button">↶ Desfazer última</button>
+    </div>
+  </aside>
+
+  <main>
+    <div class="title-bar" id="title"></div>
+    <div class="hint" id="hint"></div>
+    <div class="grid-wrap" id="grid-wrap"><div class="grid" id="grid"></div></div>
+    <button class="back" id="back" type="button" hidden>⬅ Volta para Categorias</button>
+  </main>
+</div>
+
+<footer class="toolbar" id="toolbar"></footer>
+<div id="modal-root"></div>
+<div class="toast" id="toast"></div>
+
+<script src="vendor/Sortable.min.js"></script>
+<script>
+(() => {
+'use strict';
+
+// ===================== Estado =====================
+const LS_DATA = 'pdv-org:data';
+const LS_PASS = 'pdv-org:senha';
+const S = {
+  data: null,        // dados atuais
+  original: null,    // como estava no PDV (seed.json)
+  view: 'home',      // 'home' | 'cat'
+  catId: null,
+  selected: new Set(),
+  undo: [],
+  mode: 'cloud',     // 'cloud' | 'local'
+  saveTimer: null,
+  saving: false,
+  pendingMsgs: [],
+  lastSavedAt: null,
+};
+
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const clone = o => JSON.parse(JSON.stringify(o));
+const norm = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toUpperCase().trim();
+const lsGet = k => { try { return localStorage.getItem(k); } catch (_) { return null; } };
+const lsSet = (k, v) => { try { localStorage.setItem(k, v); } catch (_) {} };
+
+const cats = () => S.data.categories;
+const catById = id => cats().find(c => c.id === id);
+const prod = code => S.data.products[code];
+const catsOf = code => cats().filter(c => c.items.includes(code));
+const pname = code => (prod(code) ? prod(code).name : code);
+const catLabel = c => c ? c.name : '(categoria apagada)';
+
+const CAMERA = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 8h3l2-3h6l2 3h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg>';
+
+// ===================== Carregar =====================
+async function load() {
+  const seedRes = await fetch('seed.json', { cache: 'no-store' });
+  S.original = await seedRes.json();
+  let data = null;
+  try {
+    const r = await fetch('api/data', { cache: 'no-store' });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const j = await r.json();
+    data = j.data || clone(S.original);
+    S.mode = 'cloud';
+    S.lastSavedAt = j.data && j.data.savedAt ? new Date(j.data.savedAt) : null;
+  } catch (e) {
+    S.mode = 'local';
+    const local = lsGet(LS_DATA);
+    data = local ? JSON.parse(local) : clone(S.original);
+  }
+  if (!data.log) data.log = [];
+  S.data = data;
+  setSaveState(S.mode === 'local' ? 'local' : 'ok');
+  if (S.mode === 'local') {
+    showBanner('⚠ Não foi possível conectar à nuvem. As alterações estão sendo guardadas só neste navegador. Avise o Lucas.');
+  }
+  $('#loading').remove();
+  render();
+  if (!lsGet('pdv-org:viu-ajuda')) { lsSet('pdv-org:viu-ajuda', '1'); showHelp(); }
+}
+
+// ===================== Alterações / desfazer =====================
+function change(msg, fn) {
+  const before = JSON.stringify(S.data);
+  const result = fn();
+  if (result === false) return false;
+  S.undo.push(before);
+  if (S.undo.length > 80) S.undo.shift();
+  addLog(msg);
+  render();
+  scheduleSave(msg);
+  return true;
+}
+
+function addLog(msg) {
+  const log = S.data.log;
+  const now = new Date();
+  const last = log[0];
+  // evita repetir "mudou a ordem" várias vezes seguidas
+  if (last && last.msg === msg && now - new Date(last.t) < 120000) { last.t = now.toISOString(); return; }
+  log.unshift({ t: now.toISOString(), msg });
+  if (log.length > 1000) log.length = 1000;
+}
+
+function undo() {
+  if (!S.undo.length) return toast('Não há nada para desfazer.');
+  const lastMsg = S.data.log[0] ? S.data.log[0].msg : '';
+  S.data = JSON.parse(S.undo.pop());
+  if (S.view === 'cat' && !catById(S.catId)) S.view = 'home';
+  S.selected.clear();
+  render();
+  scheduleSave('Desfez: ' + lastMsg);
+  toast('↶ Desfeito: ' + lastMsg);
+}
+
+// ===================== Salvar na nuvem =====================
+function scheduleSave(msg) {
+  S.pendingMsgs.push(msg);
+  S.data.savedAt = new Date().toISOString();
+  lsSet(LS_DATA, JSON.stringify(S.data));
+  if (S.mode === 'local') { setSaveState('local'); return; }
+  setSaveState('saving');
+  clearTimeout(S.saveTimer);
+  S.saveTimer = setTimeout(saveNow, 1500);
+}
+
+async function saveNow() {
+  if (S.saving) { clearTimeout(S.saveTimer); S.saveTimer = setTimeout(saveNow, 800); return; }
+  S.saving = true;
+  const msgs = S.pendingMsgs.splice(0);
+  const message = msgs.length === 1 ? msgs[0] : `${msgs.length} alterações: ` + msgs.slice(0, 6).join(' | ') + (msgs.length > 6 ? ' …' : '');
+  const files = {
+    'pdv.json': JSON.stringify(S.data, null, 1),
+    'RESUMO.md': summaryMarkdown(),
+    'pdv-final.csv': finalCsv(),
+  };
+  try {
+    const headers = { 'Content-Type': 'application/json' };
+    const pass = lsGet(LS_PASS);
+    if (pass) headers['x-senha'] = pass;
+    const r = await fetch('api/data', { method: 'PUT', headers, body: JSON.stringify({ files, message }) });
+    if (r.status === 401) {
+      S.pendingMsgs.unshift(...msgs);
+      S.saving = false;
+      const p = await askText({ title: 'Senha para salvar', text: 'Digite a senha de edição que o Lucas passou. Ela fica guardada neste computador.', label: 'Senha', type: 'password', ok: 'Salvar' });
+      if (p) { lsSet(LS_PASS, p); saveNow(); } else setSaveState('error', 'Não salvo — falta a senha');
+      return;
+    }
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    S.lastSavedAt = new Date();
+    setSaveState(S.pendingMsgs.length ? 'saving' : 'ok');
+  } catch (e) {
+    S.pendingMsgs.unshift(...msgs);
+    setSaveState('error');
+    clearTimeout(S.saveTimer);
+    S.saveTimer = setTimeout(saveNow, 8000); // tenta de novo
+  } finally {
+    S.saving = false;
+  }
+}
+
+function setSaveState(state, text) {
+  const el = $('#save');
+  el.className = 'save ' + state;
+  const t = S.lastSavedAt ? S.lastSavedAt.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' }) : '';
+  $('#save-text').textContent = text || ({
+    ok: S.lastSavedAt ? `Tudo salvo na nuvem · ${t}` : 'Tudo salvo na nuvem',
+    saving: 'Salvando…',
+    error: 'Erro ao salvar — tentando de novo…',
+    local: 'Salvo só neste navegador',
+  })[state];
+}
+
+window.addEventListener('beforeunload', e => {
+  if (S.mode === 'cloud' && (S.pendingMsgs.length || S.saving)) { e.preventDefault(); e.returnValue = ''; }
+});
+
+// ===================== Render =====================
+function render() {
+  renderLog();
+  if (S.view === 'cat' && catById(S.catId)) renderCategory(); else { S.view = 'home'; renderHome(); }
+  renderToolbar();
+}
+
+function renderLog() {
+  const log = S.data.log;
+  $('#log-count').textContent = log.length;
+  $('#log').innerHTML = log.length
+    ? log.slice(0, 200).map(l => `<li>${esc(l.msg)}<time>${fmtTime(l.t)}</time></li>`).join('')
+    : '<li class="empty">Nenhuma alteração ainda. Tudo o que for mudado aparece aqui.</li>';
+  $('#undo-btn').disabled = !S.undo.length;
+}
+
+function fmtTime(iso) {
+  const d = new Date(iso);
+  const today = new Date().toDateString() === d.toDateString();
+  return today ? 'hoje, ' + d.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' })
+               : d.toLocaleString('pt-BR', { day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit' });
+}
+
+function catImg(c) {
+  return c.img ? `<img src="${esc(c.img)}" alt="" loading="lazy">` : `<div class="gen">${esc(c.name)}</div>`;
+}
+
+function renderHome() {
+  $('#title').innerHTML = 'SELECIONE A CATEGORIA PARA ESCOLHA DO PRODUTO';
+  $('#hint').textContent = 'Clique numa categoria para ver os produtos dela. Arraste uma categoria para mudar a posição dela na tela.';
+  $('#back').hidden = true;
+  const grid = $('#grid');
+  grid.innerHTML = cats().map(c => `
+    <div class="tile cat" data-id="${esc(c.id)}" title="Abrir ${esc(c.name)}">
+      <div class="img">${catImg(c)}</div>
+      <span class="badge ${c.code ? '' : 'new'}">${c.code ? esc(c.code) : 'NOVA'}</span>
+      <div class="label">${esc(c.name)}</div>
+      <span class="qty" title="${c.items.length} produtos">${c.items.length}</span>
+    </div>`).join('') +
+    `<div class="tile add-tile" data-add="cat"><span class="plus">＋</span>Nova categoria</div>`;
+  grid.querySelectorAll('.tile.cat').forEach(t => t.addEventListener('click', () => openCat(t.dataset.id)));
+  grid.querySelector('[data-add]').addEventListener('click', newCategory);
+  makeSortable(grid, '.tile.cat', ids => {
+    const old = cats().map(c => c.id).join();
+    if (old === ids.join()) return;
+    change('Mudou a ordem das categorias na tela', () => {
+      S.data.categories = ids.map(id => catById(id));
+    });
+  });
+}
+
+function renderCategory() {
+  const c = catById(S.catId);
+  [...S.selected].forEach(code => { if (!c.items.includes(code)) S.selected.delete(code); });
+  $('#title').innerHTML = `PRODUTOS — ${esc(c.name)}
+    <span class="cat-actions">
+      <button class="mini-btn" data-act="rename-cat" type="button">✎ Renomear categoria</button>
+      <button class="mini-btn danger" data-act="del-cat" type="button">🗑 Excluir categoria</button>
+    </span>`;
+  $('#title [data-act="rename-cat"]').onclick = () => renameCategory(c.id);
+  $('#title [data-act="del-cat"]').onclick = () => deleteCategory(c.id);
+  $('#hint').textContent = S.selected.size
+    ? `${S.selected.size} produto(s) selecionado(s). Agora escolha um botão lá embaixo (Mover, Copiar, Excluir…).`
+    : 'Clique nos produtos para selecionar (pode marcar vários). Arraste um produto para mudar a ordem dele.';
+  $('#back').hidden = false;
+  const grid = $('#grid');
+  const tiles = c.items.map(code => {
+    const p = prod(code) || { code, name: code };
+    const others = catsOf(code).filter(x => x.id !== c.id);
+    const isNewCode = String(code).startsWith('novo-');
+    return `
+    <div class="tile prod ${S.selected.has(code) ? 'selected' : ''}" data-code="${esc(code)}" title="${esc(p.name)}${others.length ? '\nTambém está em: ' + esc(others.map(o => o.name).join(', ')) : ''}">
+      <div class="img noimg">${CAMERA}<span>sem imagem</span></div>
+      <span class="badge ${isNewCode || p.isNew ? 'new' : ''}">${isNewCode ? 'NOVO' : esc(code)}</span>
+      ${others.length ? `<span class="also">+${others.length} categ.</span>` : ''}
+      <div class="label">${esc(p.name)}</div>
+    </div>`;
+  }).join('');
+  grid.innerHTML = (tiles || '<div class="empty-cat">Esta categoria está vazia.<br>Use <b>＋ Novo produto</b> ou mova produtos de outra categoria para cá.</div>') +
+    `<div class="tile add-tile" data-add="prod"><span class="plus">＋</span>Novo produto</div>`;
+  grid.querySelectorAll('.tile.prod').forEach(t => t.addEventListener('click', () => toggleSel(t.dataset.code)));
+  grid.querySelector('[data-add]').addEventListener('click', newProduct);
+  makeSortable(grid, '.tile.prod', codes => {
+    if (c.items.join() === codes.join()) return;
+    change(`Mudou a ordem dos produtos em ${c.name}`, () => { catById(c.id).items = codes; });
+  });
+}
+
+let sortable = null;
+function makeSortable(grid, draggable, onDone) {
+  if (sortable) { sortable.destroy(); sortable = null; }
+  if (!window.Sortable) return;
+  sortable = Sortable.create(grid, {
+    draggable, animation: 150, delay: 180, delayOnTouchOnly: true, filter: '.add-tile', preventOnFilter: false,
+    onEnd: () => {
+      const keys = [...grid.querySelectorAll(draggable)].map(t => t.dataset.id || t.dataset.code);
+      setTimeout(() => { onDone(keys); render(); }, 0);
+    },
+  });
+}
+
+function renderToolbar() {
+  const tb = $('#toolbar');
+  const n = S.selected.size;
+  const btn = (id, label, opts = {}) =>
+    `<button class="tb ${opts.cls || ''}" id="${id}" type="button" ${opts.disabled ? 'disabled' : ''}>${label}</button>`;
+  if (S.view === 'home') {
+    tb.innerHTML =
+      btn('t-newcat', '＋ Nova Categoria') +
+      btn('t-search', '🔍 Procurar Produto') +
+      btn('t-summary', '📋 Resumo das Mudanças', { cls: 'green' }) +
+      btn('t-undo', '↶ Desfazer', { disabled: !S.undo.length });
+  } else {
+    const nb = n ? ` <span class="n">${n}</span>` : '';
+    tb.innerHTML =
+      btn('t-newprod', '＋ Novo Produto') +
+      btn('t-move', '➜ Mover para…' + nb, { disabled: !n }) +
+      btn('t-copy', '⧉ Colocar também em…' + nb, { disabled: !n }) +
+      btn('t-rename', '✎ Renomear Produto', { disabled: n !== 1 }) +
+      btn('t-del', '🗑 Excluir' + nb, { cls: 'danger', disabled: !n }) +
+      btn('t-all', n && n === catById(S.catId).items.length ? '☐ Desmarcar todos' : '☑ Marcar todos', { disabled: !catById(S.catId).items.length }) +
+      btn('t-search', '🔍 Procurar Produto');
+  }
+  const on = (id, fn) => { const el = $('#' + id); if (el) el.onclick = fn; };
+  on('t-newcat', newCategory);
+  on('t-search', searchProducts);
+  on('t-summary', showSummary);
+  on('t-undo', undo);
+  on('t-newprod', newProduct);
+  on('t-move', () => moveOrCopy('move'));
+  on('t-copy', () => moveOrCopy('copy'));
+  on('t-rename', renameProduct);
+  on('t-del', deleteProducts);
+  on('t-all', () => {
+    const c = catById(S.catId);
+    if (S.selected.size === c.items.length) S.selected.clear(); else c.items.forEach(x => S.selected.add(x));
+    render();
+  });
+}
+
+// ===================== Navegação =====================
+function openCat(id, highlight) {
+  S.view = 'cat'; S.catId = id; S.selected.clear();
+  render();
+  $('#grid-wrap').scrollTop = 0;
+  if (highlight) {
+    const el = [...document.querySelectorAll('.tile.prod')].find(t => t.dataset.code === highlight);
+    if (el) { el.scrollIntoView({ block: 'center' }); el.classList.add('flash'); }
+  }
+}
+function goHome() { S.view = 'home'; S.selected.clear(); render(); }
+function toggleSel(code) { S.selected.has(code) ? S.selected.delete(code) : S.selected.add(code); render(); }
+
+$('#back').onclick = goHome;
+$('#undo-btn').onclick = undo;
+$('#help-btn').onclick = showHelp;
+document.addEventListener('keydown', e => {
+  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'z' && !document.querySelector('.overlay')) { e.preventDefault(); undo(); }
+});
+
+// ===================== Ações: categorias =====================
+async function newCategory(after) {
+  const name = await askText({ title: 'Nova categoria', label: 'Nome da categoria', placeholder: 'Ex.: BEBIDAS GELADAS', ok: 'Criar categoria' });
+  if (!name) return null;
+  const nm = name.toUpperCase();
+  if (cats().some(c => norm(c.name) === norm(nm))) { toast('Já existe uma categoria com esse nome.'); return null; }
+  const id = 'n' + Date.now().toString(36);
+  change(`Criou a categoria ${nm}`, () => { cats().push({ id, code: '', name: nm, img: null, items: [], isNew: true }); });
+  if (after !== 'stay') toast(`Categoria ${nm} criada. Ela aparece no fim da lista.`);
+  return id;
+}
+
+async function renameCategory(id) {
+  const c = catById(id);
+  const name = await askText({ title: 'Renomear categoria', label: 'Novo nome', value: c.name, ok: 'Salvar nome' });
+  if (!name || name.toUpperCase() === c.name) return;
+  const nm = name.toUpperCase();
+  change(`Renomeou a categoria ${c.name} para ${nm}`, () => { catById(id).name = nm; });
+}
+
+async function deleteCategory(id) {
+  const c = catById(id);
+  if (!c.items.length) {
+    if (await confirmBox({ title: 'Excluir categoria?', text: `A categoria <b>${esc(c.name)}</b> está vazia e vai sumir da tela.`, ok: 'Excluir categoria', danger: true })) {
+      change(`Excluiu a categoria ${c.name}`, () => { S.data.categories = cats().filter(x => x.id !== id); });
+      goHome();
+    }
+    return;
+  }
+  const choice = await choose({
+    title: `Excluir a categoria ${c.name}?`,
+    text: `Ela tem <b>${c.items.length} produto(s)</b>. O que você quer fazer com eles?`,
+    options: [
+      { key: 'move', label: '➜ Mover os produtos para outra categoria', cls: 'primary' },
+      { key: 'drop', label: '🗑 Excluir a categoria e os produtos', cls: 'danger' },
+    ],
+  });
+  if (choice === 'move') {
+    const target = await pickCategory({ title: `Para onde vão os ${c.items.length} produtos de ${c.name}?`, exclude: id });
+    if (!target) return;
+    const t = catById(target);
+    change(`Excluiu a categoria ${c.name} e moveu os ${c.items.length} produtos para ${t.name}`, () => {
+      const tc = catById(target);
+      c.items.forEach(code => { if (!tc.items.includes(code)) tc.items.push(code); });
+      S.data.categories = cats().filter(x => x.id !== id);
+    });
+    goHome();
+  } else if (choice === 'drop') {
+    change(`Excluiu a categoria ${c.name} (com ${c.items.length} produtos)`, () => {
+      S.data.categories = cats().filter(x => x.id !== id);
+    });
+    goHome();
+  }
+}
+
+// ===================== Ações: produtos =====================
+function listNames(codes) {
+  const names = codes.map(pname);
+  return names.length <= 3 ? names.join(', ') : names.slice(0, 3).join(', ') + ` e mais ${names.length - 3}`;
+}
+
+async function moveOrCopy(kind) {
+  const from = catById(S.catId);
+  const codes = from.items.filter(x => S.selected.has(x));
+  if (!codes.length) return;
+  const verb = kind === 'move' ? 'Mover' : 'Colocar também';
+  const target = await pickCategory({
+    title: `${verb} ${codes.length === 1 ? '"' + pname(codes[0]) + '"' : codes.length + ' produtos'} ${kind === 'move' ? 'para' : 'em'} qual categoria?`,
+    sub: kind === 'copy' ? 'O produto continua aqui e passa a aparecer também na categoria escolhida.' : '',
+    exclude: from.id,
+  });
+  if (!target) return;
+  const to = catById(target);
+  const msg = kind === 'move'
+    ? `Moveu ${listNames(codes)} de ${from.name} para ${to.name}`
+    : `Colocou ${listNames(codes)} também em ${to.name}`;
+  change(msg, () => {
+    const t = catById(target), f = catById(from.id);
+    codes.forEach(code => { if (!t.items.includes(code)) t.items.push(code); });
+    if (kind === 'move') f.items = f.items.filter(x => !codes.includes(x));
+  });
+  S.selected.clear();
+  render();
+  toast(kind === 'move' ? `✓ ${codes.length} produto(s) movido(s) para ${to.name}` : `✓ Agora também em ${to.name}`);
+}
+
+async function deleteProducts() {
+  const c = catById(S.catId);
+  const codes = c.items.filter(x => S.selected.has(x));
+  if (!codes.length) return;
+  const stays = codes.filter(code => catsOf(code).length > 1);
+  const gone = codes.filter(code => catsOf(code).length === 1);
+  let text = `Tirar ${codes.length === 1 ? '<b>' + esc(pname(codes[0])) + '</b>' : '<b>' + codes.length + ' produtos</b>'} da categoria <b>${esc(c.name)}</b>?`;
+  if (gone.length) text += `<p>${gone.length === codes.length ? 'Ele(s) não está(ão) em nenhuma outra categoria, então vai(ão) <b>sair do PDV</b>.' : `${gone.length} deles não está(ão) em outra categoria e vai(ão) <b>sair do PDV</b>.`} Dá para colocar de volta depois pelo <b>Procurar Produto</b>.</p>`;
+  if (stays.length) text += `<p>${stays.length} continua(m) aparecendo nas outras categorias onde já está(ão).</p>`;
+  if (!await confirmBox({ title: 'Excluir produto', text, ok: 'Excluir', danger: true })) return;
+  change(`Excluiu ${listNames(codes)} de ${c.name}`, () => {
+    const cc = catById(c.id); cc.items = cc.items.filter(x => !codes.includes(x));
+  });
+  S.selected.clear(); render();
+}
+
+async function renameProduct() {
+  const code = [...S.selected][0];
+  const p = prod(code);
+  const name = await askText({ title: 'Renomear produto', label: 'Novo nome', value: p.name, ok: 'Salvar nome', sub: catsOf(code).length > 1 ? 'O nome muda em todas as categorias onde o produto aparece.' : '' });
+  if (!name || name.toUpperCase() === p.name) return;
+  const nm = name.toUpperCase();
+  change(`Renomeou o produto ${p.name} para ${nm}`, () => { S.data.products[code].name = nm; });
+  S.selected.clear(); render();
+}
+
+async function newProduct() {
+  const c = catById(S.catId);
+  const res = await formBox({
+    title: `Novo produto em ${c.name}`,
+    fields: [
+      { key: 'name', label: 'Nome do produto', placeholder: 'Ex.: MATE LIMÃO 500ML', required: true },
+      { key: 'code', label: 'Código do produto (opcional)', placeholder: 'Ex.: 10998', help: 'Se não souber ou se o produto ainda não existe no sistema, deixe em branco.' },
+    ],
+    ok: 'Adicionar produto',
+  });
+  if (!res) return;
+  const name = res.name.toUpperCase();
+  const code = res.code.replace(/\s+/g, '');
+  if (code && prod(code)) {
+    const p = prod(code);
+    if (c.items.includes(code)) return toast(`O código ${code} (${p.name}) já está nesta categoria.`);
+    change(`Colocou ${p.name} também em ${c.name}`, () => { catById(c.id).items.push(code); });
+    return toast(`O código ${code} já existia (${p.name}) — ele foi colocado aqui.`);
+  }
+  const key = code || ('novo-' + Date.now().toString(36));
+  change(`Criou o produto ${name} em ${c.name}`, () => {
+    S.data.products[key] = { code: code || '', name, isNew: true };
+    catById(c.id).items.push(key);
+  });
+  setTimeout(() => { const el = $('#grid .tile.prod:last-of-type'); if (el) el.scrollIntoView({ block: 'nearest' }); }, 50);
+}
+
+// ===================== Procurar =====================
+function searchProducts() {
+  const all = Object.keys(S.data.products);
+  const m = modal(`
+    <h3>Procurar produto</h3>
+    <div class="body">
+      <label class="field"><span>Digite o nome ou o código</span><input id="q" autocomplete="off" placeholder="Ex.: pão de queijo, 10998…"></label>
+      <ul class="results" id="res"></ul>
+    </div>
+    <div class="actions"><button class="mbtn" data-close type="button">Fechar</button></div>`, { wide: true });
+  const input = $('#q', m.el), res = $('#res', m.el);
+  const draw = () => {
+    const q = norm(input.value);
+    if (q.length < 2) { res.innerHTML = '<li class="none" style="color:#6A8299">Digite pelo menos 2 letras.</li>'; return; }
+    const hits = all.filter(code => norm(pname(code)).includes(q) || String(code).includes(q)).slice(0, 60);
+    res.innerHTML = hits.length ? hits.map(code => {
+      const in_ = catsOf(code);
+      const shownCode = String(code).startsWith('novo-') ? 'novo' : code;
+      return `<li><span class="pname">${esc(pname(code))}</span><span class="pcode">cód. ${esc(shownCode)}</span>
+        <div class="chips">${in_.length
+          ? in_.map(c => `<button class="chip" data-go="${esc(c.id)}" data-code="${esc(code)}" type="button">${esc(c.name)} ›</button>`).join('')
+          : `<span class="chip warn">Fora do PDV (não está em nenhuma categoria)</span><button class="chip" data-back="${esc(code)}" type="button">↩ Colocar numa categoria</button>`}</div></li>`;
+    }).join('') : '<li style="color:#6A8299">Nenhum produto encontrado.</li>';
+  };
+  input.addEventListener('input', draw);
+  res.addEventListener('click', async e => {
+    const go = e.target.closest('[data-go]');
+    if (go) { m.close(); openCat(go.dataset.go, go.dataset.code); return; }
+    const back = e.target.closest('[data-back]');
+    if (back) {
+      const code = back.dataset.back;
+      m.close();
+      const target = await pickCategory({ title: `Em qual categoria colocar "${pname(code)}"?` });
+      if (!target) return;
+      change(`Colocou ${pname(code)} de volta em ${catById(target).name}`, () => { catById(target).items.push(code); });
+      openCat(target, code);
+    }
+  });
+  draw(); input.focus();
+}
+
+// ===================== Resumo das mudanças =====================
+function computeDiff() {
+  const O = S.original, D = S.data;
+  const oCat = Object.fromEntries(O.categories.map(c => [c.id, c]));
+  const dCat = Object.fromEntries(D.categories.map(c => [c.id, c]));
+  const newCats = D.categories.filter(c => !oCat[c.id]);
+  const delCats = O.categories.filter(c => !dCat[c.id]);
+  const renCats = D.categories.filter(c => oCat[c.id] && oCat[c.id].name !== c.name).map(c => ({ from: oCat[c.id].name, to: c.name, code: c.code }));
+  const keptOrderO = O.categories.filter(c => dCat[c.id]).map(c => c.id).join();
+  const keptOrderD = D.categories.filter(c => oCat[c.id]).map(c => c.id).join();
+  const catOrderChanged = keptOrderO !== keptOrderD || newCats.length > 0;
+
+  const placeO = {}, placeD = {};
+  O.categories.forEach(c => c.items.forEach(p => (placeO[p] = placeO[p] || []).push(c)));
+  D.categories.forEach(c => c.items.forEach(p => (placeD[p] = placeD[p] || []).push(c)));
+  const allCodes = new Set([...Object.keys(placeO), ...Object.keys(placeD), ...Object.keys(D.products)]);
+  const moved = [], removed = [], added = [], renamed = [];
+  allCodes.forEach(code => {
+    const before = (placeO[code] || []).map(c => c.id), after = (placeD[code] || []).map(c => c.id);
+    const p = D.products[code] || O.products[code] || { name: code };
+    const isNew = !O.products[code];
+    if (isNew) { added.push({ code, name: p.name, cats: (placeD[code] || []).map(c => c.name) }); return; }
+    if (O.products[code].name !== p.name) renamed.push({ code, from: O.products[code].name, to: p.name });
+    const out = before.filter(x => !after.includes(x)), inn = after.filter(x => !before.includes(x));
+    if (!after.length && before.length) { removed.push({ code, name: p.name, from: before.map(id => (oCat[id] || {}).name) }); return; }
+    if (out.length || inn.length) moved.push({
+      code, name: p.name,
+      from: out.map(id => (dCat[id] || oCat[id]).name + (dCat[id] ? '' : ' (excluída)')),
+      to: inn.map(id => dCat[id].name),
+      before: before.map(id => (oCat[id] || {}).name), after: after.map(id => dCat[id].name),
+    });
+  });
+  const reordered = D.categories.filter(c => {
+    const o = oCat[c.id]; if (!o) return false;
+    const common = o.items.filter(x => c.items.includes(x));
+    return common.join() !== c.items.filter(x => o.items.includes(x)).join();
+  }).map(c => c.name);
+  const byName = (a, b) => a.name.localeCompare(b.name);
+  return { newCats, delCats, renCats, catOrderChanged, moved: moved.sort(byName), removed: removed.sort(byName), added: added.sort(byName), renamed, reordered };
+}
+
+function showSummary() {
+  const d = computeDiff();
+  const total = d.newCats.length + d.delCats.length + d.renCats.length + d.moved.length + d.removed.length + d.added.length + d.renamed.length + d.reordered.length + (d.catOrderChanged ? 1 : 0);
+  const sec = (title, rows, head, cols) => `<h4>${title} (${rows.length})</h4>` + (rows.length
+    ? `<table><tr>${head.map(h => `<th>${h}</th>`).join('')}</tr>${rows.map(r => `<tr>${cols(r).map(v => `<td>${v}</td>`).join('')}</tr>`).join('')}</table>`
+    : '<div class="none">Nenhuma.</div>');
+  const codeOf = c => String(c).startsWith('novo-') ? '—' : esc(c);
+  const m = modal(`
+    <h3>📋 Resumo das mudanças</h3>
+    <div class="body sum">
+      <p>Comparação entre <b>como está hoje no PDV</b> e <b>como ficou aqui</b>. É isso que o Lucas vai aplicar no sistema.</p>
+      <div class="sum-stats">
+        <div><b>${d.moved.length}</b><span>produtos mudaram de categoria</span></div>
+        <div><b>${d.added.length}</b><span>produtos novos</span></div>
+        <div><b>${d.removed.length}</b><span>produtos retirados</span></div>
+        <div><b>${d.newCats.length}</b><span>categorias novas</span></div>
+        <div><b>${d.delCats.length}</b><span>categorias excluídas</span></div>
+      </div>
+      ${total === 0 ? '<p class="none">Nada foi alterado ainda.</p>' : ''}
+      ${sec('Categorias novas', d.newCats, ['Categoria', 'Produtos'], c => [esc(c.name), c.items.length])}
+      ${sec('Categorias excluídas', d.delCats, ['Cód.', 'Categoria'], c => [esc(c.code), `<span class="strike">${esc(c.name)}</span>`])}
+      ${sec('Categorias renomeadas', d.renCats, ['Cód.', 'Antes', 'Agora'], r => [esc(r.code || 'nova'), esc(r.from), `<span class="arrow">➜</span> ${esc(r.to)}`])}
+      ${sec('Produtos que mudaram de categoria', d.moved, ['Cód.', 'Produto', 'Saiu de', 'Entrou em'], r => [codeOf(r.code), esc(r.name), r.from.length ? esc(r.from.join(', ')) : '—', r.to.length ? `<span class="arrow">➜</span> ${esc(r.to.join(', '))}` : '—'])}
+      ${sec('Produtos novos', d.added, ['Cód.', 'Produto', 'Em'], r => [codeOf(r.code), esc(r.name), esc(r.cats.join(', ') || '(nenhuma)')])}
+      ${sec('Produtos retirados do PDV', d.removed, ['Cód.', 'Produto', 'Estava em'], r => [codeOf(r.code), esc(r.name), esc(r.from.join(', '))])}
+      ${sec('Produtos renomeados', d.renamed, ['Cód.', 'Antes', 'Agora'], r => [codeOf(r.code), esc(r.from), esc(r.to)])}
+      <h4>Ordem na tela</h4>
+      <div class="none">${d.catOrderChanged ? 'A ordem das categorias mudou. ' : 'A ordem das categorias não mudou. '}${d.reordered.length ? 'Ordem dos produtos mudou em: ' + esc(d.reordered.join(', ')) + '.' : 'A ordem dos produtos não mudou.'}</div>
+    </div>
+    <div class="actions">
+      <button class="mbtn" id="dl-csv" type="button">⬇ Baixar planilha final (CSV)</button>
+      <button class="mbtn" id="dl-md" type="button">⬇ Baixar resumo (texto)</button>
+      <button class="mbtn primary" data-close type="button">Fechar</button>
+    </div>`, { wide: true });
+  $('#dl-csv', m.el).onclick = () => download('pdv-final.csv', finalCsv(), 'text/csv;charset=utf-8');
+  $('#dl-md', m.el).onclick = () => download('RESUMO-mudancas-pdv.md', summaryMarkdown(), 'text/markdown;charset=utf-8');
+}
+
+function summaryMarkdown() {
+  const d = computeDiff();
+  const when = new Date().toLocaleString('pt-BR');
+  const L = [];
+  const cc = c => String(c).startsWith('novo-') ? '—' : c;
+  L.push('# Resumo das mudanças no PDV', '', `Atualizado em ${when}. Gerado automaticamente pelo Organizador do PDV.`, '');
+  L.push(`- Produtos que mudaram de categoria: **${d.moved.length}**`, `- Produtos novos: **${d.added.length}**`, `- Produtos retirados do PDV: **${d.removed.length}**`, `- Categorias novas: **${d.newCats.length}**`, `- Categorias excluídas: **${d.delCats.length}**`, `- Categorias renomeadas: **${d.renCats.length}**`, '');
+  const tbl = (title, head, rows) => {
+    L.push(`## ${title} (${rows.length})`, '');
+    if (!rows.length) { L.push('_Nenhuma._', ''); return; }
+    L.push('| ' + head.join(' | ') + ' |', '|' + head.map(() => '---').join('|') + '|');
+    rows.forEach(r => L.push('| ' + r.map(v => String(v).replace(/\|/g, '/')).join(' | ') + ' |'));
+    L.push('');
+  };
+  tbl('Categorias novas', ['Categoria', 'Qtd. produtos'], d.newCats.map(c => [c.name, c.items.length]));
+  tbl('Categorias excluídas', ['Cód.', 'Categoria'], d.delCats.map(c => [c.code, c.name]));
+  tbl('Categorias renomeadas', ['Cód.', 'Antes', 'Agora'], d.renCats.map(r => [r.code || 'nova', r.from, r.to]));
+  tbl('Produtos que mudaram de categoria', ['Cód.', 'Produto', 'Saiu de', 'Entrou em', 'Fica em'], d.moved.map(r => [cc(r.code), r.name, r.from.join(', ') || '—', r.to.join(', ') || '—', r.after.join(', ')]));
+  tbl('Produtos novos', ['Cód.', 'Produto', 'Categorias'], d.added.map(r => [cc(r.code), r.name, r.cats.join(', ')]));
+  tbl('Produtos retirados do PDV', ['Cód.', 'Produto', 'Estava em'], d.removed.map(r => [cc(r.code), r.name, r.from.join(', ')]));
+  tbl('Produtos renomeados', ['Cód.', 'Antes', 'Agora'], d.renamed.map(r => [cc(r.code), r.from, r.to]));
+  L.push('## Ordem na tela', '', d.catOrderChanged ? '- A ordem das categorias mudou (ver estrutura abaixo).' : '- A ordem das categorias não mudou.',
+    d.reordered.length ? `- Ordem dos produtos mudou em: ${d.reordered.join(', ')}` : '- A ordem dos produtos não mudou.', '');
+  L.push('## Estrutura final (na ordem da tela)', '');
+  S.data.categories.forEach((c, i) => {
+    L.push(`### ${i + 1}. ${c.name}${c.code ? ` (grupo ${c.code})` : ' (NOVA)'} — ${c.items.length} produtos`, '');
+    c.items.forEach((code, j) => L.push(`${j + 1}. ${pname(code)} — cód. ${cc(code)}`));
+    L.push('');
+  });
+  L.push('## Histórico de alterações', '');
+  S.data.log.slice().reverse().forEach(l => L.push(`- ${new Date(l.t).toLocaleString('pt-BR')} — ${l.msg}`));
+  return L.join('\n');
+}
+
+function finalCsv() {
+  const q = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
+  const head = ['Ordem Categoria', 'Grupo', 'Descrição do Grupo', 'Ordem Produto', 'Produto', 'Descrição do produto', 'Situação'];
+  const oPlace = {};
+  S.original.categories.forEach(c => c.items.forEach(p => (oPlace[p] = oPlace[p] || new Set()).add(c.id)));
+  const rows = [head.map(q).join(';')];
+  S.data.categories.forEach((c, i) => c.items.forEach((code, j) => {
+    const p = prod(code) || { name: code };
+    let sit = 'Mantido';
+    if (!S.original.products[code]) sit = 'Produto novo';
+    else if (!(oPlace[code] && oPlace[code].has(c.id))) sit = 'Entrou nesta categoria';
+    if (c.isNew) sit += ' (categoria nova)';
+    rows.push([i + 1, c.code || 'NOVA', c.name, j + 1, String(code).startsWith('novo-') ? '' : code, p.name, sit].map(q).join(';'));
+  }));
+  return '﻿' + rows.join('\r\n');
+}
+
+function download(name, content, type) {
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(new Blob([content], { type }));
+  a.download = name; document.body.appendChild(a); a.click();
+  setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+}
+
+// ===================== Ajuda =====================
+function showHelp() {
+  modal(`
+    <h3>Como usar o Organizador do PDV</h3>
+    <div class="body">
+      <p>Esta tela é uma cópia do PDV. Tudo o que você mudar aqui fica <b>salvo sozinho na nuvem</b> e o Lucas usa depois para arrumar o PDV de verdade. <b>Nada muda no PDV da loja</b> enquanto você mexe aqui.</p>
+      <p><b>📂 Ver produtos:</b> clique numa categoria. Para voltar, use <b>Volta para Categorias</b>.</p>
+      <p><b>➜ Mudar produto de categoria:</b> clique no(s) produto(s) para marcar (fica com borda amarela e ✓) e depois em <b>Mover para…</b>. Escolha a categoria de destino.</p>
+      <p><b>⧉ Produto em mais de uma categoria:</b> marque e clique em <b>Colocar também em…</b>. A etiqueta verde <i>+1 categ.</i> mostra que o produto aparece em outro lugar também.</p>
+      <p><b>＋ Criar:</b> use <b>Nova Categoria</b> (na tela inicial) ou <b>Novo Produto</b> (dentro de uma categoria).</p>
+      <p><b>🗑 Excluir:</b> marque os produtos e clique em <b>Excluir</b>. Para excluir ou renomear uma categoria, abra a categoria e use os botões ao lado do nome dela.</p>
+      <p><b>↕ Mudar a ordem:</b> arraste a categoria ou o produto para a posição que quiser.</p>
+      <p><b>↶ Errou?</b> Clique em <b>Desfazer</b> quantas vezes precisar.</p>
+      <p><b>📋 Resumo das Mudanças</b> (tela inicial) mostra tudo o que já foi alterado.</p>
+    </div>
+    <div class="actions"><button class="mbtn primary" data-close type="button">Entendi</button></div>`, { wide: false });
+}
+
+// ===================== Janelas (modais) =====================
+function modal(html, { wide } = {}) {
+  const root = $('#modal-root');
+  const ov = document.createElement('div');
+  ov.className = 'overlay';
+  ov.innerHTML = `<div class="modal ${wide ? 'wide' : ''}" role="dialog" aria-modal="true">${html}</div>`;
+  root.appendChild(ov);
+  let onClose = null;
+  const close = (val) => { ov.remove(); document.removeEventListener('keydown', key); if (onClose) onClose(val); };
+  const key = e => { if (e.key === 'Escape') close(null); };
+  document.addEventListener('keydown', key);
+  ov.addEventListener('mousedown', e => { if (e.target === ov) close(null); });
+  ov.querySelectorAll('[data-close]').forEach(b => b.addEventListener('click', () => close(null)));
+  const el = ov.firstElementChild;
+  return { el, close, set onClose(fn) { onClose = fn; } };
+}
+
+function askText({ title, text = '', label, value = '', placeholder = '', ok = 'OK', type = 'text', sub = '' }) {
+  return new Promise(resolve => {
+    const m = modal(`
+      <h3>${esc(title)}</h3>
+      <form class="body">
+        ${text ? `<p>${esc(text)}</p>` : ''}
+        <label class="field"><span>${esc(label)}</span><input type="${type}" value="${esc(value)}" placeholder="${esc(placeholder)}" required>${sub ? `<small>${esc(sub)}</small>` : ''}</label>
+        <button type="submit" hidden></button>
+      </form>
+      <div class="actions"><button class="mbtn" data-close type="button">Cancelar</button><button class="mbtn primary" data-ok type="button">${esc(ok)}</button></div>`);
+    m.onClose = v => resolve(v);
+    const input = $('input', m.el);
+    const submit = () => { const v = input.value.trim(); if (!v) { input.focus(); return; } m.close(v); };
+    $('form', m.el).addEventListener('submit', e => { e.preventDefault(); submit(); });
+    $('[data-ok]', m.el).onclick = submit;
+    input.focus(); input.select();
+  });
+}
+
+function formBox({ title, fields, ok }) {
+  return new Promise(resolve => {
+    const m = modal(`
+      <h3>${esc(title)}</h3>
+      <form class="body">
+        ${fields.map(f => `<label class="field"><span>${esc(f.label)}</span><input name="${f.key}" placeholder="${esc(f.placeholder || '')}" ${f.required ? 'required' : ''}>${f.help ? `<small>${esc(f.help)}</small>` : ''}</label>`).join('')}
+        <button type="submit" hidden></button>
+      </form>
+      <div class="actions"><button class="mbtn" data-close type="button">Cancelar</button><button class="mbtn primary" data-ok type="button">${esc(ok)}</button></div>`);
+    m.onClose = v => resolve(v);
+    const form = $('form', m.el);
+    const submit = () => {
+      const out = {};
+      for (const f of fields) {
+        const v = form.elements[f.key].value.trim();
+        if (f.required && !v) { form.elements[f.key].focus(); return; }
+        out[f.key] = v;
+      }
+      m.close(out);
+    };
+    form.addEventListener('submit', e => { e.preventDefault(); submit(); });
+    $('[data-ok]', m.el).onclick = submit;
+    form.elements[fields[0].key].focus();
+  });
+}
+
+function confirmBox({ title, text, ok = 'OK', danger }) {
+  return new Promise(resolve => {
+    const m = modal(`
+      <h3>${esc(title)}</h3>
+      <div class="body"><p>${text}</p></div>
+      <div class="actions"><button class="mbtn" data-close type="button">Cancelar</button><button class="mbtn ${danger ? 'danger' : 'primary'}" data-ok type="button">${esc(ok)}</button></div>`);
+    m.onClose = v => resolve(!!v);
+    $('[data-ok]', m.el).onclick = () => m.close(true);
+    $('[data-ok]', m.el).focus();
+  });
+}
+
+function choose({ title, text, options }) {
+  return new Promise(resolve => {
+    const m = modal(`
+      <h3>${esc(title)}</h3>
+      <div class="body"><p>${text}</p></div>
+      <div class="actions"><button class="mbtn" data-close type="button">Cancelar</button>
+        ${options.map(o => `<button class="mbtn ${o.cls || ''}" data-k="${o.key}" type="button">${esc(o.label)}</button>`).join('')}</div>`);
+    m.onClose = v => resolve(v);
+    m.el.querySelectorAll('[data-k]').forEach(b => b.onclick = () => m.close(b.dataset.k));
+  });
+}
+
+function pickCategory({ title, sub = '', exclude }) {
+  return new Promise(resolve => {
+    const list = cats().filter(c => c.id !== exclude);
+    const m = modal(`
+      <h3>${esc(title)}</h3>
+      <div class="body">
+        ${sub ? `<p>${esc(sub)}</p>` : ''}
+        <div class="pick">
+          ${list.map(c => `<button data-id="${esc(c.id)}" type="button"><div class="thumb">${catImg(c)}</div><div class="nm">${esc(c.name)}<small>${c.items.length} produtos</small></div></button>`).join('')}
+          <button class="new-cat" data-new type="button"><span style="font-size:26px">＋</span>Criar nova categoria</button>
+        </div>
+      </div>
+      <div class="actions"><button class="mbtn" data-close type="button">Cancelar</button></div>`, { wide: true });
+    m.onClose = v => resolve(v);
+    m.el.querySelectorAll('.pick [data-id]').forEach(b => b.onclick = () => m.close(b.dataset.id));
+    $('[data-new]', m.el).onclick = async () => {
+      m.onClose = null; m.close(null);
+      const id = await newCategory('stay');
+      resolve(id);
+    };
+  });
+}
+
+// ===================== Avisos =====================
+let toastT;
+function toast(msg) {
+  const t = $('#toast'); t.textContent = msg; t.classList.add('show');
+  clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove('show'), 3200);
+}
+function showBanner(msg) { const b = $('#banner'); b.textContent = msg; b.hidden = false; }
+
+load().catch(e => {
+  $('#loading').textContent = 'Erro ao carregar: ' + e.message;
+});
+})();
+</script>
+</body>
+</html>

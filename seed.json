@@ -1,0 +1,2023 @@
+{
+"version": 1,
+"categories": [
+{
+"id": "c110",
+"code": "110",
+"name": "MINI PREÇOS (NOVOS)",
+"img": "img/cat-110.jpg",
+"items": [
+"12017",
+"11795",
+"11911",
+"11909",
+"11901",
+"11910",
+"11908"
+]
+},
+{
+"id": "c111",
+"code": "111",
+"name": "LOJISTA (NOVO)",
+"img": "img/cat-111.jpg",
+"items": [
+"11996",
+"11997",
+"11943",
+"11962",
+"11969",
+"11994",
+"11995",
+"11965",
+"11967",
+"11960",
+"11912",
+"11961",
+"12047",
+"11941",
+"11966",
+"11963",
+"11974",
+"11979",
+"11795"
+]
+},
+{
+"id": "c19",
+"code": "19",
+"name": "PAO DE QUEIJO",
+"img": "img/cat-19.jpg",
+"items": [
+"2562",
+"12200",
+"15639",
+"10998",
+"11255",
+"11755",
+"491",
+"12061"
+]
+},
+{
+"id": "c3",
+"code": "3",
+"name": "SALGADOS",
+"img": "img/cat-3.jpg",
+"items": [
+"524",
+"11863",
+"508",
+"509",
+"510",
+"507",
+"2118",
+"2120",
+"11781",
+"11782",
+"11417",
+"11418",
+"11830",
+"11010",
+"11009",
+"11119",
+"502",
+"506",
+"523",
+"501",
+"519",
+"518",
+"517",
+"11788",
+"11789",
+"11419",
+"11421",
+"12076",
+"12077"
+]
+},
+{
+"id": "c4",
+"code": "4",
+"name": "MATE",
+"img": "img/cat-4.jpg",
+"items": [
+"11086",
+"226",
+"11338",
+"1",
+"76",
+"10562",
+"5",
+"80",
+"10605",
+"7",
+"82",
+"10609",
+"11040",
+"11041",
+"11042",
+"18",
+"93",
+"10615",
+"17",
+"92",
+"10617",
+"16",
+"91",
+"10618",
+"24",
+"99",
+"10620",
+"26",
+"101",
+"10621",
+"31",
+"106",
+"10625",
+"30",
+"105",
+"10626",
+"32",
+"107",
+"10627",
+"33",
+"108",
+"10616",
+"34",
+"10628",
+"11591",
+"11592",
+"11593",
+"38",
+"113",
+"10629",
+"11451",
+"11452",
+"11453",
+"11581",
+"11578",
+"11579",
+"11580",
+"11650",
+"11931",
+"11893"
+]
+},
+{
+"id": "c5",
+"code": "5",
+"name": "GUARANA NATURAL",
+"img": "img/cat-5.jpg",
+"items": [
+"11037",
+"11038",
+"11039",
+"11229",
+"11339",
+"301",
+"341",
+"10564",
+"326",
+"366",
+"10662",
+"11201",
+"11202",
+"11203"
+]
+},
+{
+"id": "c8",
+"code": "8",
+"name": "AÇAÍ",
+"img": "img/cat-8.jpg",
+"items": [
+"446",
+"458",
+"10561",
+"448",
+"459",
+"10668",
+"447",
+"460",
+"10667",
+"11215",
+"11216",
+"11217",
+"11209",
+"11210",
+"11211",
+"11603",
+"11604",
+"11605",
+"11570",
+"10372",
+"10373",
+"10582",
+"11804",
+"11858",
+"11873"
+]
+},
+{
+"id": "c7",
+"code": "7",
+"name": "CAFETERIA ESPRESSO",
+"img": "img/cat-7.jpg",
+"items": [
+"462",
+"463",
+"470",
+"11063"
+]
+},
+{
+"id": "c20",
+"code": "20",
+"name": "CAFETERIA BEBIDAS QUENTES",
+"img": "img/cat-20.jpg",
+"items": [
+"11668",
+"11672",
+"11443",
+"11444",
+"11665",
+"2506",
+"11670",
+"467",
+"11677",
+"11446",
+"11669",
+"2002",
+"11671",
+"11064",
+"11664",
+"11445",
+"11666",
+"11667"
+]
+},
+{
+"id": "c21",
+"code": "21",
+"name": "CAFETERIA BEBIDAS GELADAS",
+"img": "img/cat-21.jpg",
+"items": [
+"11309",
+"11310",
+"11448",
+"11857",
+"1806",
+"11595",
+"11449",
+"11859",
+"11451",
+"11452",
+"11453",
+"11804",
+"11858"
+]
+},
+{
+"id": "c9",
+"code": "9",
+"name": "MEGASHAKES",
+"img": "img/cat-9.jpg",
+"items": [
+"305",
+"345",
+"10665",
+"334",
+"374",
+"10576",
+"323",
+"363",
+"10575"
+]
+},
+{
+"id": "c10",
+"code": "10",
+"name": "VITAMINAS",
+"img": "img/cat-10.jpg",
+"items": [
+"2102",
+"2103",
+"10685",
+"2106",
+"2107",
+"10686",
+"886",
+"887",
+"10687"
+]
+},
+{
+"id": "c11",
+"code": "11",
+"name": "SUCOS",
+"img": "img/cat-11.jpg",
+"items": [
+"616",
+"850",
+"10568",
+"9854",
+"855",
+"10569",
+"857",
+"856",
+"10574",
+"622",
+"874",
+"10671",
+"630",
+"851",
+"10566",
+"631",
+"852",
+"10567",
+"633",
+"853",
+"10571",
+"634",
+"862",
+"10570",
+"636",
+"863",
+"10573",
+"2627",
+"2628",
+"10578",
+"639",
+"885",
+"10572",
+"640",
+"868",
+"10676",
+"644",
+"870",
+"10678"
+]
+},
+{
+"id": "c12",
+"code": "12",
+"name": "ÁGUA",
+"img": "img/cat-12.jpg",
+"items": [
+"11011",
+"2027",
+"10164",
+"1800",
+"1801",
+"10597"
+]
+},
+{
+"id": "c13",
+"code": "13",
+"name": "SANDUICHES CHAPA",
+"img": "img/cat-13.jpg",
+"items": [
+"10361",
+"10233",
+"2551"
+]
+},
+{
+"id": "c14",
+"code": "14",
+"name": "SANDUÍCHES GOURMET",
+"img": "img/cat-14.jpg",
+"items": [
+"11114",
+"10362",
+"11118",
+"11113"
+]
+},
+{
+"id": "c15",
+"code": "15",
+"name": "SANDUÍCHES NATURAIS",
+"img": "img/cat-15.jpg",
+"items": [
+"11179",
+"11180",
+"11181",
+"11182"
+]
+},
+{
+"id": "c6",
+"code": "6",
+"name": "SOBREMESAS",
+"img": "img/cat-6.jpg",
+"items": [
+"11689",
+"11768",
+"2029",
+"10820",
+"548",
+"489",
+"11690",
+"11693",
+"11691",
+"11692",
+"12080",
+"11109",
+"11056",
+"490",
+"494",
+"2701",
+"11110",
+"2688",
+"11762",
+"10922",
+"15505",
+"15506",
+"15507",
+"15503",
+"15508",
+"15504",
+"15050",
+"11831",
+"2112",
+"2073",
+"11428",
+"485",
+"10231",
+"10298"
+]
+},
+{
+"id": "c2",
+"code": "2",
+"name": "PROMOÇÕES",
+"img": "img/cat-2.jpg",
+"items": [
+"10708",
+"10709",
+"10710",
+"11827",
+"11826",
+"12020",
+"11703",
+"15013",
+"2686",
+"12093",
+"11661",
+"11659",
+"11657",
+"2131",
+"11710",
+"11711",
+"11712",
+"11713",
+"11575",
+"10416",
+"11651",
+"1938",
+"11754",
+"11815",
+"15014",
+"15015",
+"11294"
+]
+},
+{
+"id": "c18",
+"code": "18",
+"name": "EXTRA",
+"img": "img/cat-18.jpg",
+"items": [
+"11790",
+"607",
+"11622",
+"603",
+"2072",
+"605",
+"11050",
+"610",
+"11144",
+"10763",
+"613",
+"11457"
+]
+},
+{
+"id": "c45",
+"code": "45",
+"name": "CONGELADOS",
+"img": "img/cat-45.jpg",
+"items": [
+"10261",
+"2127",
+"11361",
+"11362",
+"11363",
+"11368",
+"11369"
+]
+},
+{
+"id": "c93",
+"code": "93",
+"name": "FOLDER CAFETERIA",
+"img": "img/cat-93.jpg",
+"items": [
+"12048",
+"12654",
+"12651",
+"12652",
+"12653",
+"12058",
+"12059",
+"12650",
+"12655"
+]
+},
+{
+"id": "c92",
+"code": "92",
+"name": "FOLDER COMBOS",
+"img": "img/cat-92.jpg",
+"items": [
+"12661",
+"12665",
+"12667",
+"12668",
+"12663",
+"12664",
+"12662",
+"12666"
+]
+},
+{
+"id": "c101",
+"code": "101",
+"name": "COFFEE PARTY TERÊ",
+"img": "img/cat-101.jpg",
+"items": [
+"11931",
+"15505",
+"15506",
+"15507",
+"15503",
+"15508",
+"15504"
+]
+}
+],
+"products": {
+"12017": {
+"code": "12017",
+"name": "P.MP - SANDUICHE + SUCO"
+},
+"11795": {
+"code": "11795",
+"name": "PROM -  LOJISTA"
+},
+"11911": {
+"code": "11911",
+"name": "P.MP - SALGADO + MATE OU GUA"
+},
+"11909": {
+"code": "11909",
+"name": "P.MP - SALGADO + SUCO"
+},
+"11901": {
+"code": "11901",
+"name": "P.MP - 8 PQ/BRO + MATE OU GUA"
+},
+"11910": {
+"code": "11910",
+"name": "P.MP - 8 PQ/BRO + SUCO"
+},
+"11908": {
+"code": "11908",
+"name": "P.MP - SANDUICHE + MATE OU GUA"
+},
+"11996": {
+"code": "11996",
+"name": "P.LOJ - 1 COOKIE + CAFE 100ML"
+},
+"11997": {
+"code": "11997",
+"name": "P.LOJ - 1 COOKIE + CAFE 200ML"
+},
+"11943": {
+"code": "11943",
+"name": "P.LOJ - 12 PQ/BRO + CAFE 200ML"
+},
+"11962": {
+"code": "11962",
+"name": "P.LOJ - 12 PQ/BRO + MATE OU GUA"
+},
+"11969": {
+"code": "11969",
+"name": "P.LOJ - 12 PQ/BRO + SUCO"
+},
+"11994": {
+"code": "11994",
+"name": "P.LOJ - 6 PQ/BRO + CAFE 100ML"
+},
+"11995": {
+"code": "11995",
+"name": "P.LOJ - 6 PQ/BRO + CAFE 200ML"
+},
+"11965": {
+"code": "11965",
+"name": "P.LOJ - 6 PQ/BRO + CAFE 50ML"
+},
+"11967": {
+"code": "11967",
+"name": "P.LOJ - 6 PQ/BRO + MATE OU GUA"
+},
+"11960": {
+"code": "11960",
+"name": "P.LOJ - 6 PQ/BRO + SUCO"
+},
+"11912": {
+"code": "11912",
+"name": "P.LOJ - 8 PQ/BRO + MATE OU GUA"
+},
+"11961": {
+"code": "11961",
+"name": "P.LOJ - 8 PQ/BRO + SUCO"
+},
+"12047": {
+"code": "12047",
+"name": "P.LOJ - SALGADO"
+},
+"11941": {
+"code": "11941",
+"name": "P.LOJ - SALGADO + CAFE 200ML"
+},
+"11966": {
+"code": "11966",
+"name": "P.LOJ - SALGADO + MATE OU GUA"
+},
+"11963": {
+"code": "11963",
+"name": "P.LOJ - SALGADO + SUCO"
+},
+"11974": {
+"code": "11974",
+"name": "P.LOJ - SANDUICHE + MATE OU GUA"
+},
+"11979": {
+"code": "11979",
+"name": "P.LOJ - SANDUICHE + SUCO"
+},
+"2562": {
+"code": "2562",
+"name": "P.12 P.QUEIJO"
+},
+"12200": {
+"code": "12200",
+"name": "P.18 PQ COPO MARCELO MENT"
+},
+"15639": {
+"code": "15639",
+"name": "P.4 P.QUEIJO CEUB"
+},
+"10998": {
+"code": "10998",
+"name": "P.6 P.QUEIJO"
+},
+"11255": {
+"code": "11255",
+"name": "P.8 P.QUEIJO"
+},
+"11755": {
+"code": "11755",
+"name": "PAO DE QUEIJO GRANDE"
+},
+"491": {
+"code": "491",
+"name": "PAO DE QUEIJO UNID"
+},
+"12061": {
+"code": "12061",
+"name": "PL-P.12 PQ"
+},
+"524": {
+"code": "524",
+"name": "CHEESEB. FORNO CHEDDAR"
+},
+"11863": {
+"code": "11863",
+"name": "CHEESEB. FORNO TRADICIONAL"
+},
+"508": {
+"code": "508",
+"name": "CROISSANT FRANGO"
+},
+"509": {
+"code": "509",
+"name": "CROISSANT MISTO"
+},
+"510": {
+"code": "510",
+"name": "CROISSANT PIZZA"
+},
+"507": {
+"code": "507",
+"name": "CROISSANT QUATRO QUEIJOS"
+},
+"2118": {
+"code": "2118",
+"name": "CROISSANT.INT. FRANGO C/REQ"
+},
+"2120": {
+"code": "2120",
+"name": "CROISSANT.INT. QUEIJO MINAS"
+},
+"11781": {
+"code": "11781",
+"name": "EMPADA CAMARAO"
+},
+"11782": {
+"code": "11782",
+"name": "EMPADA CARNE SECA"
+},
+"11417": {
+"code": "11417",
+"name": "EMPADA FRANGO"
+},
+"11418": {
+"code": "11418",
+"name": "EMPADA PALMITO"
+},
+"11830": {
+"code": "11830",
+"name": "EMPADAO FRANGO (250G)"
+},
+"11010": {
+"code": "11010",
+"name": "FOLHADO FRANGO"
+},
+"11009": {
+"code": "11009",
+"name": "FOLHADO PEITO DE PERU"
+},
+"11119": {
+"code": "11119",
+"name": "FOLHADO.INT PEITO DE PERU C/QUEIJO"
+},
+"502": {
+"code": "502",
+"name": "P.BATATA CALABRESA"
+},
+"506": {
+"code": "506",
+"name": "P.BATATA MISTO"
+},
+"523": {
+"code": "523",
+"name": "P.BATATA PERU C/QUEIJO MINAS"
+},
+"501": {
+"code": "501",
+"name": "P.BATATA REQUEIJAO"
+},
+"519": {
+"code": "519",
+"name": "PASTEL INT. FRANGO CEN.PASSAS"
+},
+"518": {
+"code": "518",
+"name": "PASTEL INT. PALMITO C/CHAMP"
+},
+"517": {
+"code": "517",
+"name": "PASTEL INT. QUEIJO MINAS"
+},
+"11788": {
+"code": "11788",
+"name": "PROMO EMPADA CAMARAO"
+},
+"11789": {
+"code": "11789",
+"name": "PROMO EMPADA CARNE SECA"
+},
+"11419": {
+"code": "11419",
+"name": "PROMO EMPADA FRANGO"
+},
+"11421": {
+"code": "11421",
+"name": "PROMO EMPADA PALMITO"
+},
+"12076": {
+"code": "12076",
+"name": "QUICHE 4 QUEIJOS"
+},
+"12077": {
+"code": "12077",
+"name": "QUICHE INT ALHO PORO"
+},
+"11086": {
+"code": "11086",
+"name": "ERVA MATE CX 250G"
+},
+"226": {
+"code": "226",
+"name": "MATE 1L"
+},
+"11338": {
+"code": "11338",
+"name": "MATE 1L REFIL"
+},
+"1": {
+"code": "1",
+"name": "MATE 300ML"
+},
+"76": {
+"code": "76",
+"name": "MATE 500ML"
+},
+"10562": {
+"code": "10562",
+"name": "MATE 700ML"
+},
+"5": {
+"code": "5",
+"name": "MATE C/LEITE 300ML"
+},
+"80": {
+"code": "80",
+"name": "MATE C/LEITE 500ML"
+},
+"10605": {
+"code": "10605",
+"name": "MATE C/LEITE 700ML"
+},
+"7": {
+"code": "7",
+"name": "MATE C/PROTEINATO 300ML"
+},
+"82": {
+"code": "82",
+"name": "MATE C/PROTEINATO 500ML"
+},
+"10609": {
+"code": "10609",
+"name": "MATE C/PROTEINATO 700ML"
+},
+"11040": {
+"code": "11040",
+"name": "MATE FRUTA 300ML"
+},
+"11041": {
+"code": "11041",
+"name": "MATE FRUTA 500ML"
+},
+"11042": {
+"code": "11042",
+"name": "MATE FRUTA 700ML"
+},
+"18": {
+"code": "18",
+"name": "MATE FRUTA ABACAXI 300ML"
+},
+"93": {
+"code": "93",
+"name": "MATE FRUTA ABACAXI 500ML"
+},
+"10615": {
+"code": "10615",
+"name": "MATE FRUTA ABACAXI 700ML"
+},
+"17": {
+"code": "17",
+"name": "MATE FRUTA ACAI 300ML"
+},
+"92": {
+"code": "92",
+"name": "MATE FRUTA ACAI 500ML"
+},
+"10617": {
+"code": "10617",
+"name": "MATE FRUTA ACAI 700ML"
+},
+"16": {
+"code": "16",
+"name": "MATE FRUTA ACEROLA 300ML"
+},
+"91": {
+"code": "91",
+"name": "MATE FRUTA ACEROLA 500ML"
+},
+"10618": {
+"code": "10618",
+"name": "MATE FRUTA ACEROLA 700ML"
+},
+"24": {
+"code": "24",
+"name": "MATE FRUTA CAJU 300ML"
+},
+"99": {
+"code": "99",
+"name": "MATE FRUTA CAJU 500ML"
+},
+"10620": {
+"code": "10620",
+"name": "MATE FRUTA CAJU 700ML"
+},
+"26": {
+"code": "26",
+"name": "MATE FRUTA COCO 300ML"
+},
+"101": {
+"code": "101",
+"name": "MATE FRUTA COCO 500ML"
+},
+"10621": {
+"code": "10621",
+"name": "MATE FRUTA COCO 700ML"
+},
+"31": {
+"code": "31",
+"name": "MATE FRUTA MAMAO 300ML"
+},
+"106": {
+"code": "106",
+"name": "MATE FRUTA MAMAO 500ML"
+},
+"10625": {
+"code": "10625",
+"name": "MATE FRUTA MAMAO 700ML"
+},
+"30": {
+"code": "30",
+"name": "MATE FRUTA MANGA 300ML"
+},
+"105": {
+"code": "105",
+"name": "MATE FRUTA MANGA 500ML"
+},
+"10626": {
+"code": "10626",
+"name": "MATE FRUTA MANGA 700ML"
+},
+"32": {
+"code": "32",
+"name": "MATE FRUTA MARACUJA 300ML"
+},
+"107": {
+"code": "107",
+"name": "MATE FRUTA MARACUJA 500ML"
+},
+"10627": {
+"code": "10627",
+"name": "MATE FRUTA MARACUJA 700ML"
+},
+"33": {
+"code": "33",
+"name": "MATE FRUTA MORANGO 300ML"
+},
+"108": {
+"code": "108",
+"name": "MATE FRUTA MORANGO 500ML"
+},
+"10616": {
+"code": "10616",
+"name": "MATE FRUTA MORANGO 700ML"
+},
+"34": {
+"code": "34",
+"name": "MATE FRUTA PESSEGO 300ML"
+},
+"10628": {
+"code": "10628",
+"name": "MATE FRUTA PESSEGO 700ML"
+},
+"11591": {
+"code": "11591",
+"name": "MATE FRUTA SOLU 300ML"
+},
+"11592": {
+"code": "11592",
+"name": "MATE FRUTA SOLU 500ML"
+},
+"11593": {
+"code": "11593",
+"name": "MATE FRUTA SOLU 700ML"
+},
+"38": {
+"code": "38",
+"name": "MATE FRUTA UVA 300ML"
+},
+"113": {
+"code": "113",
+"name": "MATE FRUTA UVA 500ML"
+},
+"10629": {
+"code": "10629",
+"name": "MATE FRUTA UVA 700ML"
+},
+"11451": {
+"code": "11451",
+"name": "MATE OVOMALTINE 300ML"
+},
+"11452": {
+"code": "11452",
+"name": "MATE OVOMALTINE 500ML"
+},
+"11453": {
+"code": "11453",
+"name": "MATE OVOMALTINE 700ML"
+},
+"11581": {
+"code": "11581",
+"name": "MATE SOLU 1L"
+},
+"11578": {
+"code": "11578",
+"name": "MATE SOLU 300ML"
+},
+"11579": {
+"code": "11579",
+"name": "MATE SOLU 500ML"
+},
+"11580": {
+"code": "11580",
+"name": "MATE SOLU 700ML"
+},
+"11650": {
+"code": "11650",
+"name": "P.MATE 300ML"
+},
+"11931": {
+"code": "11931",
+"name": "P.MATE OU GUARANA 300ML GRATIS"
+},
+"11893": {
+"code": "11893",
+"name": "PL-MEGAMATTE DAY MATE 300ML/500ML"
+},
+"11037": {
+"code": "11037",
+"name": "GUARA FRUTA 300ML"
+},
+"11038": {
+"code": "11038",
+"name": "GUARA FRUTA 500ML"
+},
+"11039": {
+"code": "11039",
+"name": "GUARA FRUTA 700ML"
+},
+"11229": {
+"code": "11229",
+"name": "GUARANA 1L"
+},
+"11339": {
+"code": "11339",
+"name": "GUARANA 1L REFIL"
+},
+"301": {
+"code": "301",
+"name": "GUARANA 300ML"
+},
+"341": {
+"code": "341",
+"name": "GUARANA 500ML"
+},
+"10564": {
+"code": "10564",
+"name": "GUARANA 700ML"
+},
+"326": {
+"code": "326",
+"name": "GUARAPROTEIN 300ML"
+},
+"366": {
+"code": "366",
+"name": "GUARAPROTEIN 500ML"
+},
+"10662": {
+"code": "10662",
+"name": "GUARAPROTEIN 700ML"
+},
+"11201": {
+"code": "11201",
+"name": "GVITAMINA 300 ML"
+},
+"11202": {
+"code": "11202",
+"name": "GVITAMINA 500 ML"
+},
+"11203": {
+"code": "11203",
+"name": "GVITAMINA 700 ML"
+},
+"446": {
+"code": "446",
+"name": "ACAI 300ML"
+},
+"458": {
+"code": "458",
+"name": "ACAI 500ML"
+},
+"10561": {
+"code": "10561",
+"name": "ACAI 700ML"
+},
+"448": {
+"code": "448",
+"name": "ACAI C/BANANA 300ML"
+},
+"459": {
+"code": "459",
+"name": "ACAI C/BANANA 500ML"
+},
+"10668": {
+"code": "10668",
+"name": "ACAI C/BANANA 700ML"
+},
+"447": {
+"code": "447",
+"name": "ACAI C/MORANGO 300ML"
+},
+"460": {
+"code": "460",
+"name": "ACAI C/MORANGO 500ML"
+},
+"10667": {
+"code": "10667",
+"name": "ACAI C/MORANGO 700ML"
+},
+"11215": {
+"code": "11215",
+"name": "ACAI FIT 300ML"
+},
+"11216": {
+"code": "11216",
+"name": "ACAI FIT 500ML"
+},
+"11217": {
+"code": "11217",
+"name": "ACAI FIT 700ML"
+},
+"11209": {
+"code": "11209",
+"name": "ACAI NATURAL 300ML"
+},
+"11210": {
+"code": "11210",
+"name": "ACAI NATURAL 500ML"
+},
+"11211": {
+"code": "11211",
+"name": "ACAI NATURAL 700ML"
+},
+"11603": {
+"code": "11603",
+"name": "ACAI OVOMALTINE 300ML"
+},
+"11604": {
+"code": "11604",
+"name": "ACAI OVOMALTINE 500ML"
+},
+"11605": {
+"code": "11605",
+"name": "ACAI OVOMALTINE 700ML"
+},
+"11570": {
+"code": "11570",
+"name": "AMENDOIM MONTE SEU ACAI"
+},
+"10372": {
+"code": "10372",
+"name": "MEGA ACAI 300ML"
+},
+"10373": {
+"code": "10373",
+"name": "MEGA ACAI 500ML"
+},
+"10582": {
+"code": "10582",
+"name": "MEGA ACAI 700ML"
+},
+"11804": {
+"code": "11804",
+"name": "MONTE SEU ACAI 300ML"
+},
+"11858": {
+"code": "11858",
+"name": "MONTE SEU ACAI 500ML"
+},
+"11873": {
+"code": "11873",
+"name": "MONTE SEU ACAI 700ML"
+},
+"462": {
+"code": "462",
+"name": "ESPRESSO 50ML"
+},
+"463": {
+"code": "463",
+"name": "ESPRESSO DUPLO 100ML"
+},
+"470": {
+"code": "470",
+"name": "ESPRESSO DUPLO C/LEITE 200ML"
+},
+"11063": {
+"code": "11063",
+"name": "ESPRESSO MACCHIATO 50ML"
+},
+"11668": {
+"code": "11668",
+"name": "CAPPUCCINO DE DOCE DE LEITE 100ML"
+},
+"11672": {
+"code": "11672",
+"name": "CAPPUCCINO DE DOCE DE LEITE 200ML"
+},
+"11443": {
+"code": "11443",
+"name": "CAPPUCCINO DE PACOCA 200ML"
+},
+"11444": {
+"code": "11444",
+"name": "CAPPUCCINO OVOMALTINE 200ML"
+},
+"11665": {
+"code": "11665",
+"name": "CAPPUCCINO TRADICIONAL 100ML"
+},
+"2506": {
+"code": "2506",
+"name": "CAPPUCCINO TRADICIONAL 200ML"
+},
+"11670": {
+"code": "11670",
+"name": "CHOCOLATE QUENTE 100ML"
+},
+"467": {
+"code": "467",
+"name": "CHOCOLATE QUENTE 200ML"
+},
+"11677": {
+"code": "11677",
+"name": "CHOCOLATE QUENTE C/CAFE CHANTILLY 100ML"
+},
+"11446": {
+"code": "11446",
+"name": "CHOCOLATE QUENTE C/CAFE CHANTILLY 200ML"
+},
+"11669": {
+"code": "11669",
+"name": "MEGANELLA 100ML"
+},
+"2002": {
+"code": "2002",
+"name": "MEGANELLA 200ML"
+},
+"11671": {
+"code": "11671",
+"name": "MOCACCINO 100ML"
+},
+"11064": {
+"code": "11064",
+"name": "MOCACCINO 200ML"
+},
+"11664": {
+"code": "11664",
+"name": "CAPPUCCINO COM NUTELLA 100ML"
+},
+"11445": {
+"code": "11445",
+"name": "CAPPUCCINO COM NUTELLA 200ML"
+},
+"11666": {
+"code": "11666",
+"name": "CAPPUCCINO DE PACOCA 100ML"
+},
+"11667": {
+"code": "11667",
+"name": "CAPPUCCINO OVOMALTINE 100ML"
+},
+"11309": {
+"code": "11309",
+"name": "CAPPUCCINO COM NUTELLA GELADO 300ML"
+},
+"11310": {
+"code": "11310",
+"name": "CAPPUCCINO COM NUTELLA GELADO 500ML"
+},
+"11448": {
+"code": "11448",
+"name": "CAPPUCCINO TRAD GELADO 300ML"
+},
+"11857": {
+"code": "11857",
+"name": "CAPPUCCINO TRAD GELADO 500ML"
+},
+"1806": {
+"code": "1806",
+"name": "CHOCOLATE GELADO 300ML"
+},
+"11595": {
+"code": "11595",
+"name": "CHOCOLATE GELADO 500ML"
+},
+"11449": {
+"code": "11449",
+"name": "FRAPPE OVOMALTINE 300ML"
+},
+"11859": {
+"code": "11859",
+"name": "FRAPPE OVOMALTINE 500ML"
+},
+"305": {
+"code": "305",
+"name": "MEGASHAKE ACAI 300ML"
+},
+"345": {
+"code": "345",
+"name": "MEGASHAKE ACAI 500ML"
+},
+"10665": {
+"code": "10665",
+"name": "MEGASHAKE ACAI 700ML"
+},
+"334": {
+"code": "334",
+"name": "MEGASHAKE BANANA 300ML"
+},
+"374": {
+"code": "374",
+"name": "MEGASHAKE BANANA 500ML"
+},
+"10576": {
+"code": "10576",
+"name": "MEGASHAKE BANANA 700ML"
+},
+"323": {
+"code": "323",
+"name": "MEGASHAKE MORANGO 300ML"
+},
+"363": {
+"code": "363",
+"name": "MEGASHAKE MORANGO 500ML"
+},
+"10575": {
+"code": "10575",
+"name": "MEGASHAKE MORANGO 700ML"
+},
+"2102": {
+"code": "2102",
+"name": "VIT.BANANA C/AVEIA 300ML"
+},
+"2103": {
+"code": "2103",
+"name": "VIT.BANANA C/AVEIA 500ML"
+},
+"10685": {
+"code": "10685",
+"name": "VIT.BANANA C/AVEIA 700ML"
+},
+"2106": {
+"code": "2106",
+"name": "VIT.MISTA 300ML"
+},
+"2107": {
+"code": "2107",
+"name": "VIT.MISTA 500ML"
+},
+"10686": {
+"code": "10686",
+"name": "VIT.MISTA 700ML"
+},
+"886": {
+"code": "886",
+"name": "VIT.MORANGO AO LEITE 300ML"
+},
+"887": {
+"code": "887",
+"name": "VIT.MORANGO AO LEITE 500ML"
+},
+"10687": {
+"code": "10687",
+"name": "VIT.MORANGO AO LEITE 700ML"
+},
+"616": {
+"code": "616",
+"name": "S.ABACAXI 300ML"
+},
+"850": {
+"code": "850",
+"name": "S.ABACAXI 500ML"
+},
+"10568": {
+"code": "10568",
+"name": "S.ABACAXI 700ML"
+},
+"9854": {
+"code": "9854",
+"name": "S.ABACAXI C/HORTELA 300ML"
+},
+"855": {
+"code": "855",
+"name": "S.ABACAXI C/HORTELA 500ML"
+},
+"10569": {
+"code": "10569",
+"name": "S.ABACAXI C/HORTELA 700ML"
+},
+"857": {
+"code": "857",
+"name": "S.ACEROLA 300ML"
+},
+"856": {
+"code": "856",
+"name": "S.ACEROLA 500ML"
+},
+"10574": {
+"code": "10574",
+"name": "S.ACEROLA 700ML"
+},
+"622": {
+"code": "622",
+"name": "S.CAJU 300ML"
+},
+"874": {
+"code": "874",
+"name": "S.CAJU 500ML"
+},
+"10671": {
+"code": "10671",
+"name": "S.CAJU 700ML"
+},
+"630": {
+"code": "630",
+"name": "S.LARANJA 300ML"
+},
+"851": {
+"code": "851",
+"name": "S.LARANJA 500ML"
+},
+"10566": {
+"code": "10566",
+"name": "S.LARANJA 700ML"
+},
+"631": {
+"code": "631",
+"name": "S.LIMONADA SUICA 300ML"
+},
+"852": {
+"code": "852",
+"name": "S.LIMONADA SUICA 500ML"
+},
+"10567": {
+"code": "10567",
+"name": "S.LIMONADA SUICA 700ML"
+},
+"633": {
+"code": "633",
+"name": "S.MAMAO 300ML"
+},
+"853": {
+"code": "853",
+"name": "S.MAMAO 500ML"
+},
+"10571": {
+"code": "10571",
+"name": "S.MAMAO 700ML"
+},
+"634": {
+"code": "634",
+"name": "S.MANGA 300ML"
+},
+"862": {
+"code": "862",
+"name": "S.MANGA 500ML"
+},
+"10570": {
+"code": "10570",
+"name": "S.MANGA 700ML"
+},
+"636": {
+"code": "636",
+"name": "S.MARACUJA 300ML"
+},
+"863": {
+"code": "863",
+"name": "S.MARACUJA 500ML"
+},
+"10573": {
+"code": "10573",
+"name": "S.MARACUJA 700ML"
+},
+"2627": {
+"code": "2627",
+"name": "S.MEGA ENERGIA TROPICAL 300ML"
+},
+"2628": {
+"code": "2628",
+"name": "S.MEGA ENERGIA TROPICAL 500ML"
+},
+"10578": {
+"code": "10578",
+"name": "S.MEGA ENERGIA TROPICAL 700ML"
+},
+"639": {
+"code": "639",
+"name": "S.MORANGO 300ML"
+},
+"885": {
+"code": "885",
+"name": "S.MORANGO 500ML"
+},
+"10572": {
+"code": "10572",
+"name": "S.MORANGO 700ML"
+},
+"640": {
+"code": "640",
+"name": "S.PESSEGO 300ML"
+},
+"868": {
+"code": "868",
+"name": "S.PESSEGO 500ML"
+},
+"10676": {
+"code": "10676",
+"name": "S.PESSEGO 700ML"
+},
+"644": {
+"code": "644",
+"name": "S.UVA 300ML"
+},
+"870": {
+"code": "870",
+"name": "S.UVA 500ML"
+},
+"10678": {
+"code": "10678",
+"name": "S.UVA 700ML"
+},
+"11011": {
+"code": "11011",
+"name": "AGUA DE COCO 200ML"
+},
+"2027": {
+"code": "2027",
+"name": "AGUA MINERAL S/GAS 510ML"
+},
+"10164": {
+"code": "10164",
+"name": "AGUA MINERAL C/GAS 510ML"
+},
+"1800": {
+"code": "1800",
+"name": "AGUA DE COCO 300ML"
+},
+"1801": {
+"code": "1801",
+"name": "AGUA DE COCO 500ML"
+},
+"10597": {
+"code": "10597",
+"name": "AGUA DE COCO 700ML"
+},
+"10361": {
+"code": "10361",
+"name": "PAO FRANCES NA CHAPA"
+},
+"10233": {
+"code": "10233",
+"name": "SAND. MEGALEVE"
+},
+"2551": {
+"code": "2551",
+"name": "SAND. MEGAMISTO"
+},
+"11114": {
+"code": "11114",
+"name": "SAND. ABOBRINHA GREL PAST BERINJELA CIAB"
+},
+"10362": {
+"code": "10362",
+"name": "SAND. CIABATTA CARNE ASSADA"
+},
+"11118": {
+"code": "11118",
+"name": "SAND. COSTELA NO PÃO AUSTRALIANO"
+},
+"11113": {
+"code": "11113",
+"name": "SAND. FRANGO TOMATE SECO AZEITO BAGUETE"
+},
+"11179": {
+"code": "11179",
+"name": "SAND. NAT. ATUM COM REQUEIJÃO"
+},
+"11180": {
+"code": "11180",
+"name": "SAND. NAT. FRANGO COM CENOURA"
+},
+"11181": {
+"code": "11181",
+"name": "SAND. NAT. PEITO DE PERU"
+},
+"11182": {
+"code": "11182",
+"name": "SAND. NAT. SALPICAO DE FRANGO"
+},
+"11689": {
+"code": "11689",
+"name": "BOLO DE BANANA INT MEGAMATTE"
+},
+"11768": {
+"code": "11768",
+"name": "BOLO DE CENOURA MEGAMATTE"
+},
+"2029": {
+"code": "2029",
+"name": "BOLO SIMPLES FATIA"
+},
+"10820": {
+"code": "10820",
+"name": "BRIGADEIRO"
+},
+"548": {
+"code": "548",
+"name": "BROINHA DE MILHO UNID"
+},
+"489": {
+"code": "489",
+"name": "BROWNIE"
+},
+"11690": {
+"code": "11690",
+"name": "BROWNIE CHOCOLATE"
+},
+"11693": {
+"code": "11693",
+"name": "BROWNIE CREME DE AVELA"
+},
+"11691": {
+"code": "11691",
+"name": "BROWNIE DOCE DE LEITE"
+},
+"11692": {
+"code": "11692",
+"name": "BROWNIE NINHO"
+},
+"12080": {
+"code": "12080",
+"name": "COOKIE DE BAUNILHA"
+},
+"11109": {
+"code": "11109",
+"name": "COOKIE DE CHOCOLATE"
+},
+"11056": {
+"code": "11056",
+"name": "CROISSANT DE CHOCOLATE"
+},
+"490": {
+"code": "490",
+"name": "DOCES"
+},
+"494": {
+"code": "494",
+"name": "MOUSSE"
+},
+"2701": {
+"code": "2701",
+"name": "P.12 BROINHAS"
+},
+"11110": {
+"code": "11110",
+"name": "P.3 COOKIES DE CHOCOLATE"
+},
+"2688": {
+"code": "2688",
+"name": "P.6 BROINHAS"
+},
+"11762": {
+"code": "11762",
+"name": "P.8 BROINHAS"
+},
+"10922": {
+"code": "10922",
+"name": "PALHA ITALIANA"
+},
+"15505": {
+"code": "15505",
+"name": "PL-BARRA 75%"
+},
+"15506": {
+"code": "15506",
+"name": "PL-BARRA DIET"
+},
+"15507": {
+"code": "15507",
+"name": "PL-DEMAIS BARRAS"
+},
+"15503": {
+"code": "15503",
+"name": "PL-LINGUA DE GATO"
+},
+"15508": {
+"code": "15508",
+"name": "PL-PAO DE MEL"
+},
+"15504": {
+"code": "15504",
+"name": "PL-TRUFA"
+},
+"15050": {
+"code": "15050",
+"name": "PR.ESPRESSO DUPLO 100ML"
+},
+"11831": {
+"code": "11831",
+"name": "PROMO TORTA INTEIRA"
+},
+"2112": {
+"code": "2112",
+"name": "SALADA DE FRUTAS MEDIA/GRANDE"
+},
+"2073": {
+"code": "2073",
+"name": "SALADA DE FRUTAS PEQUENA"
+},
+"11428": {
+"code": "11428",
+"name": "TORTA BANANA C/ GRANOLA FATIA"
+},
+"485": {
+"code": "485",
+"name": "TORTA CHEESECAKE"
+},
+"10231": {
+"code": "10231",
+"name": "TORTA ESPECIAL FATIA"
+},
+"10298": {
+"code": "10298",
+"name": "TORTA ESPECIAL INTEIRA"
+},
+"10708": {
+"code": "10708",
+"name": "KIT CAFE 1"
+},
+"10709": {
+"code": "10709",
+"name": "KIT CAFE 2"
+},
+"10710": {
+"code": "10710",
+"name": "KIT CAFE 3"
+},
+"11827": {
+"code": "11827",
+"name": "MORANGO MONTE SEU ACAI"
+},
+"11826": {
+"code": "11826",
+"name": "OVOLMATINE MONTE SEU ACAI"
+},
+"12020": {
+"code": "12020",
+"name": "P.12 PQ GANHA 6 PQ"
+},
+"11703": {
+"code": "11703",
+"name": "P.ACAI 300ML"
+},
+"15013": {
+"code": "15013",
+"name": "P.ACAI 500ML"
+},
+"2686": {
+"code": "2686",
+"name": "P.ACAI 700ML"
+},
+"12093": {
+"code": "12093",
+"name": "P.ACAI EM DOBRO 300ML"
+},
+"11661": {
+"code": "11661",
+"name": "P.AGUA MINERAL"
+},
+"11659": {
+"code": "11659",
+"name": "P.BOLO DE BANANA INT"
+},
+"11657": {
+"code": "11657",
+"name": "P.COOKIE DE CHOCOLATE"
+},
+"2131": {
+"code": "2131",
+"name": "P.ESPRESSO"
+},
+"11710": {
+"code": "11710",
+"name": "P.GIRO CAPP. 100ML + 6 PQ"
+},
+"11711": {
+"code": "11711",
+"name": "P.GIRO MEGASHAKE ACAI 300ML"
+},
+"11712": {
+"code": "11712",
+"name": "P.GIRO MEGASHAKE BANANA 300ML"
+},
+"11713": {
+"code": "11713",
+"name": "P.GIRO MEGASHAKE MORANGO 300ML"
+},
+"11575": {
+"code": "11575",
+"name": "P.GIRO P.6 + 3 PQ GRATIS COM MATE 300ML"
+},
+"10416": {
+"code": "10416",
+"name": "P.GRANOLA"
+},
+"11651": {
+"code": "11651",
+"name": "P.GUARANA 300ML"
+},
+"1938": {
+"code": "1938",
+"name": "P.MATE 300 ML"
+},
+"11754": {
+"code": "11754",
+"name": "P.MATE 300ML - MEGACOPAO"
+},
+"11815": {
+"code": "11815",
+"name": "P.MATE 500ML - MEGACOPAO"
+},
+"15014": {
+"code": "15014",
+"name": "PROM - SALGADO + CAPPUCCINO"
+},
+"15015": {
+"code": "15015",
+"name": "PROM - SALGADO + MATE"
+},
+"11294": {
+"code": "11294",
+"name": "PROMO COOKIE DE CHOCOLATE UNID"
+},
+"11790": {
+"code": "11790",
+"name": "ADICIONAL MATE FRUTA"
+},
+"607": {
+"code": "607",
+"name": "PORCAO DE AMENDOIM"
+},
+"11622": {
+"code": "11622",
+"name": "PORCAO DE AVEIA"
+},
+"603": {
+"code": "603",
+"name": "PORCAO DE CHANTILLY"
+},
+"2072": {
+"code": "2072",
+"name": "PORCAO DE FRUTA"
+},
+"605": {
+"code": "605",
+"name": "PORCAO DE GRANOLA"
+},
+"11050": {
+"code": "11050",
+"name": "PORCAO DE GUARANÁ EM PÓ"
+},
+"610": {
+"code": "610",
+"name": "PORCAO DE LEITE PO"
+},
+"11144": {
+"code": "11144",
+"name": "PORCAO DE MEL"
+},
+"10763": {
+"code": "10763",
+"name": "PORCAO DE PACOCA"
+},
+"613": {
+"code": "613",
+"name": "PORCAO DE PROTEINATO"
+},
+"11457": {
+"code": "11457",
+"name": "PORCAO OVOMALTINE FLOCOS"
+},
+"10261": {
+"code": "10261",
+"name": "CG - BROINHA 1KG"
+},
+"2127": {
+"code": "2127",
+"name": "CG - PAO DE QUEIJO 1KG"
+},
+"11361": {
+"code": "11361",
+"name": "CG - CROISSANT"
+},
+"11362": {
+"code": "11362",
+"name": "CG - FOLHADO"
+},
+"11363": {
+"code": "11363",
+"name": "CG - FOLHADO INT"
+},
+"11368": {
+"code": "11368",
+"name": "CG - PAO DE BATATA"
+},
+"11369": {
+"code": "11369",
+"name": "CG - PASTEL"
+},
+"12048": {
+"code": "12048",
+"name": "FCD CAPP 200ML"
+},
+"12654": {
+"code": "12654",
+"name": "FCD CAPP 200ML+1COOKIE"
+},
+"12651": {
+"code": "12651",
+"name": "FCD CAPP 200ML+TORTA/BOLO"
+},
+"12652": {
+"code": "12652",
+"name": "FCD CAPP GEL/FRAPPE"
+},
+"12653": {
+"code": "12653",
+"name": "FCD CAPP GEL/FRAPPE+6PQ"
+},
+"12058": {
+"code": "12058",
+"name": "FCD CAPP TRAD 200ML"
+},
+"12059": {
+"code": "12059",
+"name": "FCD CHOCO 200ML"
+},
+"12650": {
+"code": "12650",
+"name": "FCD ESPRESSO 50ML"
+},
+"12655": {
+"code": "12655",
+"name": "FCD SAND. MEGAMISTO"
+},
+"12661": {
+"code": "12661",
+"name": "FCDC ACAI 300ML+GRANOLA"
+},
+"12665": {
+"code": "12665",
+"name": "FCDC MEGASHAKE300ML+6PQ/BRO"
+},
+"12667": {
+"code": "12667",
+"name": "FCDC P.12 PQ/BRO+MATE300ML"
+},
+"12668": {
+"code": "12668",
+"name": "FCDC P.3 COOKIES"
+},
+"12663": {
+"code": "12663",
+"name": "FCDC P.8 PQ/BRO"
+},
+"12664": {
+"code": "12664",
+"name": "FCDC P.8 PQ/BRO+MATE300ML"
+},
+"12662": {
+"code": "12662",
+"name": "FCDC SALGADO"
+},
+"12666": {
+"code": "12666",
+"name": "FCDC SALGADO+MATE300ML"
+}
+},
+"log": []
+}
