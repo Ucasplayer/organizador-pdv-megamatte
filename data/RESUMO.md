@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 14:45:02. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:45:26. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
@@ -157,10 +157,7 @@ _Nenhuma._
 59. P.MATE OU GUARANA 300ML GRATIS — cód. 11931
 60. PL-MEGAMATTE DAY MATE 300ML/500ML — cód. 11893
 
-### 4. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
-
-
-### 5. CAFETERIA BEBIDAS QUENTES (grupo 20) — 22 produtos
+### 4. CAFETERIA BEBIDAS QUENTES (grupo 20) — 22 produtos
 
 1. ESPRESSO 50ML — cód. 462
 2. ESPRESSO DUPLO 100ML — cód. 463
@@ -184,6 +181,9 @@ _Nenhuma._
 20. MEGANELLA 200ML — cód. 2002
 21. MOCACCINO 100ML — cód. 11671
 22. MOCACCINO 200ML — cód. 11064
+
+### 5. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
+
 
 ### 6. AÇAÍ (grupo 8) — 25 produtos
 
@@ -508,3 +508,4 @@ _Nenhuma._
 - 23/10/2026, 14:43:06 — Mudou a ordem das categorias na tela
 - 23/10/2026, 14:43:18 — Moveu ESPRESSO 50ML, ESPRESSO DUPLO 100ML, ESPRESSO DUPLO C/LEITE 200ML e mais 1 de CAFETERIA ESPRESSO para CAFETERIA BEBIDAS QUENTES
 - 23/10/2026, 14:45:01 — Mudou a ordem dos produtos em CAFETERIA BEBIDAS QUENTES
+- 23/10/2026, 14:45:25 — Mudou a ordem das categorias na tela

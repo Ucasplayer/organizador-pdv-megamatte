@@ -123,13 +123,6 @@
    ]
   },
   {
-   "id": "c7",
-   "code": "7",
-   "name": "CAFETERIA ESPRESSO",
-   "img": "img/cat-7.jpg",
-   "items": []
-  },
-  {
    "id": "c20",
    "code": "20",
    "name": "CAFETERIA BEBIDAS QUENTES",
@@ -158,6 +151,13 @@
     "11671",
     "11064"
    ]
+  },
+  {
+   "id": "c7",
+   "code": "7",
+   "name": "CAFETERIA ESPRESSO",
+   "img": "img/cat-7.jpg",
+   "items": []
   },
   {
    "id": "c8",
@@ -2025,6 +2025,10 @@
  },
  "log": [
   {
+   "t": "2026-10-23T17:45:25.389Z",
+   "msg": "Mudou a ordem das categorias na tela"
+  },
+  {
    "t": "2026-10-23T17:45:01.054Z",
    "msg": "Mudou a ordem dos produtos em CAFETERIA BEBIDAS QUENTES"
   },
@@ -2057,5 +2061,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-23T17:45:01.058Z"
+ "savedAt": "2026-10-23T17:45:25.393Z"
 }
