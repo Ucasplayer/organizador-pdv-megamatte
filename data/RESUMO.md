@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 14:40:18. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:41:30. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **0**
 - Produtos novos: **1**
@@ -169,7 +169,14 @@ _Nenhuma._
 13. GVITAMINA 500 ML — cód. 11202
 14. GVITAMINA 700 ML — cód. 11203
 
-### 5. AÇAÍ (grupo 8) — 25 produtos
+### 5. CAFETERIA ESPRESSO (grupo 7) — 4 produtos
+
+1. ESPRESSO 50ML — cód. 462
+2. ESPRESSO DUPLO 100ML — cód. 463
+3. ESPRESSO DUPLO C/LEITE 200ML — cód. 470
+4. ESPRESSO MACCHIATO 50ML — cód. 11063
+
+### 6. AÇAÍ (grupo 8) — 25 produtos
 
 1. ACAI 300ML — cód. 446
 2. ACAI 500ML — cód. 458
@@ -196,13 +203,6 @@ _Nenhuma._
 23. MONTE SEU ACAI 300ML — cód. 11804
 24. MONTE SEU ACAI 500ML — cód. 11858
 25. MONTE SEU ACAI 700ML — cód. 11873
-
-### 6. CAFETERIA ESPRESSO (grupo 7) — 4 produtos
-
-1. ESPRESSO 50ML — cód. 462
-2. ESPRESSO DUPLO 100ML — cód. 463
-3. ESPRESSO DUPLO C/LEITE 200ML — cód. 470
-4. ESPRESSO MACCHIATO 50ML — cód. 11063
 
 ### 7. CAFETERIA BEBIDAS QUENTES (grupo 20) — 18 produtos
 
@@ -500,4 +500,4 @@ _Nenhuma._
 - 23/10/2026, 11:24:46 — Excluiu AIA IAI de TESTE SITE
 - 23/10/2026, 11:24:58 — Excluiu a categoria TESTE SITE
 - 23/10/2026, 14:35:51 — Mudou a ordem das categorias na tela
-- 23/10/2026, 14:40:17 — Mudou a ordem das categorias na tela
+- 23/10/2026, 14:41:28 — Mudou a ordem das categorias na tela
