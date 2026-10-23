@@ -573,7 +573,9 @@
    "code": "",
    "name": "TESTE SITE",
    "img": null,
-   "items": [],
+   "items": [
+    "novo-mvl29x2t"
+   ],
    "isNew": true
   }
  ],
@@ -2025,13 +2027,22 @@
   "15639": {
    "code": "15639",
    "name": "P.4 P.QUEIJO CEUB"
+  },
+  "novo-mvl29x2t": {
+   "code": "",
+   "name": "AIA IAI",
+   "isNew": true
   }
  },
  "log": [
+  {
+   "t": "2026-10-23T14:24:34.230Z",
+   "msg": "Criou o produto AIA IAI em TESTE SITE"
+  },
   {
    "t": "2026-10-23T14:24:25.695Z",
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-23T14:24:25.701Z"
+ "savedAt": "2026-10-23T14:24:34.231Z"
 }
