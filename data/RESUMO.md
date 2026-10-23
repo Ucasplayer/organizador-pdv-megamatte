@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 14:47:07. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:47:11. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
@@ -462,10 +462,7 @@ _Nenhuma._
 6. PL-PAO DE MEL — cód. 15508
 7. PL-TRUFA — cód. 15504
 
-### 21. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
-
-
-### 22. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
+### 21. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
 
 1. P.MP - SANDUICHE + SUCO — cód. 12017
 2. PROM -  LOJISTA — cód. 11795
@@ -474,6 +471,9 @@ _Nenhuma._
 5. P.MP - 8 PQ/BRO + MATE OU GUA — cód. 11901
 6. P.MP - 8 PQ/BRO + SUCO — cód. 11910
 7. P.MP - SANDUICHE + MATE OU GUA — cód. 11908
+
+### 22. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
+
 
 ### 23. FOLDER CAFETERIA (grupo 93) — 9 produtos
 
@@ -508,4 +508,4 @@ _Nenhuma._
 - 23/10/2026, 14:43:06 — Mudou a ordem das categorias na tela
 - 23/10/2026, 14:43:18 — Moveu ESPRESSO 50ML, ESPRESSO DUPLO 100ML, ESPRESSO DUPLO C/LEITE 200ML e mais 1 de CAFETERIA ESPRESSO para CAFETERIA BEBIDAS QUENTES
 - 23/10/2026, 14:45:01 — Mudou a ordem dos produtos em CAFETERIA BEBIDAS QUENTES
-- 23/10/2026, 14:47:06 — Mudou a ordem das categorias na tela
+- 23/10/2026, 14:47:09 — Mudou a ordem das categorias na tela
