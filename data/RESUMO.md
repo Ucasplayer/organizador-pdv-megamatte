@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 14:47:05. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:47:07. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
@@ -465,7 +465,17 @@ _Nenhuma._
 ### 21. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
 
 
-### 22. FOLDER CAFETERIA (grupo 93) — 9 produtos
+### 22. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
+
+1. P.MP - SANDUICHE + SUCO — cód. 12017
+2. PROM -  LOJISTA — cód. 11795
+3. P.MP - SALGADO + MATE OU GUA — cód. 11911
+4. P.MP - SALGADO + SUCO — cód. 11909
+5. P.MP - 8 PQ/BRO + MATE OU GUA — cód. 11901
+6. P.MP - 8 PQ/BRO + SUCO — cód. 11910
+7. P.MP - SANDUICHE + MATE OU GUA — cód. 11908
+
+### 23. FOLDER CAFETERIA (grupo 93) — 9 produtos
 
 1. FCD CAPP 200ML — cód. 12048
 2. FCD CAPP 200ML+1COOKIE — cód. 12654
@@ -476,16 +486,6 @@ _Nenhuma._
 7. FCD CHOCO 200ML — cód. 12059
 8. FCD ESPRESSO 50ML — cód. 12650
 9. FCD SAND. MEGAMISTO — cód. 12655
-
-### 23. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
-
-1. P.MP - SANDUICHE + SUCO — cód. 12017
-2. PROM -  LOJISTA — cód. 11795
-3. P.MP - SALGADO + MATE OU GUA — cód. 11911
-4. P.MP - SALGADO + SUCO — cód. 11909
-5. P.MP - 8 PQ/BRO + MATE OU GUA — cód. 11901
-6. P.MP - 8 PQ/BRO + SUCO — cód. 11910
-7. P.MP - SANDUICHE + MATE OU GUA — cód. 11908
 
 ### 24. FOLDER COMBOS (grupo 92) — 8 produtos
 
@@ -508,4 +508,4 @@ _Nenhuma._
 - 23/10/2026, 14:43:06 — Mudou a ordem das categorias na tela
 - 23/10/2026, 14:43:18 — Moveu ESPRESSO 50ML, ESPRESSO DUPLO 100ML, ESPRESSO DUPLO C/LEITE 200ML e mais 1 de CAFETERIA ESPRESSO para CAFETERIA BEBIDAS QUENTES
 - 23/10/2026, 14:45:01 — Mudou a ordem dos produtos em CAFETERIA BEBIDAS QUENTES
-- 23/10/2026, 14:47:03 — Mudou a ordem das categorias na tela
+- 23/10/2026, 14:47:06 — Mudou a ordem das categorias na tela
