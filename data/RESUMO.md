@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 23/10/2026, 14:46:54. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 23/10/2026, 14:47:01. Gerado automaticamente pelo Organizador do PDV.
 
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
@@ -430,19 +430,7 @@ _Nenhuma._
 11. PORCAO DE PROTEINATO — cód. 613
 12. PORCAO OVOMALTINE FLOCOS — cód. 11457
 
-### 19. FOLDER CAFETERIA (grupo 93) — 9 produtos
-
-1. FCD CAPP 200ML — cód. 12048
-2. FCD CAPP 200ML+1COOKIE — cód. 12654
-3. FCD CAPP 200ML+TORTA/BOLO — cód. 12651
-4. FCD CAPP GEL/FRAPPE — cód. 12652
-5. FCD CAPP GEL/FRAPPE+6PQ — cód. 12653
-6. FCD CAPP TRAD 200ML — cód. 12058
-7. FCD CHOCO 200ML — cód. 12059
-8. FCD ESPRESSO 50ML — cód. 12650
-9. FCD SAND. MEGAMISTO — cód. 12655
-
-### 20. FOLDER COMBOS (grupo 92) — 8 produtos
+### 19. FOLDER COMBOS (grupo 92) — 8 produtos
 
 1. FCDC ACAI 300ML+GRANOLA — cód. 12661
 2. FCDC MEGASHAKE300ML+6PQ/BRO — cód. 12665
@@ -453,7 +441,7 @@ _Nenhuma._
 7. FCDC SALGADO — cód. 12662
 8. FCDC SALGADO+MATE300ML — cód. 12666
 
-### 21. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
+### 20. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
 
 1. P.MP - SANDUICHE + SUCO — cód. 12017
 2. PROM -  LOJISTA — cód. 11795
@@ -463,7 +451,7 @@ _Nenhuma._
 6. P.MP - 8 PQ/BRO + SUCO — cód. 11910
 7. P.MP - SANDUICHE + MATE OU GUA — cód. 11908
 
-### 22. LOJISTA (NOVO) (grupo 111) — 19 produtos
+### 21. LOJISTA (NOVO) (grupo 111) — 19 produtos
 
 1. P.LOJ - 1 COOKIE + CAFE 100ML — cód. 11996
 2. P.LOJ - 1 COOKIE + CAFE 200ML — cód. 11997
@@ -485,7 +473,7 @@ _Nenhuma._
 18. P.LOJ - SANDUICHE + SUCO — cód. 11979
 19. PROM -  LOJISTA — cód. 11795
 
-### 23. COFFEE PARTY TERÊ (grupo 101) — 7 produtos
+### 22. COFFEE PARTY TERÊ (grupo 101) — 7 produtos
 
 1. P.MATE OU GUARANA 300ML GRATIS — cód. 11931
 2. PL-BARRA 75% — cód. 15505
@@ -495,8 +483,20 @@ _Nenhuma._
 6. PL-PAO DE MEL — cód. 15508
 7. PL-TRUFA — cód. 15504
 
-### 24. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
+### 23. CAFETERIA ESPRESSO (grupo 7) — 0 produtos
 
+
+### 24. FOLDER CAFETERIA (grupo 93) — 9 produtos
+
+1. FCD CAPP 200ML — cód. 12048
+2. FCD CAPP 200ML+1COOKIE — cód. 12654
+3. FCD CAPP 200ML+TORTA/BOLO — cód. 12651
+4. FCD CAPP GEL/FRAPPE — cód. 12652
+5. FCD CAPP GEL/FRAPPE+6PQ — cód. 12653
+6. FCD CAPP TRAD 200ML — cód. 12058
+7. FCD CHOCO 200ML — cód. 12059
+8. FCD ESPRESSO 50ML — cód. 12650
+9. FCD SAND. MEGAMISTO — cód. 12655
 
 ## Histórico de alterações
 
@@ -508,4 +508,4 @@ _Nenhuma._
 - 23/10/2026, 14:43:06 — Mudou a ordem das categorias na tela
 - 23/10/2026, 14:43:18 — Moveu ESPRESSO 50ML, ESPRESSO DUPLO 100ML, ESPRESSO DUPLO C/LEITE 200ML e mais 1 de CAFETERIA ESPRESSO para CAFETERIA BEBIDAS QUENTES
 - 23/10/2026, 14:45:01 — Mudou a ordem dos produtos em CAFETERIA BEBIDAS QUENTES
-- 23/10/2026, 14:46:52 — Mudou a ordem das categorias na tela
+- 23/10/2026, 14:46:59 — Mudou a ordem das categorias na tela

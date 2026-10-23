@@ -471,23 +471,6 @@
    ]
   },
   {
-   "id": "c93",
-   "code": "93",
-   "name": "FOLDER CAFETERIA",
-   "img": "img/cat-93.jpg",
-   "items": [
-    "12048",
-    "12654",
-    "12651",
-    "12652",
-    "12653",
-    "12058",
-    "12059",
-    "12650",
-    "12655"
-   ]
-  },
-  {
    "id": "c92",
    "code": "92",
    "name": "FOLDER COMBOS",
@@ -566,6 +549,23 @@
    "name": "CAFETERIA ESPRESSO",
    "img": "img/cat-7.jpg",
    "items": []
+  },
+  {
+   "id": "c93",
+   "code": "93",
+   "name": "FOLDER CAFETERIA",
+   "img": "img/cat-93.jpg",
+   "items": [
+    "12048",
+    "12654",
+    "12651",
+    "12652",
+    "12653",
+    "12058",
+    "12059",
+    "12650",
+    "12655"
+   ]
   }
  ],
  "products": {
@@ -2025,7 +2025,7 @@
  },
  "log": [
   {
-   "t": "2026-10-23T17:46:52.883Z",
+   "t": "2026-10-23T17:46:59.890Z",
    "msg": "Mudou a ordem das categorias na tela"
   },
   {
@@ -2061,5 +2061,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-23T17:46:52.885Z"
+ "savedAt": "2026-10-23T17:46:59.894Z"
 }
