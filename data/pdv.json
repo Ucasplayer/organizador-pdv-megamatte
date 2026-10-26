@@ -210,7 +210,7 @@
    "id": "c5",
    "code": "5",
    "name": "GUARANA NATURAL",
-   "img": "img/cat-5.jpg",
+   "img": "api/image?f=cat-5-mvpcbfxk.jpg",
    "items": [
     "11037",
     "11038",
@@ -2018,6 +2018,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T14:10:40.557Z",
+   "msg": "Trocou a foto da categoria GUARANA NATURAL"
+  },
+  {
    "t": "2026-10-26T14:10:26.876Z",
    "msg": "Trocou a foto da categoria SALGADOS"
   },
@@ -2098,5 +2102,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T14:10:26.881Z"
+ "savedAt": "2026-10-26T14:10:40.561Z"
 }

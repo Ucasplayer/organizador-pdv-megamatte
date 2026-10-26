@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 11:10:28. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 11:10:42. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **6** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **7** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **0**
@@ -47,7 +47,7 @@ _Nenhuma._
 
 _Nenhuma._
 
-## Fotos trocadas (6)
+## Fotos trocadas (7)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -57,6 +57,7 @@ _Nenhuma._
 | ![foto](img/cat-20-mvpaq0rr.jpg) [abrir](img/cat-20-mvpaq0rr.jpg) | Categoria | 20 | CAFETERIA BEBIDAS QUENTES |
 | ![foto](img/cat-8-mvpb5vjl.jpg) [abrir](img/cat-8-mvpb5vjl.jpg) | Categoria | 8 | AÇAÍ |
 | ![foto](img/cat-21-mvlchsex.jpg) [abrir](img/cat-21-mvlchsex.jpg) | Categoria | 21 | CAFETERIA BEBIDAS GELADAS |
+| ![foto](img/cat-5-mvpcbfxk.jpg) [abrir](img/cat-5-mvpcbfxk.jpg) | Categoria | 5 | GUARANA NATURAL |
 
 ## Ordem na tela
 
@@ -531,3 +532,4 @@ _Nenhuma._
 - 26/10/2026, 10:38:21 — Trocou a foto da categoria AÇAÍ
 - 26/10/2026, 10:38:55 — Trocou a foto da categoria PAO DE QUEIJO
 - 26/10/2026, 11:10:26 — Trocou a foto da categoria SALGADOS
+- 26/10/2026, 11:10:40 — Trocou a foto da categoria GUARANA NATURAL
