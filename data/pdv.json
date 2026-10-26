@@ -1760,7 +1760,8 @@
   },
   "11863": {
    "code": "11863",
-   "name": "CHEESEB. FORNO TRADICIONAL"
+   "name": "CHEESEB. FORNO TRADICIONAL",
+   "img": "api/image?f=prod-11863-mvpntag1.jpg"
   },
   "11873": {
    "code": "11873",
@@ -2018,6 +2019,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:32:28.549Z",
+   "msg": "Trocou a foto do produto CHEESEB. FORNO TRADICIONAL"
+  },
+  {
    "t": "2026-10-26T19:29:52.633Z",
    "msg": "Trocou a foto do produto CHEESEB. FORNO CHEDDAR"
   },
@@ -2254,5 +2259,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:29:52.642Z"
+ "savedAt": "2026-10-26T19:32:28.554Z"
 }
