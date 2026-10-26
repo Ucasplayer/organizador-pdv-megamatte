@@ -786,7 +786,8 @@
   },
   "507": {
    "code": "507",
-   "name": "CROISSANT QUATRO QUEIJOS"
+   "name": "CROISSANT QUATRO QUEIJOS",
+   "img": "api/image?f=prod-507-mvpo9chc.jpg"
   },
   "508": {
    "code": "508",
@@ -2022,6 +2023,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:44:57.769Z",
+   "msg": "Trocou a foto do produto CROISSANT QUATRO QUEIJOS"
+  },
+  {
    "t": "2026-10-26T19:44:38.200Z",
    "msg": "Trocou a foto do produto CROISSANT PIZZA"
   },
@@ -2274,5 +2279,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:44:38.208Z"
+ "savedAt": "2026-10-26T19:44:57.778Z"
 }
