@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 12:34:53. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 12:35:13. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **18** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **19** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -63,7 +63,7 @@ _Nenhuma._
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (18)
+## Fotos trocadas (19)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -85,6 +85,7 @@ _Nenhuma._
 | ![foto](img/cat-18-mvper7hc.jpg) [abrir](img/cat-18-mvper7hc.jpg) | Categoria | 18 | EXTRA |
 | ![foto](img/cat-111-mvpeull3.jpg) [abrir](img/cat-111-mvpeull3.jpg) | Categoria | 111 | LOJISTA (NOVO) |
 | ![foto](img/cat-101-mvpfbpfu.jpg) [abrir](img/cat-101-mvpfbpfu.jpg) | Categoria | 101 | COFFEE PARTY TERÊ |
+| ![foto](img/cat-110-mvpfc5kn.jpg) [abrir](img/cat-110-mvpfc5kn.jpg) | Categoria | 110 | MINI PREÇOS (NOVOS) |
 
 ## Ordem na tela
 
@@ -576,3 +577,4 @@ _Nenhuma._
 - 26/10/2026, 12:23:54 — Trocou a foto da categoria PROMOÇÕES
 - 26/10/2026, 12:33:14 — Trocou a foto da categoria ÁGUA
 - 26/10/2026, 12:34:51 — Trocou a foto da categoria COFFEE PARTY TERÊ
+- 26/10/2026, 12:35:12 — Trocou a foto da categoria MINI PREÇOS (NOVOS)

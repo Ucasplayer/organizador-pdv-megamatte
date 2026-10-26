@@ -498,7 +498,7 @@
    "id": "c110",
    "code": "110",
    "name": "MINI PREÇOS (NOVOS)",
-   "img": "img/cat-110.jpg",
+   "img": "api/image?f=cat-110-mvpfc5kn.jpg",
    "items": [
     "12017",
     "11795",
@@ -2000,6 +2000,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T15:35:12.364Z",
+   "msg": "Trocou a foto da categoria MINI PREÇOS (NOVOS)"
+  },
+  {
    "t": "2026-10-26T15:34:51.625Z",
    "msg": "Trocou a foto da categoria COFFEE PARTY TERÊ"
   },
@@ -2180,5 +2184,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T15:34:51.632Z"
+ "savedAt": "2026-10-26T15:35:12.366Z"
 }
