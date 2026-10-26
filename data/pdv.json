@@ -795,7 +795,8 @@
   },
   "509": {
    "code": "509",
-   "name": "CROISSANT MISTO"
+   "name": "CROISSANT MISTO",
+   "img": "api/image?f=prod-509-mvpo8p8m.jpg"
   },
   "510": {
    "code": "510",
@@ -2020,6 +2021,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:44:27.654Z",
+   "msg": "Trocou a foto do produto CROISSANT MISTO"
+  },
+  {
    "t": "2026-10-26T19:32:39.453Z",
    "msg": "Trocou a foto do produto CROISSANT FRANGO"
   },
@@ -2264,5 +2269,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:32:39.461Z"
+ "savedAt": "2026-10-26T19:44:27.663Z"
 }
