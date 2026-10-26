@@ -1,9 +1,9 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 11:57:15. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 11:57:32. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **11** (as fotos ficam na pasta data/img)
-- Produtos que mudaram de categoria: **8**
+- Produtos que mudaram de categoria: **12**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **0**
 - Categorias novas: **0**
@@ -24,7 +24,7 @@ _Nenhuma._
 
 _Nenhuma._
 
-## Produtos que mudaram de categoria (8)
+## Produtos que mudaram de categoria (12)
 
 | Cód. | Produto | Saiu de | Entrou em | Fica em |
 |---|---|---|---|---|
@@ -36,6 +36,10 @@ _Nenhuma._
 | 10362 | SAND. CIABATTA CARNE ASSADA | SANDUÍCHES GOURMET | SANDUICHES CHAPA | SANDUICHES CHAPA |
 | 11118 | SAND. COSTELA NO PÃO AUSTRALIANO | SANDUÍCHES GOURMET | SANDUICHES CHAPA | SANDUICHES CHAPA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SANDUÍCHES GOURMET | SANDUICHES CHAPA | SANDUICHES CHAPA |
+| 11179 | SAND. NAT. ATUM COM REQUEIJÃO | SANDUÍCHES NATURAIS | SANDUICHES CHAPA | SANDUICHES CHAPA |
+| 11180 | SAND. NAT. FRANGO COM CENOURA | SANDUÍCHES NATURAIS | SANDUICHES CHAPA | SANDUICHES CHAPA |
+| 11181 | SAND. NAT. PEITO DE PERU | SANDUÍCHES NATURAIS | SANDUICHES CHAPA | SANDUICHES CHAPA |
+| 11182 | SAND. NAT. SALPICAO DE FRANGO | SANDUÍCHES NATURAIS | SANDUICHES CHAPA | SANDUICHES CHAPA |
 
 ## Produtos novos (1)
 
@@ -341,7 +345,7 @@ _Nenhuma._
 5. AGUA DE COCO 500ML — cód. 1801
 6. AGUA DE COCO 700ML — cód. 10597
 
-### 12. SANDUICHES CHAPA (grupo 13) — 7 produtos
+### 12. SANDUICHES CHAPA (grupo 13) — 11 produtos
 
 1. PAO FRANCES NA CHAPA — cód. 10361
 2. SAND. MEGALEVE — cód. 10233
@@ -350,16 +354,16 @@ _Nenhuma._
 5. SAND. CIABATTA CARNE ASSADA — cód. 10362
 6. SAND. COSTELA NO PÃO AUSTRALIANO — cód. 11118
 7. SAND. FRANGO TOMATE SECO AZEITO BAGUETE — cód. 11113
+8. SAND. NAT. ATUM COM REQUEIJÃO — cód. 11179
+9. SAND. NAT. FRANGO COM CENOURA — cód. 11180
+10. SAND. NAT. PEITO DE PERU — cód. 11181
+11. SAND. NAT. SALPICAO DE FRANGO — cód. 11182
 
 ### 13. SANDUÍCHES GOURMET (grupo 14) — 0 produtos
 
 
-### 14. SANDUÍCHES NATURAIS (grupo 15) — 4 produtos
+### 14. SANDUÍCHES NATURAIS (grupo 15) — 0 produtos
 
-1. SAND. NAT. ATUM COM REQUEIJÃO — cód. 11179
-2. SAND. NAT. FRANGO COM CENOURA — cód. 11180
-3. SAND. NAT. PEITO DE PERU — cód. 11181
-4. SAND. NAT. SALPICAO DE FRANGO — cód. 11182
 
 ### 15. SOBREMESAS (grupo 6) — 34 produtos
 
@@ -550,3 +554,4 @@ _Nenhuma._
 - 26/10/2026, 11:48:59 — Trocou a foto da categoria ÁGUA
 - 26/10/2026, 11:54:04 — Trocou a foto da categoria VITAMINAS
 - 26/10/2026, 11:57:14 — Moveu SAND. ABOBRINHA GREL PAST BERINJELA CIAB, SAND. CIABATTA CARNE ASSADA, SAND. COSTELA NO PÃO AUSTRALIANO e mais 1 de SANDUÍCHES GOURMET para SANDUICHES CHAPA
+- 26/10/2026, 11:57:30 — Moveu SAND. NAT. ATUM COM REQUEIJÃO, SAND. NAT. FRANGO COM CENOURA, SAND. NAT. PEITO DE PERU e mais 1 de SANDUÍCHES NATURAIS para SANDUICHES CHAPA

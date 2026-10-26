@@ -335,7 +335,11 @@
     "11114",
     "10362",
     "11118",
-    "11113"
+    "11113",
+    "11179",
+    "11180",
+    "11181",
+    "11182"
    ]
   },
   {
@@ -350,12 +354,7 @@
    "code": "15",
    "name": "SANDUÍCHES NATURAIS",
    "img": "img/cat-15.jpg",
-   "items": [
-    "11179",
-    "11180",
-    "11181",
-    "11182"
-   ]
+   "items": []
   },
   {
    "id": "c6",
@@ -2017,6 +2016,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T14:57:30.884Z",
+   "msg": "Moveu SAND. NAT. ATUM COM REQUEIJÃO, SAND. NAT. FRANGO COM CENOURA, SAND. NAT. PEITO DE PERU e mais 1 de SANDUÍCHES NATURAIS para SANDUICHES CHAPA"
+  },
+  {
    "t": "2026-10-26T14:57:14.007Z",
    "msg": "Moveu SAND. ABOBRINHA GREL PAST BERINJELA CIAB, SAND. CIABATTA CARNE ASSADA, SAND. COSTELA NO PÃO AUSTRALIANO e mais 1 de SANDUÍCHES GOURMET para SANDUICHES CHAPA"
   },
@@ -2137,5 +2140,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T14:57:14.011Z"
+ "savedAt": "2026-10-26T14:57:30.889Z"
 }
