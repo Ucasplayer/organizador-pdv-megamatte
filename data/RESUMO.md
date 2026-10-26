@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 15:47:08. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 15:50:05. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **21** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
@@ -74,7 +74,7 @@ Atualizado em 26/10/2026, 15:47:08. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-nmvpkilu8-mvpkqqvh.jpg) [abrir](img/cat-nmvpkilu8-mvpkqqvh.jpg) | Categoria | nova | MATE FRUTA DO DIA |
 | ![foto](img/cat-19-mvpb6mfd.jpg) [abrir](img/cat-19-mvpb6mfd.jpg) | Categoria | 19 | PAO DE QUEIJO |
 | ![foto](img/cat-3-mvpcb5fd.jpg) [abrir](img/cat-3-mvpcb5fd.jpg) | Categoria | 3 | SALGADOS |
-| ![foto](img/cat-4-mvpm6y55.jpg) [abrir](img/cat-4-mvpm6y55.jpg) | Categoria | 4 | MATE |
+| ![foto](img/cat-4-mvpmaquu.jpg) [abrir](img/cat-4-mvpmaquu.jpg) | Categoria | 4 | MATE |
 | ![foto](img/cat-20-mvpaq0rr.jpg) [abrir](img/cat-20-mvpaq0rr.jpg) | Categoria | 20 | CAFETERIA BEBIDAS QUENTES |
 | ![foto](img/cat-8-mvpb5vjl.jpg) [abrir](img/cat-8-mvpb5vjl.jpg) | Categoria | 8 | AÇAÍ |
 | ![foto](img/cat-5-mvpcbfxk.jpg) [abrir](img/cat-5-mvpcbfxk.jpg) | Categoria | 5 | GUARANA NATURAL |
@@ -597,3 +597,4 @@ Atualizado em 26/10/2026, 15:47:08. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 15:11:09 — Mudou a ordem das categorias na tela
 - 26/10/2026, 15:13:30 — Mudou a ordem das categorias na tela
 - 26/10/2026, 15:47:06 — Trocou a foto da categoria MATE
+- 26/10/2026, 15:50:03 — Trocou a foto da categoria MATE

@@ -74,7 +74,7 @@
    "id": "c4",
    "code": "4",
    "name": "MATE",
-   "img": "api/image?f=cat-4-mvpm6y55.jpg",
+   "img": "api/image?f=cat-4-mvpmaquu.jpg",
    "items": [
     "11086",
     "226",
@@ -2016,6 +2016,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T18:50:03.753Z",
+   "msg": "Trocou a foto da categoria MATE"
+  },
+  {
    "t": "2026-10-26T18:47:06.742Z",
    "msg": "Trocou a foto da categoria MATE"
   },
@@ -2232,5 +2236,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T18:47:06.751Z"
+ "savedAt": "2026-10-26T18:50:03.757Z"
 }
