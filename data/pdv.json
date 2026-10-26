@@ -1012,7 +1012,8 @@
   },
   "2120": {
    "code": "2120",
-   "name": "CROISSANT.INT. QUEIJO MINAS"
+   "name": "CROISSANT.INT. QUEIJO MINAS",
+   "img": "api/image?f=prod-2120-mvpo9wvt.jpg"
   },
   "2127": {
    "code": "2127",
@@ -2024,6 +2025,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:45:24.132Z",
+   "msg": "Trocou a foto do produto CROISSANT.INT. QUEIJO MINAS"
+  },
+  {
    "t": "2026-10-26T19:45:12.541Z",
    "msg": "Trocou a foto do produto CROISSANT.INT. FRANGO C/REQ"
   },
@@ -2284,5 +2289,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:45:12.550Z"
+ "savedAt": "2026-10-26T19:45:24.142Z"
 }
