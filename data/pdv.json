@@ -186,27 +186,6 @@
    ]
   },
   {
-   "id": "c21",
-   "code": "21",
-   "name": "CAFETERIA BEBIDAS GELADAS",
-   "img": "api/image?f=cat-21-mvlchsex.jpg",
-   "items": [
-    "11309",
-    "11310",
-    "11448",
-    "11857",
-    "1806",
-    "11595",
-    "11449",
-    "11859",
-    "11451",
-    "11452",
-    "11453",
-    "11804",
-    "11858"
-   ]
-  },
-  {
    "id": "c5",
    "code": "5",
    "name": "GUARANA NATURAL",
@@ -226,6 +205,27 @@
     "11201",
     "11202",
     "11203"
+   ]
+  },
+  {
+   "id": "c21",
+   "code": "21",
+   "name": "CAFETERIA BEBIDAS GELADAS",
+   "img": "api/image?f=cat-21-mvlchsex.jpg",
+   "items": [
+    "11309",
+    "11310",
+    "11448",
+    "11857",
+    "1806",
+    "11595",
+    "11449",
+    "11859",
+    "11451",
+    "11452",
+    "11453",
+    "11804",
+    "11858"
    ]
   },
   {
@@ -2018,6 +2018,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T14:15:43.118Z",
+   "msg": "Mudou a ordem das categorias na tela"
+  },
+  {
    "t": "2026-10-26T14:10:40.557Z",
    "msg": "Trocou a foto da categoria GUARANA NATURAL"
   },
@@ -2102,5 +2106,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T14:10:40.561Z"
+ "savedAt": "2026-10-26T14:15:43.126Z"
 }

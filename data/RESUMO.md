@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 11:10:42. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 11:15:44. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **7** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **4**
@@ -56,8 +56,8 @@ _Nenhuma._
 | ![foto](img/cat-4-mvpb3n1u.jpg) [abrir](img/cat-4-mvpb3n1u.jpg) | Categoria | 4 | MATE |
 | ![foto](img/cat-20-mvpaq0rr.jpg) [abrir](img/cat-20-mvpaq0rr.jpg) | Categoria | 20 | CAFETERIA BEBIDAS QUENTES |
 | ![foto](img/cat-8-mvpb5vjl.jpg) [abrir](img/cat-8-mvpb5vjl.jpg) | Categoria | 8 | AÇAÍ |
-| ![foto](img/cat-21-mvlchsex.jpg) [abrir](img/cat-21-mvlchsex.jpg) | Categoria | 21 | CAFETERIA BEBIDAS GELADAS |
 | ![foto](img/cat-5-mvpcbfxk.jpg) [abrir](img/cat-5-mvpcbfxk.jpg) | Categoria | 5 | GUARANA NATURAL |
+| ![foto](img/cat-21-mvlchsex.jpg) [abrir](img/cat-21-mvlchsex.jpg) | Categoria | 21 | CAFETERIA BEBIDAS GELADAS |
 
 ## Ordem na tela
 
@@ -225,23 +225,7 @@ _Nenhuma._
 24. MONTE SEU ACAI 500ML — cód. 11858
 25. MONTE SEU ACAI 700ML — cód. 11873
 
-### 6. CAFETERIA BEBIDAS GELADAS (grupo 21) — 13 produtos
-
-1. CAPPUCCINO COM NUTELLA GELADO 300ML — cód. 11309
-2. CAPPUCCINO COM NUTELLA GELADO 500ML — cód. 11310
-3. CAPPUCCINO TRAD GELADO 300ML — cód. 11448
-4. CAPPUCCINO TRAD GELADO 500ML — cód. 11857
-5. CHOCOLATE GELADO 300ML — cód. 1806
-6. CHOCOLATE GELADO 500ML — cód. 11595
-7. FRAPPE OVOMALTINE 300ML — cód. 11449
-8. FRAPPE OVOMALTINE 500ML — cód. 11859
-9. MATE OVOMALTINE 300ML — cód. 11451
-10. MATE OVOMALTINE 500ML — cód. 11452
-11. MATE OVOMALTINE 700ML — cód. 11453
-12. MONTE SEU ACAI 300ML — cód. 11804
-13. MONTE SEU ACAI 500ML — cód. 11858
-
-### 7. GUARANA NATURAL (grupo 5) — 14 produtos
+### 6. GUARANA NATURAL (grupo 5) — 14 produtos
 
 1. GUARA FRUTA 300ML — cód. 11037
 2. GUARA FRUTA 500ML — cód. 11038
@@ -257,6 +241,22 @@ _Nenhuma._
 12. GVITAMINA 300 ML — cód. 11201
 13. GVITAMINA 500 ML — cód. 11202
 14. GVITAMINA 700 ML — cód. 11203
+
+### 7. CAFETERIA BEBIDAS GELADAS (grupo 21) — 13 produtos
+
+1. CAPPUCCINO COM NUTELLA GELADO 300ML — cód. 11309
+2. CAPPUCCINO COM NUTELLA GELADO 500ML — cód. 11310
+3. CAPPUCCINO TRAD GELADO 300ML — cód. 11448
+4. CAPPUCCINO TRAD GELADO 500ML — cód. 11857
+5. CHOCOLATE GELADO 300ML — cód. 1806
+6. CHOCOLATE GELADO 500ML — cód. 11595
+7. FRAPPE OVOMALTINE 300ML — cód. 11449
+8. FRAPPE OVOMALTINE 500ML — cód. 11859
+9. MATE OVOMALTINE 300ML — cód. 11451
+10. MATE OVOMALTINE 500ML — cód. 11452
+11. MATE OVOMALTINE 700ML — cód. 11453
+12. MONTE SEU ACAI 300ML — cód. 11804
+13. MONTE SEU ACAI 500ML — cód. 11858
 
 ### 8. MEGASHAKES (grupo 9) — 9 produtos
 
@@ -533,3 +533,4 @@ _Nenhuma._
 - 26/10/2026, 10:38:55 — Trocou a foto da categoria PAO DE QUEIJO
 - 26/10/2026, 11:10:26 — Trocou a foto da categoria SALGADOS
 - 26/10/2026, 11:10:40 — Trocou a foto da categoria GUARANA NATURAL
+- 26/10/2026, 11:15:43 — Mudou a ordem das categorias na tela
