@@ -313,7 +313,7 @@
    "id": "c12",
    "code": "12",
    "name": "ÁGUA",
-   "img": "api/image?f=cat-12-mvpdoq2d.jpg",
+   "img": "api/image?f=cat-12-mvpf9mba.jpg",
    "items": [
     "11011",
     "2027",
@@ -2000,6 +2000,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T15:33:14.288Z",
+   "msg": "Trocou a foto da categoria ÁGUA"
+  },
+  {
    "t": "2026-10-26T15:23:54.005Z",
    "msg": "Trocou a foto da categoria PROMOÇÕES"
   },
@@ -2172,5 +2176,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T15:23:54.012Z"
+ "savedAt": "2026-10-26T15:33:14.295Z"
 }
