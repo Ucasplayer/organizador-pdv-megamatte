@@ -1344,7 +1344,7 @@
   },
   "11113": {
    "code": "11113",
-   "name": "SAND. FRANGO TOMATE SECO AZEITO BAGUETE"
+   "name": "SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE"
   },
   "11114": {
    "code": "11114",
@@ -2014,6 +2014,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T14:59:50.419Z",
+   "msg": "Renomeou o produto SAND. FRANGO TOMATE SECO AZEITO BAGUETE para SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE"
+  },
+  {
    "t": "2026-10-26T14:59:43.037Z",
    "msg": "Renomeou o produto SAND. CIABATTA CARNE ASSADA para SAND. GOURMET CIABATTA CARNE ASSADA"
   },
@@ -2154,5 +2158,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T14:59:43.043Z"
+ "savedAt": "2026-10-26T14:59:50.425Z"
 }
