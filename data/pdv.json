@@ -21,7 +21,7 @@
    "id": "c3",
    "code": "3",
    "name": "SALGADOS",
-   "img": "img/cat-3.jpg",
+   "img": "api/image?f=cat-3-mvpcb5fd.jpg",
    "items": [
     "524",
     "11863",
@@ -2018,6 +2018,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T14:10:26.876Z",
+   "msg": "Trocou a foto da categoria SALGADOS"
+  },
+  {
    "t": "2026-10-26T13:38:55.775Z",
    "msg": "Trocou a foto da categoria PAO DE QUEIJO"
   },
@@ -2094,5 +2098,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T13:38:55.779Z"
+ "savedAt": "2026-10-26T14:10:26.881Z"
 }
