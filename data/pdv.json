@@ -1498,7 +1498,8 @@
   },
   "11421": {
    "code": "11421",
-   "name": "PROMO EMPADA PALMITO"
+   "name": "PROMO EMPADA PALMITO",
+   "img": "api/image?f=prod-11421-mvpowuyo.jpg"
   },
   "11428": {
    "code": "11428",
@@ -2043,6 +2044,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T20:03:14.820Z",
+   "msg": "Trocou a foto do produto PROMO EMPADA PALMITO"
+  },
+  {
    "t": "2026-10-26T20:02:50.903Z",
    "msg": "Trocou a foto do produto PROMO EMPADA FRANGO"
   },
@@ -2383,5 +2388,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T20:02:50.916Z"
+ "savedAt": "2026-10-26T20:03:14.831Z"
 }
