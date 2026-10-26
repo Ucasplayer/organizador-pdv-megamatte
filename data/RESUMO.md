@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 16:02:42. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 16:27:43. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **23** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **24** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 26/10/2026, 16:02:42. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (23)
+## Fotos trocadas (24)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -93,6 +93,7 @@ Atualizado em 26/10/2026, 16:02:42. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-101-mvpfbpfu.jpg) [abrir](img/cat-101-mvpfbpfu.jpg) | Categoria | 101 | COFFEE PARTY TERÊ |
 | ![foto](img/cat-93-mvpmoy2z.jpg) [abrir](img/cat-93-mvpmoy2z.jpg) | Categoria | 93 | FOLDER CAFETERIA |
 | ![foto](img/cat-92-mvpmqz2e.jpg) [abrir](img/cat-92-mvpmqz2e.jpg) | Categoria | 92 | FOLDER COMBOS |
+| ![foto](img/prod-11056-mvpnn5f0.jpg) [abrir](img/prod-11056-mvpnn5f0.jpg) | Produto | 11056 | CROISSANT DE CHOCOLATE |
 
 ## Ordem na tela
 
@@ -602,3 +603,4 @@ Atualizado em 26/10/2026, 16:02:42. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 15:50:03 — Trocou a foto da categoria MATE
 - 26/10/2026, 16:01:06 — Trocou a foto da categoria FOLDER CAFETERIA
 - 26/10/2026, 16:02:40 — Trocou a foto da categoria FOLDER COMBOS
+- 26/10/2026, 16:27:42 — Trocou a foto do produto CROISSANT DE CHOCOLATE

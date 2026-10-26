@@ -1322,7 +1322,8 @@
   },
   "11056": {
    "code": "11056",
-   "name": "CROISSANT DE CHOCOLATE"
+   "name": "CROISSANT DE CHOCOLATE",
+   "img": "api/image?f=prod-11056-mvpnn5f0.jpg"
   },
   "11063": {
    "code": "11063",
@@ -2016,6 +2017,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:27:42.131Z",
+   "msg": "Trocou a foto do produto CROISSANT DE CHOCOLATE"
+  },
+  {
    "t": "2026-10-26T19:02:40.845Z",
    "msg": "Trocou a foto da categoria FOLDER COMBOS"
   },
@@ -2244,5 +2249,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:02:40.851Z"
+ "savedAt": "2026-10-26T19:27:42.137Z"
 }
