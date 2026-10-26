@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 17:09:12. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 17:20:45. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **53** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
@@ -79,7 +79,7 @@ Atualizado em 26/10/2026, 17:09:12. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-8-mvpb5vjl.jpg) [abrir](img/cat-8-mvpb5vjl.jpg) | Categoria | 8 | AÇAÍ |
 | ![foto](img/cat-5-mvpcbfxk.jpg) [abrir](img/cat-5-mvpcbfxk.jpg) | Categoria | 5 | GUARANA NATURAL |
 | ![foto](img/cat-21-mvpcj4iz.jpg) [abrir](img/cat-21-mvpcj4iz.jpg) | Categoria | 21 | CAFETERIA BEBIDAS GELADAS |
-| ![foto](img/cat-9-mvpdfdj6.jpg) [abrir](img/cat-9-mvpdfdj6.jpg) | Categoria | 9 | MEGASHAKES |
+| ![foto](img/cat-9-mvppjcjt.jpg) [abrir](img/cat-9-mvppjcjt.jpg) | Categoria | 9 | MEGASHAKES |
 | ![foto](img/cat-10-mvpdv8ra.jpg) [abrir](img/cat-10-mvpdv8ra.jpg) | Categoria | 10 | VITAMINAS |
 | ![foto](img/cat-11-mvpdkyy5.jpg) [abrir](img/cat-11-mvpdkyy5.jpg) | Categoria | 11 | SUCOS |
 | ![foto](img/cat-12-mvpf9mba.jpg) [abrir](img/cat-12-mvpf9mba.jpg) | Categoria | 12 | ÁGUA |
@@ -666,3 +666,4 @@ Atualizado em 26/10/2026, 17:09:12. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 17:05:25 — Trocou a foto do produto QUICHE INT ALHO PORO
 - 26/10/2026, 17:08:13 — Mudou a ordem dos produtos em SALGADOS
 - 26/10/2026, 17:09:10 — Trocou a foto do produto QUICHE 4 QUEIJOS
+- 26/10/2026, 17:20:44 — Trocou a foto da categoria MEGASHAKES

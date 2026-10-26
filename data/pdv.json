@@ -248,7 +248,7 @@
    "id": "c9",
    "code": "9",
    "name": "MEGASHAKES",
-   "img": "api/image?f=cat-9-mvpdfdj6.jpg",
+   "img": "api/image?f=cat-9-mvppjcjt.jpg",
    "items": [
     "305",
     "345",
@@ -2046,6 +2046,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T20:20:44.059Z",
+   "msg": "Trocou a foto da categoria MEGASHAKES"
+  },
+  {
    "t": "2026-10-26T20:09:10.689Z",
    "msg": "Trocou a foto do produto QUICHE 4 QUEIJOS"
   },
@@ -2410,5 +2414,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T20:09:10.702Z"
+ "savedAt": "2026-10-26T20:20:44.072Z"
 }
