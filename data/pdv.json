@@ -546,7 +546,7 @@
    "id": "c92",
    "code": "92",
    "name": "FOLDER COMBOS",
-   "img": "img/cat-92.jpg",
+   "img": "api/image?f=cat-92-mvpmqz2e.jpg",
    "items": [
     "12661",
     "12665",
@@ -2016,6 +2016,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:02:40.845Z",
+   "msg": "Trocou a foto da categoria FOLDER COMBOS"
+  },
+  {
    "t": "2026-10-26T19:01:06.388Z",
    "msg": "Trocou a foto da categoria FOLDER CAFETERIA"
   },
@@ -2240,5 +2244,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:01:06.395Z"
+ "savedAt": "2026-10-26T19:02:40.851Z"
 }
