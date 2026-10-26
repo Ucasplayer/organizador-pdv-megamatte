@@ -813,7 +813,8 @@
   },
   "518": {
    "code": "518",
-   "name": "PASTEL INT. PALMITO C/CHAMP"
+   "name": "PASTEL INT. PALMITO C/CHAMP",
+   "img": "api/image?f=prod-518-mvpogdm9.jpg"
   },
   "519": {
    "code": "519",
@@ -2037,6 +2038,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:50:25.860Z",
+   "msg": "Trocou a foto do produto PASTEL INT. PALMITO C/CHAMP"
+  },
+  {
    "t": "2026-10-26T19:50:15.603Z",
    "msg": "Trocou a foto do produto FOLHADO FRANGO"
   },
@@ -2353,5 +2358,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:50:15.614Z"
+ "savedAt": "2026-10-26T19:50:25.864Z"
 }

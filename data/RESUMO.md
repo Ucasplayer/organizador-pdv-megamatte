@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 16:50:17. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 16:50:27. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **44** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **45** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 26/10/2026, 16:50:17. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (44)
+## Fotos trocadas (45)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -100,6 +100,7 @@ Atualizado em 26/10/2026, 16:50:17. Gerado automaticamente pelo Organizador do P
 | ![foto](img/prod-508-mvpntiy1.jpg) [abrir](img/prod-508-mvpntiy1.jpg) | Produto | 508 | CROISSANT FRANGO |
 | ![foto](img/prod-509-mvpo8p8m.jpg) [abrir](img/prod-509-mvpo8p8m.jpg) | Produto | 509 | CROISSANT MISTO |
 | ![foto](img/prod-510-mvpo8xbs.jpg) [abrir](img/prod-510-mvpo8xbs.jpg) | Produto | 510 | CROISSANT PIZZA |
+| ![foto](img/prod-518-mvpogdm9.jpg) [abrir](img/prod-518-mvpogdm9.jpg) | Produto | 518 | PASTEL INT. PALMITO C/CHAMP |
 | ![foto](img/prod-519-mvpoe4mv.jpg) [abrir](img/prod-519-mvpoe4mv.jpg) | Produto | 519 | PASTEL INT. FRANGO CEN.PASSAS |
 | ![foto](img/prod-523-mvpodpw4.jpg) [abrir](img/prod-523-mvpodpw4.jpg) | Produto | 523 | P.BATATA PERU C/QUEIJO MINAS |
 | ![foto](img/prod-524-mvpnpy5t.jpg) [abrir](img/prod-524-mvpnpy5t.jpg) | Produto | 524 | CHEESEB. FORNO CHEDDAR |
@@ -645,3 +646,4 @@ Atualizado em 26/10/2026, 16:50:17. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 16:48:32 — Trocou a foto do produto P.BATATA REQUEIJAO
 - 26/10/2026, 16:48:40 — Trocou a foto do produto PASTEL INT. FRANGO CEN.PASSAS
 - 26/10/2026, 16:50:15 — Trocou a foto do produto FOLHADO FRANGO
+- 26/10/2026, 16:50:25 — Trocou a foto do produto PASTEL INT. PALMITO C/CHAMP
