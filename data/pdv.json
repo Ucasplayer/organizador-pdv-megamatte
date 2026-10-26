@@ -1727,7 +1727,8 @@
   },
   "11788": {
    "code": "11788",
-   "name": "PROMO EMPADA CAMARAO"
+   "name": "PROMO EMPADA CAMARAO",
+   "img": "api/image?f=prod-11788-mvpol6k5.jpg"
   },
   "11789": {
    "code": "11789",
@@ -2038,6 +2039,10 @@
   }
  },
  "log": [
+  {
+   "t": "2026-10-26T19:54:09.963Z",
+   "msg": "Trocou a foto do produto PROMO EMPADA CAMARAO"
+  },
   {
    "t": "2026-10-26T19:53:59.385Z",
    "msg": "Trocou a foto do produto PASTEL INT. QUEIJO MINAS"
@@ -2363,5 +2368,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:53:59.397Z"
+ "savedAt": "2026-10-26T19:54:09.975Z"
 }
