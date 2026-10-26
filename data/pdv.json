@@ -818,7 +818,8 @@
   },
   "524": {
    "code": "524",
-   "name": "CHEESEB. FORNO CHEDDAR"
+   "name": "CHEESEB. FORNO CHEDDAR",
+   "img": "api/image?f=prod-524-mvpnpy5t.jpg"
   },
   "548": {
    "code": "548",
@@ -2017,6 +2018,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:29:52.633Z",
+   "msg": "Trocou a foto do produto CHEESEB. FORNO CHEDDAR"
+  },
+  {
    "t": "2026-10-26T19:27:42.131Z",
    "msg": "Trocou a foto do produto CROISSANT DE CHOCOLATE"
   },
@@ -2249,5 +2254,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:27:42.137Z"
+ "savedAt": "2026-10-26T19:29:52.642Z"
 }
