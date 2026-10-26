@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 16:47:00. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 16:47:38. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **36** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **37** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 26/10/2026, 16:47:00. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (36)
+## Fotos trocadas (37)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -100,6 +100,7 @@ Atualizado em 26/10/2026, 16:47:00. Gerado automaticamente pelo Organizador do P
 | ![foto](img/prod-524-mvpnpy5t.jpg) [abrir](img/prod-524-mvpnpy5t.jpg) | Produto | 524 | CHEESEB. FORNO CHEDDAR |
 | ![foto](img/prod-2118-mvpo9nqu.jpg) [abrir](img/prod-2118-mvpo9nqu.jpg) | Produto | 2118 | CROISSANT.INT. FRANGO C/REQ |
 | ![foto](img/prod-2120-mvpo9wvt.jpg) [abrir](img/prod-2120-mvpo9wvt.jpg) | Produto | 2120 | CROISSANT.INT. QUEIJO MINAS |
+| ![foto](img/prod-11009-mvpocr9t.jpg) [abrir](img/prod-11009-mvpocr9t.jpg) | Produto | 11009 | FOLHADO PEITO DE PERU |
 | ![foto](img/prod-11056-mvpnn5f0.jpg) [abrir](img/prod-11056-mvpnn5f0.jpg) | Produto | 11056 | CROISSANT DE CHOCOLATE |
 | ![foto](img/prod-11417-mvpoat93.jpg) [abrir](img/prod-11417-mvpoat93.jpg) | Produto | 11417 | EMPADA FRANGO |
 | ![foto](img/prod-11781-mvpoa5z1.jpg) [abrir](img/prod-11781-mvpoa5z1.jpg) | Produto | 11781 | EMPADA CAMARAO |
@@ -629,3 +630,4 @@ Atualizado em 26/10/2026, 16:47:00. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 16:46:06 — Trocou a foto do produto EMPADA FRANGO
 - 26/10/2026, 16:46:44 — Trocou a foto do produto EMPADAO FRANGO (250G)
 - 26/10/2026, 16:46:58 — Mudou a ordem dos produtos em SALGADOS
+- 26/10/2026, 16:47:36 — Trocou a foto do produto FOLHADO PEITO DE PERU

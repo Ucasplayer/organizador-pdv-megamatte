@@ -1289,7 +1289,8 @@
   },
   "11009": {
    "code": "11009",
-   "name": "FOLHADO PEITO DE PERU"
+   "name": "FOLHADO PEITO DE PERU",
+   "img": "api/image?f=prod-11009-mvpocr9t.jpg"
   },
   "11010": {
    "code": "11010",
@@ -2029,6 +2030,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:47:36.937Z",
+   "msg": "Trocou a foto do produto FOLHADO PEITO DE PERU"
+  },
+  {
    "t": "2026-10-26T19:46:58.697Z",
    "msg": "Mudou a ordem dos produtos em SALGADOS"
   },
@@ -2313,5 +2318,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:46:58.708Z"
+ "savedAt": "2026-10-26T19:47:36.945Z"
 }
