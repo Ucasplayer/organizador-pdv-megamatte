@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 16:44:29. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 16:44:39. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **28** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **29** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 26/10/2026, 16:44:29. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (28)
+## Fotos trocadas (29)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -95,6 +95,7 @@ Atualizado em 26/10/2026, 16:44:29. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-92-mvpmqz2e.jpg) [abrir](img/cat-92-mvpmqz2e.jpg) | Categoria | 92 | FOLDER COMBOS |
 | ![foto](img/prod-508-mvpntiy1.jpg) [abrir](img/prod-508-mvpntiy1.jpg) | Produto | 508 | CROISSANT FRANGO |
 | ![foto](img/prod-509-mvpo8p8m.jpg) [abrir](img/prod-509-mvpo8p8m.jpg) | Produto | 509 | CROISSANT MISTO |
+| ![foto](img/prod-510-mvpo8xbs.jpg) [abrir](img/prod-510-mvpo8xbs.jpg) | Produto | 510 | CROISSANT PIZZA |
 | ![foto](img/prod-524-mvpnpy5t.jpg) [abrir](img/prod-524-mvpnpy5t.jpg) | Produto | 524 | CHEESEB. FORNO CHEDDAR |
 | ![foto](img/prod-11056-mvpnn5f0.jpg) [abrir](img/prod-11056-mvpnn5f0.jpg) | Produto | 11056 | CROISSANT DE CHOCOLATE |
 | ![foto](img/prod-11863-mvpntag1.jpg) [abrir](img/prod-11863-mvpntag1.jpg) | Produto | 11863 | CHEESEB. FORNO TRADICIONAL |
@@ -612,3 +613,4 @@ Atualizado em 26/10/2026, 16:44:29. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 16:32:28 — Trocou a foto do produto CHEESEB. FORNO TRADICIONAL
 - 26/10/2026, 16:32:39 — Trocou a foto do produto CROISSANT FRANGO
 - 26/10/2026, 16:44:27 — Trocou a foto do produto CROISSANT MISTO
+- 26/10/2026, 16:44:38 — Trocou a foto do produto CROISSANT PIZZA

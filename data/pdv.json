@@ -800,7 +800,8 @@
   },
   "510": {
    "code": "510",
-   "name": "CROISSANT PIZZA"
+   "name": "CROISSANT PIZZA",
+   "img": "api/image?f=prod-510-mvpo8xbs.jpg"
   },
   "517": {
    "code": "517",
@@ -2021,6 +2022,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:44:38.200Z",
+   "msg": "Trocou a foto do produto CROISSANT PIZZA"
+  },
+  {
    "t": "2026-10-26T19:44:27.654Z",
    "msg": "Trocou a foto do produto CROISSANT MISTO"
   },
@@ -2269,5 +2274,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:44:27.663Z"
+ "savedAt": "2026-10-26T19:44:38.208Z"
 }
