@@ -1706,7 +1706,8 @@
   },
   "11781": {
    "code": "11781",
-   "name": "EMPADA CAMARAO"
+   "name": "EMPADA CAMARAO",
+   "img": "api/image?f=prod-11781-mvpoa5z1.jpg"
   },
   "11782": {
    "code": "11782",
@@ -2025,6 +2026,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:45:35.924Z",
+   "msg": "Trocou a foto do produto EMPADA CAMARAO"
+  },
+  {
    "t": "2026-10-26T19:45:24.132Z",
    "msg": "Trocou a foto do produto CROISSANT.INT. QUEIJO MINAS"
   },
@@ -2289,5 +2294,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:45:24.142Z"
+ "savedAt": "2026-10-26T19:45:35.933Z"
 }
