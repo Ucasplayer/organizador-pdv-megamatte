@@ -156,7 +156,7 @@
    "id": "c8",
    "code": "8",
    "name": "AÇAÍ",
-   "img": "img/cat-8.jpg",
+   "img": "api/image?f=cat-8-mvpb5vjl.jpg",
    "items": [
     "446",
     "458",
@@ -2018,6 +2018,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T13:38:21.204Z",
+   "msg": "Trocou a foto da categoria AÇAÍ"
+  },
+  {
    "t": "2026-10-26T13:37:25.452Z",
    "msg": "Mudou a ordem das categorias na tela"
   },
@@ -2086,5 +2090,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T13:37:25.457Z"
+ "savedAt": "2026-10-26T13:38:21.209Z"
 }
