@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 16:48:23. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 16:48:33. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **41** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **42** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 26/10/2026, 16:48:23. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (41)
+## Fotos trocadas (42)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -93,6 +93,7 @@ Atualizado em 26/10/2026, 16:48:23. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-101-mvpfbpfu.jpg) [abrir](img/cat-101-mvpfbpfu.jpg) | Categoria | 101 | COFFEE PARTY TERÊ |
 | ![foto](img/cat-93-mvpmoy2z.jpg) [abrir](img/cat-93-mvpmoy2z.jpg) | Categoria | 93 | FOLDER CAFETERIA |
 | ![foto](img/cat-92-mvpmqz2e.jpg) [abrir](img/cat-92-mvpmqz2e.jpg) | Categoria | 92 | FOLDER COMBOS |
+| ![foto](img/prod-501-mvpody7y.jpg) [abrir](img/prod-501-mvpody7y.jpg) | Produto | 501 | P.BATATA REQUEIJAO |
 | ![foto](img/prod-502-mvpoda1a.jpg) [abrir](img/prod-502-mvpoda1a.jpg) | Produto | 502 | P.BATATA CALABRESA |
 | ![foto](img/prod-506-mvpodgx4.jpg) [abrir](img/prod-506-mvpodgx4.jpg) | Produto | 506 | P.BATATA MISTO |
 | ![foto](img/prod-507-mvpo9chc.jpg) [abrir](img/prod-507-mvpo9chc.jpg) | Produto | 507 | CROISSANT QUATRO QUEIJOS |
@@ -639,3 +640,4 @@ Atualizado em 26/10/2026, 16:48:23. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 16:48:01 — Trocou a foto do produto P.BATATA CALABRESA
 - 26/10/2026, 16:48:10 — Trocou a foto do produto P.BATATA MISTO
 - 26/10/2026, 16:48:21 — Trocou a foto do produto P.BATATA PERU C/QUEIJO MINAS
+- 26/10/2026, 16:48:32 — Trocou a foto do produto P.BATATA REQUEIJAO

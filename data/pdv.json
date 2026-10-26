@@ -774,7 +774,8 @@
   },
   "501": {
    "code": "501",
-   "name": "P.BATATA REQUEIJAO"
+   "name": "P.BATATA REQUEIJAO",
+   "img": "api/image?f=prod-501-mvpody7y.jpg"
   },
   "502": {
    "code": "502",
@@ -2034,6 +2035,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:48:32.394Z",
+   "msg": "Trocou a foto do produto P.BATATA REQUEIJAO"
+  },
+  {
    "t": "2026-10-26T19:48:21.575Z",
    "msg": "Trocou a foto do produto P.BATATA PERU C/QUEIJO MINAS"
   },
@@ -2338,5 +2343,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:48:21.587Z"
+ "savedAt": "2026-10-26T19:48:32.403Z"
 }
