@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 16:54:11. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 16:54:22. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **47** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **48** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 26/10/2026, 16:54:11. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (47)
+## Fotos trocadas (48)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -117,6 +117,7 @@ Atualizado em 26/10/2026, 16:54:11. Gerado automaticamente pelo Organizador do P
 | ![foto](img/prod-11788-mvpol6k5.jpg) [abrir](img/prod-11788-mvpol6k5.jpg) | Produto | 11788 | PROMO EMPADA CAMARAO |
 | ![foto](img/prod-11830-mvpobn9w.jpg) [abrir](img/prod-11830-mvpobn9w.jpg) | Produto | 11830 | EMPADAO FRANGO (250G) |
 | ![foto](img/prod-11863-mvpntag1.jpg) [abrir](img/prod-11863-mvpntag1.jpg) | Produto | 11863 | CHEESEB. FORNO TRADICIONAL |
+| ![foto](img/prod-12076-mvpolf35.jpg) [abrir](img/prod-12076-mvpolf35.jpg) | Produto | 12076 | QUICHE 4 QUEIJOS |
 
 ## Ordem na tela
 
@@ -651,3 +652,4 @@ Atualizado em 26/10/2026, 16:54:11. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 16:50:25 — Trocou a foto do produto PASTEL INT. PALMITO C/CHAMP
 - 26/10/2026, 16:53:59 — Trocou a foto do produto PASTEL INT. QUEIJO MINAS
 - 26/10/2026, 16:54:09 — Trocou a foto do produto PROMO EMPADA CAMARAO
+- 26/10/2026, 16:54:21 — Trocou a foto do produto QUICHE 4 QUEIJOS
