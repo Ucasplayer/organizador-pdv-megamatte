@@ -341,13 +341,6 @@
    ]
   },
   {
-   "id": "c15",
-   "code": "15",
-   "name": "SANDUÍCHES NATURAIS",
-   "img": "img/cat-15.jpg",
-   "items": []
-  },
-  {
    "id": "c6",
    "code": "6",
    "name": "SOBREMESAS",
@@ -2007,6 +2000,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T15:00:10.003Z",
+   "msg": "Excluiu a categoria SANDUÍCHES NATURAIS"
+  },
+  {
    "t": "2026-10-26T15:00:04.516Z",
    "msg": "Excluiu a categoria SANDUÍCHES GOURMET"
   },
@@ -2155,5 +2152,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T15:00:04.523Z"
+ "savedAt": "2026-10-26T15:00:10.008Z"
 }
