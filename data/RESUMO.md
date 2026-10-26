@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 15:13:29. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 15:13:31. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **21** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
@@ -89,8 +89,8 @@ Atualizado em 26/10/2026, 15:13:29. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-18-mvper7hc.jpg) [abrir](img/cat-18-mvper7hc.jpg) | Categoria | 18 | EXTRA |
 | ![foto](img/cat-2-mvpexm5r.jpg) [abrir](img/cat-2-mvpexm5r.jpg) | Categoria | 2 | PROMOÇÕES |
 | ![foto](img/cat-111-mvpeull3.jpg) [abrir](img/cat-111-mvpeull3.jpg) | Categoria | 111 | LOJISTA (NOVO) |
-| ![foto](img/cat-101-mvpfbpfu.jpg) [abrir](img/cat-101-mvpfbpfu.jpg) | Categoria | 101 | COFFEE PARTY TERÊ |
 | ![foto](img/cat-110-mvpfc5kn.jpg) [abrir](img/cat-110-mvpfc5kn.jpg) | Categoria | 110 | MINI PREÇOS (NOVOS) |
+| ![foto](img/cat-101-mvpfbpfu.jpg) [abrir](img/cat-101-mvpfbpfu.jpg) | Categoria | 101 | COFFEE PARTY TERÊ |
 
 ## Ordem na tela
 
@@ -498,17 +498,7 @@ Atualizado em 26/10/2026, 15:13:29. Gerado automaticamente pelo Organizador do P
 18. P.LOJ - SANDUICHE + SUCO — cód. 11979
 19. PROM -  LOJISTA — cód. 11795
 
-### 20. COFFEE PARTY TERÊ (grupo 101) — 7 produtos
-
-1. P.MATE OU GUARANA 300ML GRATIS — cód. 11931
-2. PL-BARRA 75% — cód. 15505
-3. PL-BARRA DIET — cód. 15506
-4. PL-DEMAIS BARRAS — cód. 15507
-5. PL-LINGUA DE GATO — cód. 15503
-6. PL-PAO DE MEL — cód. 15508
-7. PL-TRUFA — cód. 15504
-
-### 21. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
+### 20. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
 
 1. P.MP - SANDUICHE + SUCO — cód. 12017
 2. PROM -  LOJISTA — cód. 11795
@@ -517,6 +507,16 @@ Atualizado em 26/10/2026, 15:13:29. Gerado automaticamente pelo Organizador do P
 5. P.MP - 8 PQ/BRO + MATE OU GUA — cód. 11901
 6. P.MP - 8 PQ/BRO + SUCO — cód. 11910
 7. P.MP - SANDUICHE + MATE OU GUA — cód. 11908
+
+### 21. COFFEE PARTY TERÊ (grupo 101) — 7 produtos
+
+1. P.MATE OU GUARANA 300ML GRATIS — cód. 11931
+2. PL-BARRA 75% — cód. 15505
+3. PL-BARRA DIET — cód. 15506
+4. PL-DEMAIS BARRAS — cód. 15507
+5. PL-LINGUA DE GATO — cód. 15503
+6. PL-PAO DE MEL — cód. 15508
+7. PL-TRUFA — cód. 15504
 
 ### 22. FOLDER CAFETERIA (grupo 93) — 9 produtos
 
@@ -595,4 +595,4 @@ Atualizado em 26/10/2026, 15:13:29. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 15:10:50 — Criou a categoria CAMPANHA BROWNIE DO LUIZ
 - 26/10/2026, 15:11:05 — Trocou a foto da categoria CAMPANHA BROWNIE DO LUIZ
 - 26/10/2026, 15:11:09 — Mudou a ordem das categorias na tela
-- 26/10/2026, 15:13:27 — Mudou a ordem das categorias na tela
+- 26/10/2026, 15:13:30 — Mudou a ordem das categorias na tela

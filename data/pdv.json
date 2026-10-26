@@ -496,21 +496,6 @@
    ]
   },
   {
-   "id": "c101",
-   "code": "101",
-   "name": "COFFEE PARTY TERÊ",
-   "img": "api/image?f=cat-101-mvpfbpfu.jpg",
-   "items": [
-    "11931",
-    "15505",
-    "15506",
-    "15507",
-    "15503",
-    "15508",
-    "15504"
-   ]
-  },
-  {
    "id": "c110",
    "code": "110",
    "name": "MINI PREÇOS (NOVOS)",
@@ -523,6 +508,21 @@
     "11901",
     "11910",
     "11908"
+   ]
+  },
+  {
+   "id": "c101",
+   "code": "101",
+   "name": "COFFEE PARTY TERÊ",
+   "img": "api/image?f=cat-101-mvpfbpfu.jpg",
+   "items": [
+    "11931",
+    "15505",
+    "15506",
+    "15507",
+    "15503",
+    "15508",
+    "15504"
    ]
   },
   {
@@ -2016,7 +2016,7 @@
  },
  "log": [
   {
-   "t": "2026-10-26T18:13:27.707Z",
+   "t": "2026-10-26T18:13:30.281Z",
    "msg": "Mudou a ordem das categorias na tela"
   },
   {
@@ -2228,5 +2228,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T18:13:27.713Z"
+ "savedAt": "2026-10-26T18:13:30.285Z"
 }
