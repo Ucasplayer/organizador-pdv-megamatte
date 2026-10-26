@@ -1299,7 +1299,8 @@
   },
   "11010": {
    "code": "11010",
-   "name": "FOLHADO FRANGO"
+   "name": "FOLHADO FRANGO",
+   "img": "api/image?f=prod-11010-mvpog5uc.jpg"
   },
   "11011": {
    "code": "11011",
@@ -2036,6 +2037,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:50:15.603Z",
+   "msg": "Trocou a foto do produto FOLHADO FRANGO"
+  },
+  {
    "t": "2026-10-26T19:48:40.908Z",
    "msg": "Trocou a foto do produto PASTEL INT. FRANGO CEN.PASSAS"
   },
@@ -2348,5 +2353,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:48:40.920Z"
+ "savedAt": "2026-10-26T19:50:15.614Z"
 }

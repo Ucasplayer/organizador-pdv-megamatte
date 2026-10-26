@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 16:48:42. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 16:50:17. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **43** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **44** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 26/10/2026, 16:48:42. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (43)
+## Fotos trocadas (44)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -106,6 +106,7 @@ Atualizado em 26/10/2026, 16:48:42. Gerado automaticamente pelo Organizador do P
 | ![foto](img/prod-2118-mvpo9nqu.jpg) [abrir](img/prod-2118-mvpo9nqu.jpg) | Produto | 2118 | CROISSANT.INT. FRANGO C/REQ |
 | ![foto](img/prod-2120-mvpo9wvt.jpg) [abrir](img/prod-2120-mvpo9wvt.jpg) | Produto | 2120 | CROISSANT.INT. QUEIJO MINAS |
 | ![foto](img/prod-11009-mvpocr9t.jpg) [abrir](img/prod-11009-mvpocr9t.jpg) | Produto | 11009 | FOLHADO PEITO DE PERU |
+| ![foto](img/prod-11010-mvpog5uc.jpg) [abrir](img/prod-11010-mvpog5uc.jpg) | Produto | 11010 | FOLHADO FRANGO |
 | ![foto](img/prod-11056-mvpnn5f0.jpg) [abrir](img/prod-11056-mvpnn5f0.jpg) | Produto | 11056 | CROISSANT DE CHOCOLATE |
 | ![foto](img/prod-11119-mvpod15t.jpg) [abrir](img/prod-11119-mvpod15t.jpg) | Produto | 11119 | FOLHADO.INT PEITO DE PERU C/QUEIJO |
 | ![foto](img/prod-11417-mvpoat93.jpg) [abrir](img/prod-11417-mvpoat93.jpg) | Produto | 11417 | EMPADA FRANGO |
@@ -643,3 +644,4 @@ Atualizado em 26/10/2026, 16:48:42. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 16:48:21 — Trocou a foto do produto P.BATATA PERU C/QUEIJO MINAS
 - 26/10/2026, 16:48:32 — Trocou a foto do produto P.BATATA REQUEIJAO
 - 26/10/2026, 16:48:40 — Trocou a foto do produto PASTEL INT. FRANGO CEN.PASSAS
+- 26/10/2026, 16:50:15 — Trocou a foto do produto FOLHADO FRANGO
