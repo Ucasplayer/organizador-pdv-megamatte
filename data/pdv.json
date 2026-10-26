@@ -249,7 +249,7 @@
    "id": "c10",
    "code": "10",
    "name": "VITAMINAS",
-   "img": "api/image?f=cat-10-mvpdfnu5.jpg",
+   "img": "api/image?f=cat-10-mvpdv8ra.jpg",
    "items": [
     "2102",
     "2103",
@@ -2018,6 +2018,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T14:54:04.202Z",
+   "msg": "Trocou a foto da categoria VITAMINAS"
+  },
+  {
    "t": "2026-10-26T14:48:59.890Z",
    "msg": "Trocou a foto da categoria ÁGUA"
   },
@@ -2130,5 +2134,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T14:48:59.896Z"
+ "savedAt": "2026-10-26T14:54:04.207Z"
 }

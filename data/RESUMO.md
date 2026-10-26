@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 11:49:01. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 11:54:05. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **11** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **4**
@@ -59,7 +59,7 @@ _Nenhuma._
 | ![foto](img/cat-5-mvpcbfxk.jpg) [abrir](img/cat-5-mvpcbfxk.jpg) | Categoria | 5 | GUARANA NATURAL |
 | ![foto](img/cat-21-mvpcj4iz.jpg) [abrir](img/cat-21-mvpcj4iz.jpg) | Categoria | 21 | CAFETERIA BEBIDAS GELADAS |
 | ![foto](img/cat-9-mvpdfdj6.jpg) [abrir](img/cat-9-mvpdfdj6.jpg) | Categoria | 9 | MEGASHAKES |
-| ![foto](img/cat-10-mvpdfnu5.jpg) [abrir](img/cat-10-mvpdfnu5.jpg) | Categoria | 10 | VITAMINAS |
+| ![foto](img/cat-10-mvpdv8ra.jpg) [abrir](img/cat-10-mvpdv8ra.jpg) | Categoria | 10 | VITAMINAS |
 | ![foto](img/cat-11-mvpdkyy5.jpg) [abrir](img/cat-11-mvpdkyy5.jpg) | Categoria | 11 | SUCOS |
 | ![foto](img/cat-12-mvpdoq2d.jpg) [abrir](img/cat-12-mvpdoq2d.jpg) | Categoria | 12 | ÁGUA |
 
@@ -544,3 +544,4 @@ _Nenhuma._
 - 26/10/2026, 11:41:56 — Trocou a foto da categoria VITAMINAS
 - 26/10/2026, 11:46:04 — Trocou a foto da categoria SUCOS
 - 26/10/2026, 11:48:59 — Trocou a foto da categoria ÁGUA
+- 26/10/2026, 11:54:04 — Trocou a foto da categoria VITAMINAS
