@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 16:46:46. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 16:46:54. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **36** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
@@ -110,7 +110,7 @@ Atualizado em 26/10/2026, 16:46:46. Gerado automaticamente pelo Organizador do P
 ## Ordem na tela
 
 - A ordem das categorias mudou (ver estrutura abaixo).
-- Ordem dos produtos mudou em: CAFETERIA BEBIDAS QUENTES
+- Ordem dos produtos mudou em: SALGADOS, CAFETERIA BEBIDAS QUENTES
 
 ## Estrutura final (na ordem da tela)
 
@@ -144,16 +144,16 @@ Atualizado em 26/10/2026, 16:46:46. Gerado automaticamente pelo Organizador do P
 9. EMPADA CAMARAO — cód. 11781
 10. EMPADA CARNE SECA — cód. 11782
 11. EMPADA FRANGO — cód. 11417
-12. EMPADA PALMITO — cód. 11418
-13. EMPADAO FRANGO (250G) — cód. 11830
-14. FOLHADO FRANGO — cód. 11010
-15. FOLHADO PEITO DE PERU — cód. 11009
-16. FOLHADO.INT PEITO DE PERU C/QUEIJO — cód. 11119
-17. P.BATATA CALABRESA — cód. 502
-18. P.BATATA MISTO — cód. 506
-19. P.BATATA PERU C/QUEIJO MINAS — cód. 523
-20. P.BATATA REQUEIJAO — cód. 501
-21. PASTEL INT. FRANGO CEN.PASSAS — cód. 519
+12. EMPADAO FRANGO (250G) — cód. 11830
+13. FOLHADO FRANGO — cód. 11010
+14. FOLHADO PEITO DE PERU — cód. 11009
+15. FOLHADO.INT PEITO DE PERU C/QUEIJO — cód. 11119
+16. P.BATATA CALABRESA — cód. 502
+17. P.BATATA MISTO — cód. 506
+18. P.BATATA PERU C/QUEIJO MINAS — cód. 523
+19. P.BATATA REQUEIJAO — cód. 501
+20. PASTEL INT. FRANGO CEN.PASSAS — cód. 519
+21. EMPADA PALMITO — cód. 11418
 22. PASTEL INT. PALMITO C/CHAMP — cód. 518
 23. PASTEL INT. QUEIJO MINAS — cód. 517
 24. PROMO EMPADA CAMARAO — cód. 11788
@@ -628,3 +628,4 @@ Atualizado em 26/10/2026, 16:46:46. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 16:45:50 — Trocou a foto do produto EMPADA CARNE SECA
 - 26/10/2026, 16:46:06 — Trocou a foto do produto EMPADA FRANGO
 - 26/10/2026, 16:46:44 — Trocou a foto do produto EMPADAO FRANGO (250G)
+- 26/10/2026, 16:46:53 — Mudou a ordem dos produtos em SALGADOS
