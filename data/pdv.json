@@ -1919,7 +1919,7 @@
   "12076": {
    "code": "12076",
    "name": "QUICHE 4 QUEIJOS",
-   "img": "api/image?f=prod-12076-mvpolf35.jpg"
+   "img": "api/image?f=prod-12076-mvpp4hl9.jpg"
   },
   "12077": {
    "code": "12077",
@@ -2045,6 +2045,10 @@
   }
  },
  "log": [
+  {
+   "t": "2026-10-26T20:09:10.689Z",
+   "msg": "Trocou a foto do produto QUICHE 4 QUEIJOS"
+  },
   {
    "t": "2026-10-26T20:08:13.934Z",
    "msg": "Mudou a ordem dos produtos em SALGADOS"
@@ -2406,5 +2410,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T20:08:13.946Z"
+ "savedAt": "2026-10-26T20:09:10.702Z"
 }
