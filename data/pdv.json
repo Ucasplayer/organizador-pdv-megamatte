@@ -2,6 +2,14 @@
  "version": 1,
  "categories": [
   {
+   "id": "nmvpkogad",
+   "code": "",
+   "name": "CAMPANHA BROWNIE DO LUIZ",
+   "img": "api/image?f=cat-nmvpkogad-mvpkwm7i.jpg",
+   "items": [],
+   "isNew": true
+  },
+  {
    "id": "nmvpkilu8",
    "code": "",
    "name": "MATE FRUTA DO DIA",
@@ -549,14 +557,6 @@
     "12662",
     "12666"
    ]
-  },
-  {
-   "id": "nmvpkogad",
-   "code": "",
-   "name": "CAMPANHA BROWNIE DO LUIZ",
-   "img": "api/image?f=cat-nmvpkogad-mvpkwm7i.jpg",
-   "items": [],
-   "isNew": true
   }
  ],
  "products": {
@@ -2016,6 +2016,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T18:11:09.993Z",
+   "msg": "Mudou a ordem das categorias na tela"
+  },
+  {
    "t": "2026-10-26T18:11:05.506Z",
    "msg": "Trocou a foto da categoria CAMPANHA BROWNIE DO LUIZ"
   },
@@ -2220,5 +2224,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T18:11:05.513Z"
+ "savedAt": "2026-10-26T18:11:10.001Z"
 }
