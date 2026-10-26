@@ -483,7 +483,7 @@
    "id": "c101",
    "code": "101",
    "name": "COFFEE PARTY TERÊ",
-   "img": "img/cat-101.jpg",
+   "img": "api/image?f=cat-101-mvpfbpfu.jpg",
    "items": [
     "11931",
     "15505",
@@ -2000,6 +2000,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T15:34:51.625Z",
+   "msg": "Trocou a foto da categoria COFFEE PARTY TERÊ"
+  },
+  {
    "t": "2026-10-26T15:33:14.288Z",
    "msg": "Trocou a foto da categoria ÁGUA"
   },
@@ -2176,5 +2180,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T15:33:14.295Z"
+ "savedAt": "2026-10-26T15:34:51.632Z"
 }
