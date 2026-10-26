@@ -341,13 +341,6 @@
    ]
   },
   {
-   "id": "c14",
-   "code": "14",
-   "name": "SANDUÍCHES GOURMET",
-   "img": "img/cat-14.jpg",
-   "items": []
-  },
-  {
    "id": "c15",
    "code": "15",
    "name": "SANDUÍCHES NATURAIS",
@@ -2014,6 +2007,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T15:00:04.516Z",
+   "msg": "Excluiu a categoria SANDUÍCHES GOURMET"
+  },
+  {
    "t": "2026-10-26T14:59:50.419Z",
    "msg": "Renomeou o produto SAND. FRANGO TOMATE SECO AZEITO BAGUETE para SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE"
   },
@@ -2158,5 +2155,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T14:59:50.425Z"
+ "savedAt": "2026-10-26T15:00:04.523Z"
 }

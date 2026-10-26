@@ -1,24 +1,25 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 11:59:51. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 12:00:06. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **12** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
 - Categorias novas: **0**
-- Categorias excluídas: **1**
+- Categorias excluídas: **2**
 - Categorias renomeadas: **1**
 
 ## Categorias novas (0)
 
 _Nenhuma._
 
-## Categorias excluídas (1)
+## Categorias excluídas (2)
 
 | Cód. | Categoria |
 |---|---|
 | 7 | CAFETERIA ESPRESSO |
+| 14 | SANDUÍCHES GOURMET |
 
 ## Categorias renomeadas (1)
 
@@ -34,8 +35,8 @@ _Nenhuma._
 | 463 | ESPRESSO DUPLO 100ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 470 | ESPRESSO DUPLO C/LEITE 200ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 11063 | ESPRESSO MACCHIATO 50ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
-| 10362 | SAND. GOURMET CIABATTA CARNE ASSADA | SANDUÍCHES GOURMET | SANDUICHES | SANDUICHES |
-| 11113 | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE | SANDUÍCHES GOURMET | SANDUICHES | SANDUICHES |
+| 10362 | SAND. GOURMET CIABATTA CARNE ASSADA | SANDUÍCHES GOURMET (excluída) | SANDUICHES | SANDUICHES |
+| 11113 | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE | SANDUÍCHES GOURMET (excluída) | SANDUICHES | SANDUICHES |
 | 11179 | SAND. NAT. ATUM COM REQUEIJÃO | SANDUÍCHES NATURAIS | SANDUICHES | SANDUICHES |
 | 11180 | SAND. NAT. FRANGO COM CENOURA | SANDUÍCHES NATURAIS | SANDUICHES | SANDUICHES |
 | 11181 | SAND. NAT. PEITO DE PERU | SANDUÍCHES NATURAIS | SANDUICHES | SANDUICHES |
@@ -364,13 +365,10 @@ _Nenhuma._
 8. SAND. NAT. PEITO DE PERU — cód. 11181
 9. SAND. NAT. SALPICAO DE FRANGO — cód. 11182
 
-### 13. SANDUÍCHES GOURMET (grupo 14) — 0 produtos
+### 13. SANDUÍCHES NATURAIS (grupo 15) — 0 produtos
 
 
-### 14. SANDUÍCHES NATURAIS (grupo 15) — 0 produtos
-
-
-### 15. SOBREMESAS (grupo 6) — 34 produtos
+### 14. SOBREMESAS (grupo 6) — 34 produtos
 
 1. BOLO DE BANANA INT MEGAMATTE — cód. 11689
 2. BOLO DE CENOURA MEGAMATTE — cód. 11768
@@ -407,7 +405,7 @@ _Nenhuma._
 33. TORTA ESPECIAL FATIA — cód. 10231
 34. TORTA ESPECIAL INTEIRA — cód. 10298
 
-### 16. CONGELADOS (grupo 45) — 7 produtos
+### 15. CONGELADOS (grupo 45) — 7 produtos
 
 1. CG - BROINHA 1KG — cód. 10261
 2. CG - PAO DE QUEIJO 1KG — cód. 2127
@@ -417,7 +415,7 @@ _Nenhuma._
 6. CG - PAO DE BATATA — cód. 11368
 7. CG - PASTEL — cód. 11369
 
-### 17. PROMOÇÕES (grupo 2) — 27 produtos
+### 16. PROMOÇÕES (grupo 2) — 27 produtos
 
 1. KIT CAFE 1 — cód. 10708
 2. KIT CAFE 2 — cód. 10709
@@ -447,7 +445,7 @@ _Nenhuma._
 26. PROM - SALGADO + MATE — cód. 15015
 27. PROMO COOKIE DE CHOCOLATE UNID — cód. 11294
 
-### 18. EXTRA (grupo 18) — 12 produtos
+### 17. EXTRA (grupo 18) — 12 produtos
 
 1. ADICIONAL MATE FRUTA — cód. 11790
 2. PORCAO DE AMENDOIM — cód. 607
@@ -462,7 +460,7 @@ _Nenhuma._
 11. PORCAO DE PROTEINATO — cód. 613
 12. PORCAO OVOMALTINE FLOCOS — cód. 11457
 
-### 19. LOJISTA (NOVO) (grupo 111) — 19 produtos
+### 18. LOJISTA (NOVO) (grupo 111) — 19 produtos
 
 1. P.LOJ - 1 COOKIE + CAFE 100ML — cód. 11996
 2. P.LOJ - 1 COOKIE + CAFE 200ML — cód. 11997
@@ -484,7 +482,7 @@ _Nenhuma._
 18. P.LOJ - SANDUICHE + SUCO — cód. 11979
 19. PROM -  LOJISTA — cód. 11795
 
-### 20. COFFEE PARTY TERÊ (grupo 101) — 7 produtos
+### 19. COFFEE PARTY TERÊ (grupo 101) — 7 produtos
 
 1. P.MATE OU GUARANA 300ML GRATIS — cód. 11931
 2. PL-BARRA 75% — cód. 15505
@@ -494,7 +492,7 @@ _Nenhuma._
 6. PL-PAO DE MEL — cód. 15508
 7. PL-TRUFA — cód. 15504
 
-### 21. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
+### 20. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
 
 1. P.MP - SANDUICHE + SUCO — cód. 12017
 2. PROM -  LOJISTA — cód. 11795
@@ -504,7 +502,7 @@ _Nenhuma._
 6. P.MP - 8 PQ/BRO + SUCO — cód. 11910
 7. P.MP - SANDUICHE + MATE OU GUA — cód. 11908
 
-### 22. FOLDER CAFETERIA (grupo 93) — 9 produtos
+### 21. FOLDER CAFETERIA (grupo 93) — 9 produtos
 
 1. FCD CAPP 200ML — cód. 12048
 2. FCD CAPP 200ML+1COOKIE — cód. 12654
@@ -516,7 +514,7 @@ _Nenhuma._
 8. FCD ESPRESSO 50ML — cód. 12650
 9. FCD SAND. MEGAMISTO — cód. 12655
 
-### 23. FOLDER COMBOS (grupo 92) — 8 produtos
+### 22. FOLDER COMBOS (grupo 92) — 8 produtos
 
 1. FCDC ACAI 300ML+GRANOLA — cód. 12661
 2. FCDC MEGASHAKE300ML+6PQ/BRO — cód. 12665
@@ -565,3 +563,4 @@ _Nenhuma._
 - 26/10/2026, 11:59:20 — Excluiu SAND. COSTELA NO PÃO AUSTRALIANO de SANDUICHES
 - 26/10/2026, 11:59:43 — Renomeou o produto SAND. CIABATTA CARNE ASSADA para SAND. GOURMET CIABATTA CARNE ASSADA
 - 26/10/2026, 11:59:50 — Renomeou o produto SAND. FRANGO TOMATE SECO AZEITO BAGUETE para SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE
+- 26/10/2026, 12:00:04 — Excluiu a categoria SANDUÍCHES GOURMET
