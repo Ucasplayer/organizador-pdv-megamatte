@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 12:21:34. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 12:23:55. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **16** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **17** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -63,7 +63,7 @@ _Nenhuma._
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (16)
+## Fotos trocadas (17)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -81,6 +81,7 @@ _Nenhuma._
 | ![foto](img/cat-13-mvpe00gw.jpg) [abrir](img/cat-13-mvpe00gw.jpg) | Categoria | 13 | SANDUICHES |
 | ![foto](img/cat-6-mvpedrqt.jpg) [abrir](img/cat-6-mvpedrqt.jpg) | Categoria | 6 | SOBREMESAS |
 | ![foto](img/cat-45-mvpehoov.jpg) [abrir](img/cat-45-mvpehoov.jpg) | Categoria | 45 | CONGELADOS |
+| ![foto](img/cat-2-mvpexm5r.jpg) [abrir](img/cat-2-mvpexm5r.jpg) | Categoria | 2 | PROMOÇÕES |
 | ![foto](img/cat-18-mvper7hc.jpg) [abrir](img/cat-18-mvper7hc.jpg) | Categoria | 18 | EXTRA |
 | ![foto](img/cat-111-mvpeull3.jpg) [abrir](img/cat-111-mvpeull3.jpg) | Categoria | 111 | LOJISTA (NOVO) |
 
@@ -571,3 +572,4 @@ _Nenhuma._
 - 26/10/2026, 12:11:30 — Trocou a foto da categoria CONGELADOS
 - 26/10/2026, 12:18:55 — Trocou a foto da categoria EXTRA
 - 26/10/2026, 12:21:33 — Trocou a foto da categoria LOJISTA (NOVO)
+- 26/10/2026, 12:23:54 — Trocou a foto da categoria PROMOÇÕES

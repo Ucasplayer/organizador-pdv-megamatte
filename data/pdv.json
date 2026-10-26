@@ -401,7 +401,7 @@
    "id": "c2",
    "code": "2",
    "name": "PROMOÇÕES",
-   "img": "img/cat-2.jpg",
+   "img": "api/image?f=cat-2-mvpexm5r.jpg",
    "items": [
     "10708",
     "10709",
@@ -2000,6 +2000,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T15:23:54.005Z",
+   "msg": "Trocou a foto da categoria PROMOÇÕES"
+  },
+  {
    "t": "2026-10-26T15:21:33.399Z",
    "msg": "Trocou a foto da categoria LOJISTA (NOVO)"
   },
@@ -2168,5 +2172,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T15:21:33.402Z"
+ "savedAt": "2026-10-26T15:23:54.012Z"
 }
