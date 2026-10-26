@@ -211,7 +211,7 @@
    "id": "c21",
    "code": "21",
    "name": "CAFETERIA BEBIDAS GELADAS",
-   "img": "api/image?f=cat-21-mvlchsex.jpg",
+   "img": "api/image?f=cat-21-mvpcj4iz.jpg",
    "items": [
     "11309",
     "11310",
@@ -2018,6 +2018,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T14:16:38.618Z",
+   "msg": "Trocou a foto da categoria CAFETERIA BEBIDAS GELADAS"
+  },
+  {
    "t": "2026-10-26T14:15:43.118Z",
    "msg": "Mudou a ordem das categorias na tela"
   },
@@ -2106,5 +2110,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T14:15:43.126Z"
+ "savedAt": "2026-10-26T14:16:38.623Z"
 }
