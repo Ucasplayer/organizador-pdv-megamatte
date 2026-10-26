@@ -313,7 +313,7 @@
    "id": "c12",
    "code": "12",
    "name": "ÁGUA",
-   "img": "img/cat-12.jpg",
+   "img": "api/image?f=cat-12-mvpdoq2d.jpg",
    "items": [
     "11011",
     "2027",
@@ -2018,6 +2018,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T14:48:59.890Z",
+   "msg": "Trocou a foto da categoria ÁGUA"
+  },
+  {
    "t": "2026-10-26T14:46:04.310Z",
    "msg": "Trocou a foto da categoria SUCOS"
   },
@@ -2126,5 +2130,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T14:46:04.316Z"
+ "savedAt": "2026-10-26T14:48:59.896Z"
 }

@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 11:46:05. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 11:49:01. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **10** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **11** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **0**
@@ -47,7 +47,7 @@ _Nenhuma._
 
 _Nenhuma._
 
-## Fotos trocadas (10)
+## Fotos trocadas (11)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -61,6 +61,7 @@ _Nenhuma._
 | ![foto](img/cat-9-mvpdfdj6.jpg) [abrir](img/cat-9-mvpdfdj6.jpg) | Categoria | 9 | MEGASHAKES |
 | ![foto](img/cat-10-mvpdfnu5.jpg) [abrir](img/cat-10-mvpdfnu5.jpg) | Categoria | 10 | VITAMINAS |
 | ![foto](img/cat-11-mvpdkyy5.jpg) [abrir](img/cat-11-mvpdkyy5.jpg) | Categoria | 11 | SUCOS |
+| ![foto](img/cat-12-mvpdoq2d.jpg) [abrir](img/cat-12-mvpdoq2d.jpg) | Categoria | 12 | ÁGUA |
 
 ## Ordem na tela
 
@@ -542,3 +543,4 @@ _Nenhuma._
 - 26/10/2026, 11:41:43 — Trocou a foto da categoria MEGASHAKES
 - 26/10/2026, 11:41:56 — Trocou a foto da categoria VITAMINAS
 - 26/10/2026, 11:46:04 — Trocou a foto da categoria SUCOS
+- 26/10/2026, 11:48:59 — Trocou a foto da categoria ÁGUA
