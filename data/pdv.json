@@ -1076,7 +1076,7 @@
   },
   "10362": {
    "code": "10362",
-   "name": "SAND. CIABATTA CARNE ASSADA"
+   "name": "SAND. GOURMET CIABATTA CARNE ASSADA"
   },
   "10372": {
    "code": "10372",
@@ -2014,6 +2014,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T14:59:43.037Z",
+   "msg": "Renomeou o produto SAND. CIABATTA CARNE ASSADA para SAND. GOURMET CIABATTA CARNE ASSADA"
+  },
+  {
    "t": "2026-10-26T14:59:20.581Z",
    "msg": "Excluiu SAND. COSTELA NO PÃO AUSTRALIANO de SANDUICHES"
   },
@@ -2150,5 +2154,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T14:59:20.586Z"
+ "savedAt": "2026-10-26T14:59:43.043Z"
 }
