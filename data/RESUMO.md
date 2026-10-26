@@ -1,11 +1,11 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 11:57:47. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 11:58:09. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **12** (as fotos ficam na pasta data/img)
-- Produtos que mudaram de categoria: **12**
+- Produtos que mudaram de categoria: **11**
 - Produtos novos: **1**
-- Produtos retirados do PDV: **0**
+- Produtos retirados do PDV: **1**
 - Categorias novas: **0**
 - Categorias excluídas: **1**
 - Categorias renomeadas: **1**
@@ -26,7 +26,7 @@ _Nenhuma._
 |---|---|---|
 | 13 | SANDUICHES CHAPA | SANDUICHES |
 
-## Produtos que mudaram de categoria (12)
+## Produtos que mudaram de categoria (11)
 
 | Cód. | Produto | Saiu de | Entrou em | Fica em |
 |---|---|---|---|---|
@@ -34,7 +34,6 @@ _Nenhuma._
 | 463 | ESPRESSO DUPLO 100ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 470 | ESPRESSO DUPLO C/LEITE 200ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 11063 | ESPRESSO MACCHIATO 50ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
-| 11114 | SAND. ABOBRINHA GREL PAST BERINJELA CIAB | SANDUÍCHES GOURMET | SANDUICHES | SANDUICHES |
 | 10362 | SAND. CIABATTA CARNE ASSADA | SANDUÍCHES GOURMET | SANDUICHES | SANDUICHES |
 | 11118 | SAND. COSTELA NO PÃO AUSTRALIANO | SANDUÍCHES GOURMET | SANDUICHES | SANDUICHES |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SANDUÍCHES GOURMET | SANDUICHES | SANDUICHES |
@@ -49,9 +48,11 @@ _Nenhuma._
 |---|---|---|
 | — | AIA IAI |  |
 
-## Produtos retirados do PDV (0)
+## Produtos retirados do PDV (1)
 
-_Nenhuma._
+| Cód. | Produto | Estava em |
+|---|---|---|
+| 11114 | SAND. ABOBRINHA GREL PAST BERINJELA CIAB | SANDUÍCHES GOURMET |
 
 ## Produtos renomeados (0)
 
@@ -348,19 +349,18 @@ _Nenhuma._
 5. AGUA DE COCO 500ML — cód. 1801
 6. AGUA DE COCO 700ML — cód. 10597
 
-### 12. SANDUICHES (grupo 13) — 11 produtos
+### 12. SANDUICHES (grupo 13) — 10 produtos
 
 1. PAO FRANCES NA CHAPA — cód. 10361
 2. SAND. MEGALEVE — cód. 10233
 3. SAND. MEGAMISTO — cód. 2551
-4. SAND. ABOBRINHA GREL PAST BERINJELA CIAB — cód. 11114
-5. SAND. CIABATTA CARNE ASSADA — cód. 10362
-6. SAND. COSTELA NO PÃO AUSTRALIANO — cód. 11118
-7. SAND. FRANGO TOMATE SECO AZEITO BAGUETE — cód. 11113
-8. SAND. NAT. ATUM COM REQUEIJÃO — cód. 11179
-9. SAND. NAT. FRANGO COM CENOURA — cód. 11180
-10. SAND. NAT. PEITO DE PERU — cód. 11181
-11. SAND. NAT. SALPICAO DE FRANGO — cód. 11182
+4. SAND. CIABATTA CARNE ASSADA — cód. 10362
+5. SAND. COSTELA NO PÃO AUSTRALIANO — cód. 11118
+6. SAND. FRANGO TOMATE SECO AZEITO BAGUETE — cód. 11113
+7. SAND. NAT. ATUM COM REQUEIJÃO — cód. 11179
+8. SAND. NAT. FRANGO COM CENOURA — cód. 11180
+9. SAND. NAT. PEITO DE PERU — cód. 11181
+10. SAND. NAT. SALPICAO DE FRANGO — cód. 11182
 
 ### 13. SANDUÍCHES GOURMET (grupo 14) — 0 produtos
 
@@ -559,3 +559,4 @@ _Nenhuma._
 - 26/10/2026, 11:57:14 — Moveu SAND. ABOBRINHA GREL PAST BERINJELA CIAB, SAND. CIABATTA CARNE ASSADA, SAND. COSTELA NO PÃO AUSTRALIANO e mais 1 de SANDUÍCHES GOURMET para SANDUICHES CHAPA
 - 26/10/2026, 11:57:30 — Moveu SAND. NAT. ATUM COM REQUEIJÃO, SAND. NAT. FRANGO COM CENOURA, SAND. NAT. PEITO DE PERU e mais 1 de SANDUÍCHES NATURAIS para SANDUICHES CHAPA
 - 26/10/2026, 11:57:46 — Renomeou a categoria SANDUICHES CHAPA para SANDUICHES e trocou a foto da categoria SANDUICHES
+- 26/10/2026, 11:58:08 — Excluiu SAND. ABOBRINHA GREL PAST BERINJELA CIAB de SANDUICHES

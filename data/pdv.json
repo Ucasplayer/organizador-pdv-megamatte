@@ -332,7 +332,6 @@
     "10361",
     "10233",
     "2551",
-    "11114",
     "10362",
     "11118",
     "11113",
@@ -2016,6 +2015,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T14:58:08.382Z",
+   "msg": "Excluiu SAND. ABOBRINHA GREL PAST BERINJELA CIAB de SANDUICHES"
+  },
+  {
    "t": "2026-10-26T14:57:46.340Z",
    "msg": "Renomeou a categoria SANDUICHES CHAPA para SANDUICHES e trocou a foto da categoria SANDUICHES"
   },
@@ -2144,5 +2147,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T14:57:46.346Z"
+ "savedAt": "2026-10-26T14:58:08.387Z"
 }
