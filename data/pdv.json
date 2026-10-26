@@ -1367,7 +1367,8 @@
   },
   "11119": {
    "code": "11119",
-   "name": "FOLHADO.INT PEITO DE PERU C/QUEIJO"
+   "name": "FOLHADO.INT PEITO DE PERU C/QUEIJO",
+   "img": "api/image?f=prod-11119-mvpod15t.jpg"
   },
   "11144": {
    "code": "11144",
@@ -2030,6 +2031,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:47:49.565Z",
+   "msg": "Trocou a foto do produto FOLHADO.INT PEITO DE PERU C/QUEIJO"
+  },
+  {
    "t": "2026-10-26T19:47:36.937Z",
    "msg": "Trocou a foto do produto FOLHADO PEITO DE PERU"
   },
@@ -2318,5 +2323,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:47:36.945Z"
+ "savedAt": "2026-10-26T19:47:49.575Z"
 }
