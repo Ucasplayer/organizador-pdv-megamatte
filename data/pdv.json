@@ -326,8 +326,8 @@
   {
    "id": "c13",
    "code": "13",
-   "name": "SANDUICHES CHAPA",
-   "img": "img/cat-13.jpg",
+   "name": "SANDUICHES",
+   "img": "api/image?f=cat-13-mvpe00gw.jpg",
    "items": [
     "10361",
     "10233",
@@ -2016,6 +2016,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T14:57:46.340Z",
+   "msg": "Renomeou a categoria SANDUICHES CHAPA para SANDUICHES e trocou a foto da categoria SANDUICHES"
+  },
+  {
    "t": "2026-10-26T14:57:30.884Z",
    "msg": "Moveu SAND. NAT. ATUM COM REQUEIJÃO, SAND. NAT. FRANGO COM CENOURA, SAND. NAT. PEITO DE PERU e mais 1 de SANDUÍCHES NATURAIS para SANDUICHES CHAPA"
   },
@@ -2140,5 +2144,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T14:57:30.889Z"
+ "savedAt": "2026-10-26T14:57:46.346Z"
 }

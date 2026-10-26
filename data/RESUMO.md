@@ -1,14 +1,14 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 11:57:32. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 11:57:47. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **11** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **12** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **12**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **0**
 - Categorias novas: **0**
 - Categorias excluídas: **1**
-- Categorias renomeadas: **0**
+- Categorias renomeadas: **1**
 
 ## Categorias novas (0)
 
@@ -20,9 +20,11 @@ _Nenhuma._
 |---|---|
 | 7 | CAFETERIA ESPRESSO |
 
-## Categorias renomeadas (0)
+## Categorias renomeadas (1)
 
-_Nenhuma._
+| Cód. | Antes | Agora |
+|---|---|---|
+| 13 | SANDUICHES CHAPA | SANDUICHES |
 
 ## Produtos que mudaram de categoria (12)
 
@@ -32,14 +34,14 @@ _Nenhuma._
 | 463 | ESPRESSO DUPLO 100ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 470 | ESPRESSO DUPLO C/LEITE 200ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 11063 | ESPRESSO MACCHIATO 50ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
-| 11114 | SAND. ABOBRINHA GREL PAST BERINJELA CIAB | SANDUÍCHES GOURMET | SANDUICHES CHAPA | SANDUICHES CHAPA |
-| 10362 | SAND. CIABATTA CARNE ASSADA | SANDUÍCHES GOURMET | SANDUICHES CHAPA | SANDUICHES CHAPA |
-| 11118 | SAND. COSTELA NO PÃO AUSTRALIANO | SANDUÍCHES GOURMET | SANDUICHES CHAPA | SANDUICHES CHAPA |
-| 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SANDUÍCHES GOURMET | SANDUICHES CHAPA | SANDUICHES CHAPA |
-| 11179 | SAND. NAT. ATUM COM REQUEIJÃO | SANDUÍCHES NATURAIS | SANDUICHES CHAPA | SANDUICHES CHAPA |
-| 11180 | SAND. NAT. FRANGO COM CENOURA | SANDUÍCHES NATURAIS | SANDUICHES CHAPA | SANDUICHES CHAPA |
-| 11181 | SAND. NAT. PEITO DE PERU | SANDUÍCHES NATURAIS | SANDUICHES CHAPA | SANDUICHES CHAPA |
-| 11182 | SAND. NAT. SALPICAO DE FRANGO | SANDUÍCHES NATURAIS | SANDUICHES CHAPA | SANDUICHES CHAPA |
+| 11114 | SAND. ABOBRINHA GREL PAST BERINJELA CIAB | SANDUÍCHES GOURMET | SANDUICHES | SANDUICHES |
+| 10362 | SAND. CIABATTA CARNE ASSADA | SANDUÍCHES GOURMET | SANDUICHES | SANDUICHES |
+| 11118 | SAND. COSTELA NO PÃO AUSTRALIANO | SANDUÍCHES GOURMET | SANDUICHES | SANDUICHES |
+| 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SANDUÍCHES GOURMET | SANDUICHES | SANDUICHES |
+| 11179 | SAND. NAT. ATUM COM REQUEIJÃO | SANDUÍCHES NATURAIS | SANDUICHES | SANDUICHES |
+| 11180 | SAND. NAT. FRANGO COM CENOURA | SANDUÍCHES NATURAIS | SANDUICHES | SANDUICHES |
+| 11181 | SAND. NAT. PEITO DE PERU | SANDUÍCHES NATURAIS | SANDUICHES | SANDUICHES |
+| 11182 | SAND. NAT. SALPICAO DE FRANGO | SANDUÍCHES NATURAIS | SANDUICHES | SANDUICHES |
 
 ## Produtos novos (1)
 
@@ -55,7 +57,7 @@ _Nenhuma._
 
 _Nenhuma._
 
-## Fotos trocadas (11)
+## Fotos trocadas (12)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -70,6 +72,7 @@ _Nenhuma._
 | ![foto](img/cat-10-mvpdv8ra.jpg) [abrir](img/cat-10-mvpdv8ra.jpg) | Categoria | 10 | VITAMINAS |
 | ![foto](img/cat-11-mvpdkyy5.jpg) [abrir](img/cat-11-mvpdkyy5.jpg) | Categoria | 11 | SUCOS |
 | ![foto](img/cat-12-mvpdoq2d.jpg) [abrir](img/cat-12-mvpdoq2d.jpg) | Categoria | 12 | ÁGUA |
+| ![foto](img/cat-13-mvpe00gw.jpg) [abrir](img/cat-13-mvpe00gw.jpg) | Categoria | 13 | SANDUICHES |
 
 ## Ordem na tela
 
@@ -345,7 +348,7 @@ _Nenhuma._
 5. AGUA DE COCO 500ML — cód. 1801
 6. AGUA DE COCO 700ML — cód. 10597
 
-### 12. SANDUICHES CHAPA (grupo 13) — 11 produtos
+### 12. SANDUICHES (grupo 13) — 11 produtos
 
 1. PAO FRANCES NA CHAPA — cód. 10361
 2. SAND. MEGALEVE — cód. 10233
@@ -555,3 +558,4 @@ _Nenhuma._
 - 26/10/2026, 11:54:04 — Trocou a foto da categoria VITAMINAS
 - 26/10/2026, 11:57:14 — Moveu SAND. ABOBRINHA GREL PAST BERINJELA CIAB, SAND. CIABATTA CARNE ASSADA, SAND. COSTELA NO PÃO AUSTRALIANO e mais 1 de SANDUÍCHES GOURMET para SANDUICHES CHAPA
 - 26/10/2026, 11:57:30 — Moveu SAND. NAT. ATUM COM REQUEIJÃO, SAND. NAT. FRANGO COM CENOURA, SAND. NAT. PEITO DE PERU e mais 1 de SANDUÍCHES NATURAIS para SANDUICHES CHAPA
+- 26/10/2026, 11:57:46 — Renomeou a categoria SANDUICHES CHAPA para SANDUICHES e trocou a foto da categoria SANDUICHES
