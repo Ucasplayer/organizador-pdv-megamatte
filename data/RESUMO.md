@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 12:00:11. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 12:08:29. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **12** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **13** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -63,7 +63,7 @@ _Nenhuma._
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (12)
+## Fotos trocadas (13)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -79,6 +79,7 @@ _Nenhuma._
 | ![foto](img/cat-11-mvpdkyy5.jpg) [abrir](img/cat-11-mvpdkyy5.jpg) | Categoria | 11 | SUCOS |
 | ![foto](img/cat-12-mvpdoq2d.jpg) [abrir](img/cat-12-mvpdoq2d.jpg) | Categoria | 12 | ÁGUA |
 | ![foto](img/cat-13-mvpe00gw.jpg) [abrir](img/cat-13-mvpe00gw.jpg) | Categoria | 13 | SANDUICHES |
+| ![foto](img/cat-6-mvpedrqt.jpg) [abrir](img/cat-6-mvpedrqt.jpg) | Categoria | 6 | SOBREMESAS |
 
 ## Ordem na tela
 
@@ -563,3 +564,4 @@ _Nenhuma._
 - 26/10/2026, 11:59:50 — Renomeou o produto SAND. FRANGO TOMATE SECO AZEITO BAGUETE para SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE
 - 26/10/2026, 12:00:04 — Excluiu a categoria SANDUÍCHES GOURMET
 - 26/10/2026, 12:00:10 — Excluiu a categoria SANDUÍCHES NATURAIS
+- 26/10/2026, 12:08:28 — Trocou a foto da categoria SOBREMESAS

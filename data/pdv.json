@@ -344,7 +344,7 @@
    "id": "c6",
    "code": "6",
    "name": "SOBREMESAS",
-   "img": "img/cat-6.jpg",
+   "img": "api/image?f=cat-6-mvpedrqt.jpg",
    "items": [
     "11689",
     "11768",
@@ -2000,6 +2000,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T15:08:28.215Z",
+   "msg": "Trocou a foto da categoria SOBREMESAS"
+  },
+  {
    "t": "2026-10-26T15:00:10.003Z",
    "msg": "Excluiu a categoria SANDUÍCHES NATURAIS"
   },
@@ -2152,5 +2156,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T15:00:10.008Z"
+ "savedAt": "2026-10-26T15:08:28.223Z"
 }
