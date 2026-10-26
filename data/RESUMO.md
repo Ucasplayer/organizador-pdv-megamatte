@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 15:50:05. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 16:01:07. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **21** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **22** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 26/10/2026, 15:50:05. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (21)
+## Fotos trocadas (22)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -91,6 +91,7 @@ Atualizado em 26/10/2026, 15:50:05. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-111-mvpeull3.jpg) [abrir](img/cat-111-mvpeull3.jpg) | Categoria | 111 | LOJISTA (NOVO) |
 | ![foto](img/cat-110-mvpfc5kn.jpg) [abrir](img/cat-110-mvpfc5kn.jpg) | Categoria | 110 | MINI PREÇOS (NOVOS) |
 | ![foto](img/cat-101-mvpfbpfu.jpg) [abrir](img/cat-101-mvpfbpfu.jpg) | Categoria | 101 | COFFEE PARTY TERÊ |
+| ![foto](img/cat-93-mvpmoy2z.jpg) [abrir](img/cat-93-mvpmoy2z.jpg) | Categoria | 93 | FOLDER CAFETERIA |
 
 ## Ordem na tela
 
@@ -598,3 +599,4 @@ Atualizado em 26/10/2026, 15:50:05. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 15:13:30 — Mudou a ordem das categorias na tela
 - 26/10/2026, 15:47:06 — Trocou a foto da categoria MATE
 - 26/10/2026, 15:50:03 — Trocou a foto da categoria MATE
+- 26/10/2026, 16:01:06 — Trocou a foto da categoria FOLDER CAFETERIA

@@ -529,7 +529,7 @@
    "id": "c93",
    "code": "93",
    "name": "FOLDER CAFETERIA",
-   "img": "img/cat-93.jpg",
+   "img": "api/image?f=cat-93-mvpmoy2z.jpg",
    "items": [
     "12048",
     "12654",
@@ -2016,6 +2016,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:01:06.388Z",
+   "msg": "Trocou a foto da categoria FOLDER CAFETERIA"
+  },
+  {
    "t": "2026-10-26T18:50:03.753Z",
    "msg": "Trocou a foto da categoria MATE"
   },
@@ -2236,5 +2240,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T18:50:03.757Z"
+ "savedAt": "2026-10-26T19:01:06.395Z"
 }
