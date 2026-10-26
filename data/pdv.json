@@ -809,7 +809,8 @@
   },
   "517": {
    "code": "517",
-   "name": "PASTEL INT. QUEIJO MINAS"
+   "name": "PASTEL INT. QUEIJO MINAS",
+   "img": "api/image?f=prod-517-mvpokyb2.jpg"
   },
   "518": {
    "code": "518",
@@ -2038,6 +2039,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:53:59.385Z",
+   "msg": "Trocou a foto do produto PASTEL INT. QUEIJO MINAS"
+  },
+  {
    "t": "2026-10-26T19:50:25.860Z",
    "msg": "Trocou a foto do produto PASTEL INT. PALMITO C/CHAMP"
   },
@@ -2358,5 +2363,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:50:25.864Z"
+ "savedAt": "2026-10-26T19:53:59.397Z"
 }
