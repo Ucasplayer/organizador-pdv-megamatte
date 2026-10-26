@@ -1732,7 +1732,8 @@
   },
   "11789": {
    "code": "11789",
-   "name": "PROMO EMPADA CARNE SECA"
+   "name": "PROMO EMPADA CARNE SECA",
+   "img": "api/image?f=prod-11789-mvpow2aw.jpg"
   },
   "11790": {
    "code": "11790",
@@ -2040,6 +2041,10 @@
   }
  },
  "log": [
+  {
+   "t": "2026-10-26T20:02:37.564Z",
+   "msg": "Trocou a foto do produto PROMO EMPADA CARNE SECA"
+  },
   {
    "t": "2026-10-26T19:54:21.088Z",
    "msg": "Trocou a foto do produto QUICHE 4 QUEIJOS"
@@ -2373,5 +2378,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:54:21.099Z"
+ "savedAt": "2026-10-26T20:02:37.576Z"
 }
