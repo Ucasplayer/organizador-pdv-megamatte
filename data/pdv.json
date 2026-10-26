@@ -790,7 +790,8 @@
   },
   "508": {
    "code": "508",
-   "name": "CROISSANT FRANGO"
+   "name": "CROISSANT FRANGO",
+   "img": "api/image?f=prod-508-mvpntiy1.jpg"
   },
   "509": {
    "code": "509",
@@ -2019,6 +2020,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:32:39.453Z",
+   "msg": "Trocou a foto do produto CROISSANT FRANGO"
+  },
+  {
    "t": "2026-10-26T19:32:28.549Z",
    "msg": "Trocou a foto do produto CHEESEB. FORNO TRADICIONAL"
   },
@@ -2259,5 +2264,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:32:28.554Z"
+ "savedAt": "2026-10-26T19:32:39.461Z"
 }
