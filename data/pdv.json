@@ -386,7 +386,7 @@
    "id": "c45",
    "code": "45",
    "name": "CONGELADOS",
-   "img": "img/cat-45.jpg",
+   "img": "api/image?f=cat-45-mvpehoov.jpg",
    "items": [
     "10261",
     "2127",
@@ -2000,6 +2000,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T15:11:30.838Z",
+   "msg": "Trocou a foto da categoria CONGELADOS"
+  },
+  {
    "t": "2026-10-26T15:08:28.215Z",
    "msg": "Trocou a foto da categoria SOBREMESAS"
   },
@@ -2156,5 +2160,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T15:08:28.223Z"
+ "savedAt": "2026-10-26T15:11:30.843Z"
 }
