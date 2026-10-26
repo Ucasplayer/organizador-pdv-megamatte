@@ -1,20 +1,21 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 15:06:38. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 15:10:51. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **20** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
-- Categorias novas: **1**
+- Categorias novas: **2**
 - Categorias excluídas: **3**
 - Categorias renomeadas: **1**
 
-## Categorias novas (1)
+## Categorias novas (2)
 
 | Categoria | Qtd. produtos |
 |---|---|
 | MATE FRUTA DO DIA | 0 |
+| CAMPANHA BROWNIE DO LUIZ | 0 |
 
 ## Categorias excluídas (3)
 
@@ -536,6 +537,9 @@ Atualizado em 26/10/2026, 15:06:38. Gerado automaticamente pelo Organizador do P
 7. FCDC SALGADO — cód. 12662
 8. FCDC SALGADO+MATE300ML — cód. 12666
 
+### 23. CAMPANHA BROWNIE DO LUIZ (NOVA) — 0 produtos
+
+
 ## Histórico de alterações
 
 - 23/10/2026, 11:24:25 — Criou a categoria TESTE SITE
@@ -587,3 +591,4 @@ Atualizado em 26/10/2026, 15:06:38. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 15:06:17 — Criou a categoria MATE FRUTA DO DIA
 - 26/10/2026, 15:06:31 — Trocou a foto da categoria MATE FRUTA DO DIA
 - 26/10/2026, 15:06:37 — Mudou a ordem das categorias na tela
+- 26/10/2026, 15:10:50 — Criou a categoria CAMPANHA BROWNIE DO LUIZ

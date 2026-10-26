@@ -549,6 +549,14 @@
     "12662",
     "12666"
    ]
+  },
+  {
+   "id": "nmvpkogad",
+   "code": "",
+   "name": "CAMPANHA BROWNIE DO LUIZ",
+   "img": null,
+   "items": [],
+   "isNew": true
   }
  ],
  "products": {
@@ -2008,6 +2016,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T18:10:50.102Z",
+   "msg": "Criou a categoria CAMPANHA BROWNIE DO LUIZ"
+  },
+  {
    "t": "2026-10-26T18:06:37.189Z",
    "msg": "Mudou a ordem das categorias na tela"
   },
@@ -2204,5 +2216,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T18:06:37.194Z"
+ "savedAt": "2026-10-26T18:10:50.110Z"
 }
