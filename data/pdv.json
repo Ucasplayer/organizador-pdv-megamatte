@@ -249,7 +249,7 @@
    "id": "c10",
    "code": "10",
    "name": "VITAMINAS",
-   "img": "img/cat-10.jpg",
+   "img": "api/image?f=cat-10-mvpdfnu5.jpg",
    "items": [
     "2102",
     "2103",
@@ -2018,6 +2018,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T14:41:56.835Z",
+   "msg": "Trocou a foto da categoria VITAMINAS"
+  },
+  {
    "t": "2026-10-26T14:41:43.462Z",
    "msg": "Trocou a foto da categoria MEGASHAKES"
   },
@@ -2118,5 +2122,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T14:41:43.467Z"
+ "savedAt": "2026-10-26T14:41:56.840Z"
 }
