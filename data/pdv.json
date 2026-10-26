@@ -1493,7 +1493,8 @@
   },
   "11419": {
    "code": "11419",
-   "name": "PROMO EMPADA FRANGO"
+   "name": "PROMO EMPADA FRANGO",
+   "img": "api/image?f=prod-11419-mvpowcga.jpg"
   },
   "11421": {
    "code": "11421",
@@ -2042,6 +2043,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T20:02:50.903Z",
+   "msg": "Trocou a foto do produto PROMO EMPADA FRANGO"
+  },
+  {
    "t": "2026-10-26T20:02:37.564Z",
    "msg": "Trocou a foto do produto PROMO EMPADA CARNE SECA"
   },
@@ -2378,5 +2383,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T20:02:37.576Z"
+ "savedAt": "2026-10-26T20:02:50.916Z"
 }
