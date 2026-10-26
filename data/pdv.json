@@ -1711,7 +1711,8 @@
   },
   "11782": {
    "code": "11782",
-   "name": "EMPADA CARNE SECA"
+   "name": "EMPADA CARNE SECA",
+   "img": "api/image?f=prod-11782-mvpoah8j.jpg"
   },
   "11788": {
    "code": "11788",
@@ -2026,6 +2027,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:45:50.492Z",
+   "msg": "Trocou a foto do produto EMPADA CARNE SECA"
+  },
+  {
    "t": "2026-10-26T19:45:35.924Z",
    "msg": "Trocou a foto do produto EMPADA CAMARAO"
   },
@@ -2294,5 +2299,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:45:35.933Z"
+ "savedAt": "2026-10-26T19:45:50.503Z"
 }

@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 16:45:37. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 16:45:52. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **33** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **34** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 26/10/2026, 16:45:37. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (33)
+## Fotos trocadas (34)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -102,6 +102,7 @@ Atualizado em 26/10/2026, 16:45:37. Gerado automaticamente pelo Organizador do P
 | ![foto](img/prod-2120-mvpo9wvt.jpg) [abrir](img/prod-2120-mvpo9wvt.jpg) | Produto | 2120 | CROISSANT.INT. QUEIJO MINAS |
 | ![foto](img/prod-11056-mvpnn5f0.jpg) [abrir](img/prod-11056-mvpnn5f0.jpg) | Produto | 11056 | CROISSANT DE CHOCOLATE |
 | ![foto](img/prod-11781-mvpoa5z1.jpg) [abrir](img/prod-11781-mvpoa5z1.jpg) | Produto | 11781 | EMPADA CAMARAO |
+| ![foto](img/prod-11782-mvpoah8j.jpg) [abrir](img/prod-11782-mvpoah8j.jpg) | Produto | 11782 | EMPADA CARNE SECA |
 | ![foto](img/prod-11863-mvpntag1.jpg) [abrir](img/prod-11863-mvpntag1.jpg) | Produto | 11863 | CHEESEB. FORNO TRADICIONAL |
 
 ## Ordem na tela
@@ -622,3 +623,4 @@ Atualizado em 26/10/2026, 16:45:37. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 16:45:12 — Trocou a foto do produto CROISSANT.INT. FRANGO C/REQ
 - 26/10/2026, 16:45:24 — Trocou a foto do produto CROISSANT.INT. QUEIJO MINAS
 - 26/10/2026, 16:45:35 — Trocou a foto do produto EMPADA CAMARAO
+- 26/10/2026, 16:45:50 — Trocou a foto do produto EMPADA CARNE SECA
