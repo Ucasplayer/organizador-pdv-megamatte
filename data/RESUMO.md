@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 10:38:22. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 10:38:57. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **4** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **5** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **0**
@@ -47,10 +47,11 @@ _Nenhuma._
 
 _Nenhuma._
 
-## Fotos trocadas (4)
+## Fotos trocadas (5)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
+| ![foto](img/cat-19-mvpb6mfd.jpg) [abrir](img/cat-19-mvpb6mfd.jpg) | Categoria | 19 | PAO DE QUEIJO |
 | ![foto](img/cat-4-mvpb3n1u.jpg) [abrir](img/cat-4-mvpb3n1u.jpg) | Categoria | 4 | MATE |
 | ![foto](img/cat-20-mvpaq0rr.jpg) [abrir](img/cat-20-mvpaq0rr.jpg) | Categoria | 20 | CAFETERIA BEBIDAS QUENTES |
 | ![foto](img/cat-8-mvpb5vjl.jpg) [abrir](img/cat-8-mvpb5vjl.jpg) | Categoria | 8 | AÇAÍ |
@@ -527,3 +528,4 @@ _Nenhuma._
 - 26/10/2026, 10:36:36 — Trocou a foto da categoria MATE
 - 26/10/2026, 10:37:25 — Mudou a ordem das categorias na tela
 - 26/10/2026, 10:38:21 — Trocou a foto da categoria AÇAÍ
+- 26/10/2026, 10:38:55 — Trocou a foto da categoria PAO DE QUEIJO

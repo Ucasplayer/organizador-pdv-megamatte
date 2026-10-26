@@ -5,7 +5,7 @@
    "id": "c19",
    "code": "19",
    "name": "PAO DE QUEIJO",
-   "img": "img/cat-19.jpg",
+   "img": "api/image?f=cat-19-mvpb6mfd.jpg",
    "items": [
     "2562",
     "12200",
@@ -2018,6 +2018,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T13:38:55.775Z",
+   "msg": "Trocou a foto da categoria PAO DE QUEIJO"
+  },
+  {
    "t": "2026-10-26T13:38:21.204Z",
    "msg": "Trocou a foto da categoria AÇAÍ"
   },
@@ -2090,5 +2094,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T13:38:21.209Z"
+ "savedAt": "2026-10-26T13:38:55.779Z"
 }
