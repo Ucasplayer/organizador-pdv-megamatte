@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 16:48:11. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 16:48:23. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **40** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **41** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 26/10/2026, 16:48:11. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (40)
+## Fotos trocadas (41)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -99,6 +99,7 @@ Atualizado em 26/10/2026, 16:48:11. Gerado automaticamente pelo Organizador do P
 | ![foto](img/prod-508-mvpntiy1.jpg) [abrir](img/prod-508-mvpntiy1.jpg) | Produto | 508 | CROISSANT FRANGO |
 | ![foto](img/prod-509-mvpo8p8m.jpg) [abrir](img/prod-509-mvpo8p8m.jpg) | Produto | 509 | CROISSANT MISTO |
 | ![foto](img/prod-510-mvpo8xbs.jpg) [abrir](img/prod-510-mvpo8xbs.jpg) | Produto | 510 | CROISSANT PIZZA |
+| ![foto](img/prod-523-mvpodpw4.jpg) [abrir](img/prod-523-mvpodpw4.jpg) | Produto | 523 | P.BATATA PERU C/QUEIJO MINAS |
 | ![foto](img/prod-524-mvpnpy5t.jpg) [abrir](img/prod-524-mvpnpy5t.jpg) | Produto | 524 | CHEESEB. FORNO CHEDDAR |
 | ![foto](img/prod-2118-mvpo9nqu.jpg) [abrir](img/prod-2118-mvpo9nqu.jpg) | Produto | 2118 | CROISSANT.INT. FRANGO C/REQ |
 | ![foto](img/prod-2120-mvpo9wvt.jpg) [abrir](img/prod-2120-mvpo9wvt.jpg) | Produto | 2120 | CROISSANT.INT. QUEIJO MINAS |
@@ -637,3 +638,4 @@ Atualizado em 26/10/2026, 16:48:11. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 16:47:49 — Trocou a foto do produto FOLHADO.INT PEITO DE PERU C/QUEIJO
 - 26/10/2026, 16:48:01 — Trocou a foto do produto P.BATATA CALABRESA
 - 26/10/2026, 16:48:10 — Trocou a foto do produto P.BATATA MISTO
+- 26/10/2026, 16:48:21 — Trocou a foto do produto P.BATATA PERU C/QUEIJO MINAS

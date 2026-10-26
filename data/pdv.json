@@ -820,7 +820,8 @@
   },
   "523": {
    "code": "523",
-   "name": "P.BATATA PERU C/QUEIJO MINAS"
+   "name": "P.BATATA PERU C/QUEIJO MINAS",
+   "img": "api/image?f=prod-523-mvpodpw4.jpg"
   },
   "524": {
    "code": "524",
@@ -2033,6 +2034,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:48:21.575Z",
+   "msg": "Trocou a foto do produto P.BATATA PERU C/QUEIJO MINAS"
+  },
+  {
    "t": "2026-10-26T19:48:10.008Z",
    "msg": "Trocou a foto do produto P.BATATA MISTO"
   },
@@ -2333,5 +2338,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:48:10.019Z"
+ "savedAt": "2026-10-26T19:48:21.587Z"
 }
