@@ -1474,7 +1474,8 @@
   },
   "11417": {
    "code": "11417",
-   "name": "EMPADA FRANGO"
+   "name": "EMPADA FRANGO",
+   "img": "api/image?f=prod-11417-mvpoat93.jpg"
   },
   "11418": {
    "code": "11418",
@@ -2027,6 +2028,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:46:06.188Z",
+   "msg": "Trocou a foto do produto EMPADA FRANGO"
+  },
+  {
    "t": "2026-10-26T19:45:50.492Z",
    "msg": "Trocou a foto do produto EMPADA CARNE SECA"
   },
@@ -2299,5 +2304,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:45:50.503Z"
+ "savedAt": "2026-10-26T19:46:06.199Z"
 }
