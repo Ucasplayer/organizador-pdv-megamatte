@@ -333,7 +333,6 @@
     "10233",
     "2551",
     "10362",
-    "11118",
     "11113",
     "11179",
     "11180",
@@ -2015,6 +2014,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T14:59:20.581Z",
+   "msg": "Excluiu SAND. COSTELA NO PÃO AUSTRALIANO de SANDUICHES"
+  },
+  {
    "t": "2026-10-26T14:58:08.382Z",
    "msg": "Excluiu SAND. ABOBRINHA GREL PAST BERINJELA CIAB de SANDUICHES"
   },
@@ -2147,5 +2150,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T14:58:08.387Z"
+ "savedAt": "2026-10-26T14:59:20.586Z"
 }
