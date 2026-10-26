@@ -778,7 +778,8 @@
   },
   "502": {
    "code": "502",
-   "name": "P.BATATA CALABRESA"
+   "name": "P.BATATA CALABRESA",
+   "img": "api/image?f=prod-502-mvpoda1a.jpg"
   },
   "506": {
    "code": "506",
@@ -2031,6 +2032,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:48:01.046Z",
+   "msg": "Trocou a foto do produto P.BATATA CALABRESA"
+  },
+  {
    "t": "2026-10-26T19:47:49.565Z",
    "msg": "Trocou a foto do produto FOLHADO.INT PEITO DE PERU C/QUEIJO"
   },
@@ -2323,5 +2328,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:47:49.575Z"
+ "savedAt": "2026-10-26T19:48:01.058Z"
 }

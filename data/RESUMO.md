@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 16:47:51. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 16:48:02. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **38** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **39** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 26/10/2026, 16:47:51. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (38)
+## Fotos trocadas (39)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -93,6 +93,7 @@ Atualizado em 26/10/2026, 16:47:51. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-101-mvpfbpfu.jpg) [abrir](img/cat-101-mvpfbpfu.jpg) | Categoria | 101 | COFFEE PARTY TERÊ |
 | ![foto](img/cat-93-mvpmoy2z.jpg) [abrir](img/cat-93-mvpmoy2z.jpg) | Categoria | 93 | FOLDER CAFETERIA |
 | ![foto](img/cat-92-mvpmqz2e.jpg) [abrir](img/cat-92-mvpmqz2e.jpg) | Categoria | 92 | FOLDER COMBOS |
+| ![foto](img/prod-502-mvpoda1a.jpg) [abrir](img/prod-502-mvpoda1a.jpg) | Produto | 502 | P.BATATA CALABRESA |
 | ![foto](img/prod-507-mvpo9chc.jpg) [abrir](img/prod-507-mvpo9chc.jpg) | Produto | 507 | CROISSANT QUATRO QUEIJOS |
 | ![foto](img/prod-508-mvpntiy1.jpg) [abrir](img/prod-508-mvpntiy1.jpg) | Produto | 508 | CROISSANT FRANGO |
 | ![foto](img/prod-509-mvpo8p8m.jpg) [abrir](img/prod-509-mvpo8p8m.jpg) | Produto | 509 | CROISSANT MISTO |
@@ -633,3 +634,4 @@ Atualizado em 26/10/2026, 16:47:51. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 16:46:58 — Mudou a ordem dos produtos em SALGADOS
 - 26/10/2026, 16:47:36 — Trocou a foto do produto FOLHADO PEITO DE PERU
 - 26/10/2026, 16:47:49 — Trocou a foto do produto FOLHADO.INT PEITO DE PERU C/QUEIJO
+- 26/10/2026, 16:48:01 — Trocou a foto do produto P.BATATA CALABRESA
