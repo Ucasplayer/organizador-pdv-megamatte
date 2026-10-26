@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 15:06:38. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **20** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
@@ -69,6 +69,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
+| ![foto](img/cat-nmvpkilu8-mvpkqqvh.jpg) [abrir](img/cat-nmvpkilu8-mvpkqqvh.jpg) | Categoria | nova | MATE FRUTA DO DIA |
 | ![foto](img/cat-19-mvpb6mfd.jpg) [abrir](img/cat-19-mvpb6mfd.jpg) | Categoria | 19 | PAO DE QUEIJO |
 | ![foto](img/cat-3-mvpcb5fd.jpg) [abrir](img/cat-3-mvpcb5fd.jpg) | Categoria | 3 | SALGADOS |
 | ![foto](img/cat-4-mvpb3n1u.jpg) [abrir](img/cat-4-mvpb3n1u.jpg) | Categoria | 4 | MATE |
@@ -88,7 +89,6 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-111-mvpeull3.jpg) [abrir](img/cat-111-mvpeull3.jpg) | Categoria | 111 | LOJISTA (NOVO) |
 | ![foto](img/cat-101-mvpfbpfu.jpg) [abrir](img/cat-101-mvpfbpfu.jpg) | Categoria | 101 | COFFEE PARTY TERÊ |
 | ![foto](img/cat-110-mvpfc5kn.jpg) [abrir](img/cat-110-mvpfc5kn.jpg) | Categoria | 110 | MINI PREÇOS (NOVOS) |
-| ![foto](img/cat-nmvpkilu8-mvpkqqvh.jpg) [abrir](img/cat-nmvpkilu8-mvpkqqvh.jpg) | Categoria | nova | MATE FRUTA DO DIA |
 
 ## Ordem na tela
 
@@ -97,7 +97,10 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 
 ## Estrutura final (na ordem da tela)
 
-### 1. PAO DE QUEIJO (grupo 19) — 8 produtos
+### 1. MATE FRUTA DO DIA (NOVA) — 0 produtos
+
+
+### 2. PAO DE QUEIJO (grupo 19) — 8 produtos
 
 1. P.12 P.QUEIJO — cód. 2562
 2. P.18 PQ COPO MARCELO MENT — cód. 12200
@@ -108,7 +111,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 7. PAO DE QUEIJO UNID — cód. 491
 8. PL-P.12 PQ — cód. 12061
 
-### 2. SALGADOS (grupo 3) — 29 produtos
+### 3. SALGADOS (grupo 3) — 29 produtos
 
 1. CHEESEB. FORNO CHEDDAR — cód. 524
 2. CHEESEB. FORNO TRADICIONAL — cód. 11863
@@ -140,7 +143,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 28. QUICHE 4 QUEIJOS — cód. 12076
 29. QUICHE INT ALHO PORO — cód. 12077
 
-### 3. MATE (grupo 4) — 60 produtos
+### 4. MATE (grupo 4) — 60 produtos
 
 1. ERVA MATE CX 250G — cód. 11086
 2. MATE 1L — cód. 226
@@ -203,7 +206,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 59. P.MATE OU GUARANA 300ML GRATIS — cód. 11931
 60. PL-MEGAMATTE DAY MATE 300ML/500ML — cód. 11893
 
-### 4. CAFETERIA BEBIDAS QUENTES (grupo 20) — 22 produtos
+### 5. CAFETERIA BEBIDAS QUENTES (grupo 20) — 22 produtos
 
 1. ESPRESSO 50ML — cód. 462
 2. ESPRESSO DUPLO 100ML — cód. 463
@@ -228,7 +231,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 21. MOCACCINO 100ML — cód. 11671
 22. MOCACCINO 200ML — cód. 11064
 
-### 5. AÇAÍ (grupo 8) — 25 produtos
+### 6. AÇAÍ (grupo 8) — 25 produtos
 
 1. ACAI 300ML — cód. 446
 2. ACAI 500ML — cód. 458
@@ -256,7 +259,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 24. MONTE SEU ACAI 500ML — cód. 11858
 25. MONTE SEU ACAI 700ML — cód. 11873
 
-### 6. GUARANA NATURAL (grupo 5) — 14 produtos
+### 7. GUARANA NATURAL (grupo 5) — 14 produtos
 
 1. GUARA FRUTA 300ML — cód. 11037
 2. GUARA FRUTA 500ML — cód. 11038
@@ -273,7 +276,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 13. GVITAMINA 500 ML — cód. 11202
 14. GVITAMINA 700 ML — cód. 11203
 
-### 7. CAFETERIA BEBIDAS GELADAS (grupo 21) — 13 produtos
+### 8. CAFETERIA BEBIDAS GELADAS (grupo 21) — 13 produtos
 
 1. CAPPUCCINO COM NUTELLA GELADO 300ML — cód. 11309
 2. CAPPUCCINO COM NUTELLA GELADO 500ML — cód. 11310
@@ -289,7 +292,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 12. MONTE SEU ACAI 300ML — cód. 11804
 13. MONTE SEU ACAI 500ML — cód. 11858
 
-### 8. MEGASHAKES (grupo 9) — 9 produtos
+### 9. MEGASHAKES (grupo 9) — 9 produtos
 
 1. MEGASHAKE ACAI 300ML — cód. 305
 2. MEGASHAKE ACAI 500ML — cód. 345
@@ -301,7 +304,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 8. MEGASHAKE MORANGO 500ML — cód. 363
 9. MEGASHAKE MORANGO 700ML — cód. 10575
 
-### 9. VITAMINAS (grupo 10) — 9 produtos
+### 10. VITAMINAS (grupo 10) — 9 produtos
 
 1. VIT.BANANA C/AVEIA 300ML — cód. 2102
 2. VIT.BANANA C/AVEIA 500ML — cód. 2103
@@ -313,7 +316,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 8. VIT.MORANGO AO LEITE 500ML — cód. 887
 9. VIT.MORANGO AO LEITE 700ML — cód. 10687
 
-### 10. SUCOS (grupo 11) — 39 produtos
+### 11. SUCOS (grupo 11) — 39 produtos
 
 1. S.ABACAXI 300ML — cód. 616
 2. S.ABACAXI 500ML — cód. 850
@@ -355,7 +358,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 38. S.UVA 500ML — cód. 870
 39. S.UVA 700ML — cód. 10678
 
-### 11. ÁGUA (grupo 12) — 6 produtos
+### 12. ÁGUA (grupo 12) — 6 produtos
 
 1. AGUA DE COCO 200ML — cód. 11011
 2. AGUA MINERAL S/GAS 510ML — cód. 2027
@@ -364,7 +367,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 5. AGUA DE COCO 500ML — cód. 1801
 6. AGUA DE COCO 700ML — cód. 10597
 
-### 12. SANDUICHES (grupo 13) — 9 produtos
+### 13. SANDUICHES (grupo 13) — 9 produtos
 
 1. PAO FRANCES NA CHAPA — cód. 10361
 2. SAND. MEGALEVE — cód. 10233
@@ -376,7 +379,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 8. SAND. NAT. PEITO DE PERU — cód. 11181
 9. SAND. NAT. SALPICAO DE FRANGO — cód. 11182
 
-### 13. SOBREMESAS (grupo 6) — 34 produtos
+### 14. SOBREMESAS (grupo 6) — 34 produtos
 
 1. BOLO DE BANANA INT MEGAMATTE — cód. 11689
 2. BOLO DE CENOURA MEGAMATTE — cód. 11768
@@ -413,7 +416,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 33. TORTA ESPECIAL FATIA — cód. 10231
 34. TORTA ESPECIAL INTEIRA — cód. 10298
 
-### 14. CONGELADOS (grupo 45) — 7 produtos
+### 15. CONGELADOS (grupo 45) — 7 produtos
 
 1. CG - BROINHA 1KG — cód. 10261
 2. CG - PAO DE QUEIJO 1KG — cód. 2127
@@ -423,7 +426,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 6. CG - PAO DE BATATA — cód. 11368
 7. CG - PASTEL — cód. 11369
 
-### 15. PROMOÇÕES (grupo 2) — 27 produtos
+### 16. PROMOÇÕES (grupo 2) — 27 produtos
 
 1. KIT CAFE 1 — cód. 10708
 2. KIT CAFE 2 — cód. 10709
@@ -453,7 +456,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 26. PROM - SALGADO + MATE — cód. 15015
 27. PROMO COOKIE DE CHOCOLATE UNID — cód. 11294
 
-### 16. EXTRA (grupo 18) — 12 produtos
+### 17. EXTRA (grupo 18) — 12 produtos
 
 1. ADICIONAL MATE FRUTA — cód. 11790
 2. PORCAO DE AMENDOIM — cód. 607
@@ -468,7 +471,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 11. PORCAO DE PROTEINATO — cód. 613
 12. PORCAO OVOMALTINE FLOCOS — cód. 11457
 
-### 17. LOJISTA (NOVO) (grupo 111) — 19 produtos
+### 18. LOJISTA (NOVO) (grupo 111) — 19 produtos
 
 1. P.LOJ - 1 COOKIE + CAFE 100ML — cód. 11996
 2. P.LOJ - 1 COOKIE + CAFE 200ML — cód. 11997
@@ -490,7 +493,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 18. P.LOJ - SANDUICHE + SUCO — cód. 11979
 19. PROM -  LOJISTA — cód. 11795
 
-### 18. COFFEE PARTY TERÊ (grupo 101) — 7 produtos
+### 19. COFFEE PARTY TERÊ (grupo 101) — 7 produtos
 
 1. P.MATE OU GUARANA 300ML GRATIS — cód. 11931
 2. PL-BARRA 75% — cód. 15505
@@ -500,7 +503,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 6. PL-PAO DE MEL — cód. 15508
 7. PL-TRUFA — cód. 15504
 
-### 19. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
+### 20. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
 
 1. P.MP - SANDUICHE + SUCO — cód. 12017
 2. PROM -  LOJISTA — cód. 11795
@@ -510,7 +513,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 6. P.MP - 8 PQ/BRO + SUCO — cód. 11910
 7. P.MP - SANDUICHE + MATE OU GUA — cód. 11908
 
-### 20. FOLDER CAFETERIA (grupo 93) — 9 produtos
+### 21. FOLDER CAFETERIA (grupo 93) — 9 produtos
 
 1. FCD CAPP 200ML — cód. 12048
 2. FCD CAPP 200ML+1COOKIE — cód. 12654
@@ -522,7 +525,7 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 8. FCD ESPRESSO 50ML — cód. 12650
 9. FCD SAND. MEGAMISTO — cód. 12655
 
-### 21. FOLDER COMBOS (grupo 92) — 8 produtos
+### 22. FOLDER COMBOS (grupo 92) — 8 produtos
 
 1. FCDC ACAI 300ML+GRANOLA — cód. 12661
 2. FCDC MEGASHAKE300ML+6PQ/BRO — cód. 12665
@@ -532,9 +535,6 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 6. FCDC P.8 PQ/BRO+MATE300ML — cód. 12664
 7. FCDC SALGADO — cód. 12662
 8. FCDC SALGADO+MATE300ML — cód. 12666
-
-### 22. MATE FRUTA DO DIA (NOVA) — 0 produtos
-
 
 ## Histórico de alterações
 
@@ -586,3 +586,4 @@ Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 12:35:12 — Trocou a foto da categoria MINI PREÇOS (NOVOS)
 - 26/10/2026, 15:06:17 — Criou a categoria MATE FRUTA DO DIA
 - 26/10/2026, 15:06:31 — Trocou a foto da categoria MATE FRUTA DO DIA
+- 26/10/2026, 15:06:37 — Mudou a ordem das categorias na tela
