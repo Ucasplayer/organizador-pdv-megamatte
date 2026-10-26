@@ -436,7 +436,7 @@
    "id": "c18",
    "code": "18",
    "name": "EXTRA",
-   "img": "img/cat-18.jpg",
+   "img": "api/image?f=cat-18-mvper7hc.jpg",
    "items": [
     "11790",
     "607",
@@ -2000,6 +2000,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T15:18:55.500Z",
+   "msg": "Trocou a foto da categoria EXTRA"
+  },
+  {
    "t": "2026-10-26T15:11:30.838Z",
    "msg": "Trocou a foto da categoria CONGELADOS"
   },
@@ -2160,5 +2164,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T15:11:30.843Z"
+ "savedAt": "2026-10-26T15:18:55.506Z"
 }
