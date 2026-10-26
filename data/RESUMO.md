@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 15:10:51. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 15:11:07. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **20** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **21** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 26/10/2026, 15:10:51. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (20)
+## Fotos trocadas (21)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -90,6 +90,7 @@ Atualizado em 26/10/2026, 15:10:51. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-111-mvpeull3.jpg) [abrir](img/cat-111-mvpeull3.jpg) | Categoria | 111 | LOJISTA (NOVO) |
 | ![foto](img/cat-101-mvpfbpfu.jpg) [abrir](img/cat-101-mvpfbpfu.jpg) | Categoria | 101 | COFFEE PARTY TERÊ |
 | ![foto](img/cat-110-mvpfc5kn.jpg) [abrir](img/cat-110-mvpfc5kn.jpg) | Categoria | 110 | MINI PREÇOS (NOVOS) |
+| ![foto](img/cat-nmvpkogad-mvpkwm7i.jpg) [abrir](img/cat-nmvpkogad-mvpkwm7i.jpg) | Categoria | nova | CAMPANHA BROWNIE DO LUIZ |
 
 ## Ordem na tela
 
@@ -592,3 +593,4 @@ Atualizado em 26/10/2026, 15:10:51. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 15:06:31 — Trocou a foto da categoria MATE FRUTA DO DIA
 - 26/10/2026, 15:06:37 — Mudou a ordem das categorias na tela
 - 26/10/2026, 15:10:50 — Criou a categoria CAMPANHA BROWNIE DO LUIZ
+- 26/10/2026, 15:11:05 — Trocou a foto da categoria CAMPANHA BROWNIE DO LUIZ

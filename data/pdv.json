@@ -554,7 +554,7 @@
    "id": "nmvpkogad",
    "code": "",
    "name": "CAMPANHA BROWNIE DO LUIZ",
-   "img": null,
+   "img": "api/image?f=cat-nmvpkogad-mvpkwm7i.jpg",
    "items": [],
    "isNew": true
   }
@@ -2016,6 +2016,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T18:11:05.506Z",
+   "msg": "Trocou a foto da categoria CAMPANHA BROWNIE DO LUIZ"
+  },
+  {
    "t": "2026-10-26T18:10:50.102Z",
    "msg": "Criou a categoria CAMPANHA BROWNIE DO LUIZ"
   },
@@ -2216,5 +2220,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T18:10:50.110Z"
+ "savedAt": "2026-10-26T18:11:05.513Z"
 }
