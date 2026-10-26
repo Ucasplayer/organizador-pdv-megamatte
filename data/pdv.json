@@ -817,7 +817,8 @@
   },
   "519": {
    "code": "519",
-   "name": "PASTEL INT. FRANGO CEN.PASSAS"
+   "name": "PASTEL INT. FRANGO CEN.PASSAS",
+   "img": "api/image?f=prod-519-mvpoe4mv.jpg"
   },
   "523": {
    "code": "523",
@@ -2035,6 +2036,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:48:40.908Z",
+   "msg": "Trocou a foto do produto PASTEL INT. FRANGO CEN.PASSAS"
+  },
+  {
    "t": "2026-10-26T19:48:32.394Z",
    "msg": "Trocou a foto do produto P.BATATA REQUEIJAO"
   },
@@ -2343,5 +2348,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:48:32.403Z"
+ "savedAt": "2026-10-26T19:48:40.920Z"
 }
