@@ -1489,7 +1489,8 @@
   },
   "11418": {
    "code": "11418",
-   "name": "EMPADA PALMITO"
+   "name": "EMPADA PALMITO",
+   "img": "api/image?f=prod-11418-mvpox59r.jpg"
   },
   "11419": {
    "code": "11419",
@@ -2044,6 +2045,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T20:03:28.325Z",
+   "msg": "Trocou a foto do produto EMPADA PALMITO"
+  },
+  {
    "t": "2026-10-26T20:03:14.820Z",
    "msg": "Trocou a foto do produto PROMO EMPADA PALMITO"
   },
@@ -2388,5 +2393,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T20:03:14.831Z"
+ "savedAt": "2026-10-26T20:03:28.337Z"
 }

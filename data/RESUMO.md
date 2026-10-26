@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 17:03:16. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 17:03:29. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **51** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **52** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 26/10/2026, 17:03:16. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (51)
+## Fotos trocadas (52)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -112,6 +112,7 @@ Atualizado em 26/10/2026, 17:03:16. Gerado automaticamente pelo Organizador do P
 | ![foto](img/prod-11056-mvpnn5f0.jpg) [abrir](img/prod-11056-mvpnn5f0.jpg) | Produto | 11056 | CROISSANT DE CHOCOLATE |
 | ![foto](img/prod-11119-mvpod15t.jpg) [abrir](img/prod-11119-mvpod15t.jpg) | Produto | 11119 | FOLHADO.INT PEITO DE PERU C/QUEIJO |
 | ![foto](img/prod-11417-mvpoat93.jpg) [abrir](img/prod-11417-mvpoat93.jpg) | Produto | 11417 | EMPADA FRANGO |
+| ![foto](img/prod-11418-mvpox59r.jpg) [abrir](img/prod-11418-mvpox59r.jpg) | Produto | 11418 | EMPADA PALMITO |
 | ![foto](img/prod-11419-mvpowcga.jpg) [abrir](img/prod-11419-mvpowcga.jpg) | Produto | 11419 | PROMO EMPADA FRANGO |
 | ![foto](img/prod-11421-mvpowuyo.jpg) [abrir](img/prod-11421-mvpowuyo.jpg) | Produto | 11421 | PROMO EMPADA PALMITO |
 | ![foto](img/prod-11781-mvpoa5z1.jpg) [abrir](img/prod-11781-mvpoa5z1.jpg) | Produto | 11781 | EMPADA CAMARAO |
@@ -659,3 +660,4 @@ Atualizado em 26/10/2026, 17:03:16. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 17:02:37 — Trocou a foto do produto PROMO EMPADA CARNE SECA
 - 26/10/2026, 17:02:50 — Trocou a foto do produto PROMO EMPADA FRANGO
 - 26/10/2026, 17:03:14 — Trocou a foto do produto PROMO EMPADA PALMITO
+- 26/10/2026, 17:03:28 — Trocou a foto do produto EMPADA PALMITO
