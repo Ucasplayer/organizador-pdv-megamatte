@@ -266,7 +266,7 @@
    "id": "c11",
    "code": "11",
    "name": "SUCOS",
-   "img": "img/cat-11.jpg",
+   "img": "api/image?f=cat-11-mvpdkyy5.jpg",
    "items": [
     "616",
     "850",
@@ -2018,6 +2018,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T14:46:04.310Z",
+   "msg": "Trocou a foto da categoria SUCOS"
+  },
+  {
    "t": "2026-10-26T14:41:56.835Z",
    "msg": "Trocou a foto da categoria VITAMINAS"
   },
@@ -2122,5 +2126,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T14:41:56.840Z"
+ "savedAt": "2026-10-26T14:46:04.316Z"
 }
