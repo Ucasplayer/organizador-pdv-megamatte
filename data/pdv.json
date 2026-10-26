@@ -58,7 +58,7 @@
    "id": "c4",
    "code": "4",
    "name": "MATE",
-   "img": "img/cat-4.jpg",
+   "img": "api/image?f=cat-4-mvpb3n1u.jpg",
    "items": [
     "11086",
     "226",
@@ -2018,6 +2018,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T13:36:36.743Z",
+   "msg": "Trocou a foto da categoria MATE"
+  },
+  {
    "t": "2026-10-26T13:26:01.432Z",
    "msg": "Trocou a foto da categoria CAFETERIA BEBIDAS QUENTES"
   },
@@ -2078,5 +2082,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T13:26:01.437Z"
+ "savedAt": "2026-10-26T13:36:36.749Z"
 }
