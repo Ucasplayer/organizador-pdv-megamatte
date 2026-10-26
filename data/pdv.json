@@ -1007,7 +1007,8 @@
   },
   "2118": {
    "code": "2118",
-   "name": "CROISSANT.INT. FRANGO C/REQ"
+   "name": "CROISSANT.INT. FRANGO C/REQ",
+   "img": "api/image?f=prod-2118-mvpo9nqu.jpg"
   },
   "2120": {
    "code": "2120",
@@ -2023,6 +2024,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:45:12.541Z",
+   "msg": "Trocou a foto do produto CROISSANT.INT. FRANGO C/REQ"
+  },
+  {
    "t": "2026-10-26T19:44:57.769Z",
    "msg": "Trocou a foto do produto CROISSANT QUATRO QUEIJOS"
   },
@@ -2279,5 +2284,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:44:57.778Z"
+ "savedAt": "2026-10-26T19:45:12.550Z"
 }
