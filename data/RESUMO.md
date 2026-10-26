@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 12:20:11. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 12:21:34. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **16** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
@@ -82,7 +82,7 @@ _Nenhuma._
 | ![foto](img/cat-6-mvpedrqt.jpg) [abrir](img/cat-6-mvpedrqt.jpg) | Categoria | 6 | SOBREMESAS |
 | ![foto](img/cat-45-mvpehoov.jpg) [abrir](img/cat-45-mvpehoov.jpg) | Categoria | 45 | CONGELADOS |
 | ![foto](img/cat-18-mvper7hc.jpg) [abrir](img/cat-18-mvper7hc.jpg) | Categoria | 18 | EXTRA |
-| ![foto](img/cat-111-mvpessx4.jpg) [abrir](img/cat-111-mvpessx4.jpg) | Categoria | 111 | LOJISTA (NOVO) |
+| ![foto](img/cat-111-mvpeull3.jpg) [abrir](img/cat-111-mvpeull3.jpg) | Categoria | 111 | LOJISTA (NOVO) |
 
 ## Ordem na tela
 
@@ -570,4 +570,4 @@ _Nenhuma._
 - 26/10/2026, 12:08:28 — Trocou a foto da categoria SOBREMESAS
 - 26/10/2026, 12:11:30 — Trocou a foto da categoria CONGELADOS
 - 26/10/2026, 12:18:55 — Trocou a foto da categoria EXTRA
-- 26/10/2026, 12:20:09 — Trocou a foto da categoria LOJISTA (NOVO)
+- 26/10/2026, 12:21:33 — Trocou a foto da categoria LOJISTA (NOVO)

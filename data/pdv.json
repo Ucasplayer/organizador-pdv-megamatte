@@ -456,7 +456,7 @@
    "id": "c111",
    "code": "111",
    "name": "LOJISTA (NOVO)",
-   "img": "api/image?f=cat-111-mvpessx4.jpg",
+   "img": "api/image?f=cat-111-mvpeull3.jpg",
    "items": [
     "11996",
     "11997",
@@ -2000,7 +2000,7 @@
  },
  "log": [
   {
-   "t": "2026-10-26T15:20:09.820Z",
+   "t": "2026-10-26T15:21:33.399Z",
    "msg": "Trocou a foto da categoria LOJISTA (NOVO)"
   },
   {
@@ -2168,5 +2168,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T15:20:09.827Z"
+ "savedAt": "2026-10-26T15:21:33.402Z"
 }
