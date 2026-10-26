@@ -62,12 +62,12 @@
     "519",
     "518",
     "517",
+    "12077",
     "12076",
     "11788",
     "11789",
     "11419",
-    "11421",
-    "12077"
+    "11421"
    ]
   },
   {
@@ -2046,6 +2046,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T20:08:13.934Z",
+   "msg": "Mudou a ordem dos produtos em SALGADOS"
+  },
+  {
    "t": "2026-10-26T20:05:25.104Z",
    "msg": "Trocou a foto do produto QUICHE INT ALHO PORO"
   },
@@ -2402,5 +2406,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T20:05:25.118Z"
+ "savedAt": "2026-10-26T20:08:13.946Z"
 }
