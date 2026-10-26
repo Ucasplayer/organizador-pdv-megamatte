@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 16:46:54. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 16:47:00. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **36** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
@@ -153,15 +153,15 @@ Atualizado em 26/10/2026, 16:46:54. Gerado automaticamente pelo Organizador do P
 18. P.BATATA PERU C/QUEIJO MINAS — cód. 523
 19. P.BATATA REQUEIJAO — cód. 501
 20. PASTEL INT. FRANGO CEN.PASSAS — cód. 519
-21. EMPADA PALMITO — cód. 11418
-22. PASTEL INT. PALMITO C/CHAMP — cód. 518
-23. PASTEL INT. QUEIJO MINAS — cód. 517
-24. PROMO EMPADA CAMARAO — cód. 11788
-25. PROMO EMPADA CARNE SECA — cód. 11789
-26. PROMO EMPADA FRANGO — cód. 11419
-27. PROMO EMPADA PALMITO — cód. 11421
-28. QUICHE 4 QUEIJOS — cód. 12076
-29. QUICHE INT ALHO PORO — cód. 12077
+21. PASTEL INT. PALMITO C/CHAMP — cód. 518
+22. PASTEL INT. QUEIJO MINAS — cód. 517
+23. PROMO EMPADA CAMARAO — cód. 11788
+24. PROMO EMPADA CARNE SECA — cód. 11789
+25. PROMO EMPADA FRANGO — cód. 11419
+26. PROMO EMPADA PALMITO — cód. 11421
+27. QUICHE 4 QUEIJOS — cód. 12076
+28. QUICHE INT ALHO PORO — cód. 12077
+29. EMPADA PALMITO — cód. 11418
 
 ### 5. MATE (grupo 4) — 60 produtos
 
@@ -628,4 +628,4 @@ Atualizado em 26/10/2026, 16:46:54. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 16:45:50 — Trocou a foto do produto EMPADA CARNE SECA
 - 26/10/2026, 16:46:06 — Trocou a foto do produto EMPADA FRANGO
 - 26/10/2026, 16:46:44 — Trocou a foto do produto EMPADAO FRANGO (250G)
-- 26/10/2026, 16:46:53 — Mudou a ordem dos produtos em SALGADOS
+- 26/10/2026, 16:46:58 — Mudou a ordem dos produtos em SALGADOS
