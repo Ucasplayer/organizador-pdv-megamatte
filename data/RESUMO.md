@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 17:03:55. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 17:05:26. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **52** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **53** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 26/10/2026, 17:03:55. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (52)
+## Fotos trocadas (53)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -122,6 +122,7 @@ Atualizado em 26/10/2026, 17:03:55. Gerado automaticamente pelo Organizador do P
 | ![foto](img/prod-11830-mvpobn9w.jpg) [abrir](img/prod-11830-mvpobn9w.jpg) | Produto | 11830 | EMPADAO FRANGO (250G) |
 | ![foto](img/prod-11863-mvpntag1.jpg) [abrir](img/prod-11863-mvpntag1.jpg) | Produto | 11863 | CHEESEB. FORNO TRADICIONAL |
 | ![foto](img/prod-12076-mvpolf35.jpg) [abrir](img/prod-12076-mvpolf35.jpg) | Produto | 12076 | QUICHE 4 QUEIJOS |
+| ![foto](img/prod-12077-mvpoznmv.jpg) [abrir](img/prod-12077-mvpoznmv.jpg) | Produto | 12077 | QUICHE INT ALHO PORO |
 
 ## Ordem na tela
 
@@ -662,3 +663,4 @@ Atualizado em 26/10/2026, 17:03:55. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 17:03:14 — Trocou a foto do produto PROMO EMPADA PALMITO
 - 26/10/2026, 17:03:28 — Trocou a foto do produto EMPADA PALMITO
 - 26/10/2026, 17:03:53 — Mudou a ordem dos produtos em SALGADOS
+- 26/10/2026, 17:05:25 — Trocou a foto do produto QUICHE INT ALHO PORO

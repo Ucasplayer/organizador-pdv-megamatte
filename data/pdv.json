@@ -1923,7 +1923,8 @@
   },
   "12077": {
    "code": "12077",
-   "name": "QUICHE INT ALHO PORO"
+   "name": "QUICHE INT ALHO PORO",
+   "img": "api/image?f=prod-12077-mvpoznmv.jpg"
   },
   "12080": {
    "code": "12080",
@@ -2044,6 +2045,10 @@
   }
  },
  "log": [
+  {
+   "t": "2026-10-26T20:05:25.104Z",
+   "msg": "Trocou a foto do produto QUICHE INT ALHO PORO"
+  },
   {
    "t": "2026-10-26T20:03:53.526Z",
    "msg": "Mudou a ordem dos produtos em SALGADOS"
@@ -2397,5 +2402,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T20:03:53.538Z"
+ "savedAt": "2026-10-26T20:05:25.118Z"
 }
