@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 11:16:40. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 11:36:49. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **7** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **8** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **4**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **0**
@@ -47,7 +47,7 @@ _Nenhuma._
 
 _Nenhuma._
 
-## Fotos trocadas (7)
+## Fotos trocadas (8)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -58,6 +58,7 @@ _Nenhuma._
 | ![foto](img/cat-8-mvpb5vjl.jpg) [abrir](img/cat-8-mvpb5vjl.jpg) | Categoria | 8 | AÇAÍ |
 | ![foto](img/cat-5-mvpcbfxk.jpg) [abrir](img/cat-5-mvpcbfxk.jpg) | Categoria | 5 | GUARANA NATURAL |
 | ![foto](img/cat-21-mvpcj4iz.jpg) [abrir](img/cat-21-mvpcj4iz.jpg) | Categoria | 21 | CAFETERIA BEBIDAS GELADAS |
+| ![foto](img/cat-9-mvpd9161.jpg) [abrir](img/cat-9-mvpd9161.jpg) | Categoria | 9 | MEGASHAKES |
 
 ## Ordem na tela
 
@@ -535,3 +536,4 @@ _Nenhuma._
 - 26/10/2026, 11:10:40 — Trocou a foto da categoria GUARANA NATURAL
 - 26/10/2026, 11:15:43 — Mudou a ordem das categorias na tela
 - 26/10/2026, 11:16:38 — Trocou a foto da categoria CAFETERIA BEBIDAS GELADAS
+- 26/10/2026, 11:36:47 — Trocou a foto da categoria MEGASHAKES

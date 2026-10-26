@@ -232,7 +232,7 @@
    "id": "c9",
    "code": "9",
    "name": "MEGASHAKES",
-   "img": "img/cat-9.jpg",
+   "img": "api/image?f=cat-9-mvpd9161.jpg",
    "items": [
     "305",
     "345",
@@ -2018,6 +2018,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T14:36:47.641Z",
+   "msg": "Trocou a foto da categoria MEGASHAKES"
+  },
+  {
    "t": "2026-10-26T14:16:38.618Z",
    "msg": "Trocou a foto da categoria CAFETERIA BEBIDAS GELADAS"
   },
@@ -2110,5 +2114,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T14:16:38.623Z"
+ "savedAt": "2026-10-26T14:36:47.644Z"
 }
