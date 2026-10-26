@@ -1,9 +1,9 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 11:54:05. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 11:57:15. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **11** (as fotos ficam na pasta data/img)
-- Produtos que mudaram de categoria: **4**
+- Produtos que mudaram de categoria: **8**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **0**
 - Categorias novas: **0**
@@ -24,7 +24,7 @@ _Nenhuma._
 
 _Nenhuma._
 
-## Produtos que mudaram de categoria (4)
+## Produtos que mudaram de categoria (8)
 
 | Cód. | Produto | Saiu de | Entrou em | Fica em |
 |---|---|---|---|---|
@@ -32,6 +32,10 @@ _Nenhuma._
 | 463 | ESPRESSO DUPLO 100ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 470 | ESPRESSO DUPLO C/LEITE 200ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 11063 | ESPRESSO MACCHIATO 50ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
+| 11114 | SAND. ABOBRINHA GREL PAST BERINJELA CIAB | SANDUÍCHES GOURMET | SANDUICHES CHAPA | SANDUICHES CHAPA |
+| 10362 | SAND. CIABATTA CARNE ASSADA | SANDUÍCHES GOURMET | SANDUICHES CHAPA | SANDUICHES CHAPA |
+| 11118 | SAND. COSTELA NO PÃO AUSTRALIANO | SANDUÍCHES GOURMET | SANDUICHES CHAPA | SANDUICHES CHAPA |
+| 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SANDUÍCHES GOURMET | SANDUICHES CHAPA | SANDUICHES CHAPA |
 
 ## Produtos novos (1)
 
@@ -337,18 +341,18 @@ _Nenhuma._
 5. AGUA DE COCO 500ML — cód. 1801
 6. AGUA DE COCO 700ML — cód. 10597
 
-### 12. SANDUICHES CHAPA (grupo 13) — 3 produtos
+### 12. SANDUICHES CHAPA (grupo 13) — 7 produtos
 
 1. PAO FRANCES NA CHAPA — cód. 10361
 2. SAND. MEGALEVE — cód. 10233
 3. SAND. MEGAMISTO — cód. 2551
+4. SAND. ABOBRINHA GREL PAST BERINJELA CIAB — cód. 11114
+5. SAND. CIABATTA CARNE ASSADA — cód. 10362
+6. SAND. COSTELA NO PÃO AUSTRALIANO — cód. 11118
+7. SAND. FRANGO TOMATE SECO AZEITO BAGUETE — cód. 11113
 
-### 13. SANDUÍCHES GOURMET (grupo 14) — 4 produtos
+### 13. SANDUÍCHES GOURMET (grupo 14) — 0 produtos
 
-1. SAND. ABOBRINHA GREL PAST BERINJELA CIAB — cód. 11114
-2. SAND. CIABATTA CARNE ASSADA — cód. 10362
-3. SAND. COSTELA NO PÃO AUSTRALIANO — cód. 11118
-4. SAND. FRANGO TOMATE SECO AZEITO BAGUETE — cód. 11113
 
 ### 14. SANDUÍCHES NATURAIS (grupo 15) — 4 produtos
 
@@ -545,3 +549,4 @@ _Nenhuma._
 - 26/10/2026, 11:46:04 — Trocou a foto da categoria SUCOS
 - 26/10/2026, 11:48:59 — Trocou a foto da categoria ÁGUA
 - 26/10/2026, 11:54:04 — Trocou a foto da categoria VITAMINAS
+- 26/10/2026, 11:57:14 — Moveu SAND. ABOBRINHA GREL PAST BERINJELA CIAB, SAND. CIABATTA CARNE ASSADA, SAND. COSTELA NO PÃO AUSTRALIANO e mais 1 de SANDUÍCHES GOURMET para SANDUICHES CHAPA

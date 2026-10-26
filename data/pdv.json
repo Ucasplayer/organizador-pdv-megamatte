@@ -331,7 +331,11 @@
    "items": [
     "10361",
     "10233",
-    "2551"
+    "2551",
+    "11114",
+    "10362",
+    "11118",
+    "11113"
    ]
   },
   {
@@ -339,12 +343,7 @@
    "code": "14",
    "name": "SANDUÍCHES GOURMET",
    "img": "img/cat-14.jpg",
-   "items": [
-    "11114",
-    "10362",
-    "11118",
-    "11113"
-   ]
+   "items": []
   },
   {
    "id": "c15",
@@ -2018,6 +2017,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T14:57:14.007Z",
+   "msg": "Moveu SAND. ABOBRINHA GREL PAST BERINJELA CIAB, SAND. CIABATTA CARNE ASSADA, SAND. COSTELA NO PÃO AUSTRALIANO e mais 1 de SANDUÍCHES GOURMET para SANDUICHES CHAPA"
+  },
+  {
    "t": "2026-10-26T14:54:04.202Z",
    "msg": "Trocou a foto da categoria VITAMINAS"
   },
@@ -2134,5 +2137,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T14:54:04.207Z"
+ "savedAt": "2026-10-26T14:57:14.011Z"
 }
