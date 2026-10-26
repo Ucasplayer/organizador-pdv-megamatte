@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 15:11:11. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 15:13:29. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **21** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
@@ -86,8 +86,8 @@ Atualizado em 26/10/2026, 15:11:11. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-13-mvpe00gw.jpg) [abrir](img/cat-13-mvpe00gw.jpg) | Categoria | 13 | SANDUICHES |
 | ![foto](img/cat-6-mvpedrqt.jpg) [abrir](img/cat-6-mvpedrqt.jpg) | Categoria | 6 | SOBREMESAS |
 | ![foto](img/cat-45-mvpehoov.jpg) [abrir](img/cat-45-mvpehoov.jpg) | Categoria | 45 | CONGELADOS |
-| ![foto](img/cat-2-mvpexm5r.jpg) [abrir](img/cat-2-mvpexm5r.jpg) | Categoria | 2 | PROMOÇÕES |
 | ![foto](img/cat-18-mvper7hc.jpg) [abrir](img/cat-18-mvper7hc.jpg) | Categoria | 18 | EXTRA |
+| ![foto](img/cat-2-mvpexm5r.jpg) [abrir](img/cat-2-mvpexm5r.jpg) | Categoria | 2 | PROMOÇÕES |
 | ![foto](img/cat-111-mvpeull3.jpg) [abrir](img/cat-111-mvpeull3.jpg) | Categoria | 111 | LOJISTA (NOVO) |
 | ![foto](img/cat-101-mvpfbpfu.jpg) [abrir](img/cat-101-mvpfbpfu.jpg) | Categoria | 101 | COFFEE PARTY TERÊ |
 | ![foto](img/cat-110-mvpfc5kn.jpg) [abrir](img/cat-110-mvpfc5kn.jpg) | Categoria | 110 | MINI PREÇOS (NOVOS) |
@@ -431,7 +431,22 @@ Atualizado em 26/10/2026, 15:11:11. Gerado automaticamente pelo Organizador do P
 6. CG - PAO DE BATATA — cód. 11368
 7. CG - PASTEL — cód. 11369
 
-### 17. PROMOÇÕES (grupo 2) — 27 produtos
+### 17. EXTRA (grupo 18) — 12 produtos
+
+1. ADICIONAL MATE FRUTA — cód. 11790
+2. PORCAO DE AMENDOIM — cód. 607
+3. PORCAO DE AVEIA — cód. 11622
+4. PORCAO DE CHANTILLY — cód. 603
+5. PORCAO DE FRUTA — cód. 2072
+6. PORCAO DE GRANOLA — cód. 605
+7. PORCAO DE GUARANÁ EM PÓ — cód. 11050
+8. PORCAO DE LEITE PO — cód. 610
+9. PORCAO DE MEL — cód. 11144
+10. PORCAO DE PACOCA — cód. 10763
+11. PORCAO DE PROTEINATO — cód. 613
+12. PORCAO OVOMALTINE FLOCOS — cód. 11457
+
+### 18. PROMOÇÕES (grupo 2) — 27 produtos
 
 1. KIT CAFE 1 — cód. 10708
 2. KIT CAFE 2 — cód. 10709
@@ -460,21 +475,6 @@ Atualizado em 26/10/2026, 15:11:11. Gerado automaticamente pelo Organizador do P
 25. PROM - SALGADO + CAPPUCCINO — cód. 15014
 26. PROM - SALGADO + MATE — cód. 15015
 27. PROMO COOKIE DE CHOCOLATE UNID — cód. 11294
-
-### 18. EXTRA (grupo 18) — 12 produtos
-
-1. ADICIONAL MATE FRUTA — cód. 11790
-2. PORCAO DE AMENDOIM — cód. 607
-3. PORCAO DE AVEIA — cód. 11622
-4. PORCAO DE CHANTILLY — cód. 603
-5. PORCAO DE FRUTA — cód. 2072
-6. PORCAO DE GRANOLA — cód. 605
-7. PORCAO DE GUARANÁ EM PÓ — cód. 11050
-8. PORCAO DE LEITE PO — cód. 610
-9. PORCAO DE MEL — cód. 11144
-10. PORCAO DE PACOCA — cód. 10763
-11. PORCAO DE PROTEINATO — cód. 613
-12. PORCAO OVOMALTINE FLOCOS — cód. 11457
 
 ### 19. LOJISTA (NOVO) (grupo 111) — 19 produtos
 
@@ -595,3 +595,4 @@ Atualizado em 26/10/2026, 15:11:11. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 15:10:50 — Criou a categoria CAMPANHA BROWNIE DO LUIZ
 - 26/10/2026, 15:11:05 — Trocou a foto da categoria CAMPANHA BROWNIE DO LUIZ
 - 26/10/2026, 15:11:09 — Mudou a ordem das categorias na tela
+- 26/10/2026, 15:13:27 — Mudou a ordem das categorias na tela
