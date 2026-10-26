@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 16:46:07. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 16:46:46. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **35** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **36** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 26/10/2026, 16:46:07. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (35)
+## Fotos trocadas (36)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -104,6 +104,7 @@ Atualizado em 26/10/2026, 16:46:07. Gerado automaticamente pelo Organizador do P
 | ![foto](img/prod-11417-mvpoat93.jpg) [abrir](img/prod-11417-mvpoat93.jpg) | Produto | 11417 | EMPADA FRANGO |
 | ![foto](img/prod-11781-mvpoa5z1.jpg) [abrir](img/prod-11781-mvpoa5z1.jpg) | Produto | 11781 | EMPADA CAMARAO |
 | ![foto](img/prod-11782-mvpoah8j.jpg) [abrir](img/prod-11782-mvpoah8j.jpg) | Produto | 11782 | EMPADA CARNE SECA |
+| ![foto](img/prod-11830-mvpobn9w.jpg) [abrir](img/prod-11830-mvpobn9w.jpg) | Produto | 11830 | EMPADAO FRANGO (250G) |
 | ![foto](img/prod-11863-mvpntag1.jpg) [abrir](img/prod-11863-mvpntag1.jpg) | Produto | 11863 | CHEESEB. FORNO TRADICIONAL |
 
 ## Ordem na tela
@@ -626,3 +627,4 @@ Atualizado em 26/10/2026, 16:46:07. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 16:45:35 — Trocou a foto do produto EMPADA CAMARAO
 - 26/10/2026, 16:45:50 — Trocou a foto do produto EMPADA CARNE SECA
 - 26/10/2026, 16:46:06 — Trocou a foto do produto EMPADA FRANGO
+- 26/10/2026, 16:46:44 — Trocou a foto do produto EMPADAO FRANGO (250G)

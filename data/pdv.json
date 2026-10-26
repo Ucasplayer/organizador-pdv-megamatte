@@ -1749,7 +1749,8 @@
   },
   "11830": {
    "code": "11830",
-   "name": "EMPADAO FRANGO (250G)"
+   "name": "EMPADAO FRANGO (250G)",
+   "img": "api/image?f=prod-11830-mvpobn9w.jpg"
   },
   "11831": {
    "code": "11831",
@@ -2028,6 +2029,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T19:46:44.843Z",
+   "msg": "Trocou a foto do produto EMPADAO FRANGO (250G)"
+  },
+  {
    "t": "2026-10-26T19:46:06.188Z",
    "msg": "Trocou a foto do produto EMPADA FRANGO"
   },
@@ -2304,5 +2309,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T19:46:06.199Z"
+ "savedAt": "2026-10-26T19:46:44.854Z"
 }
