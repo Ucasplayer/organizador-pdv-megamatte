@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 17:03:29. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 17:03:49. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **52** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
@@ -161,23 +161,23 @@ Atualizado em 26/10/2026, 17:03:29. Gerado automaticamente pelo Organizador do P
 10. EMPADA CARNE SECA — cód. 11782
 11. EMPADA FRANGO — cód. 11417
 12. EMPADAO FRANGO (250G) — cód. 11830
-13. FOLHADO FRANGO — cód. 11010
-14. FOLHADO PEITO DE PERU — cód. 11009
-15. FOLHADO.INT PEITO DE PERU C/QUEIJO — cód. 11119
-16. P.BATATA CALABRESA — cód. 502
-17. P.BATATA MISTO — cód. 506
-18. P.BATATA PERU C/QUEIJO MINAS — cód. 523
-19. P.BATATA REQUEIJAO — cód. 501
-20. PASTEL INT. FRANGO CEN.PASSAS — cód. 519
-21. PASTEL INT. PALMITO C/CHAMP — cód. 518
-22. PASTEL INT. QUEIJO MINAS — cód. 517
-23. PROMO EMPADA CAMARAO — cód. 11788
-24. PROMO EMPADA CARNE SECA — cód. 11789
-25. PROMO EMPADA FRANGO — cód. 11419
-26. PROMO EMPADA PALMITO — cód. 11421
-27. QUICHE 4 QUEIJOS — cód. 12076
-28. QUICHE INT ALHO PORO — cód. 12077
-29. EMPADA PALMITO — cód. 11418
+13. EMPADA PALMITO — cód. 11418
+14. FOLHADO FRANGO — cód. 11010
+15. FOLHADO PEITO DE PERU — cód. 11009
+16. FOLHADO.INT PEITO DE PERU C/QUEIJO — cód. 11119
+17. P.BATATA CALABRESA — cód. 502
+18. P.BATATA MISTO — cód. 506
+19. P.BATATA PERU C/QUEIJO MINAS — cód. 523
+20. P.BATATA REQUEIJAO — cód. 501
+21. PASTEL INT. FRANGO CEN.PASSAS — cód. 519
+22. PASTEL INT. PALMITO C/CHAMP — cód. 518
+23. PASTEL INT. QUEIJO MINAS — cód. 517
+24. PROMO EMPADA CAMARAO — cód. 11788
+25. PROMO EMPADA CARNE SECA — cód. 11789
+26. PROMO EMPADA FRANGO — cód. 11419
+27. PROMO EMPADA PALMITO — cód. 11421
+28. QUICHE 4 QUEIJOS — cód. 12076
+29. QUICHE INT ALHO PORO — cód. 12077
 
 ### 5. MATE (grupo 4) — 60 produtos
 
@@ -661,3 +661,4 @@ Atualizado em 26/10/2026, 17:03:29. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 17:02:50 — Trocou a foto do produto PROMO EMPADA FRANGO
 - 26/10/2026, 17:03:14 — Trocou a foto do produto PROMO EMPADA PALMITO
 - 26/10/2026, 17:03:28 — Trocou a foto do produto EMPADA PALMITO
+- 26/10/2026, 17:03:48 — Mudou a ordem dos produtos em SALGADOS
