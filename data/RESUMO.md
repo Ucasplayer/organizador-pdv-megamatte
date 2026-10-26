@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 15:06:18. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 26/10/2026, 15:06:33. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **19** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **20** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -65,7 +65,7 @@ Atualizado em 26/10/2026, 15:06:18. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (19)
+## Fotos trocadas (20)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -88,6 +88,7 @@ Atualizado em 26/10/2026, 15:06:18. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-111-mvpeull3.jpg) [abrir](img/cat-111-mvpeull3.jpg) | Categoria | 111 | LOJISTA (NOVO) |
 | ![foto](img/cat-101-mvpfbpfu.jpg) [abrir](img/cat-101-mvpfbpfu.jpg) | Categoria | 101 | COFFEE PARTY TERÊ |
 | ![foto](img/cat-110-mvpfc5kn.jpg) [abrir](img/cat-110-mvpfc5kn.jpg) | Categoria | 110 | MINI PREÇOS (NOVOS) |
+| ![foto](img/cat-nmvpkilu8-mvpkqqvh.jpg) [abrir](img/cat-nmvpkilu8-mvpkqqvh.jpg) | Categoria | nova | MATE FRUTA DO DIA |
 
 ## Ordem na tela
 
@@ -584,3 +585,4 @@ Atualizado em 26/10/2026, 15:06:18. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 12:34:51 — Trocou a foto da categoria COFFEE PARTY TERÊ
 - 26/10/2026, 12:35:12 — Trocou a foto da categoria MINI PREÇOS (NOVOS)
 - 26/10/2026, 15:06:17 — Criou a categoria MATE FRUTA DO DIA
+- 26/10/2026, 15:06:31 — Trocou a foto da categoria MATE FRUTA DO DIA

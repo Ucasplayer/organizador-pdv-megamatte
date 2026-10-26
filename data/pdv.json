@@ -546,7 +546,7 @@
    "id": "nmvpkilu8",
    "code": "",
    "name": "MATE FRUTA DO DIA",
-   "img": null,
+   "img": "api/image?f=cat-nmvpkilu8-mvpkqqvh.jpg",
    "items": [],
    "isNew": true
   }
@@ -2008,6 +2008,10 @@
  },
  "log": [
   {
+   "t": "2026-10-26T18:06:31.586Z",
+   "msg": "Trocou a foto da categoria MATE FRUTA DO DIA"
+  },
+  {
    "t": "2026-10-26T18:06:17.362Z",
    "msg": "Criou a categoria MATE FRUTA DO DIA"
   },
@@ -2196,5 +2200,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T18:06:17.371Z"
+ "savedAt": "2026-10-26T18:06:31.593Z"
 }
