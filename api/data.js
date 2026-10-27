@@ -4,7 +4,7 @@
 //   GITHUB_REPO    ex.: Ucasplayer/organizador-pdv-megamatte (obrigatório)
 //   GITHUB_BRANCH  padrão: main
 //   DATA_DIR       pasta onde os dados ficam no repositório. padrão: data
-//   EDIT_PASSWORD  opcional: se definido, só quem souber a senha consegue salvar
+//   EDIT_PASSWORD  senha do botão EDITAR (padrão: 7901). Sem ela ninguém salva.
 
 const ALLOWED = ['pdv.json', 'RESUMO.md', 'pdv-final.csv'];
 const MAX_BYTES = 3 * 1024 * 1024;
@@ -16,7 +16,7 @@ function cfg() {
     repo: process.env.GITHUB_REPO,
     branch: process.env.GITHUB_BRANCH || 'main',
     dir: (process.env.DATA_DIR || 'data').replace(/^\/+|\/+$/g, ''),
-    pass: process.env.EDIT_PASSWORD || '',
+    pass: process.env.EDIT_PASSWORD || '7901',
   };
 }
 

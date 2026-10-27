@@ -22,6 +22,7 @@ Cada salvamento vira um commit, com a descrição da alteração na mensagem —
 - `img/` — imagens das categorias recortadas da tela do PDV, e `img/card-bg.jpg`, o fundo dos cartões automáticos.
 - `fonts/oswald-600.woff2` e `auto-cards.json` — fonte dos cartões automáticos (nome do produto) e lista dos cartões gerados em lote. Produto novo ganha o cartão sozinho; ao renomear, o cartão é refeito.
 - `api/data.js` — função da Vercel que lê e grava os dados no GitHub.
+- `api/auth.js` — confere a senha do botão **EDITAR**. O site abre só para visualizar; editar e salvar exigem a senha (conferida no servidor).
 - `api/image.js` — envia e mostra as fotos de categorias e produtos (ficam em `data/img/`).
 - `vercel.json` — faz a Vercel **não** refazer o deploy quando só a pasta `data/` muda.
 
@@ -35,7 +36,7 @@ Cada salvamento vira um commit, com a descrição da alteração na mensagem —
 3. Em **Environment Variables**, adicione:
    - `GITHUB_TOKEN` = o token do passo 1
    - `GITHUB_REPO` = `Ucasplayer/organizador-pdv-megamatte`
-   - (opcional) `EDIT_PASSWORD` = uma senha. Se definir, o site pede a senha na primeira vez que alguém tentar salvar (fica guardada no navegador).
+   - (opcional) `EDIT_PASSWORD` = senha do botão **EDITAR**. Sem essa variável, a senha é `7901`.
 4. Clique em **Deploy** e mande o link para a gestora.
 
 Se mudar alguma variável depois, faça *Redeploy* para valer.

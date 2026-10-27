@@ -13,7 +13,7 @@ function cfg() {
     repo: process.env.GITHUB_REPO,
     branch: process.env.GITHUB_BRANCH || 'main',
     dir: (process.env.DATA_DIR || 'data').replace(/^\/+|\/+$/g, ''),
-    pass: process.env.EDIT_PASSWORD || '',
+    pass: process.env.EDIT_PASSWORD || '7901',
   };
 }
 

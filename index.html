@@ -32,6 +32,14 @@ button:disabled{cursor:not-allowed}
 .save.saving .dot{background:var(--yellow);animation:pulse 1s infinite}
 .save.error .dot,.save.local .dot{background:var(--red)}
 @keyframes pulse{50%{opacity:.3}}
+.edit-btn{background:#fff;color:#0A3150;border:0;border-radius:20px;padding:8px 18px;font-weight:900;font-size:14px;letter-spacing:.6px;box-shadow:0 2px 8px rgba(0,0,0,.3);white-space:nowrap}
+.edit-btn:hover{background:#E6F3FF}
+body.editing .edit-btn{background:#D9443B;color:#fff;letter-spacing:0}
+body.editing .edit-btn:hover{background:#EE5A50}
+body.editing .top{border-bottom:3px solid var(--yellow)}
+.edit-flag{display:none;background:var(--yellow);color:#000;font-weight:800;font-size:12px;padding:4px 10px;border-radius:12px;white-space:nowrap}
+body.editing .edit-flag{display:inline-block}
+body:not(.editing) .sug-btn,body:not(.editing) #undo-btn{display:none}
 .sug-btn{background:var(--yellow);color:#000;border:0;border-radius:20px;padding:8px 16px;font-weight:800;font-size:14px;box-shadow:0 2px 8px rgba(0,0,0,.3);white-space:nowrap}
 .sug-btn:hover{background:#FFF176}
 .sug-list{margin:6px 0 4px;padding:0;list-style:none;counter-reset:n}
@@ -196,7 +204,7 @@ main{background:var(--panel);border:1px solid var(--line);display:flex;flex-dire
 @media (max-width:480px){
   .top{flex-wrap:wrap}
   .save{margin-left:0}
-  .sug-btn{order:3}
+  .sug-btn,.edit-btn{order:3}
   .layout{padding:6px}
   .grid-wrap{margin:0 6px}
   :root{--tile-w:104px}
@@ -212,6 +220,8 @@ main{background:var(--panel);border:1px solid var(--line);display:flex;flex-dire
     <span class="mark"><i style="background:var(--orange)"></i><i style="background:var(--green)"></i><i style="background:#fff"></i><i style="background:var(--yellow)"></i></span>
     <span>Organizador do PDV<small>Mega Matte · categorias e produtos</small></span>
   </div>
+  <button class="edit-btn" id="edit-btn" type="button">✏️ EDITAR</button>
+  <span class="edit-flag">MODO EDIÇÃO</span>
   <button class="sug-btn" id="sug-btn" type="button">✨ Minha sugestão</button>
   <div class="save" id="save"><span class="dot"></span><span id="save-text">Carregando…</span></div>
   <button class="help-btn" id="help-btn" type="button">❔ Como usar</button>
@@ -248,7 +258,9 @@ main{background:var(--panel);border:1px solid var(--line);display:flex;flex-dire
 
 // ===================== Estado =====================
 const LS_DATA = 'pdv-org:data';
-const LS_PASS = 'pdv-org:senha';
+const SS_PASS = 'pdv-org:senha-edicao';
+const getPass = () => { try { return sessionStorage.getItem(SS_PASS) || ''; } catch (_) { return S.pass || ''; } };
+const setPass = v => { S.pass = v; try { v ? sessionStorage.setItem(SS_PASS, v) : sessionStorage.removeItem(SS_PASS); } catch (_) {} };
 const S = {
   data: null,        // dados atuais
   original: null,    // como estava no PDV (seed.json)
@@ -304,6 +316,7 @@ async function load() {
     showBanner('⚠ Não foi possível conectar à nuvem. As alterações estão sendo guardadas só neste navegador. Avise o Lucas.');
   }
   $('#loading').remove();
+  if (getPass()) { S.edit = true; document.body.classList.add('editing'); $('#edit-btn').textContent = '🔒 Sair da edição'; }
   cardAssets().catch(() => {});
   render();
   if (!lsGet('pdv-org:viu-ajuda')) { lsSet('pdv-org:viu-ajuda', '1'); showHelp(); }
@@ -311,6 +324,7 @@ async function load() {
 
 // ===================== Alterações / desfazer =====================
 function change(msg, fn) {
+  if (!S.edit) { toast('Para mudar alguma coisa, clique em ✏️ EDITAR no topo.'); render(); return false; }
   const before = JSON.stringify(S.data);
   const result = fn();
   if (result === false) return false;
@@ -333,6 +347,7 @@ function addLog(msg) {
 }
 
 function undo() {
+  if (!S.edit) return;
   if (!S.undo.length) return toast('Não há nada para desfazer.');
   const lastMsg = S.data.log[0] ? S.data.log[0].msg : '';
   S.data = JSON.parse(S.undo.pop());
@@ -367,7 +382,7 @@ async function saveNow() {
   };
   try {
     const headers = { 'Content-Type': 'application/json' };
-    const pass = lsGet(LS_PASS);
+    const pass = getPass();
     if (pass) headers['x-senha'] = pass;
     const r = await fetch('api/data', { method: 'PUT', headers, body: JSON.stringify({ files, message, baseSavedAt: S.baseSavedAt }) });
     if (r.status === 409) {
@@ -381,7 +396,7 @@ async function saveNow() {
     if (r.status === 401) {
       S.pendingMsgs.unshift(...msgs);
       S.saving = false;
-      if (await askPassword()) saveNow(); else setSaveState('error', 'Não salvo — falta a senha');
+      if (await askPassword('A senha expirou ou mudou. Digite de novo para salvar.')) saveNow(); else setSaveState('error', 'Não salvo — falta a senha');
       return;
     }
     if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -411,10 +426,38 @@ function showConflict() {
   $('[data-reload]', m.el).onclick = () => { S.pendingMsgs = []; location.reload(); };
 }
 
-async function askPassword() {
-  const p = await askText({ title: 'Senha para salvar', text: 'Digite a senha de edição que o Lucas passou. Ela fica guardada neste computador.', label: 'Senha', type: 'password', ok: 'Salvar' });
-  if (p) lsSet(LS_PASS, p);
-  return !!p;
+// Pede a senha e confere no servidor. Volta true se liberou a edição.
+async function askPassword(text = 'Digite a senha para liberar a edição.') {
+  for (;;) {
+    const p = await askText({ title: '✏️ Liberar edição', text, label: 'Senha', type: 'password', ok: 'Entrar' });
+    if (!p) return false;
+    let r;
+    try { r = await fetch('api/auth', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ senha: p }) }); }
+    catch (e) { toast('Sem conexão com o servidor. Tente de novo.'); return false; }
+    if (r.ok) { setPass(p); setEditMode(true); return true; }
+    if (r.status === 401) { text = 'Senha incorreta. Tente de novo.'; continue; }
+    toast('Não foi possível conferir a senha agora (erro ' + r.status + ').');
+    return false;
+  }
+}
+
+function setEditMode(on) {
+  S.edit = !!on;
+  document.body.classList.toggle('editing', S.edit);
+  $('#edit-btn').textContent = S.edit ? '🔒 Sair da edição' : '✏️ EDITAR';
+  if (!S.edit) S.selected.clear();
+  if (S.data) render();
+}
+
+async function toggleEdit() {
+  if (!S.edit) {
+    if (await askPassword()) toast('✓ Edição liberada. Quando terminar, clique em "Sair da edição".');
+    return;
+  }
+  if (S.pendingMsgs.length || S.saving) { clearTimeout(S.saveTimer); await saveNow(); }
+  setPass('');
+  setEditMode(false);
+  toast('🔒 Edição bloqueada. Agora é só visualização.');
 }
 
 function setSaveState(state, text) {
@@ -462,7 +505,8 @@ function catImg(c) {
 
 function renderHome() {
   $('#title').innerHTML = 'SELECIONE A CATEGORIA PARA ESCOLHA DO PRODUTO';
-  $('#hint').textContent = 'Clique numa categoria para ver os produtos dela. Arraste uma categoria para mudar a posição dela na tela.';
+  $('#hint').textContent = S.edit ? 'Clique numa categoria para ver os produtos dela. Arraste uma categoria para mudar a posição dela na tela.'
+    : 'Clique numa categoria para ver os produtos dela. Para fazer alterações, clique em ✏️ EDITAR no topo.';
   $('#back').hidden = true;
   const grid = $('#grid');
   grid.innerHTML = cats().map(c => `
@@ -472,9 +516,9 @@ function renderHome() {
       <div class="label">${esc(c.name)}</div>
       <span class="qty" title="${c.items.length} produtos">${c.items.length}</span>
     </div>`).join('') +
-    `<div class="tile add-tile" data-add="cat"><span class="plus">＋</span>Nova categoria</div>`;
+    (S.edit ? `<div class="tile add-tile" data-add="cat"><span class="plus">＋</span>Nova categoria</div>` : '');
   grid.querySelectorAll('.tile.cat').forEach(t => t.addEventListener('click', () => openCat(t.dataset.id)));
-  grid.querySelector('[data-add]').addEventListener('click', newCategory);
+  const addCat = grid.querySelector('[data-add]'); if (addCat) addCat.addEventListener('click', newCategory);
   makeSortable(grid, '.tile.cat', ids => {
     const old = cats().map(c => c.id).join();
     if (old === ids.join()) return;
@@ -487,14 +531,16 @@ function renderHome() {
 function renderCategory() {
   const c = catById(S.catId);
   [...S.selected].forEach(code => { if (!c.items.includes(code)) S.selected.delete(code); });
-  $('#title').innerHTML = `PRODUTOS — ${esc(c.name)}
+  $('#title').innerHTML = `PRODUTOS — ${esc(c.name)}` + (S.edit ? `
     <span class="cat-actions">
       <button class="mini-btn" data-act="rename-cat" type="button">✎ Editar nome e foto</button>
       <button class="mini-btn danger" data-act="del-cat" type="button">🗑 Excluir categoria</button>
-    </span>`;
-  $('#title [data-act="rename-cat"]').onclick = () => editCategory(c.id);
-  $('#title [data-act="del-cat"]').onclick = () => deleteCategory(c.id);
-  $('#hint').textContent = S.selected.size
+    </span>` : '');
+  if (S.edit) {
+    $('#title [data-act="rename-cat"]').onclick = () => editCategory(c.id);
+    $('#title [data-act="del-cat"]').onclick = () => deleteCategory(c.id);
+  }
+  $('#hint').textContent = !S.edit ? 'Modo visualização. Para fazer alterações, clique em ✏️ EDITAR no topo.' : S.selected.size
     ? `${S.selected.size} produto(s) selecionado(s). Agora escolha um botão lá embaixo (Mover, Copiar, Excluir…).`
     : 'Clique nos produtos para selecionar (pode marcar vários). Arraste um produto para mudar a ordem dele.';
   $('#back').hidden = false;
@@ -511,10 +557,10 @@ function renderCategory() {
       <div class="label">${esc(p.name)}</div>
     </div>`;
   }).join('');
-  grid.innerHTML = (tiles || '<div class="empty-cat">Esta categoria está vazia.<br>Use <b>＋ Novo produto</b> ou mova produtos de outra categoria para cá.</div>') +
-    `<div class="tile add-tile" data-add="prod"><span class="plus">＋</span>Novo produto</div>`;
-  grid.querySelectorAll('.tile.prod').forEach(t => t.addEventListener('click', () => toggleSel(t.dataset.code)));
-  grid.querySelector('[data-add]').addEventListener('click', newProduct);
+  grid.innerHTML = (tiles || `<div class="empty-cat">Esta categoria está vazia.${S.edit ? '<br>Use <b>＋ Novo produto</b> ou mova produtos de outra categoria para cá.' : ''}</div>`) +
+    (S.edit ? `<div class="tile add-tile" data-add="prod"><span class="plus">＋</span>Novo produto</div>` : '');
+  if (S.edit) grid.querySelectorAll('.tile.prod').forEach(t => t.addEventListener('click', () => toggleSel(t.dataset.code)));
+  const addProd = grid.querySelector('[data-add]'); if (addProd) addProd.addEventListener('click', newProduct);
   makeSortable(grid, '.tile.prod', codes => {
     if (c.items.join() === codes.join()) return;
     change(`Mudou a ordem dos produtos em ${c.name}`, () => { catById(c.id).items = codes; });
@@ -524,7 +570,7 @@ function renderCategory() {
 let sortable = null;
 function makeSortable(grid, draggable, onDone) {
   if (sortable) { sortable.destroy(); sortable = null; }
-  if (!window.Sortable) return;
+  if (!window.Sortable || !S.edit) return;
   sortable = Sortable.create(grid, {
     draggable, animation: 150, delay: 180, delayOnTouchOnly: true, filter: '.add-tile', preventOnFilter: false,
     onEnd: () => {
@@ -539,7 +585,9 @@ function renderToolbar() {
   const n = S.selected.size;
   const btn = (id, label, opts = {}) =>
     `<button class="tb ${opts.cls || ''}" id="${id}" type="button" ${opts.disabled ? 'disabled' : ''}>${label}</button>`;
-  if (S.view === 'home') {
+  if (!S.edit) {
+    tb.innerHTML = btn('t-search', '🔍 Procurar Produto') + (S.view === 'home' ? btn('t-summary', '📋 Resumo das Mudanças', { cls: 'green' }) : '');
+  } else if (S.view === 'home') {
     tb.innerHTML =
       btn('t-newcat', '＋ Nova Categoria') +
       btn('t-search', '🔍 Procurar Produto') +
@@ -590,8 +638,9 @@ $('#back').onclick = goHome;
 $('#undo-btn').onclick = undo;
 $('#help-btn').onclick = showHelp;
 $('#sug-btn').onclick = showSuggestion;
+$('#edit-btn').onclick = toggleEdit;
 document.addEventListener('keydown', e => {
-  if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'z' && !document.querySelector('.overlay')) { e.preventDefault(); undo(); }
+  if (S.edit && (e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'z' && !document.querySelector('.overlay')) { e.preventDefault(); undo(); }
 });
 
 // ===================== Ações: categorias =====================
@@ -757,7 +806,7 @@ async function uploadPhoto(kind, id, label, dataUrl) {
   if (S.mode === 'local') return dataUrl;
   for (let tries = 0; tries < 2; tries++) {
     const headers = { 'Content-Type': 'application/json' };
-    const pass = lsGet(LS_PASS);
+    const pass = getPass();
     if (pass) headers['x-senha'] = pass;
     const r = await fetch('api/image', { method: 'POST', headers, body: JSON.stringify({ kind, id, label, data: dataUrl }) });
     if (r.status === 401) { if (await askPassword()) continue; throw new Error('Falta a senha de edição.'); }
@@ -987,7 +1036,7 @@ function searchProducts() {
       return `<li><span class="pname">${esc(pname(code))}</span><span class="pcode">cód. ${esc(shownCode)}</span>
         <div class="chips">${in_.length
           ? in_.map(c => `<button class="chip" data-go="${esc(c.id)}" data-code="${esc(code)}" type="button">${esc(c.name)} ›</button>`).join('')
-          : `<span class="chip warn">Fora do PDV (não está em nenhuma categoria)</span><button class="chip" data-back="${esc(code)}" type="button">↩ Colocar numa categoria</button>`}</div></li>`;
+          : `<span class="chip warn">Fora do PDV (não está em nenhuma categoria)</span>${S.edit ? `<button class="chip" data-back="${esc(code)}" type="button">↩ Colocar numa categoria</button>` : ''}`}</div></li>`;
     }).join('') : '<li style="color:#6A8299">Nenhum produto encontrado.</li>';
   };
   input.addEventListener('input', draw);
@@ -1204,6 +1253,7 @@ function showHelp() {
     <h3>Como usar o Organizador do PDV</h3>
     <div class="body">
       <p>Esta tela é uma cópia do PDV. Tudo o que você mudar aqui fica <b>salvo sozinho na nuvem</b> e o Lucas usa depois para arrumar o PDV de verdade. <b>Nada muda no PDV da loja</b> enquanto você mexe aqui.</p>
+      <p><b>✏️ EDITAR:</b> o site abre só para ver. Para mudar alguma coisa, clique em <b>EDITAR</b> no topo e digite a senha. Quando terminar, clique em <b>Sair da edição</b>.</p>
       <p><b>📂 Ver produtos:</b> clique numa categoria. Para voltar, use <b>Volta para Categorias</b>.</p>
       <p><b>➜ Mudar produto de categoria:</b> clique no(s) produto(s) para marcar (fica com borda amarela e ✓) e depois em <b>Mover para…</b>. Escolha a categoria de destino.</p>
       <p><b>⧉ Produto em mais de uma categoria:</b> marque e clique em <b>Colocar também em…</b>. A etiqueta verde <i>+1 categ.</i> mostra que o produto aparece em outro lugar também.</p>
