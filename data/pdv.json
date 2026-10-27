@@ -738,19 +738,23 @@
   },
   "462": {
    "code": "462",
-   "name": "ESPRESSO 50ML"
+   "name": "ESPRESSO 50ML",
+   "img": "api/image?f=prod-462-mvqrn1hi.jpg"
   },
   "463": {
    "code": "463",
-   "name": "ESPRESSO DUPLO 100ML"
+   "name": "ESPRESSO DUPLO 100ML",
+   "img": "api/image?f=prod-463-mvqrn1hj.jpg"
   },
   "467": {
    "code": "467",
-   "name": "CHOCOLATE QUENTE 200ML"
+   "name": "CHOCOLATE QUENTE 200ML",
+   "img": "api/image?f=prod-467-mvqrn1hx.jpg"
   },
   "470": {
    "code": "470",
-   "name": "ESPRESSO DUPLO C/LEITE 200ML"
+   "name": "ESPRESSO DUPLO C/LEITE 200ML",
+   "img": "api/image?f=prod-470-mvqrn1hk.jpg"
   },
   "485": {
    "code": "485",
@@ -780,57 +784,57 @@
   "502": {
    "code": "502",
    "name": "P.BATATA CALABRESA",
-   "img": "api/image?f=prod-502-mvpoda1a.jpg"
+   "img": "api/image?f=prod-502-mvqrn1ik.jpg"
   },
   "506": {
    "code": "506",
    "name": "P.BATATA MISTO",
-   "img": "api/image?f=prod-506-mvpodgx4.jpg"
+   "img": "api/image?f=prod-506-mvqrn1ip.jpg"
   },
   "507": {
    "code": "507",
    "name": "CROISSANT QUATRO QUEIJOS",
-   "img": "api/image?f=prod-507-mvpo9chc.jpg"
+   "img": "api/image?f=prod-507-mvqrn1i4.jpg"
   },
   "508": {
    "code": "508",
    "name": "CROISSANT FRANGO",
-   "img": "api/image?f=prod-508-mvpntiy1.jpg"
+   "img": "api/image?f=prod-508-mvqrn1ig.jpg"
   },
   "509": {
    "code": "509",
    "name": "CROISSANT MISTO",
-   "img": "api/image?f=prod-509-mvpo8p8m.jpg"
+   "img": "api/image?f=prod-509-mvqrn1ia.jpg"
   },
   "510": {
    "code": "510",
    "name": "CROISSANT PIZZA",
-   "img": "api/image?f=prod-510-mvpo8xbs.jpg"
+   "img": "api/image?f=prod-510-mvqrn1ir.jpg"
   },
   "517": {
    "code": "517",
    "name": "PASTEL INT. QUEIJO MINAS",
-   "img": "api/image?f=prod-517-mvpokyb2.jpg"
+   "img": "api/image?f=prod-517-mvqrn1ij.jpg"
   },
   "518": {
    "code": "518",
    "name": "PASTEL INT. PALMITO C/CHAMP",
-   "img": "api/image?f=prod-518-mvpogdm9.jpg"
+   "img": "api/image?f=prod-518-mvqrn1id.jpg"
   },
   "519": {
    "code": "519",
    "name": "PASTEL INT. FRANGO CEN.PASSAS",
-   "img": "api/image?f=prod-519-mvpoe4mv.jpg"
+   "img": "api/image?f=prod-519-mvqrn1in.jpg"
   },
   "523": {
    "code": "523",
    "name": "P.BATATA PERU C/QUEIJO MINAS",
-   "img": "api/image?f=prod-523-mvpodpw4.jpg"
+   "img": "api/image?f=prod-523-mvqrn1i5.jpg"
   },
   "524": {
    "code": "524",
    "name": "CHEESEB. FORNO CHEDDAR",
-   "img": "api/image?f=prod-524-mvpnpy5t.jpg"
+   "img": "api/image?f=prod-524-mvqrn1if.jpg"
   },
   "548": {
    "code": "548",
@@ -974,7 +978,8 @@
   },
   "2002": {
    "code": "2002",
-   "name": "MEGANELLA 200ML"
+   "name": "MEGANELLA 200ML",
+   "img": "api/image?f=prod-2002-mvqrn1i1.jpg"
   },
   "2027": {
    "code": "2027",
@@ -1015,12 +1020,12 @@
   "2118": {
    "code": "2118",
    "name": "CROISSANT.INT. FRANGO C/REQ",
-   "img": "api/image?f=prod-2118-mvpo9nqu.jpg"
+   "img": "api/image?f=prod-2118-mvqrn1it.jpg"
   },
   "2120": {
    "code": "2120",
    "name": "CROISSANT.INT. QUEIJO MINAS",
-   "img": "api/image?f=prod-2120-mvpo9wvt.jpg"
+   "img": "api/image?f=prod-2120-mvqrn1iq.jpg"
   },
   "2127": {
    "code": "2127",
@@ -1032,7 +1037,8 @@
   },
   "2506": {
    "code": "2506",
-   "name": "CAPPUCCINO TRADICIONAL 200ML"
+   "name": "CAPPUCCINO TRADICIONAL 200ML",
+   "img": "api/image?f=prod-2506-mvqrn1hn.jpg"
   },
   "2551": {
    "code": "2551",
@@ -1297,12 +1303,12 @@
   "11009": {
    "code": "11009",
    "name": "FOLHADO PEITO DE PERU",
-   "img": "api/image?f=prod-11009-mvpocr9t.jpg"
+   "img": "api/image?f=prod-11009-mvqrn1ie.jpg"
   },
   "11010": {
    "code": "11010",
    "name": "FOLHADO FRANGO",
-   "img": "api/image?f=prod-11010-mvpog5uc.jpg"
+   "img": "api/image?f=prod-11010-mvqrn1ic.jpg"
   },
   "11011": {
    "code": "11011",
@@ -1343,11 +1349,13 @@
   },
   "11063": {
    "code": "11063",
-   "name": "ESPRESSO MACCHIATO 50ML"
+   "name": "ESPRESSO MACCHIATO 50ML",
+   "img": "api/image?f=prod-11063-mvqrn1hl.jpg"
   },
   "11064": {
    "code": "11064",
-   "name": "MOCACCINO 200ML"
+   "name": "MOCACCINO 200ML",
+   "img": "api/image?f=prod-11064-mvqrn1i3.jpg"
   },
   "11086": {
    "code": "11086",
@@ -1376,7 +1384,7 @@
   "11119": {
    "code": "11119",
    "name": "FOLHADO.INT PEITO DE PERU C/QUEIJO",
-   "img": "api/image?f=prod-11119-mvpod15t.jpg"
+   "img": "api/image?f=prod-11119-mvqrn1iu.jpg"
   },
   "11144": {
    "code": "11144",
@@ -1485,22 +1493,22 @@
   "11417": {
    "code": "11417",
    "name": "EMPADA FRANGO",
-   "img": "api/image?f=prod-11417-mvpoat93.jpg"
+   "img": "api/image?f=prod-11417-mvqrn1iv.jpg"
   },
   "11418": {
    "code": "11418",
    "name": "EMPADA PALMITO",
-   "img": "api/image?f=prod-11418-mvpox59r.jpg"
+   "img": "api/image?f=prod-11418-mvqrn1ib.jpg"
   },
   "11419": {
    "code": "11419",
    "name": "PROMO EMPADA FRANGO",
-   "img": "api/image?f=prod-11419-mvpowcga.jpg"
+   "img": "api/image?f=prod-11419-mvqrn1i8.jpg"
   },
   "11421": {
    "code": "11421",
    "name": "PROMO EMPADA PALMITO",
-   "img": "api/image?f=prod-11421-mvpowuyo.jpg"
+   "img": "api/image?f=prod-11421-mvqrn1i7.jpg"
   },
   "11428": {
    "code": "11428",
@@ -1508,19 +1516,23 @@
   },
   "11443": {
    "code": "11443",
-   "name": "CAPPUCCINO DE PACOCA 200ML"
+   "name": "CAPPUCCINO DE PACOCA 200ML",
+   "img": "api/image?f=prod-11443-mvqrn1hv.jpg"
   },
   "11444": {
    "code": "11444",
-   "name": "CAPPUCCINO OVOMALTINE 200ML"
+   "name": "CAPPUCCINO OVOMALTINE 200ML",
+   "img": "api/image?f=prod-11444-mvqrn1ht.jpg"
   },
   "11445": {
    "code": "11445",
-   "name": "CAPPUCCINO COM NUTELLA 200ML"
+   "name": "CAPPUCCINO COM NUTELLA 200ML",
+   "img": "api/image?f=prod-11445-mvqrn1hr.jpg"
   },
   "11446": {
    "code": "11446",
-   "name": "CHOCOLATE QUENTE C/CAFE CHANTILLY 200ML"
+   "name": "CHOCOLATE QUENTE C/CAFE CHANTILLY 200ML",
+   "img": "api/image?f=prod-11446-mvqrn1hz.jpg"
   },
   "11448": {
    "code": "11448",
@@ -1624,43 +1636,53 @@
   },
   "11664": {
    "code": "11664",
-   "name": "CAPPUCCINO COM NUTELLA 100ML"
+   "name": "CAPPUCCINO COM NUTELLA 100ML",
+   "img": "api/image?f=prod-11664-mvqrn1hq.jpg"
   },
   "11665": {
    "code": "11665",
-   "name": "CAPPUCCINO TRADICIONAL 100ML"
+   "name": "CAPPUCCINO TRADICIONAL 100ML",
+   "img": "api/image?f=prod-11665-mvqrn1hm.jpg"
   },
   "11666": {
    "code": "11666",
-   "name": "CAPPUCCINO DE PACOCA 100ML"
+   "name": "CAPPUCCINO DE PACOCA 100ML",
+   "img": "api/image?f=prod-11666-mvqrn1hu.jpg"
   },
   "11667": {
    "code": "11667",
-   "name": "CAPPUCCINO OVOMALTINE 100ML"
+   "name": "CAPPUCCINO OVOMALTINE 100ML",
+   "img": "api/image?f=prod-11667-mvqrn1hs.jpg"
   },
   "11668": {
    "code": "11668",
-   "name": "CAPPUCCINO DE DOCE DE LEITE 100ML"
+   "name": "CAPPUCCINO DE DOCE DE LEITE 100ML",
+   "img": "api/image?f=prod-11668-mvqrn1ho.jpg"
   },
   "11669": {
    "code": "11669",
-   "name": "MEGANELLA 100ML"
+   "name": "MEGANELLA 100ML",
+   "img": "api/image?f=prod-11669-mvqrn1i0.jpg"
   },
   "11670": {
    "code": "11670",
-   "name": "CHOCOLATE QUENTE 100ML"
+   "name": "CHOCOLATE QUENTE 100ML",
+   "img": "api/image?f=prod-11670-mvqrn1hw.jpg"
   },
   "11671": {
    "code": "11671",
-   "name": "MOCACCINO 100ML"
+   "name": "MOCACCINO 100ML",
+   "img": "api/image?f=prod-11671-mvqrn1i2.jpg"
   },
   "11672": {
    "code": "11672",
-   "name": "CAPPUCCINO DE DOCE DE LEITE 200ML"
+   "name": "CAPPUCCINO DE DOCE DE LEITE 200ML",
+   "img": "api/image?f=prod-11672-mvqrn1hp.jpg"
   },
   "11677": {
    "code": "11677",
-   "name": "CHOCOLATE QUENTE C/CAFE CHANTILLY 100ML"
+   "name": "CHOCOLATE QUENTE C/CAFE CHANTILLY 100ML",
+   "img": "api/image?f=prod-11677-mvqrn1hy.jpg"
   },
   "11689": {
    "code": "11689",
@@ -1721,22 +1743,22 @@
   "11781": {
    "code": "11781",
    "name": "EMPADA CAMARAO",
-   "img": "api/image?f=prod-11781-mvpoa5z1.jpg"
+   "img": "api/image?f=prod-11781-mvqrn1is.jpg"
   },
   "11782": {
    "code": "11782",
    "name": "EMPADA CARNE SECA",
-   "img": "api/image?f=prod-11782-mvpoah8j.jpg"
+   "img": "api/image?f=prod-11782-mvqrn1io.jpg"
   },
   "11788": {
    "code": "11788",
    "name": "PROMO EMPADA CAMARAO",
-   "img": "api/image?f=prod-11788-mvpol6k5.jpg"
+   "img": "api/image?f=prod-11788-mvqrn1il.jpg"
   },
   "11789": {
    "code": "11789",
    "name": "PROMO EMPADA CARNE SECA",
-   "img": "api/image?f=prod-11789-mvpow2aw.jpg"
+   "img": "api/image?f=prod-11789-mvqrn1ii.jpg"
   },
   "11790": {
    "code": "11790",
@@ -1765,7 +1787,7 @@
   "11830": {
    "code": "11830",
    "name": "EMPADAO FRANGO (250G)",
-   "img": "api/image?f=prod-11830-mvpobn9w.jpg"
+   "img": "api/image?f=prod-11830-mvqrn1ih.jpg"
   },
   "11831": {
    "code": "11831",
@@ -1786,7 +1808,7 @@
   "11863": {
    "code": "11863",
    "name": "CHEESEB. FORNO TRADICIONAL",
-   "img": "api/image?f=prod-11863-mvpntag1.jpg"
+   "img": "api/image?f=prod-11863-mvqrn1i9.jpg"
   },
   "11873": {
    "code": "11873",
@@ -1919,12 +1941,12 @@
   "12076": {
    "code": "12076",
    "name": "QUICHE 4 QUEIJOS",
-   "img": "api/image?f=prod-12076-mvpp4hl9.jpg"
+   "img": "api/image?f=prod-12076-mvqrn1im.jpg"
   },
   "12077": {
    "code": "12077",
    "name": "QUICHE INT ALHO PORO",
-   "img": "api/image?f=prod-12077-mvpoznmv.jpg"
+   "img": "api/image?f=prod-12077-mvqrn1i6.jpg"
   },
   "12080": {
    "code": "12080",
@@ -2045,6 +2067,14 @@
   }
  },
  "log": [
+  {
+   "t": "2026-10-27T14:13:34.956600Z",
+   "msg": "Lucas colocou as fotos de 28 produtos de SALGADOS"
+  },
+  {
+   "t": "2026-10-27T14:13:34.956600Z",
+   "msg": "Lucas colocou as fotos de 22 produtos de CAFETERIA BEBIDAS QUENTES"
+  },
   {
    "t": "2026-10-26T20:20:44.059Z",
    "msg": "Trocou a foto da categoria MEGASHAKES"
@@ -2414,5 +2444,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-26T20:20:44.072Z"
+ "savedAt": "2026-10-27T14:13:56.475Z"
 }

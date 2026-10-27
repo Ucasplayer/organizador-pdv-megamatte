@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 26/10/2026, 17:20:45. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 27/10/2026, 11:13:57. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **53** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **75** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 26/10/2026, 17:20:45. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (53)
+## Fotos trocadas (75)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -93,36 +93,58 @@ Atualizado em 26/10/2026, 17:20:45. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-101-mvpfbpfu.jpg) [abrir](img/cat-101-mvpfbpfu.jpg) | Categoria | 101 | COFFEE PARTY TERÊ |
 | ![foto](img/cat-93-mvpmoy2z.jpg) [abrir](img/cat-93-mvpmoy2z.jpg) | Categoria | 93 | FOLDER CAFETERIA |
 | ![foto](img/cat-92-mvpmqz2e.jpg) [abrir](img/cat-92-mvpmqz2e.jpg) | Categoria | 92 | FOLDER COMBOS |
+| ![foto](img/prod-462-mvqrn1hi.jpg) [abrir](img/prod-462-mvqrn1hi.jpg) | Produto | 462 | ESPRESSO 50ML |
+| ![foto](img/prod-463-mvqrn1hj.jpg) [abrir](img/prod-463-mvqrn1hj.jpg) | Produto | 463 | ESPRESSO DUPLO 100ML |
+| ![foto](img/prod-467-mvqrn1hx.jpg) [abrir](img/prod-467-mvqrn1hx.jpg) | Produto | 467 | CHOCOLATE QUENTE 200ML |
+| ![foto](img/prod-470-mvqrn1hk.jpg) [abrir](img/prod-470-mvqrn1hk.jpg) | Produto | 470 | ESPRESSO DUPLO C/LEITE 200ML |
 | ![foto](img/prod-501-mvpody7y.jpg) [abrir](img/prod-501-mvpody7y.jpg) | Produto | 501 | P.BATATA REQUEIJAO |
-| ![foto](img/prod-502-mvpoda1a.jpg) [abrir](img/prod-502-mvpoda1a.jpg) | Produto | 502 | P.BATATA CALABRESA |
-| ![foto](img/prod-506-mvpodgx4.jpg) [abrir](img/prod-506-mvpodgx4.jpg) | Produto | 506 | P.BATATA MISTO |
-| ![foto](img/prod-507-mvpo9chc.jpg) [abrir](img/prod-507-mvpo9chc.jpg) | Produto | 507 | CROISSANT QUATRO QUEIJOS |
-| ![foto](img/prod-508-mvpntiy1.jpg) [abrir](img/prod-508-mvpntiy1.jpg) | Produto | 508 | CROISSANT FRANGO |
-| ![foto](img/prod-509-mvpo8p8m.jpg) [abrir](img/prod-509-mvpo8p8m.jpg) | Produto | 509 | CROISSANT MISTO |
-| ![foto](img/prod-510-mvpo8xbs.jpg) [abrir](img/prod-510-mvpo8xbs.jpg) | Produto | 510 | CROISSANT PIZZA |
-| ![foto](img/prod-517-mvpokyb2.jpg) [abrir](img/prod-517-mvpokyb2.jpg) | Produto | 517 | PASTEL INT. QUEIJO MINAS |
-| ![foto](img/prod-518-mvpogdm9.jpg) [abrir](img/prod-518-mvpogdm9.jpg) | Produto | 518 | PASTEL INT. PALMITO C/CHAMP |
-| ![foto](img/prod-519-mvpoe4mv.jpg) [abrir](img/prod-519-mvpoe4mv.jpg) | Produto | 519 | PASTEL INT. FRANGO CEN.PASSAS |
-| ![foto](img/prod-523-mvpodpw4.jpg) [abrir](img/prod-523-mvpodpw4.jpg) | Produto | 523 | P.BATATA PERU C/QUEIJO MINAS |
-| ![foto](img/prod-524-mvpnpy5t.jpg) [abrir](img/prod-524-mvpnpy5t.jpg) | Produto | 524 | CHEESEB. FORNO CHEDDAR |
-| ![foto](img/prod-2118-mvpo9nqu.jpg) [abrir](img/prod-2118-mvpo9nqu.jpg) | Produto | 2118 | CROISSANT.INT. FRANGO C/REQ |
-| ![foto](img/prod-2120-mvpo9wvt.jpg) [abrir](img/prod-2120-mvpo9wvt.jpg) | Produto | 2120 | CROISSANT.INT. QUEIJO MINAS |
-| ![foto](img/prod-11009-mvpocr9t.jpg) [abrir](img/prod-11009-mvpocr9t.jpg) | Produto | 11009 | FOLHADO PEITO DE PERU |
-| ![foto](img/prod-11010-mvpog5uc.jpg) [abrir](img/prod-11010-mvpog5uc.jpg) | Produto | 11010 | FOLHADO FRANGO |
+| ![foto](img/prod-502-mvqrn1ik.jpg) [abrir](img/prod-502-mvqrn1ik.jpg) | Produto | 502 | P.BATATA CALABRESA |
+| ![foto](img/prod-506-mvqrn1ip.jpg) [abrir](img/prod-506-mvqrn1ip.jpg) | Produto | 506 | P.BATATA MISTO |
+| ![foto](img/prod-507-mvqrn1i4.jpg) [abrir](img/prod-507-mvqrn1i4.jpg) | Produto | 507 | CROISSANT QUATRO QUEIJOS |
+| ![foto](img/prod-508-mvqrn1ig.jpg) [abrir](img/prod-508-mvqrn1ig.jpg) | Produto | 508 | CROISSANT FRANGO |
+| ![foto](img/prod-509-mvqrn1ia.jpg) [abrir](img/prod-509-mvqrn1ia.jpg) | Produto | 509 | CROISSANT MISTO |
+| ![foto](img/prod-510-mvqrn1ir.jpg) [abrir](img/prod-510-mvqrn1ir.jpg) | Produto | 510 | CROISSANT PIZZA |
+| ![foto](img/prod-517-mvqrn1ij.jpg) [abrir](img/prod-517-mvqrn1ij.jpg) | Produto | 517 | PASTEL INT. QUEIJO MINAS |
+| ![foto](img/prod-518-mvqrn1id.jpg) [abrir](img/prod-518-mvqrn1id.jpg) | Produto | 518 | PASTEL INT. PALMITO C/CHAMP |
+| ![foto](img/prod-519-mvqrn1in.jpg) [abrir](img/prod-519-mvqrn1in.jpg) | Produto | 519 | PASTEL INT. FRANGO CEN.PASSAS |
+| ![foto](img/prod-523-mvqrn1i5.jpg) [abrir](img/prod-523-mvqrn1i5.jpg) | Produto | 523 | P.BATATA PERU C/QUEIJO MINAS |
+| ![foto](img/prod-524-mvqrn1if.jpg) [abrir](img/prod-524-mvqrn1if.jpg) | Produto | 524 | CHEESEB. FORNO CHEDDAR |
+| ![foto](img/prod-2002-mvqrn1i1.jpg) [abrir](img/prod-2002-mvqrn1i1.jpg) | Produto | 2002 | MEGANELLA 200ML |
+| ![foto](img/prod-2118-mvqrn1it.jpg) [abrir](img/prod-2118-mvqrn1it.jpg) | Produto | 2118 | CROISSANT.INT. FRANGO C/REQ |
+| ![foto](img/prod-2120-mvqrn1iq.jpg) [abrir](img/prod-2120-mvqrn1iq.jpg) | Produto | 2120 | CROISSANT.INT. QUEIJO MINAS |
+| ![foto](img/prod-2506-mvqrn1hn.jpg) [abrir](img/prod-2506-mvqrn1hn.jpg) | Produto | 2506 | CAPPUCCINO TRADICIONAL 200ML |
+| ![foto](img/prod-11009-mvqrn1ie.jpg) [abrir](img/prod-11009-mvqrn1ie.jpg) | Produto | 11009 | FOLHADO PEITO DE PERU |
+| ![foto](img/prod-11010-mvqrn1ic.jpg) [abrir](img/prod-11010-mvqrn1ic.jpg) | Produto | 11010 | FOLHADO FRANGO |
 | ![foto](img/prod-11056-mvpnn5f0.jpg) [abrir](img/prod-11056-mvpnn5f0.jpg) | Produto | 11056 | CROISSANT DE CHOCOLATE |
-| ![foto](img/prod-11119-mvpod15t.jpg) [abrir](img/prod-11119-mvpod15t.jpg) | Produto | 11119 | FOLHADO.INT PEITO DE PERU C/QUEIJO |
-| ![foto](img/prod-11417-mvpoat93.jpg) [abrir](img/prod-11417-mvpoat93.jpg) | Produto | 11417 | EMPADA FRANGO |
-| ![foto](img/prod-11418-mvpox59r.jpg) [abrir](img/prod-11418-mvpox59r.jpg) | Produto | 11418 | EMPADA PALMITO |
-| ![foto](img/prod-11419-mvpowcga.jpg) [abrir](img/prod-11419-mvpowcga.jpg) | Produto | 11419 | PROMO EMPADA FRANGO |
-| ![foto](img/prod-11421-mvpowuyo.jpg) [abrir](img/prod-11421-mvpowuyo.jpg) | Produto | 11421 | PROMO EMPADA PALMITO |
-| ![foto](img/prod-11781-mvpoa5z1.jpg) [abrir](img/prod-11781-mvpoa5z1.jpg) | Produto | 11781 | EMPADA CAMARAO |
-| ![foto](img/prod-11782-mvpoah8j.jpg) [abrir](img/prod-11782-mvpoah8j.jpg) | Produto | 11782 | EMPADA CARNE SECA |
-| ![foto](img/prod-11788-mvpol6k5.jpg) [abrir](img/prod-11788-mvpol6k5.jpg) | Produto | 11788 | PROMO EMPADA CAMARAO |
-| ![foto](img/prod-11789-mvpow2aw.jpg) [abrir](img/prod-11789-mvpow2aw.jpg) | Produto | 11789 | PROMO EMPADA CARNE SECA |
-| ![foto](img/prod-11830-mvpobn9w.jpg) [abrir](img/prod-11830-mvpobn9w.jpg) | Produto | 11830 | EMPADAO FRANGO (250G) |
-| ![foto](img/prod-11863-mvpntag1.jpg) [abrir](img/prod-11863-mvpntag1.jpg) | Produto | 11863 | CHEESEB. FORNO TRADICIONAL |
-| ![foto](img/prod-12076-mvpp4hl9.jpg) [abrir](img/prod-12076-mvpp4hl9.jpg) | Produto | 12076 | QUICHE 4 QUEIJOS |
-| ![foto](img/prod-12077-mvpoznmv.jpg) [abrir](img/prod-12077-mvpoznmv.jpg) | Produto | 12077 | QUICHE INT ALHO PORO |
+| ![foto](img/prod-11063-mvqrn1hl.jpg) [abrir](img/prod-11063-mvqrn1hl.jpg) | Produto | 11063 | ESPRESSO MACCHIATO 50ML |
+| ![foto](img/prod-11064-mvqrn1i3.jpg) [abrir](img/prod-11064-mvqrn1i3.jpg) | Produto | 11064 | MOCACCINO 200ML |
+| ![foto](img/prod-11119-mvqrn1iu.jpg) [abrir](img/prod-11119-mvqrn1iu.jpg) | Produto | 11119 | FOLHADO.INT PEITO DE PERU C/QUEIJO |
+| ![foto](img/prod-11417-mvqrn1iv.jpg) [abrir](img/prod-11417-mvqrn1iv.jpg) | Produto | 11417 | EMPADA FRANGO |
+| ![foto](img/prod-11418-mvqrn1ib.jpg) [abrir](img/prod-11418-mvqrn1ib.jpg) | Produto | 11418 | EMPADA PALMITO |
+| ![foto](img/prod-11419-mvqrn1i8.jpg) [abrir](img/prod-11419-mvqrn1i8.jpg) | Produto | 11419 | PROMO EMPADA FRANGO |
+| ![foto](img/prod-11421-mvqrn1i7.jpg) [abrir](img/prod-11421-mvqrn1i7.jpg) | Produto | 11421 | PROMO EMPADA PALMITO |
+| ![foto](img/prod-11443-mvqrn1hv.jpg) [abrir](img/prod-11443-mvqrn1hv.jpg) | Produto | 11443 | CAPPUCCINO DE PACOCA 200ML |
+| ![foto](img/prod-11444-mvqrn1ht.jpg) [abrir](img/prod-11444-mvqrn1ht.jpg) | Produto | 11444 | CAPPUCCINO OVOMALTINE 200ML |
+| ![foto](img/prod-11445-mvqrn1hr.jpg) [abrir](img/prod-11445-mvqrn1hr.jpg) | Produto | 11445 | CAPPUCCINO COM NUTELLA 200ML |
+| ![foto](img/prod-11446-mvqrn1hz.jpg) [abrir](img/prod-11446-mvqrn1hz.jpg) | Produto | 11446 | CHOCOLATE QUENTE C/CAFE CHANTILLY 200ML |
+| ![foto](img/prod-11664-mvqrn1hq.jpg) [abrir](img/prod-11664-mvqrn1hq.jpg) | Produto | 11664 | CAPPUCCINO COM NUTELLA 100ML |
+| ![foto](img/prod-11665-mvqrn1hm.jpg) [abrir](img/prod-11665-mvqrn1hm.jpg) | Produto | 11665 | CAPPUCCINO TRADICIONAL 100ML |
+| ![foto](img/prod-11666-mvqrn1hu.jpg) [abrir](img/prod-11666-mvqrn1hu.jpg) | Produto | 11666 | CAPPUCCINO DE PACOCA 100ML |
+| ![foto](img/prod-11667-mvqrn1hs.jpg) [abrir](img/prod-11667-mvqrn1hs.jpg) | Produto | 11667 | CAPPUCCINO OVOMALTINE 100ML |
+| ![foto](img/prod-11668-mvqrn1ho.jpg) [abrir](img/prod-11668-mvqrn1ho.jpg) | Produto | 11668 | CAPPUCCINO DE DOCE DE LEITE 100ML |
+| ![foto](img/prod-11669-mvqrn1i0.jpg) [abrir](img/prod-11669-mvqrn1i0.jpg) | Produto | 11669 | MEGANELLA 100ML |
+| ![foto](img/prod-11670-mvqrn1hw.jpg) [abrir](img/prod-11670-mvqrn1hw.jpg) | Produto | 11670 | CHOCOLATE QUENTE 100ML |
+| ![foto](img/prod-11671-mvqrn1i2.jpg) [abrir](img/prod-11671-mvqrn1i2.jpg) | Produto | 11671 | MOCACCINO 100ML |
+| ![foto](img/prod-11672-mvqrn1hp.jpg) [abrir](img/prod-11672-mvqrn1hp.jpg) | Produto | 11672 | CAPPUCCINO DE DOCE DE LEITE 200ML |
+| ![foto](img/prod-11677-mvqrn1hy.jpg) [abrir](img/prod-11677-mvqrn1hy.jpg) | Produto | 11677 | CHOCOLATE QUENTE C/CAFE CHANTILLY 100ML |
+| ![foto](img/prod-11781-mvqrn1is.jpg) [abrir](img/prod-11781-mvqrn1is.jpg) | Produto | 11781 | EMPADA CAMARAO |
+| ![foto](img/prod-11782-mvqrn1io.jpg) [abrir](img/prod-11782-mvqrn1io.jpg) | Produto | 11782 | EMPADA CARNE SECA |
+| ![foto](img/prod-11788-mvqrn1il.jpg) [abrir](img/prod-11788-mvqrn1il.jpg) | Produto | 11788 | PROMO EMPADA CAMARAO |
+| ![foto](img/prod-11789-mvqrn1ii.jpg) [abrir](img/prod-11789-mvqrn1ii.jpg) | Produto | 11789 | PROMO EMPADA CARNE SECA |
+| ![foto](img/prod-11830-mvqrn1ih.jpg) [abrir](img/prod-11830-mvqrn1ih.jpg) | Produto | 11830 | EMPADAO FRANGO (250G) |
+| ![foto](img/prod-11863-mvqrn1i9.jpg) [abrir](img/prod-11863-mvqrn1i9.jpg) | Produto | 11863 | CHEESEB. FORNO TRADICIONAL |
+| ![foto](img/prod-12076-mvqrn1im.jpg) [abrir](img/prod-12076-mvqrn1im.jpg) | Produto | 12076 | QUICHE 4 QUEIJOS |
+| ![foto](img/prod-12077-mvqrn1i6.jpg) [abrir](img/prod-12077-mvqrn1i6.jpg) | Produto | 12077 | QUICHE INT ALHO PORO |
 
 ## Ordem na tela
 
@@ -667,3 +689,5 @@ Atualizado em 26/10/2026, 17:20:45. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 17:08:13 — Mudou a ordem dos produtos em SALGADOS
 - 26/10/2026, 17:09:10 — Trocou a foto do produto QUICHE 4 QUEIJOS
 - 26/10/2026, 17:20:44 — Trocou a foto da categoria MEGASHAKES
+- 27/10/2026, 11:13:34 — Lucas colocou as fotos de 22 produtos de CAFETERIA BEBIDAS QUENTES
+- 27/10/2026, 11:13:34 — Lucas colocou as fotos de 28 produtos de SALGADOS
