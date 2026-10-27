@@ -1,8 +1,8 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 27/10/2026, 11:12:49. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 27/10/2026, 11:21:08. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **75** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **383** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
@@ -66,7 +66,7 @@ Atualizado em 27/10/2026, 11:12:49. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (75)
+## Fotos trocadas (383)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -93,10 +93,59 @@ Atualizado em 27/10/2026, 11:12:49. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-101-mvpfbpfu.jpg) [abrir](img/cat-101-mvpfbpfu.jpg) | Categoria | 101 | COFFEE PARTY TERÊ |
 | ![foto](img/cat-93-mvpmoy2z.jpg) [abrir](img/cat-93-mvpmoy2z.jpg) | Categoria | 93 | FOLDER CAFETERIA |
 | ![foto](img/cat-92-mvpmqz2e.jpg) [abrir](img/cat-92-mvpmqz2e.jpg) | Categoria | 92 | FOLDER COMBOS |
+| ![foto](img/prod-1-mvqrvc1j.jpg) [abrir](img/prod-1-mvqrvc1j.jpg) | Produto | 1 | MATE 300ML |
+| ![foto](img/prod-5-mvqrvc1m.jpg) [abrir](img/prod-5-mvqrvc1m.jpg) | Produto | 5 | MATE C/LEITE 300ML |
+| ![foto](img/prod-7-mvqrvc1p.jpg) [abrir](img/prod-7-mvqrvc1p.jpg) | Produto | 7 | MATE C/PROTEINATO 300ML |
+| ![foto](img/prod-16-mvqrvc21.jpg) [abrir](img/prod-16-mvqrvc21.jpg) | Produto | 16 | MATE FRUTA ACEROLA 300ML |
+| ![foto](img/prod-17-mvqrvc1y.jpg) [abrir](img/prod-17-mvqrvc1y.jpg) | Produto | 17 | MATE FRUTA ACAI 300ML |
+| ![foto](img/prod-18-mvqrvc1v.jpg) [abrir](img/prod-18-mvqrvc1v.jpg) | Produto | 18 | MATE FRUTA ABACAXI 300ML |
+| ![foto](img/prod-24-mvqrvc24.jpg) [abrir](img/prod-24-mvqrvc24.jpg) | Produto | 24 | MATE FRUTA CAJU 300ML |
+| ![foto](img/prod-26-mvqrvc27.jpg) [abrir](img/prod-26-mvqrvc27.jpg) | Produto | 26 | MATE FRUTA COCO 300ML |
+| ![foto](img/prod-30-mvqrvc2d.jpg) [abrir](img/prod-30-mvqrvc2d.jpg) | Produto | 30 | MATE FRUTA MANGA 300ML |
+| ![foto](img/prod-31-mvqrvc2a.jpg) [abrir](img/prod-31-mvqrvc2a.jpg) | Produto | 31 | MATE FRUTA MAMAO 300ML |
+| ![foto](img/prod-32-mvqrvc2g.jpg) [abrir](img/prod-32-mvqrvc2g.jpg) | Produto | 32 | MATE FRUTA MARACUJA 300ML |
+| ![foto](img/prod-33-mvqrvc2j.jpg) [abrir](img/prod-33-mvqrvc2j.jpg) | Produto | 33 | MATE FRUTA MORANGO 300ML |
+| ![foto](img/prod-34-mvqrvc2m.jpg) [abrir](img/prod-34-mvqrvc2m.jpg) | Produto | 34 | MATE FRUTA PESSEGO 300ML |
+| ![foto](img/prod-38-mvqrvc2r.jpg) [abrir](img/prod-38-mvqrvc2r.jpg) | Produto | 38 | MATE FRUTA UVA 300ML |
+| ![foto](img/prod-76-mvqrvc1k.jpg) [abrir](img/prod-76-mvqrvc1k.jpg) | Produto | 76 | MATE 500ML |
+| ![foto](img/prod-80-mvqrvc1n.jpg) [abrir](img/prod-80-mvqrvc1n.jpg) | Produto | 80 | MATE C/LEITE 500ML |
+| ![foto](img/prod-82-mvqrvc1q.jpg) [abrir](img/prod-82-mvqrvc1q.jpg) | Produto | 82 | MATE C/PROTEINATO 500ML |
+| ![foto](img/prod-91-mvqrvc22.jpg) [abrir](img/prod-91-mvqrvc22.jpg) | Produto | 91 | MATE FRUTA ACEROLA 500ML |
+| ![foto](img/prod-92-mvqrvc1z.jpg) [abrir](img/prod-92-mvqrvc1z.jpg) | Produto | 92 | MATE FRUTA ACAI 500ML |
+| ![foto](img/prod-93-mvqrvc1w.jpg) [abrir](img/prod-93-mvqrvc1w.jpg) | Produto | 93 | MATE FRUTA ABACAXI 500ML |
+| ![foto](img/prod-99-mvqrvc25.jpg) [abrir](img/prod-99-mvqrvc25.jpg) | Produto | 99 | MATE FRUTA CAJU 500ML |
+| ![foto](img/prod-101-mvqrvc28.jpg) [abrir](img/prod-101-mvqrvc28.jpg) | Produto | 101 | MATE FRUTA COCO 500ML |
+| ![foto](img/prod-105-mvqrvc2e.jpg) [abrir](img/prod-105-mvqrvc2e.jpg) | Produto | 105 | MATE FRUTA MANGA 500ML |
+| ![foto](img/prod-106-mvqrvc2b.jpg) [abrir](img/prod-106-mvqrvc2b.jpg) | Produto | 106 | MATE FRUTA MAMAO 500ML |
+| ![foto](img/prod-107-mvqrvc2h.jpg) [abrir](img/prod-107-mvqrvc2h.jpg) | Produto | 107 | MATE FRUTA MARACUJA 500ML |
+| ![foto](img/prod-108-mvqrvc2k.jpg) [abrir](img/prod-108-mvqrvc2k.jpg) | Produto | 108 | MATE FRUTA MORANGO 500ML |
+| ![foto](img/prod-113-mvqrvc2s.jpg) [abrir](img/prod-113-mvqrvc2s.jpg) | Produto | 113 | MATE FRUTA UVA 500ML |
+| ![foto](img/prod-226-mvqrvc1h.jpg) [abrir](img/prod-226-mvqrvc1h.jpg) | Produto | 226 | MATE 1L |
+| ![foto](img/prod-301-mvqrvc46.jpg) [abrir](img/prod-301-mvqrvc46.jpg) | Produto | 301 | GUARANA 300ML |
+| ![foto](img/prod-305-mvqrvc4f.jpg) [abrir](img/prod-305-mvqrvc4f.jpg) | Produto | 305 | MEGASHAKE ACAI 300ML |
+| ![foto](img/prod-323-mvqrvc4l.jpg) [abrir](img/prod-323-mvqrvc4l.jpg) | Produto | 323 | MEGASHAKE MORANGO 300ML |
+| ![foto](img/prod-326-mvqrvc49.jpg) [abrir](img/prod-326-mvqrvc49.jpg) | Produto | 326 | GUARAPROTEIN 300ML |
+| ![foto](img/prod-334-mvqrvc4i.jpg) [abrir](img/prod-334-mvqrvc4i.jpg) | Produto | 334 | MEGASHAKE BANANA 300ML |
+| ![foto](img/prod-341-mvqrvc47.jpg) [abrir](img/prod-341-mvqrvc47.jpg) | Produto | 341 | GUARANA 500ML |
+| ![foto](img/prod-345-mvqrvc4g.jpg) [abrir](img/prod-345-mvqrvc4g.jpg) | Produto | 345 | MEGASHAKE ACAI 500ML |
+| ![foto](img/prod-363-mvqrvc4m.jpg) [abrir](img/prod-363-mvqrvc4m.jpg) | Produto | 363 | MEGASHAKE MORANGO 500ML |
+| ![foto](img/prod-366-mvqrvc4a.jpg) [abrir](img/prod-366-mvqrvc4a.jpg) | Produto | 366 | GUARAPROTEIN 500ML |
+| ![foto](img/prod-374-mvqrvc4j.jpg) [abrir](img/prod-374-mvqrvc4j.jpg) | Produto | 374 | MEGASHAKE BANANA 500ML |
+| ![foto](img/prod-446-mvqrvc3e.jpg) [abrir](img/prod-446-mvqrvc3e.jpg) | Produto | 446 | ACAI 300ML |
+| ![foto](img/prod-447-mvqrvc3k.jpg) [abrir](img/prod-447-mvqrvc3k.jpg) | Produto | 447 | ACAI C/MORANGO 300ML |
+| ![foto](img/prod-448-mvqrvc3h.jpg) [abrir](img/prod-448-mvqrvc3h.jpg) | Produto | 448 | ACAI C/BANANA 300ML |
+| ![foto](img/prod-458-mvqrvc3f.jpg) [abrir](img/prod-458-mvqrvc3f.jpg) | Produto | 458 | ACAI 500ML |
+| ![foto](img/prod-459-mvqrvc3i.jpg) [abrir](img/prod-459-mvqrvc3i.jpg) | Produto | 459 | ACAI C/BANANA 500ML |
+| ![foto](img/prod-460-mvqrvc3l.jpg) [abrir](img/prod-460-mvqrvc3l.jpg) | Produto | 460 | ACAI C/MORANGO 500ML |
 | ![foto](img/prod-462-mvqrn1hi.jpg) [abrir](img/prod-462-mvqrn1hi.jpg) | Produto | 462 | ESPRESSO 50ML |
 | ![foto](img/prod-463-mvqrn1hj.jpg) [abrir](img/prod-463-mvqrn1hj.jpg) | Produto | 463 | ESPRESSO DUPLO 100ML |
 | ![foto](img/prod-467-mvqrn1hx.jpg) [abrir](img/prod-467-mvqrn1hx.jpg) | Produto | 467 | CHOCOLATE QUENTE 200ML |
 | ![foto](img/prod-470-mvqrn1hk.jpg) [abrir](img/prod-470-mvqrn1hk.jpg) | Produto | 470 | ESPRESSO DUPLO C/LEITE 200ML |
+| ![foto](img/prod-485-mvqrvc79.jpg) [abrir](img/prod-485-mvqrvc79.jpg) | Produto | 485 | TORTA CHEESECAKE |
+| ![foto](img/prod-489-mvqrvc6k.jpg) [abrir](img/prod-489-mvqrvc6k.jpg) | Produto | 489 | BROWNIE |
+| ![foto](img/prod-490-mvqrvc6r.jpg) [abrir](img/prod-490-mvqrvc6r.jpg) | Produto | 490 | DOCES |
+| ![foto](img/prod-491-mvqrvc1e.jpg) [abrir](img/prod-491-mvqrvc1e.jpg) | Produto | 491 | PAO DE QUEIJO UNID |
+| ![foto](img/prod-494-mvqrvc6s.jpg) [abrir](img/prod-494-mvqrvc6s.jpg) | Produto | 494 | MOUSSE |
 | ![foto](img/prod-501-mvqrse6l.jpg) [abrir](img/prod-501-mvqrse6l.jpg) | Produto | 501 | P.BATATA REQUEIJAO |
 | ![foto](img/prod-502-mvqrn1ik.jpg) [abrir](img/prod-502-mvqrn1ik.jpg) | Produto | 502 | P.BATATA CALABRESA |
 | ![foto](img/prod-506-mvqrn1ip.jpg) [abrir](img/prod-506-mvqrn1ip.jpg) | Produto | 506 | P.BATATA MISTO |
@@ -109,24 +158,199 @@ Atualizado em 27/10/2026, 11:12:49. Gerado automaticamente pelo Organizador do P
 | ![foto](img/prod-519-mvqrn1in.jpg) [abrir](img/prod-519-mvqrn1in.jpg) | Produto | 519 | PASTEL INT. FRANGO CEN.PASSAS |
 | ![foto](img/prod-523-mvqrn1i5.jpg) [abrir](img/prod-523-mvqrn1i5.jpg) | Produto | 523 | P.BATATA PERU C/QUEIJO MINAS |
 | ![foto](img/prod-524-mvqrn1if.jpg) [abrir](img/prod-524-mvqrn1if.jpg) | Produto | 524 | CHEESEB. FORNO CHEDDAR |
+| ![foto](img/prod-548-mvqrvc6j.jpg) [abrir](img/prod-548-mvqrvc6j.jpg) | Produto | 548 | BROINHA DE MILHO UNID |
+| ![foto](img/prod-603-mvqrvc7m.jpg) [abrir](img/prod-603-mvqrvc7m.jpg) | Produto | 603 | PORCAO DE CHANTILLY |
+| ![foto](img/prod-605-mvqrvc7o.jpg) [abrir](img/prod-605-mvqrvc7o.jpg) | Produto | 605 | PORCAO DE GRANOLA |
+| ![foto](img/prod-607-mvqrvc7k.jpg) [abrir](img/prod-607-mvqrvc7k.jpg) | Produto | 607 | PORCAO DE AMENDOIM |
+| ![foto](img/prod-610-mvqrvc7q.jpg) [abrir](img/prod-610-mvqrvc7q.jpg) | Produto | 610 | PORCAO DE LEITE PO |
+| ![foto](img/prod-613-mvqrvc7t.jpg) [abrir](img/prod-613-mvqrvc7t.jpg) | Produto | 613 | PORCAO DE PROTEINATO |
+| ![foto](img/prod-616-mvqrvc4x.jpg) [abrir](img/prod-616-mvqrvc4x.jpg) | Produto | 616 | S.ABACAXI 300ML |
+| ![foto](img/prod-622-mvqrvc56.jpg) [abrir](img/prod-622-mvqrvc56.jpg) | Produto | 622 | S.CAJU 300ML |
+| ![foto](img/prod-630-mvqrvc59.jpg) [abrir](img/prod-630-mvqrvc59.jpg) | Produto | 630 | S.LARANJA 300ML |
+| ![foto](img/prod-631-mvqrvc5c.jpg) [abrir](img/prod-631-mvqrvc5c.jpg) | Produto | 631 | S.LIMONADA SUICA 300ML |
+| ![foto](img/prod-633-mvqrvc5f.jpg) [abrir](img/prod-633-mvqrvc5f.jpg) | Produto | 633 | S.MAMAO 300ML |
+| ![foto](img/prod-634-mvqrvc5i.jpg) [abrir](img/prod-634-mvqrvc5i.jpg) | Produto | 634 | S.MANGA 300ML |
+| ![foto](img/prod-636-mvqrvc5l.jpg) [abrir](img/prod-636-mvqrvc5l.jpg) | Produto | 636 | S.MARACUJA 300ML |
+| ![foto](img/prod-639-mvqrvc5r.jpg) [abrir](img/prod-639-mvqrvc5r.jpg) | Produto | 639 | S.MORANGO 300ML |
+| ![foto](img/prod-640-mvqrvc5u.jpg) [abrir](img/prod-640-mvqrvc5u.jpg) | Produto | 640 | S.PESSEGO 300ML |
+| ![foto](img/prod-644-mvqrvc5x.jpg) [abrir](img/prod-644-mvqrvc5x.jpg) | Produto | 644 | S.UVA 300ML |
+| ![foto](img/prod-850-mvqrvc4y.jpg) [abrir](img/prod-850-mvqrvc4y.jpg) | Produto | 850 | S.ABACAXI 500ML |
+| ![foto](img/prod-851-mvqrvc5a.jpg) [abrir](img/prod-851-mvqrvc5a.jpg) | Produto | 851 | S.LARANJA 500ML |
+| ![foto](img/prod-852-mvqrvc5d.jpg) [abrir](img/prod-852-mvqrvc5d.jpg) | Produto | 852 | S.LIMONADA SUICA 500ML |
+| ![foto](img/prod-853-mvqrvc5g.jpg) [abrir](img/prod-853-mvqrvc5g.jpg) | Produto | 853 | S.MAMAO 500ML |
+| ![foto](img/prod-855-mvqrvc51.jpg) [abrir](img/prod-855-mvqrvc51.jpg) | Produto | 855 | S.ABACAXI C/HORTELA 500ML |
+| ![foto](img/prod-856-mvqrvc54.jpg) [abrir](img/prod-856-mvqrvc54.jpg) | Produto | 856 | S.ACEROLA 500ML |
+| ![foto](img/prod-857-mvqrvc53.jpg) [abrir](img/prod-857-mvqrvc53.jpg) | Produto | 857 | S.ACEROLA 300ML |
+| ![foto](img/prod-862-mvqrvc5j.jpg) [abrir](img/prod-862-mvqrvc5j.jpg) | Produto | 862 | S.MANGA 500ML |
+| ![foto](img/prod-863-mvqrvc5m.jpg) [abrir](img/prod-863-mvqrvc5m.jpg) | Produto | 863 | S.MARACUJA 500ML |
+| ![foto](img/prod-868-mvqrvc5v.jpg) [abrir](img/prod-868-mvqrvc5v.jpg) | Produto | 868 | S.PESSEGO 500ML |
+| ![foto](img/prod-870-mvqrvc5y.jpg) [abrir](img/prod-870-mvqrvc5y.jpg) | Produto | 870 | S.UVA 500ML |
+| ![foto](img/prod-874-mvqrvc57.jpg) [abrir](img/prod-874-mvqrvc57.jpg) | Produto | 874 | S.CAJU 500ML |
+| ![foto](img/prod-885-mvqrvc5s.jpg) [abrir](img/prod-885-mvqrvc5s.jpg) | Produto | 885 | S.MORANGO 500ML |
+| ![foto](img/prod-886-mvqrvc4u.jpg) [abrir](img/prod-886-mvqrvc4u.jpg) | Produto | 886 | VIT.MORANGO AO LEITE 300ML |
+| ![foto](img/prod-887-mvqrvc4v.jpg) [abrir](img/prod-887-mvqrvc4v.jpg) | Produto | 887 | VIT.MORANGO AO LEITE 500ML |
+| ![foto](img/prod-1800-mvqrvc63.jpg) [abrir](img/prod-1800-mvqrvc63.jpg) | Produto | 1800 | AGUA DE COCO 300ML |
+| ![foto](img/prod-1801-mvqrvc64.jpg) [abrir](img/prod-1801-mvqrvc64.jpg) | Produto | 1801 | AGUA DE COCO 500ML |
+| ![foto](img/prod-1806-mvqrvc38.jpg) [abrir](img/prod-1806-mvqrvc38.jpg) | Produto | 1806 | CHOCOLATE GELADO 300ML |
+| ![foto](img/prod-1938-mvqrvc8g.jpg) [abrir](img/prod-1938-mvqrvc8g.jpg) | Produto | 1938 | P.MATE 300 ML |
 | ![foto](img/prod-2002-mvqrn1i1.jpg) [abrir](img/prod-2002-mvqrn1i1.jpg) | Produto | 2002 | MEGANELLA 200ML |
+| ![foto](img/prod-2027-mvqrvc61.jpg) [abrir](img/prod-2027-mvqrvc61.jpg) | Produto | 2027 | AGUA MINERAL S/GAS 510ML |
+| ![foto](img/prod-2029-mvqrvc6h.jpg) [abrir](img/prod-2029-mvqrvc6h.jpg) | Produto | 2029 | BOLO SIMPLES FATIA |
+| ![foto](img/prod-2072-mvqrvc7n.jpg) [abrir](img/prod-2072-mvqrvc7n.jpg) | Produto | 2072 | PORCAO DE FRUTA |
+| ![foto](img/prod-2073-mvqrvc77.jpg) [abrir](img/prod-2073-mvqrvc77.jpg) | Produto | 2073 | SALADA DE FRUTAS PEQUENA |
+| ![foto](img/prod-2102-mvqrvc4o.jpg) [abrir](img/prod-2102-mvqrvc4o.jpg) | Produto | 2102 | VIT.BANANA C/AVEIA 300ML |
+| ![foto](img/prod-2103-mvqrvc4p.jpg) [abrir](img/prod-2103-mvqrvc4p.jpg) | Produto | 2103 | VIT.BANANA C/AVEIA 500ML |
+| ![foto](img/prod-2106-mvqrvc4r.jpg) [abrir](img/prod-2106-mvqrvc4r.jpg) | Produto | 2106 | VIT.MISTA 300ML |
+| ![foto](img/prod-2107-mvqrvc4s.jpg) [abrir](img/prod-2107-mvqrvc4s.jpg) | Produto | 2107 | VIT.MISTA 500ML |
+| ![foto](img/prod-2112-mvqrvc76.jpg) [abrir](img/prod-2112-mvqrvc76.jpg) | Produto | 2112 | SALADA DE FRUTAS MEDIA/GRANDE |
 | ![foto](img/prod-2118-mvqrn1it.jpg) [abrir](img/prod-2118-mvqrn1it.jpg) | Produto | 2118 | CROISSANT.INT. FRANGO C/REQ |
 | ![foto](img/prod-2120-mvqrn1iq.jpg) [abrir](img/prod-2120-mvqrn1iq.jpg) | Produto | 2120 | CROISSANT.INT. QUEIJO MINAS |
+| ![foto](img/prod-2127-mvqrvc7d.jpg) [abrir](img/prod-2127-mvqrvc7d.jpg) | Produto | 2127 | CG - PAO DE QUEIJO 1KG |
+| ![foto](img/prod-2131-mvqrvc88.jpg) [abrir](img/prod-2131-mvqrvc88.jpg) | Produto | 2131 | P.ESPRESSO |
 | ![foto](img/prod-2506-mvqrn1hn.jpg) [abrir](img/prod-2506-mvqrn1hn.jpg) | Produto | 2506 | CAPPUCCINO TRADICIONAL 200ML |
+| ![foto](img/prod-2551-mvqrvc68.jpg) [abrir](img/prod-2551-mvqrvc68.jpg) | Produto | 2551 | SAND. MEGAMISTO |
+| ![foto](img/prod-2562-mvqrvc18.jpg) [abrir](img/prod-2562-mvqrvc18.jpg) | Produto | 2562 | P.12 P.QUEIJO |
+| ![foto](img/prod-2627-mvqrvc5o.jpg) [abrir](img/prod-2627-mvqrvc5o.jpg) | Produto | 2627 | S.MEGA ENERGIA TROPICAL 300ML |
+| ![foto](img/prod-2628-mvqrvc5p.jpg) [abrir](img/prod-2628-mvqrvc5p.jpg) | Produto | 2628 | S.MEGA ENERGIA TROPICAL 500ML |
+| ![foto](img/prod-2686-mvqrvc83.jpg) [abrir](img/prod-2686-mvqrvc83.jpg) | Produto | 2686 | P.ACAI 700ML |
+| ![foto](img/prod-2688-mvqrvc6v.jpg) [abrir](img/prod-2688-mvqrvc6v.jpg) | Produto | 2688 | P.6 BROINHAS |
+| ![foto](img/prod-2701-mvqrvc6t.jpg) [abrir](img/prod-2701-mvqrvc6t.jpg) | Produto | 2701 | P.12 BROINHAS |
+| ![foto](img/prod-9854-mvqrvc50.jpg) [abrir](img/prod-9854-mvqrvc50.jpg) | Produto | 9854 | S.ABACAXI C/HORTELA 300ML |
+| ![foto](img/prod-10164-mvqrvc62.jpg) [abrir](img/prod-10164-mvqrvc62.jpg) | Produto | 10164 | AGUA MINERAL C/GAS 510ML |
+| ![foto](img/prod-10231-mvqrvc7a.jpg) [abrir](img/prod-10231-mvqrvc7a.jpg) | Produto | 10231 | TORTA ESPECIAL FATIA |
+| ![foto](img/prod-10233-mvqrvc67.jpg) [abrir](img/prod-10233-mvqrvc67.jpg) | Produto | 10233 | SAND. MEGALEVE |
+| ![foto](img/prod-10261-mvqrvc7c.jpg) [abrir](img/prod-10261-mvqrvc7c.jpg) | Produto | 10261 | CG - BROINHA 1KG |
+| ![foto](img/prod-10298-mvqrvc7b.jpg) [abrir](img/prod-10298-mvqrvc7b.jpg) | Produto | 10298 | TORTA ESPECIAL INTEIRA |
+| ![foto](img/prod-10361-mvqrvc66.jpg) [abrir](img/prod-10361-mvqrvc66.jpg) | Produto | 10361 | PAO FRANCES NA CHAPA |
+| ![foto](img/prod-10362-mvqrvc69.jpg) [abrir](img/prod-10362-mvqrvc69.jpg) | Produto | 10362 | SAND. GOURMET CIABATTA CARNE ASSADA |
+| ![foto](img/prod-10372-mvqrvc3x.jpg) [abrir](img/prod-10372-mvqrvc3x.jpg) | Produto | 10372 | MEGA ACAI 300ML |
+| ![foto](img/prod-10373-mvqrvc3y.jpg) [abrir](img/prod-10373-mvqrvc3y.jpg) | Produto | 10373 | MEGA ACAI 500ML |
+| ![foto](img/prod-10416-mvqrvc8e.jpg) [abrir](img/prod-10416-mvqrvc8e.jpg) | Produto | 10416 | P.GRANOLA |
+| ![foto](img/prod-10561-mvqrvc3g.jpg) [abrir](img/prod-10561-mvqrvc3g.jpg) | Produto | 10561 | ACAI 700ML |
+| ![foto](img/prod-10562-mvqrvc1l.jpg) [abrir](img/prod-10562-mvqrvc1l.jpg) | Produto | 10562 | MATE 700ML |
+| ![foto](img/prod-10564-mvqrvc48.jpg) [abrir](img/prod-10564-mvqrvc48.jpg) | Produto | 10564 | GUARANA 700ML |
+| ![foto](img/prod-10566-mvqrvc5b.jpg) [abrir](img/prod-10566-mvqrvc5b.jpg) | Produto | 10566 | S.LARANJA 700ML |
+| ![foto](img/prod-10567-mvqrvc5e.jpg) [abrir](img/prod-10567-mvqrvc5e.jpg) | Produto | 10567 | S.LIMONADA SUICA 700ML |
+| ![foto](img/prod-10568-mvqrvc4z.jpg) [abrir](img/prod-10568-mvqrvc4z.jpg) | Produto | 10568 | S.ABACAXI 700ML |
+| ![foto](img/prod-10569-mvqrvc52.jpg) [abrir](img/prod-10569-mvqrvc52.jpg) | Produto | 10569 | S.ABACAXI C/HORTELA 700ML |
+| ![foto](img/prod-10570-mvqrvc5k.jpg) [abrir](img/prod-10570-mvqrvc5k.jpg) | Produto | 10570 | S.MANGA 700ML |
+| ![foto](img/prod-10571-mvqrvc5h.jpg) [abrir](img/prod-10571-mvqrvc5h.jpg) | Produto | 10571 | S.MAMAO 700ML |
+| ![foto](img/prod-10572-mvqrvc5t.jpg) [abrir](img/prod-10572-mvqrvc5t.jpg) | Produto | 10572 | S.MORANGO 700ML |
+| ![foto](img/prod-10573-mvqrvc5n.jpg) [abrir](img/prod-10573-mvqrvc5n.jpg) | Produto | 10573 | S.MARACUJA 700ML |
+| ![foto](img/prod-10574-mvqrvc55.jpg) [abrir](img/prod-10574-mvqrvc55.jpg) | Produto | 10574 | S.ACEROLA 700ML |
+| ![foto](img/prod-10575-mvqrvc4n.jpg) [abrir](img/prod-10575-mvqrvc4n.jpg) | Produto | 10575 | MEGASHAKE MORANGO 700ML |
+| ![foto](img/prod-10576-mvqrvc4k.jpg) [abrir](img/prod-10576-mvqrvc4k.jpg) | Produto | 10576 | MEGASHAKE BANANA 700ML |
+| ![foto](img/prod-10578-mvqrvc5q.jpg) [abrir](img/prod-10578-mvqrvc5q.jpg) | Produto | 10578 | S.MEGA ENERGIA TROPICAL 700ML |
+| ![foto](img/prod-10582-mvqrvc3z.jpg) [abrir](img/prod-10582-mvqrvc3z.jpg) | Produto | 10582 | MEGA ACAI 700ML |
+| ![foto](img/prod-10597-mvqrvc65.jpg) [abrir](img/prod-10597-mvqrvc65.jpg) | Produto | 10597 | AGUA DE COCO 700ML |
+| ![foto](img/prod-10605-mvqrvc1o.jpg) [abrir](img/prod-10605-mvqrvc1o.jpg) | Produto | 10605 | MATE C/LEITE 700ML |
+| ![foto](img/prod-10609-mvqrvc1r.jpg) [abrir](img/prod-10609-mvqrvc1r.jpg) | Produto | 10609 | MATE C/PROTEINATO 700ML |
+| ![foto](img/prod-10615-mvqrvc1x.jpg) [abrir](img/prod-10615-mvqrvc1x.jpg) | Produto | 10615 | MATE FRUTA ABACAXI 700ML |
+| ![foto](img/prod-10616-mvqrvc2l.jpg) [abrir](img/prod-10616-mvqrvc2l.jpg) | Produto | 10616 | MATE FRUTA MORANGO 700ML |
+| ![foto](img/prod-10617-mvqrvc20.jpg) [abrir](img/prod-10617-mvqrvc20.jpg) | Produto | 10617 | MATE FRUTA ACAI 700ML |
+| ![foto](img/prod-10618-mvqrvc23.jpg) [abrir](img/prod-10618-mvqrvc23.jpg) | Produto | 10618 | MATE FRUTA ACEROLA 700ML |
+| ![foto](img/prod-10620-mvqrvc26.jpg) [abrir](img/prod-10620-mvqrvc26.jpg) | Produto | 10620 | MATE FRUTA CAJU 700ML |
+| ![foto](img/prod-10621-mvqrvc29.jpg) [abrir](img/prod-10621-mvqrvc29.jpg) | Produto | 10621 | MATE FRUTA COCO 700ML |
+| ![foto](img/prod-10625-mvqrvc2c.jpg) [abrir](img/prod-10625-mvqrvc2c.jpg) | Produto | 10625 | MATE FRUTA MAMAO 700ML |
+| ![foto](img/prod-10626-mvqrvc2f.jpg) [abrir](img/prod-10626-mvqrvc2f.jpg) | Produto | 10626 | MATE FRUTA MANGA 700ML |
+| ![foto](img/prod-10627-mvqrvc2i.jpg) [abrir](img/prod-10627-mvqrvc2i.jpg) | Produto | 10627 | MATE FRUTA MARACUJA 700ML |
+| ![foto](img/prod-10628-mvqrvc2n.jpg) [abrir](img/prod-10628-mvqrvc2n.jpg) | Produto | 10628 | MATE FRUTA PESSEGO 700ML |
+| ![foto](img/prod-10629-mvqrvc2t.jpg) [abrir](img/prod-10629-mvqrvc2t.jpg) | Produto | 10629 | MATE FRUTA UVA 700ML |
+| ![foto](img/prod-10662-mvqrvc4b.jpg) [abrir](img/prod-10662-mvqrvc4b.jpg) | Produto | 10662 | GUARAPROTEIN 700ML |
+| ![foto](img/prod-10665-mvqrvc4h.jpg) [abrir](img/prod-10665-mvqrvc4h.jpg) | Produto | 10665 | MEGASHAKE ACAI 700ML |
+| ![foto](img/prod-10667-mvqrvc3m.jpg) [abrir](img/prod-10667-mvqrvc3m.jpg) | Produto | 10667 | ACAI C/MORANGO 700ML |
+| ![foto](img/prod-10668-mvqrvc3j.jpg) [abrir](img/prod-10668-mvqrvc3j.jpg) | Produto | 10668 | ACAI C/BANANA 700ML |
+| ![foto](img/prod-10671-mvqrvc58.jpg) [abrir](img/prod-10671-mvqrvc58.jpg) | Produto | 10671 | S.CAJU 700ML |
+| ![foto](img/prod-10676-mvqrvc5w.jpg) [abrir](img/prod-10676-mvqrvc5w.jpg) | Produto | 10676 | S.PESSEGO 700ML |
+| ![foto](img/prod-10678-mvqrvc5z.jpg) [abrir](img/prod-10678-mvqrvc5z.jpg) | Produto | 10678 | S.UVA 700ML |
+| ![foto](img/prod-10685-mvqrvc4q.jpg) [abrir](img/prod-10685-mvqrvc4q.jpg) | Produto | 10685 | VIT.BANANA C/AVEIA 700ML |
+| ![foto](img/prod-10686-mvqrvc4t.jpg) [abrir](img/prod-10686-mvqrvc4t.jpg) | Produto | 10686 | VIT.MISTA 700ML |
+| ![foto](img/prod-10687-mvqrvc4w.jpg) [abrir](img/prod-10687-mvqrvc4w.jpg) | Produto | 10687 | VIT.MORANGO AO LEITE 700ML |
+| ![foto](img/prod-10708-mvqrvc7v.jpg) [abrir](img/prod-10708-mvqrvc7v.jpg) | Produto | 10708 | KIT CAFE 1 |
+| ![foto](img/prod-10709-mvqrvc7w.jpg) [abrir](img/prod-10709-mvqrvc7w.jpg) | Produto | 10709 | KIT CAFE 2 |
+| ![foto](img/prod-10710-mvqrvc7x.jpg) [abrir](img/prod-10710-mvqrvc7x.jpg) | Produto | 10710 | KIT CAFE 3 |
+| ![foto](img/prod-10763-mvqrvc7s.jpg) [abrir](img/prod-10763-mvqrvc7s.jpg) | Produto | 10763 | PORCAO DE PACOCA |
+| ![foto](img/prod-10820-mvqrvc6i.jpg) [abrir](img/prod-10820-mvqrvc6i.jpg) | Produto | 10820 | BRIGADEIRO |
+| ![foto](img/prod-10922-mvqrvc6x.jpg) [abrir](img/prod-10922-mvqrvc6x.jpg) | Produto | 10922 | PALHA ITALIANA |
+| ![foto](img/prod-10998-mvqrvc1b.jpg) [abrir](img/prod-10998-mvqrvc1b.jpg) | Produto | 10998 | P.6 P.QUEIJO |
 | ![foto](img/prod-11009-mvqrn1ie.jpg) [abrir](img/prod-11009-mvqrn1ie.jpg) | Produto | 11009 | FOLHADO PEITO DE PERU |
 | ![foto](img/prod-11010-mvqrn1ic.jpg) [abrir](img/prod-11010-mvqrn1ic.jpg) | Produto | 11010 | FOLHADO FRANGO |
+| ![foto](img/prod-11011-mvqrvc60.jpg) [abrir](img/prod-11011-mvqrvc60.jpg) | Produto | 11011 | AGUA DE COCO 200ML |
+| ![foto](img/prod-11037-mvqrvc41.jpg) [abrir](img/prod-11037-mvqrvc41.jpg) | Produto | 11037 | GUARA FRUTA 300ML |
+| ![foto](img/prod-11038-mvqrvc42.jpg) [abrir](img/prod-11038-mvqrvc42.jpg) | Produto | 11038 | GUARA FRUTA 500ML |
+| ![foto](img/prod-11039-mvqrvc43.jpg) [abrir](img/prod-11039-mvqrvc43.jpg) | Produto | 11039 | GUARA FRUTA 700ML |
+| ![foto](img/prod-11040-mvqrvc1s.jpg) [abrir](img/prod-11040-mvqrvc1s.jpg) | Produto | 11040 | MATE FRUTA 300ML |
+| ![foto](img/prod-11041-mvqrvc1t.jpg) [abrir](img/prod-11041-mvqrvc1t.jpg) | Produto | 11041 | MATE FRUTA 500ML |
+| ![foto](img/prod-11042-mvqrvc1u.jpg) [abrir](img/prod-11042-mvqrvc1u.jpg) | Produto | 11042 | MATE FRUTA 700ML |
+| ![foto](img/prod-11050-mvqrvc7p.jpg) [abrir](img/prod-11050-mvqrvc7p.jpg) | Produto | 11050 | PORCAO DE GUARANÁ EM PÓ |
 | ![foto](img/prod-11056-mvpnn5f0.jpg) [abrir](img/prod-11056-mvpnn5f0.jpg) | Produto | 11056 | CROISSANT DE CHOCOLATE |
 | ![foto](img/prod-11063-mvqrn1hl.jpg) [abrir](img/prod-11063-mvqrn1hl.jpg) | Produto | 11063 | ESPRESSO MACCHIATO 50ML |
 | ![foto](img/prod-11064-mvqrn1i3.jpg) [abrir](img/prod-11064-mvqrn1i3.jpg) | Produto | 11064 | MOCACCINO 200ML |
+| ![foto](img/prod-11086-mvqrvc1g.jpg) [abrir](img/prod-11086-mvqrvc1g.jpg) | Produto | 11086 | ERVA MATE CX 250G |
+| ![foto](img/prod-11109-mvqrvc6q.jpg) [abrir](img/prod-11109-mvqrvc6q.jpg) | Produto | 11109 | COOKIE DE CHOCOLATE |
+| ![foto](img/prod-11110-mvqrvc6u.jpg) [abrir](img/prod-11110-mvqrvc6u.jpg) | Produto | 11110 | P.3 COOKIES DE CHOCOLATE |
+| ![foto](img/prod-11113-mvqrvc6a.jpg) [abrir](img/prod-11113-mvqrvc6a.jpg) | Produto | 11113 | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 | ![foto](img/prod-11119-mvqrn1iu.jpg) [abrir](img/prod-11119-mvqrn1iu.jpg) | Produto | 11119 | FOLHADO.INT PEITO DE PERU C/QUEIJO |
+| ![foto](img/prod-11144-mvqrvc7r.jpg) [abrir](img/prod-11144-mvqrvc7r.jpg) | Produto | 11144 | PORCAO DE MEL |
+| ![foto](img/prod-11179-mvqrvc6b.jpg) [abrir](img/prod-11179-mvqrvc6b.jpg) | Produto | 11179 | SAND. NAT. ATUM COM REQUEIJÃO |
+| ![foto](img/prod-11180-mvqrvc6c.jpg) [abrir](img/prod-11180-mvqrvc6c.jpg) | Produto | 11180 | SAND. NAT. FRANGO COM CENOURA |
+| ![foto](img/prod-11181-mvqrvc6d.jpg) [abrir](img/prod-11181-mvqrvc6d.jpg) | Produto | 11181 | SAND. NAT. PEITO DE PERU |
+| ![foto](img/prod-11182-mvqrvc6e.jpg) [abrir](img/prod-11182-mvqrvc6e.jpg) | Produto | 11182 | SAND. NAT. SALPICAO DE FRANGO |
+| ![foto](img/prod-11201-mvqrvc4c.jpg) [abrir](img/prod-11201-mvqrvc4c.jpg) | Produto | 11201 | GVITAMINA 300 ML |
+| ![foto](img/prod-11202-mvqrvc4d.jpg) [abrir](img/prod-11202-mvqrvc4d.jpg) | Produto | 11202 | GVITAMINA 500 ML |
+| ![foto](img/prod-11203-mvqrvc4e.jpg) [abrir](img/prod-11203-mvqrvc4e.jpg) | Produto | 11203 | GVITAMINA 700 ML |
+| ![foto](img/prod-11209-mvqrvc3q.jpg) [abrir](img/prod-11209-mvqrvc3q.jpg) | Produto | 11209 | ACAI NATURAL 300ML |
+| ![foto](img/prod-11210-mvqrvc3r.jpg) [abrir](img/prod-11210-mvqrvc3r.jpg) | Produto | 11210 | ACAI NATURAL 500ML |
+| ![foto](img/prod-11211-mvqrvc3s.jpg) [abrir](img/prod-11211-mvqrvc3s.jpg) | Produto | 11211 | ACAI NATURAL 700ML |
+| ![foto](img/prod-11215-mvqrvc3n.jpg) [abrir](img/prod-11215-mvqrvc3n.jpg) | Produto | 11215 | ACAI FIT 300ML |
+| ![foto](img/prod-11216-mvqrvc3o.jpg) [abrir](img/prod-11216-mvqrvc3o.jpg) | Produto | 11216 | ACAI FIT 500ML |
+| ![foto](img/prod-11217-mvqrvc3p.jpg) [abrir](img/prod-11217-mvqrvc3p.jpg) | Produto | 11217 | ACAI FIT 700ML |
+| ![foto](img/prod-11229-mvqrvc44.jpg) [abrir](img/prod-11229-mvqrvc44.jpg) | Produto | 11229 | GUARANA 1L |
+| ![foto](img/prod-11255-mvqrvc1c.jpg) [abrir](img/prod-11255-mvqrvc1c.jpg) | Produto | 11255 | P.8 P.QUEIJO |
+| ![foto](img/prod-11294-mvqrvc8l.jpg) [abrir](img/prod-11294-mvqrvc8l.jpg) | Produto | 11294 | PROMO COOKIE DE CHOCOLATE UNID |
+| ![foto](img/prod-11309-mvqrvc34.jpg) [abrir](img/prod-11309-mvqrvc34.jpg) | Produto | 11309 | CAPPUCCINO COM NUTELLA GELADO 300ML |
+| ![foto](img/prod-11310-mvqrvc35.jpg) [abrir](img/prod-11310-mvqrvc35.jpg) | Produto | 11310 | CAPPUCCINO COM NUTELLA GELADO 500ML |
+| ![foto](img/prod-11338-mvqrvc1i.jpg) [abrir](img/prod-11338-mvqrvc1i.jpg) | Produto | 11338 | MATE 1L REFIL |
+| ![foto](img/prod-11339-mvqrvc45.jpg) [abrir](img/prod-11339-mvqrvc45.jpg) | Produto | 11339 | GUARANA 1L REFIL |
+| ![foto](img/prod-11361-mvqrvc7e.jpg) [abrir](img/prod-11361-mvqrvc7e.jpg) | Produto | 11361 | CG - CROISSANT |
+| ![foto](img/prod-11362-mvqrvc7f.jpg) [abrir](img/prod-11362-mvqrvc7f.jpg) | Produto | 11362 | CG - FOLHADO |
+| ![foto](img/prod-11363-mvqrvc7g.jpg) [abrir](img/prod-11363-mvqrvc7g.jpg) | Produto | 11363 | CG - FOLHADO INT |
+| ![foto](img/prod-11368-mvqrvc7h.jpg) [abrir](img/prod-11368-mvqrvc7h.jpg) | Produto | 11368 | CG - PAO DE BATATA |
+| ![foto](img/prod-11369-mvqrvc7i.jpg) [abrir](img/prod-11369-mvqrvc7i.jpg) | Produto | 11369 | CG - PASTEL |
 | ![foto](img/prod-11417-mvqrn1iv.jpg) [abrir](img/prod-11417-mvqrn1iv.jpg) | Produto | 11417 | EMPADA FRANGO |
 | ![foto](img/prod-11418-mvqrn1ib.jpg) [abrir](img/prod-11418-mvqrn1ib.jpg) | Produto | 11418 | EMPADA PALMITO |
 | ![foto](img/prod-11419-mvqrn1i8.jpg) [abrir](img/prod-11419-mvqrn1i8.jpg) | Produto | 11419 | PROMO EMPADA FRANGO |
 | ![foto](img/prod-11421-mvqrn1i7.jpg) [abrir](img/prod-11421-mvqrn1i7.jpg) | Produto | 11421 | PROMO EMPADA PALMITO |
+| ![foto](img/prod-11428-mvqrvc78.jpg) [abrir](img/prod-11428-mvqrvc78.jpg) | Produto | 11428 | TORTA BANANA C/ GRANOLA FATIA |
 | ![foto](img/prod-11443-mvqrn1hv.jpg) [abrir](img/prod-11443-mvqrn1hv.jpg) | Produto | 11443 | CAPPUCCINO DE PACOCA 200ML |
 | ![foto](img/prod-11444-mvqrn1ht.jpg) [abrir](img/prod-11444-mvqrn1ht.jpg) | Produto | 11444 | CAPPUCCINO OVOMALTINE 200ML |
 | ![foto](img/prod-11445-mvqrn1hr.jpg) [abrir](img/prod-11445-mvqrn1hr.jpg) | Produto | 11445 | CAPPUCCINO COM NUTELLA 200ML |
 | ![foto](img/prod-11446-mvqrn1hz.jpg) [abrir](img/prod-11446-mvqrn1hz.jpg) | Produto | 11446 | CHOCOLATE QUENTE C/CAFE CHANTILLY 200ML |
+| ![foto](img/prod-11448-mvqrvc36.jpg) [abrir](img/prod-11448-mvqrvc36.jpg) | Produto | 11448 | CAPPUCCINO TRAD GELADO 300ML |
+| ![foto](img/prod-11449-mvqrvc3a.jpg) [abrir](img/prod-11449-mvqrvc3a.jpg) | Produto | 11449 | FRAPPE OVOMALTINE 300ML |
+| ![foto](img/prod-11451-mvqrvc2u.jpg) [abrir](img/prod-11451-mvqrvc2u.jpg) | Produto | 11451 | MATE OVOMALTINE 300ML |
+| ![foto](img/prod-11452-mvqrvc2v.jpg) [abrir](img/prod-11452-mvqrvc2v.jpg) | Produto | 11452 | MATE OVOMALTINE 500ML |
+| ![foto](img/prod-11453-mvqrvc2w.jpg) [abrir](img/prod-11453-mvqrvc2w.jpg) | Produto | 11453 | MATE OVOMALTINE 700ML |
+| ![foto](img/prod-11457-mvqrvc7u.jpg) [abrir](img/prod-11457-mvqrvc7u.jpg) | Produto | 11457 | PORCAO OVOMALTINE FLOCOS |
+| ![foto](img/prod-11570-mvqrvc3w.jpg) [abrir](img/prod-11570-mvqrvc3w.jpg) | Produto | 11570 | AMENDOIM MONTE SEU ACAI |
+| ![foto](img/prod-11575-mvqrvc8d.jpg) [abrir](img/prod-11575-mvqrvc8d.jpg) | Produto | 11575 | P.GIRO P.6 + 3 PQ GRATIS COM MATE 300ML |
+| ![foto](img/prod-11578-mvqrvc2y.jpg) [abrir](img/prod-11578-mvqrvc2y.jpg) | Produto | 11578 | MATE SOLU 300ML |
+| ![foto](img/prod-11579-mvqrvc2z.jpg) [abrir](img/prod-11579-mvqrvc2z.jpg) | Produto | 11579 | MATE SOLU 500ML |
+| ![foto](img/prod-11580-mvqrvc30.jpg) [abrir](img/prod-11580-mvqrvc30.jpg) | Produto | 11580 | MATE SOLU 700ML |
+| ![foto](img/prod-11581-mvqrvc2x.jpg) [abrir](img/prod-11581-mvqrvc2x.jpg) | Produto | 11581 | MATE SOLU 1L |
+| ![foto](img/prod-11591-mvqrvc2o.jpg) [abrir](img/prod-11591-mvqrvc2o.jpg) | Produto | 11591 | MATE FRUTA SOLU 300ML |
+| ![foto](img/prod-11592-mvqrvc2p.jpg) [abrir](img/prod-11592-mvqrvc2p.jpg) | Produto | 11592 | MATE FRUTA SOLU 500ML |
+| ![foto](img/prod-11593-mvqrvc2q.jpg) [abrir](img/prod-11593-mvqrvc2q.jpg) | Produto | 11593 | MATE FRUTA SOLU 700ML |
+| ![foto](img/prod-11595-mvqrvc39.jpg) [abrir](img/prod-11595-mvqrvc39.jpg) | Produto | 11595 | CHOCOLATE GELADO 500ML |
+| ![foto](img/prod-11603-mvqrvc3t.jpg) [abrir](img/prod-11603-mvqrvc3t.jpg) | Produto | 11603 | ACAI OVOMALTINE 300ML |
+| ![foto](img/prod-11604-mvqrvc3u.jpg) [abrir](img/prod-11604-mvqrvc3u.jpg) | Produto | 11604 | ACAI OVOMALTINE 500ML |
+| ![foto](img/prod-11605-mvqrvc3v.jpg) [abrir](img/prod-11605-mvqrvc3v.jpg) | Produto | 11605 | ACAI OVOMALTINE 700ML |
+| ![foto](img/prod-11622-mvqrvc7l.jpg) [abrir](img/prod-11622-mvqrvc7l.jpg) | Produto | 11622 | PORCAO DE AVEIA |
+| ![foto](img/prod-11650-mvqrvc31.jpg) [abrir](img/prod-11650-mvqrvc31.jpg) | Produto | 11650 | P.MATE 300ML |
+| ![foto](img/prod-11651-mvqrvc8f.jpg) [abrir](img/prod-11651-mvqrvc8f.jpg) | Produto | 11651 | P.GUARANA 300ML |
+| ![foto](img/prod-11657-mvqrvc87.jpg) [abrir](img/prod-11657-mvqrvc87.jpg) | Produto | 11657 | P.COOKIE DE CHOCOLATE |
+| ![foto](img/prod-11659-mvqrvc86.jpg) [abrir](img/prod-11659-mvqrvc86.jpg) | Produto | 11659 | P.BOLO DE BANANA INT |
+| ![foto](img/prod-11661-mvqrvc85.jpg) [abrir](img/prod-11661-mvqrvc85.jpg) | Produto | 11661 | P.AGUA MINERAL |
 | ![foto](img/prod-11664-mvqrn1hq.jpg) [abrir](img/prod-11664-mvqrn1hq.jpg) | Produto | 11664 | CAPPUCCINO COM NUTELLA 100ML |
 | ![foto](img/prod-11665-mvqrn1hm.jpg) [abrir](img/prod-11665-mvqrn1hm.jpg) | Produto | 11665 | CAPPUCCINO TRADICIONAL 100ML |
 | ![foto](img/prod-11666-mvqrn1hu.jpg) [abrir](img/prod-11666-mvqrn1hu.jpg) | Produto | 11666 | CAPPUCCINO DE PACOCA 100ML |
@@ -137,14 +361,98 @@ Atualizado em 27/10/2026, 11:12:49. Gerado automaticamente pelo Organizador do P
 | ![foto](img/prod-11671-mvqrn1i2.jpg) [abrir](img/prod-11671-mvqrn1i2.jpg) | Produto | 11671 | MOCACCINO 100ML |
 | ![foto](img/prod-11672-mvqrn1hp.jpg) [abrir](img/prod-11672-mvqrn1hp.jpg) | Produto | 11672 | CAPPUCCINO DE DOCE DE LEITE 200ML |
 | ![foto](img/prod-11677-mvqrn1hy.jpg) [abrir](img/prod-11677-mvqrn1hy.jpg) | Produto | 11677 | CHOCOLATE QUENTE C/CAFE CHANTILLY 100ML |
+| ![foto](img/prod-11689-mvqrvc6f.jpg) [abrir](img/prod-11689-mvqrvc6f.jpg) | Produto | 11689 | BOLO DE BANANA INT MEGAMATTE |
+| ![foto](img/prod-11690-mvqrvc6l.jpg) [abrir](img/prod-11690-mvqrvc6l.jpg) | Produto | 11690 | BROWNIE CHOCOLATE |
+| ![foto](img/prod-11691-mvqrvc6n.jpg) [abrir](img/prod-11691-mvqrvc6n.jpg) | Produto | 11691 | BROWNIE DOCE DE LEITE |
+| ![foto](img/prod-11692-mvqrvc6o.jpg) [abrir](img/prod-11692-mvqrvc6o.jpg) | Produto | 11692 | BROWNIE NINHO |
+| ![foto](img/prod-11693-mvqrvc6m.jpg) [abrir](img/prod-11693-mvqrvc6m.jpg) | Produto | 11693 | BROWNIE CREME DE AVELA |
+| ![foto](img/prod-11703-mvqrvc81.jpg) [abrir](img/prod-11703-mvqrvc81.jpg) | Produto | 11703 | P.ACAI 300ML |
+| ![foto](img/prod-11710-mvqrvc89.jpg) [abrir](img/prod-11710-mvqrvc89.jpg) | Produto | 11710 | P.GIRO CAPP. 100ML + 6 PQ |
+| ![foto](img/prod-11711-mvqrvc8a.jpg) [abrir](img/prod-11711-mvqrvc8a.jpg) | Produto | 11711 | P.GIRO MEGASHAKE ACAI 300ML |
+| ![foto](img/prod-11712-mvqrvc8b.jpg) [abrir](img/prod-11712-mvqrvc8b.jpg) | Produto | 11712 | P.GIRO MEGASHAKE BANANA 300ML |
+| ![foto](img/prod-11713-mvqrvc8c.jpg) [abrir](img/prod-11713-mvqrvc8c.jpg) | Produto | 11713 | P.GIRO MEGASHAKE MORANGO 300ML |
+| ![foto](img/prod-11754-mvqrvc8h.jpg) [abrir](img/prod-11754-mvqrvc8h.jpg) | Produto | 11754 | P.MATE 300ML - MEGACOPAO |
+| ![foto](img/prod-11755-mvqrvc1d.jpg) [abrir](img/prod-11755-mvqrvc1d.jpg) | Produto | 11755 | PAO DE QUEIJO GRANDE |
+| ![foto](img/prod-11762-mvqrvc6w.jpg) [abrir](img/prod-11762-mvqrvc6w.jpg) | Produto | 11762 | P.8 BROINHAS |
+| ![foto](img/prod-11768-mvqrvc6g.jpg) [abrir](img/prod-11768-mvqrvc6g.jpg) | Produto | 11768 | BOLO DE CENOURA MEGAMATTE |
 | ![foto](img/prod-11781-mvqrn1is.jpg) [abrir](img/prod-11781-mvqrn1is.jpg) | Produto | 11781 | EMPADA CAMARAO |
 | ![foto](img/prod-11782-mvqrn1io.jpg) [abrir](img/prod-11782-mvqrn1io.jpg) | Produto | 11782 | EMPADA CARNE SECA |
 | ![foto](img/prod-11788-mvqrn1il.jpg) [abrir](img/prod-11788-mvqrn1il.jpg) | Produto | 11788 | PROMO EMPADA CAMARAO |
 | ![foto](img/prod-11789-mvqrn1ii.jpg) [abrir](img/prod-11789-mvqrn1ii.jpg) | Produto | 11789 | PROMO EMPADA CARNE SECA |
+| ![foto](img/prod-11790-mvqrvc7j.jpg) [abrir](img/prod-11790-mvqrvc7j.jpg) | Produto | 11790 | ADICIONAL MATE FRUTA |
+| ![foto](img/prod-11795-mvqrvc94.jpg) [abrir](img/prod-11795-mvqrvc94.jpg) | Produto | 11795 | PROM -  LOJISTA |
+| ![foto](img/prod-11804-mvqrvc3c.jpg) [abrir](img/prod-11804-mvqrvc3c.jpg) | Produto | 11804 | MONTE SEU ACAI 300ML |
+| ![foto](img/prod-11815-mvqrvc8i.jpg) [abrir](img/prod-11815-mvqrvc8i.jpg) | Produto | 11815 | P.MATE 500ML - MEGACOPAO |
+| ![foto](img/prod-11826-mvqrvc7z.jpg) [abrir](img/prod-11826-mvqrvc7z.jpg) | Produto | 11826 | OVOLMATINE MONTE SEU ACAI |
+| ![foto](img/prod-11827-mvqrvc7y.jpg) [abrir](img/prod-11827-mvqrvc7y.jpg) | Produto | 11827 | MORANGO MONTE SEU ACAI |
 | ![foto](img/prod-11830-mvqrn1ih.jpg) [abrir](img/prod-11830-mvqrn1ih.jpg) | Produto | 11830 | EMPADAO FRANGO (250G) |
+| ![foto](img/prod-11831-mvqrvc75.jpg) [abrir](img/prod-11831-mvqrvc75.jpg) | Produto | 11831 | PROMO TORTA INTEIRA |
+| ![foto](img/prod-11857-mvqrvc37.jpg) [abrir](img/prod-11857-mvqrvc37.jpg) | Produto | 11857 | CAPPUCCINO TRAD GELADO 500ML |
+| ![foto](img/prod-11858-mvqrvc3d.jpg) [abrir](img/prod-11858-mvqrvc3d.jpg) | Produto | 11858 | MONTE SEU ACAI 500ML |
+| ![foto](img/prod-11859-mvqrvc3b.jpg) [abrir](img/prod-11859-mvqrvc3b.jpg) | Produto | 11859 | FRAPPE OVOMALTINE 500ML |
 | ![foto](img/prod-11863-mvqrn1i9.jpg) [abrir](img/prod-11863-mvqrn1i9.jpg) | Produto | 11863 | CHEESEB. FORNO TRADICIONAL |
+| ![foto](img/prod-11873-mvqrvc40.jpg) [abrir](img/prod-11873-mvqrvc40.jpg) | Produto | 11873 | MONTE SEU ACAI 700ML |
+| ![foto](img/prod-11893-mvqrvc33.jpg) [abrir](img/prod-11893-mvqrvc33.jpg) | Produto | 11893 | PL-MEGAMATTE DAY MATE 300ML/500ML |
+| ![foto](img/prod-11901-mvqrvc98.jpg) [abrir](img/prod-11901-mvqrvc98.jpg) | Produto | 11901 | P.MP - 8 PQ/BRO + MATE OU GUA |
+| ![foto](img/prod-11908-mvqrvc9a.jpg) [abrir](img/prod-11908-mvqrvc9a.jpg) | Produto | 11908 | P.MP - SANDUICHE + MATE OU GUA |
+| ![foto](img/prod-11909-mvqrvc97.jpg) [abrir](img/prod-11909-mvqrvc97.jpg) | Produto | 11909 | P.MP - SALGADO + SUCO |
+| ![foto](img/prod-11910-mvqrvc99.jpg) [abrir](img/prod-11910-mvqrvc99.jpg) | Produto | 11910 | P.MP - 8 PQ/BRO + SUCO |
+| ![foto](img/prod-11911-mvqrvc96.jpg) [abrir](img/prod-11911-mvqrvc96.jpg) | Produto | 11911 | P.MP - SALGADO + MATE OU GUA |
+| ![foto](img/prod-11912-mvqrvc8w.jpg) [abrir](img/prod-11912-mvqrvc8w.jpg) | Produto | 11912 | P.LOJ - 8 PQ/BRO + MATE OU GUA |
+| ![foto](img/prod-11931-mvqrvc32.jpg) [abrir](img/prod-11931-mvqrvc32.jpg) | Produto | 11931 | P.MATE OU GUARANA 300ML GRATIS |
+| ![foto](img/prod-11941-mvqrvc8z.jpg) [abrir](img/prod-11941-mvqrvc8z.jpg) | Produto | 11941 | P.LOJ - SALGADO + CAFE 200ML |
+| ![foto](img/prod-11943-mvqrvc8o.jpg) [abrir](img/prod-11943-mvqrvc8o.jpg) | Produto | 11943 | P.LOJ - 12 PQ/BRO + CAFE 200ML |
+| ![foto](img/prod-11960-mvqrvc8v.jpg) [abrir](img/prod-11960-mvqrvc8v.jpg) | Produto | 11960 | P.LOJ - 6 PQ/BRO + SUCO |
+| ![foto](img/prod-11961-mvqrvc8x.jpg) [abrir](img/prod-11961-mvqrvc8x.jpg) | Produto | 11961 | P.LOJ - 8 PQ/BRO + SUCO |
+| ![foto](img/prod-11962-mvqrvc8p.jpg) [abrir](img/prod-11962-mvqrvc8p.jpg) | Produto | 11962 | P.LOJ - 12 PQ/BRO + MATE OU GUA |
+| ![foto](img/prod-11963-mvqrvc91.jpg) [abrir](img/prod-11963-mvqrvc91.jpg) | Produto | 11963 | P.LOJ - SALGADO + SUCO |
+| ![foto](img/prod-11965-mvqrvc8t.jpg) [abrir](img/prod-11965-mvqrvc8t.jpg) | Produto | 11965 | P.LOJ - 6 PQ/BRO + CAFE 50ML |
+| ![foto](img/prod-11966-mvqrvc90.jpg) [abrir](img/prod-11966-mvqrvc90.jpg) | Produto | 11966 | P.LOJ - SALGADO + MATE OU GUA |
+| ![foto](img/prod-11967-mvqrvc8u.jpg) [abrir](img/prod-11967-mvqrvc8u.jpg) | Produto | 11967 | P.LOJ - 6 PQ/BRO + MATE OU GUA |
+| ![foto](img/prod-11969-mvqrvc8q.jpg) [abrir](img/prod-11969-mvqrvc8q.jpg) | Produto | 11969 | P.LOJ - 12 PQ/BRO + SUCO |
+| ![foto](img/prod-11974-mvqrvc92.jpg) [abrir](img/prod-11974-mvqrvc92.jpg) | Produto | 11974 | P.LOJ - SANDUICHE + MATE OU GUA |
+| ![foto](img/prod-11979-mvqrvc93.jpg) [abrir](img/prod-11979-mvqrvc93.jpg) | Produto | 11979 | P.LOJ - SANDUICHE + SUCO |
+| ![foto](img/prod-11994-mvqrvc8r.jpg) [abrir](img/prod-11994-mvqrvc8r.jpg) | Produto | 11994 | P.LOJ - 6 PQ/BRO + CAFE 100ML |
+| ![foto](img/prod-11995-mvqrvc8s.jpg) [abrir](img/prod-11995-mvqrvc8s.jpg) | Produto | 11995 | P.LOJ - 6 PQ/BRO + CAFE 200ML |
+| ![foto](img/prod-11996-mvqrvc8m.jpg) [abrir](img/prod-11996-mvqrvc8m.jpg) | Produto | 11996 | P.LOJ - 1 COOKIE + CAFE 100ML |
+| ![foto](img/prod-11997-mvqrvc8n.jpg) [abrir](img/prod-11997-mvqrvc8n.jpg) | Produto | 11997 | P.LOJ - 1 COOKIE + CAFE 200ML |
+| ![foto](img/prod-12017-mvqrvc95.jpg) [abrir](img/prod-12017-mvqrvc95.jpg) | Produto | 12017 | P.MP - SANDUICHE + SUCO |
+| ![foto](img/prod-12020-mvqrvc80.jpg) [abrir](img/prod-12020-mvqrvc80.jpg) | Produto | 12020 | P.12 PQ GANHA 6 PQ |
+| ![foto](img/prod-12047-mvqrvc8y.jpg) [abrir](img/prod-12047-mvqrvc8y.jpg) | Produto | 12047 | P.LOJ - SALGADO |
+| ![foto](img/prod-12048-mvqrvc9b.jpg) [abrir](img/prod-12048-mvqrvc9b.jpg) | Produto | 12048 | FCD CAPP 200ML |
+| ![foto](img/prod-12058-mvqrvc9g.jpg) [abrir](img/prod-12058-mvqrvc9g.jpg) | Produto | 12058 | FCD CAPP TRAD 200ML |
+| ![foto](img/prod-12059-mvqrvc9h.jpg) [abrir](img/prod-12059-mvqrvc9h.jpg) | Produto | 12059 | FCD CHOCO 200ML |
+| ![foto](img/prod-12061-mvqrvc1f.jpg) [abrir](img/prod-12061-mvqrvc1f.jpg) | Produto | 12061 | PL-P.12 PQ |
 | ![foto](img/prod-12076-mvqrn1im.jpg) [abrir](img/prod-12076-mvqrn1im.jpg) | Produto | 12076 | QUICHE 4 QUEIJOS |
 | ![foto](img/prod-12077-mvqrn1i6.jpg) [abrir](img/prod-12077-mvqrn1i6.jpg) | Produto | 12077 | QUICHE INT ALHO PORO |
+| ![foto](img/prod-12080-mvqrvc6p.jpg) [abrir](img/prod-12080-mvqrvc6p.jpg) | Produto | 12080 | COOKIE DE BAUNILHA |
+| ![foto](img/prod-12093-mvqrvc84.jpg) [abrir](img/prod-12093-mvqrvc84.jpg) | Produto | 12093 | P.ACAI EM DOBRO 300ML |
+| ![foto](img/prod-12200-mvqrvc19.jpg) [abrir](img/prod-12200-mvqrvc19.jpg) | Produto | 12200 | P.18 PQ COPO MARCELO MENT |
+| ![foto](img/prod-12650-mvqrvc9i.jpg) [abrir](img/prod-12650-mvqrvc9i.jpg) | Produto | 12650 | FCD ESPRESSO 50ML |
+| ![foto](img/prod-12651-mvqrvc9d.jpg) [abrir](img/prod-12651-mvqrvc9d.jpg) | Produto | 12651 | FCD CAPP 200ML+TORTA/BOLO |
+| ![foto](img/prod-12652-mvqrvc9e.jpg) [abrir](img/prod-12652-mvqrvc9e.jpg) | Produto | 12652 | FCD CAPP GEL/FRAPPE |
+| ![foto](img/prod-12653-mvqrvc9f.jpg) [abrir](img/prod-12653-mvqrvc9f.jpg) | Produto | 12653 | FCD CAPP GEL/FRAPPE+6PQ |
+| ![foto](img/prod-12654-mvqrvc9c.jpg) [abrir](img/prod-12654-mvqrvc9c.jpg) | Produto | 12654 | FCD CAPP 200ML+1COOKIE |
+| ![foto](img/prod-12655-mvqrvc9j.jpg) [abrir](img/prod-12655-mvqrvc9j.jpg) | Produto | 12655 | FCD SAND. MEGAMISTO |
+| ![foto](img/prod-12661-mvqrvc9k.jpg) [abrir](img/prod-12661-mvqrvc9k.jpg) | Produto | 12661 | FCDC ACAI 300ML+GRANOLA |
+| ![foto](img/prod-12662-mvqrvc9q.jpg) [abrir](img/prod-12662-mvqrvc9q.jpg) | Produto | 12662 | FCDC SALGADO |
+| ![foto](img/prod-12663-mvqrvc9o.jpg) [abrir](img/prod-12663-mvqrvc9o.jpg) | Produto | 12663 | FCDC P.8 PQ/BRO |
+| ![foto](img/prod-12664-mvqrvc9p.jpg) [abrir](img/prod-12664-mvqrvc9p.jpg) | Produto | 12664 | FCDC P.8 PQ/BRO+MATE300ML |
+| ![foto](img/prod-12665-mvqrvc9l.jpg) [abrir](img/prod-12665-mvqrvc9l.jpg) | Produto | 12665 | FCDC MEGASHAKE300ML+6PQ/BRO |
+| ![foto](img/prod-12666-mvqrvc9r.jpg) [abrir](img/prod-12666-mvqrvc9r.jpg) | Produto | 12666 | FCDC SALGADO+MATE300ML |
+| ![foto](img/prod-12667-mvqrvc9m.jpg) [abrir](img/prod-12667-mvqrvc9m.jpg) | Produto | 12667 | FCDC P.12 PQ/BRO+MATE300ML |
+| ![foto](img/prod-12668-mvqrvc9n.jpg) [abrir](img/prod-12668-mvqrvc9n.jpg) | Produto | 12668 | FCDC P.3 COOKIES |
+| ![foto](img/prod-15013-mvqrvc82.jpg) [abrir](img/prod-15013-mvqrvc82.jpg) | Produto | 15013 | P.ACAI 500ML |
+| ![foto](img/prod-15014-mvqrvc8j.jpg) [abrir](img/prod-15014-mvqrvc8j.jpg) | Produto | 15014 | PROM - SALGADO + CAPPUCCINO |
+| ![foto](img/prod-15015-mvqrvc8k.jpg) [abrir](img/prod-15015-mvqrvc8k.jpg) | Produto | 15015 | PROM - SALGADO + MATE |
+| ![foto](img/prod-15050-mvqrvc74.jpg) [abrir](img/prod-15050-mvqrvc74.jpg) | Produto | 15050 | PR.ESPRESSO DUPLO 100ML |
+| ![foto](img/prod-15503-mvqrvc71.jpg) [abrir](img/prod-15503-mvqrvc71.jpg) | Produto | 15503 | PL-LINGUA DE GATO |
+| ![foto](img/prod-15504-mvqrvc73.jpg) [abrir](img/prod-15504-mvqrvc73.jpg) | Produto | 15504 | PL-TRUFA |
+| ![foto](img/prod-15505-mvqrvc6y.jpg) [abrir](img/prod-15505-mvqrvc6y.jpg) | Produto | 15505 | PL-BARRA 75% |
+| ![foto](img/prod-15506-mvqrvc6z.jpg) [abrir](img/prod-15506-mvqrvc6z.jpg) | Produto | 15506 | PL-BARRA DIET |
+| ![foto](img/prod-15507-mvqrvc70.jpg) [abrir](img/prod-15507-mvqrvc70.jpg) | Produto | 15507 | PL-DEMAIS BARRAS |
+| ![foto](img/prod-15508-mvqrvc72.jpg) [abrir](img/prod-15508-mvqrvc72.jpg) | Produto | 15508 | PL-PAO DE MEL |
+| ![foto](img/prod-15639-mvqrvc1a.jpg) [abrir](img/prod-15639-mvqrvc1a.jpg) | Produto | 15639 | P.4 P.QUEIJO CEUB |
 
 ## Ordem na tela
 
@@ -693,3 +1001,4 @@ Atualizado em 27/10/2026, 11:12:49. Gerado automaticamente pelo Organizador do P
 - 27/10/2026, 11:13:34 — Lucas colocou as fotos de 28 produtos de SALGADOS
 - 27/10/2026, 11:11:30 — Trocou a foto do produto P.BATATA REQUEIJAO
 - 27/10/2026, 11:12:48 — Mudou a ordem das categorias na tela
+- 27/10/2026, 11:19:59 — Lucas colocou fotos no padrão (nome do produto) em 308 produtos que estavam sem imagem

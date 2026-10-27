@@ -562,179 +562,223 @@
  "products": {
   "1": {
    "code": "1",
-   "name": "MATE 300ML"
+   "name": "MATE 300ML",
+   "img": "api/image?f=prod-1-mvqrvc1j.jpg"
   },
   "5": {
    "code": "5",
-   "name": "MATE C/LEITE 300ML"
+   "name": "MATE C/LEITE 300ML",
+   "img": "api/image?f=prod-5-mvqrvc1m.jpg"
   },
   "7": {
    "code": "7",
-   "name": "MATE C/PROTEINATO 300ML"
+   "name": "MATE C/PROTEINATO 300ML",
+   "img": "api/image?f=prod-7-mvqrvc1p.jpg"
   },
   "16": {
    "code": "16",
-   "name": "MATE FRUTA ACEROLA 300ML"
+   "name": "MATE FRUTA ACEROLA 300ML",
+   "img": "api/image?f=prod-16-mvqrvc21.jpg"
   },
   "17": {
    "code": "17",
-   "name": "MATE FRUTA ACAI 300ML"
+   "name": "MATE FRUTA ACAI 300ML",
+   "img": "api/image?f=prod-17-mvqrvc1y.jpg"
   },
   "18": {
    "code": "18",
-   "name": "MATE FRUTA ABACAXI 300ML"
+   "name": "MATE FRUTA ABACAXI 300ML",
+   "img": "api/image?f=prod-18-mvqrvc1v.jpg"
   },
   "24": {
    "code": "24",
-   "name": "MATE FRUTA CAJU 300ML"
+   "name": "MATE FRUTA CAJU 300ML",
+   "img": "api/image?f=prod-24-mvqrvc24.jpg"
   },
   "26": {
    "code": "26",
-   "name": "MATE FRUTA COCO 300ML"
+   "name": "MATE FRUTA COCO 300ML",
+   "img": "api/image?f=prod-26-mvqrvc27.jpg"
   },
   "30": {
    "code": "30",
-   "name": "MATE FRUTA MANGA 300ML"
+   "name": "MATE FRUTA MANGA 300ML",
+   "img": "api/image?f=prod-30-mvqrvc2d.jpg"
   },
   "31": {
    "code": "31",
-   "name": "MATE FRUTA MAMAO 300ML"
+   "name": "MATE FRUTA MAMAO 300ML",
+   "img": "api/image?f=prod-31-mvqrvc2a.jpg"
   },
   "32": {
    "code": "32",
-   "name": "MATE FRUTA MARACUJA 300ML"
+   "name": "MATE FRUTA MARACUJA 300ML",
+   "img": "api/image?f=prod-32-mvqrvc2g.jpg"
   },
   "33": {
    "code": "33",
-   "name": "MATE FRUTA MORANGO 300ML"
+   "name": "MATE FRUTA MORANGO 300ML",
+   "img": "api/image?f=prod-33-mvqrvc2j.jpg"
   },
   "34": {
    "code": "34",
-   "name": "MATE FRUTA PESSEGO 300ML"
+   "name": "MATE FRUTA PESSEGO 300ML",
+   "img": "api/image?f=prod-34-mvqrvc2m.jpg"
   },
   "38": {
    "code": "38",
-   "name": "MATE FRUTA UVA 300ML"
+   "name": "MATE FRUTA UVA 300ML",
+   "img": "api/image?f=prod-38-mvqrvc2r.jpg"
   },
   "76": {
    "code": "76",
-   "name": "MATE 500ML"
+   "name": "MATE 500ML",
+   "img": "api/image?f=prod-76-mvqrvc1k.jpg"
   },
   "80": {
    "code": "80",
-   "name": "MATE C/LEITE 500ML"
+   "name": "MATE C/LEITE 500ML",
+   "img": "api/image?f=prod-80-mvqrvc1n.jpg"
   },
   "82": {
    "code": "82",
-   "name": "MATE C/PROTEINATO 500ML"
+   "name": "MATE C/PROTEINATO 500ML",
+   "img": "api/image?f=prod-82-mvqrvc1q.jpg"
   },
   "91": {
    "code": "91",
-   "name": "MATE FRUTA ACEROLA 500ML"
+   "name": "MATE FRUTA ACEROLA 500ML",
+   "img": "api/image?f=prod-91-mvqrvc22.jpg"
   },
   "92": {
    "code": "92",
-   "name": "MATE FRUTA ACAI 500ML"
+   "name": "MATE FRUTA ACAI 500ML",
+   "img": "api/image?f=prod-92-mvqrvc1z.jpg"
   },
   "93": {
    "code": "93",
-   "name": "MATE FRUTA ABACAXI 500ML"
+   "name": "MATE FRUTA ABACAXI 500ML",
+   "img": "api/image?f=prod-93-mvqrvc1w.jpg"
   },
   "99": {
    "code": "99",
-   "name": "MATE FRUTA CAJU 500ML"
+   "name": "MATE FRUTA CAJU 500ML",
+   "img": "api/image?f=prod-99-mvqrvc25.jpg"
   },
   "101": {
    "code": "101",
-   "name": "MATE FRUTA COCO 500ML"
+   "name": "MATE FRUTA COCO 500ML",
+   "img": "api/image?f=prod-101-mvqrvc28.jpg"
   },
   "105": {
    "code": "105",
-   "name": "MATE FRUTA MANGA 500ML"
+   "name": "MATE FRUTA MANGA 500ML",
+   "img": "api/image?f=prod-105-mvqrvc2e.jpg"
   },
   "106": {
    "code": "106",
-   "name": "MATE FRUTA MAMAO 500ML"
+   "name": "MATE FRUTA MAMAO 500ML",
+   "img": "api/image?f=prod-106-mvqrvc2b.jpg"
   },
   "107": {
    "code": "107",
-   "name": "MATE FRUTA MARACUJA 500ML"
+   "name": "MATE FRUTA MARACUJA 500ML",
+   "img": "api/image?f=prod-107-mvqrvc2h.jpg"
   },
   "108": {
    "code": "108",
-   "name": "MATE FRUTA MORANGO 500ML"
+   "name": "MATE FRUTA MORANGO 500ML",
+   "img": "api/image?f=prod-108-mvqrvc2k.jpg"
   },
   "113": {
    "code": "113",
-   "name": "MATE FRUTA UVA 500ML"
+   "name": "MATE FRUTA UVA 500ML",
+   "img": "api/image?f=prod-113-mvqrvc2s.jpg"
   },
   "226": {
    "code": "226",
-   "name": "MATE 1L"
+   "name": "MATE 1L",
+   "img": "api/image?f=prod-226-mvqrvc1h.jpg"
   },
   "301": {
    "code": "301",
-   "name": "GUARANA 300ML"
+   "name": "GUARANA 300ML",
+   "img": "api/image?f=prod-301-mvqrvc46.jpg"
   },
   "305": {
    "code": "305",
-   "name": "MEGASHAKE ACAI 300ML"
+   "name": "MEGASHAKE ACAI 300ML",
+   "img": "api/image?f=prod-305-mvqrvc4f.jpg"
   },
   "323": {
    "code": "323",
-   "name": "MEGASHAKE MORANGO 300ML"
+   "name": "MEGASHAKE MORANGO 300ML",
+   "img": "api/image?f=prod-323-mvqrvc4l.jpg"
   },
   "326": {
    "code": "326",
-   "name": "GUARAPROTEIN 300ML"
+   "name": "GUARAPROTEIN 300ML",
+   "img": "api/image?f=prod-326-mvqrvc49.jpg"
   },
   "334": {
    "code": "334",
-   "name": "MEGASHAKE BANANA 300ML"
+   "name": "MEGASHAKE BANANA 300ML",
+   "img": "api/image?f=prod-334-mvqrvc4i.jpg"
   },
   "341": {
    "code": "341",
-   "name": "GUARANA 500ML"
+   "name": "GUARANA 500ML",
+   "img": "api/image?f=prod-341-mvqrvc47.jpg"
   },
   "345": {
    "code": "345",
-   "name": "MEGASHAKE ACAI 500ML"
+   "name": "MEGASHAKE ACAI 500ML",
+   "img": "api/image?f=prod-345-mvqrvc4g.jpg"
   },
   "363": {
    "code": "363",
-   "name": "MEGASHAKE MORANGO 500ML"
+   "name": "MEGASHAKE MORANGO 500ML",
+   "img": "api/image?f=prod-363-mvqrvc4m.jpg"
   },
   "366": {
    "code": "366",
-   "name": "GUARAPROTEIN 500ML"
+   "name": "GUARAPROTEIN 500ML",
+   "img": "api/image?f=prod-366-mvqrvc4a.jpg"
   },
   "374": {
    "code": "374",
-   "name": "MEGASHAKE BANANA 500ML"
+   "name": "MEGASHAKE BANANA 500ML",
+   "img": "api/image?f=prod-374-mvqrvc4j.jpg"
   },
   "446": {
    "code": "446",
-   "name": "ACAI 300ML"
+   "name": "ACAI 300ML",
+   "img": "api/image?f=prod-446-mvqrvc3e.jpg"
   },
   "447": {
    "code": "447",
-   "name": "ACAI C/MORANGO 300ML"
+   "name": "ACAI C/MORANGO 300ML",
+   "img": "api/image?f=prod-447-mvqrvc3k.jpg"
   },
   "448": {
    "code": "448",
-   "name": "ACAI C/BANANA 300ML"
+   "name": "ACAI C/BANANA 300ML",
+   "img": "api/image?f=prod-448-mvqrvc3h.jpg"
   },
   "458": {
    "code": "458",
-   "name": "ACAI 500ML"
+   "name": "ACAI 500ML",
+   "img": "api/image?f=prod-458-mvqrvc3f.jpg"
   },
   "459": {
    "code": "459",
-   "name": "ACAI C/BANANA 500ML"
+   "name": "ACAI C/BANANA 500ML",
+   "img": "api/image?f=prod-459-mvqrvc3i.jpg"
   },
   "460": {
    "code": "460",
-   "name": "ACAI C/MORANGO 500ML"
+   "name": "ACAI C/MORANGO 500ML",
+   "img": "api/image?f=prod-460-mvqrvc3l.jpg"
   },
   "462": {
    "code": "462",
@@ -758,23 +802,28 @@
   },
   "485": {
    "code": "485",
-   "name": "TORTA CHEESECAKE"
+   "name": "TORTA CHEESECAKE",
+   "img": "api/image?f=prod-485-mvqrvc79.jpg"
   },
   "489": {
    "code": "489",
-   "name": "BROWNIE"
+   "name": "BROWNIE",
+   "img": "api/image?f=prod-489-mvqrvc6k.jpg"
   },
   "490": {
    "code": "490",
-   "name": "DOCES"
+   "name": "DOCES",
+   "img": "api/image?f=prod-490-mvqrvc6r.jpg"
   },
   "491": {
    "code": "491",
-   "name": "PAO DE QUEIJO UNID"
+   "name": "PAO DE QUEIJO UNID",
+   "img": "api/image?f=prod-491-mvqrvc1e.jpg"
   },
   "494": {
    "code": "494",
-   "name": "MOUSSE"
+   "name": "MOUSSE",
+   "img": "api/image?f=prod-494-mvqrvc6s.jpg"
   },
   "501": {
    "code": "501",
@@ -838,143 +887,178 @@
   },
   "548": {
    "code": "548",
-   "name": "BROINHA DE MILHO UNID"
+   "name": "BROINHA DE MILHO UNID",
+   "img": "api/image?f=prod-548-mvqrvc6j.jpg"
   },
   "603": {
    "code": "603",
-   "name": "PORCAO DE CHANTILLY"
+   "name": "PORCAO DE CHANTILLY",
+   "img": "api/image?f=prod-603-mvqrvc7m.jpg"
   },
   "605": {
    "code": "605",
-   "name": "PORCAO DE GRANOLA"
+   "name": "PORCAO DE GRANOLA",
+   "img": "api/image?f=prod-605-mvqrvc7o.jpg"
   },
   "607": {
    "code": "607",
-   "name": "PORCAO DE AMENDOIM"
+   "name": "PORCAO DE AMENDOIM",
+   "img": "api/image?f=prod-607-mvqrvc7k.jpg"
   },
   "610": {
    "code": "610",
-   "name": "PORCAO DE LEITE PO"
+   "name": "PORCAO DE LEITE PO",
+   "img": "api/image?f=prod-610-mvqrvc7q.jpg"
   },
   "613": {
    "code": "613",
-   "name": "PORCAO DE PROTEINATO"
+   "name": "PORCAO DE PROTEINATO",
+   "img": "api/image?f=prod-613-mvqrvc7t.jpg"
   },
   "616": {
    "code": "616",
-   "name": "S.ABACAXI 300ML"
+   "name": "S.ABACAXI 300ML",
+   "img": "api/image?f=prod-616-mvqrvc4x.jpg"
   },
   "622": {
    "code": "622",
-   "name": "S.CAJU 300ML"
+   "name": "S.CAJU 300ML",
+   "img": "api/image?f=prod-622-mvqrvc56.jpg"
   },
   "630": {
    "code": "630",
-   "name": "S.LARANJA 300ML"
+   "name": "S.LARANJA 300ML",
+   "img": "api/image?f=prod-630-mvqrvc59.jpg"
   },
   "631": {
    "code": "631",
-   "name": "S.LIMONADA SUICA 300ML"
+   "name": "S.LIMONADA SUICA 300ML",
+   "img": "api/image?f=prod-631-mvqrvc5c.jpg"
   },
   "633": {
    "code": "633",
-   "name": "S.MAMAO 300ML"
+   "name": "S.MAMAO 300ML",
+   "img": "api/image?f=prod-633-mvqrvc5f.jpg"
   },
   "634": {
    "code": "634",
-   "name": "S.MANGA 300ML"
+   "name": "S.MANGA 300ML",
+   "img": "api/image?f=prod-634-mvqrvc5i.jpg"
   },
   "636": {
    "code": "636",
-   "name": "S.MARACUJA 300ML"
+   "name": "S.MARACUJA 300ML",
+   "img": "api/image?f=prod-636-mvqrvc5l.jpg"
   },
   "639": {
    "code": "639",
-   "name": "S.MORANGO 300ML"
+   "name": "S.MORANGO 300ML",
+   "img": "api/image?f=prod-639-mvqrvc5r.jpg"
   },
   "640": {
    "code": "640",
-   "name": "S.PESSEGO 300ML"
+   "name": "S.PESSEGO 300ML",
+   "img": "api/image?f=prod-640-mvqrvc5u.jpg"
   },
   "644": {
    "code": "644",
-   "name": "S.UVA 300ML"
+   "name": "S.UVA 300ML",
+   "img": "api/image?f=prod-644-mvqrvc5x.jpg"
   },
   "850": {
    "code": "850",
-   "name": "S.ABACAXI 500ML"
+   "name": "S.ABACAXI 500ML",
+   "img": "api/image?f=prod-850-mvqrvc4y.jpg"
   },
   "851": {
    "code": "851",
-   "name": "S.LARANJA 500ML"
+   "name": "S.LARANJA 500ML",
+   "img": "api/image?f=prod-851-mvqrvc5a.jpg"
   },
   "852": {
    "code": "852",
-   "name": "S.LIMONADA SUICA 500ML"
+   "name": "S.LIMONADA SUICA 500ML",
+   "img": "api/image?f=prod-852-mvqrvc5d.jpg"
   },
   "853": {
    "code": "853",
-   "name": "S.MAMAO 500ML"
+   "name": "S.MAMAO 500ML",
+   "img": "api/image?f=prod-853-mvqrvc5g.jpg"
   },
   "855": {
    "code": "855",
-   "name": "S.ABACAXI C/HORTELA 500ML"
+   "name": "S.ABACAXI C/HORTELA 500ML",
+   "img": "api/image?f=prod-855-mvqrvc51.jpg"
   },
   "856": {
    "code": "856",
-   "name": "S.ACEROLA 500ML"
+   "name": "S.ACEROLA 500ML",
+   "img": "api/image?f=prod-856-mvqrvc54.jpg"
   },
   "857": {
    "code": "857",
-   "name": "S.ACEROLA 300ML"
+   "name": "S.ACEROLA 300ML",
+   "img": "api/image?f=prod-857-mvqrvc53.jpg"
   },
   "862": {
    "code": "862",
-   "name": "S.MANGA 500ML"
+   "name": "S.MANGA 500ML",
+   "img": "api/image?f=prod-862-mvqrvc5j.jpg"
   },
   "863": {
    "code": "863",
-   "name": "S.MARACUJA 500ML"
+   "name": "S.MARACUJA 500ML",
+   "img": "api/image?f=prod-863-mvqrvc5m.jpg"
   },
   "868": {
    "code": "868",
-   "name": "S.PESSEGO 500ML"
+   "name": "S.PESSEGO 500ML",
+   "img": "api/image?f=prod-868-mvqrvc5v.jpg"
   },
   "870": {
    "code": "870",
-   "name": "S.UVA 500ML"
+   "name": "S.UVA 500ML",
+   "img": "api/image?f=prod-870-mvqrvc5y.jpg"
   },
   "874": {
    "code": "874",
-   "name": "S.CAJU 500ML"
+   "name": "S.CAJU 500ML",
+   "img": "api/image?f=prod-874-mvqrvc57.jpg"
   },
   "885": {
    "code": "885",
-   "name": "S.MORANGO 500ML"
+   "name": "S.MORANGO 500ML",
+   "img": "api/image?f=prod-885-mvqrvc5s.jpg"
   },
   "886": {
    "code": "886",
-   "name": "VIT.MORANGO AO LEITE 300ML"
+   "name": "VIT.MORANGO AO LEITE 300ML",
+   "img": "api/image?f=prod-886-mvqrvc4u.jpg"
   },
   "887": {
    "code": "887",
-   "name": "VIT.MORANGO AO LEITE 500ML"
+   "name": "VIT.MORANGO AO LEITE 500ML",
+   "img": "api/image?f=prod-887-mvqrvc4v.jpg"
   },
   "1800": {
    "code": "1800",
-   "name": "AGUA DE COCO 300ML"
+   "name": "AGUA DE COCO 300ML",
+   "img": "api/image?f=prod-1800-mvqrvc63.jpg"
   },
   "1801": {
    "code": "1801",
-   "name": "AGUA DE COCO 500ML"
+   "name": "AGUA DE COCO 500ML",
+   "img": "api/image?f=prod-1801-mvqrvc64.jpg"
   },
   "1806": {
    "code": "1806",
-   "name": "CHOCOLATE GELADO 300ML"
+   "name": "CHOCOLATE GELADO 300ML",
+   "img": "api/image?f=prod-1806-mvqrvc38.jpg"
   },
   "1938": {
    "code": "1938",
-   "name": "P.MATE 300 ML"
+   "name": "P.MATE 300 ML",
+   "img": "api/image?f=prod-1938-mvqrvc8g.jpg"
   },
   "2002": {
    "code": "2002",
@@ -983,39 +1067,48 @@
   },
   "2027": {
    "code": "2027",
-   "name": "AGUA MINERAL S/GAS 510ML"
+   "name": "AGUA MINERAL S/GAS 510ML",
+   "img": "api/image?f=prod-2027-mvqrvc61.jpg"
   },
   "2029": {
    "code": "2029",
-   "name": "BOLO SIMPLES FATIA"
+   "name": "BOLO SIMPLES FATIA",
+   "img": "api/image?f=prod-2029-mvqrvc6h.jpg"
   },
   "2072": {
    "code": "2072",
-   "name": "PORCAO DE FRUTA"
+   "name": "PORCAO DE FRUTA",
+   "img": "api/image?f=prod-2072-mvqrvc7n.jpg"
   },
   "2073": {
    "code": "2073",
-   "name": "SALADA DE FRUTAS PEQUENA"
+   "name": "SALADA DE FRUTAS PEQUENA",
+   "img": "api/image?f=prod-2073-mvqrvc77.jpg"
   },
   "2102": {
    "code": "2102",
-   "name": "VIT.BANANA C/AVEIA 300ML"
+   "name": "VIT.BANANA C/AVEIA 300ML",
+   "img": "api/image?f=prod-2102-mvqrvc4o.jpg"
   },
   "2103": {
    "code": "2103",
-   "name": "VIT.BANANA C/AVEIA 500ML"
+   "name": "VIT.BANANA C/AVEIA 500ML",
+   "img": "api/image?f=prod-2103-mvqrvc4p.jpg"
   },
   "2106": {
    "code": "2106",
-   "name": "VIT.MISTA 300ML"
+   "name": "VIT.MISTA 300ML",
+   "img": "api/image?f=prod-2106-mvqrvc4r.jpg"
   },
   "2107": {
    "code": "2107",
-   "name": "VIT.MISTA 500ML"
+   "name": "VIT.MISTA 500ML",
+   "img": "api/image?f=prod-2107-mvqrvc4s.jpg"
   },
   "2112": {
    "code": "2112",
-   "name": "SALADA DE FRUTAS MEDIA/GRANDE"
+   "name": "SALADA DE FRUTAS MEDIA/GRANDE",
+   "img": "api/image?f=prod-2112-mvqrvc76.jpg"
   },
   "2118": {
    "code": "2118",
@@ -1029,11 +1122,13 @@
   },
   "2127": {
    "code": "2127",
-   "name": "CG - PAO DE QUEIJO 1KG"
+   "name": "CG - PAO DE QUEIJO 1KG",
+   "img": "api/image?f=prod-2127-mvqrvc7d.jpg"
   },
   "2131": {
    "code": "2131",
-   "name": "P.ESPRESSO"
+   "name": "P.ESPRESSO",
+   "img": "api/image?f=prod-2131-mvqrvc88.jpg"
   },
   "2506": {
    "code": "2506",
@@ -1042,263 +1137,328 @@
   },
   "2551": {
    "code": "2551",
-   "name": "SAND. MEGAMISTO"
+   "name": "SAND. MEGAMISTO",
+   "img": "api/image?f=prod-2551-mvqrvc68.jpg"
   },
   "2562": {
    "code": "2562",
-   "name": "P.12 P.QUEIJO"
+   "name": "P.12 P.QUEIJO",
+   "img": "api/image?f=prod-2562-mvqrvc18.jpg"
   },
   "2627": {
    "code": "2627",
-   "name": "S.MEGA ENERGIA TROPICAL 300ML"
+   "name": "S.MEGA ENERGIA TROPICAL 300ML",
+   "img": "api/image?f=prod-2627-mvqrvc5o.jpg"
   },
   "2628": {
    "code": "2628",
-   "name": "S.MEGA ENERGIA TROPICAL 500ML"
+   "name": "S.MEGA ENERGIA TROPICAL 500ML",
+   "img": "api/image?f=prod-2628-mvqrvc5p.jpg"
   },
   "2686": {
    "code": "2686",
-   "name": "P.ACAI 700ML"
+   "name": "P.ACAI 700ML",
+   "img": "api/image?f=prod-2686-mvqrvc83.jpg"
   },
   "2688": {
    "code": "2688",
-   "name": "P.6 BROINHAS"
+   "name": "P.6 BROINHAS",
+   "img": "api/image?f=prod-2688-mvqrvc6v.jpg"
   },
   "2701": {
    "code": "2701",
-   "name": "P.12 BROINHAS"
+   "name": "P.12 BROINHAS",
+   "img": "api/image?f=prod-2701-mvqrvc6t.jpg"
   },
   "9854": {
    "code": "9854",
-   "name": "S.ABACAXI C/HORTELA 300ML"
+   "name": "S.ABACAXI C/HORTELA 300ML",
+   "img": "api/image?f=prod-9854-mvqrvc50.jpg"
   },
   "10164": {
    "code": "10164",
-   "name": "AGUA MINERAL C/GAS 510ML"
+   "name": "AGUA MINERAL C/GAS 510ML",
+   "img": "api/image?f=prod-10164-mvqrvc62.jpg"
   },
   "10231": {
    "code": "10231",
-   "name": "TORTA ESPECIAL FATIA"
+   "name": "TORTA ESPECIAL FATIA",
+   "img": "api/image?f=prod-10231-mvqrvc7a.jpg"
   },
   "10233": {
    "code": "10233",
-   "name": "SAND. MEGALEVE"
+   "name": "SAND. MEGALEVE",
+   "img": "api/image?f=prod-10233-mvqrvc67.jpg"
   },
   "10261": {
    "code": "10261",
-   "name": "CG - BROINHA 1KG"
+   "name": "CG - BROINHA 1KG",
+   "img": "api/image?f=prod-10261-mvqrvc7c.jpg"
   },
   "10298": {
    "code": "10298",
-   "name": "TORTA ESPECIAL INTEIRA"
+   "name": "TORTA ESPECIAL INTEIRA",
+   "img": "api/image?f=prod-10298-mvqrvc7b.jpg"
   },
   "10361": {
    "code": "10361",
-   "name": "PAO FRANCES NA CHAPA"
+   "name": "PAO FRANCES NA CHAPA",
+   "img": "api/image?f=prod-10361-mvqrvc66.jpg"
   },
   "10362": {
    "code": "10362",
-   "name": "SAND. GOURMET CIABATTA CARNE ASSADA"
+   "name": "SAND. GOURMET CIABATTA CARNE ASSADA",
+   "img": "api/image?f=prod-10362-mvqrvc69.jpg"
   },
   "10372": {
    "code": "10372",
-   "name": "MEGA ACAI 300ML"
+   "name": "MEGA ACAI 300ML",
+   "img": "api/image?f=prod-10372-mvqrvc3x.jpg"
   },
   "10373": {
    "code": "10373",
-   "name": "MEGA ACAI 500ML"
+   "name": "MEGA ACAI 500ML",
+   "img": "api/image?f=prod-10373-mvqrvc3y.jpg"
   },
   "10416": {
    "code": "10416",
-   "name": "P.GRANOLA"
+   "name": "P.GRANOLA",
+   "img": "api/image?f=prod-10416-mvqrvc8e.jpg"
   },
   "10561": {
    "code": "10561",
-   "name": "ACAI 700ML"
+   "name": "ACAI 700ML",
+   "img": "api/image?f=prod-10561-mvqrvc3g.jpg"
   },
   "10562": {
    "code": "10562",
-   "name": "MATE 700ML"
+   "name": "MATE 700ML",
+   "img": "api/image?f=prod-10562-mvqrvc1l.jpg"
   },
   "10564": {
    "code": "10564",
-   "name": "GUARANA 700ML"
+   "name": "GUARANA 700ML",
+   "img": "api/image?f=prod-10564-mvqrvc48.jpg"
   },
   "10566": {
    "code": "10566",
-   "name": "S.LARANJA 700ML"
+   "name": "S.LARANJA 700ML",
+   "img": "api/image?f=prod-10566-mvqrvc5b.jpg"
   },
   "10567": {
    "code": "10567",
-   "name": "S.LIMONADA SUICA 700ML"
+   "name": "S.LIMONADA SUICA 700ML",
+   "img": "api/image?f=prod-10567-mvqrvc5e.jpg"
   },
   "10568": {
    "code": "10568",
-   "name": "S.ABACAXI 700ML"
+   "name": "S.ABACAXI 700ML",
+   "img": "api/image?f=prod-10568-mvqrvc4z.jpg"
   },
   "10569": {
    "code": "10569",
-   "name": "S.ABACAXI C/HORTELA 700ML"
+   "name": "S.ABACAXI C/HORTELA 700ML",
+   "img": "api/image?f=prod-10569-mvqrvc52.jpg"
   },
   "10570": {
    "code": "10570",
-   "name": "S.MANGA 700ML"
+   "name": "S.MANGA 700ML",
+   "img": "api/image?f=prod-10570-mvqrvc5k.jpg"
   },
   "10571": {
    "code": "10571",
-   "name": "S.MAMAO 700ML"
+   "name": "S.MAMAO 700ML",
+   "img": "api/image?f=prod-10571-mvqrvc5h.jpg"
   },
   "10572": {
    "code": "10572",
-   "name": "S.MORANGO 700ML"
+   "name": "S.MORANGO 700ML",
+   "img": "api/image?f=prod-10572-mvqrvc5t.jpg"
   },
   "10573": {
    "code": "10573",
-   "name": "S.MARACUJA 700ML"
+   "name": "S.MARACUJA 700ML",
+   "img": "api/image?f=prod-10573-mvqrvc5n.jpg"
   },
   "10574": {
    "code": "10574",
-   "name": "S.ACEROLA 700ML"
+   "name": "S.ACEROLA 700ML",
+   "img": "api/image?f=prod-10574-mvqrvc55.jpg"
   },
   "10575": {
    "code": "10575",
-   "name": "MEGASHAKE MORANGO 700ML"
+   "name": "MEGASHAKE MORANGO 700ML",
+   "img": "api/image?f=prod-10575-mvqrvc4n.jpg"
   },
   "10576": {
    "code": "10576",
-   "name": "MEGASHAKE BANANA 700ML"
+   "name": "MEGASHAKE BANANA 700ML",
+   "img": "api/image?f=prod-10576-mvqrvc4k.jpg"
   },
   "10578": {
    "code": "10578",
-   "name": "S.MEGA ENERGIA TROPICAL 700ML"
+   "name": "S.MEGA ENERGIA TROPICAL 700ML",
+   "img": "api/image?f=prod-10578-mvqrvc5q.jpg"
   },
   "10582": {
    "code": "10582",
-   "name": "MEGA ACAI 700ML"
+   "name": "MEGA ACAI 700ML",
+   "img": "api/image?f=prod-10582-mvqrvc3z.jpg"
   },
   "10597": {
    "code": "10597",
-   "name": "AGUA DE COCO 700ML"
+   "name": "AGUA DE COCO 700ML",
+   "img": "api/image?f=prod-10597-mvqrvc65.jpg"
   },
   "10605": {
    "code": "10605",
-   "name": "MATE C/LEITE 700ML"
+   "name": "MATE C/LEITE 700ML",
+   "img": "api/image?f=prod-10605-mvqrvc1o.jpg"
   },
   "10609": {
    "code": "10609",
-   "name": "MATE C/PROTEINATO 700ML"
+   "name": "MATE C/PROTEINATO 700ML",
+   "img": "api/image?f=prod-10609-mvqrvc1r.jpg"
   },
   "10615": {
    "code": "10615",
-   "name": "MATE FRUTA ABACAXI 700ML"
+   "name": "MATE FRUTA ABACAXI 700ML",
+   "img": "api/image?f=prod-10615-mvqrvc1x.jpg"
   },
   "10616": {
    "code": "10616",
-   "name": "MATE FRUTA MORANGO 700ML"
+   "name": "MATE FRUTA MORANGO 700ML",
+   "img": "api/image?f=prod-10616-mvqrvc2l.jpg"
   },
   "10617": {
    "code": "10617",
-   "name": "MATE FRUTA ACAI 700ML"
+   "name": "MATE FRUTA ACAI 700ML",
+   "img": "api/image?f=prod-10617-mvqrvc20.jpg"
   },
   "10618": {
    "code": "10618",
-   "name": "MATE FRUTA ACEROLA 700ML"
+   "name": "MATE FRUTA ACEROLA 700ML",
+   "img": "api/image?f=prod-10618-mvqrvc23.jpg"
   },
   "10620": {
    "code": "10620",
-   "name": "MATE FRUTA CAJU 700ML"
+   "name": "MATE FRUTA CAJU 700ML",
+   "img": "api/image?f=prod-10620-mvqrvc26.jpg"
   },
   "10621": {
    "code": "10621",
-   "name": "MATE FRUTA COCO 700ML"
+   "name": "MATE FRUTA COCO 700ML",
+   "img": "api/image?f=prod-10621-mvqrvc29.jpg"
   },
   "10625": {
    "code": "10625",
-   "name": "MATE FRUTA MAMAO 700ML"
+   "name": "MATE FRUTA MAMAO 700ML",
+   "img": "api/image?f=prod-10625-mvqrvc2c.jpg"
   },
   "10626": {
    "code": "10626",
-   "name": "MATE FRUTA MANGA 700ML"
+   "name": "MATE FRUTA MANGA 700ML",
+   "img": "api/image?f=prod-10626-mvqrvc2f.jpg"
   },
   "10627": {
    "code": "10627",
-   "name": "MATE FRUTA MARACUJA 700ML"
+   "name": "MATE FRUTA MARACUJA 700ML",
+   "img": "api/image?f=prod-10627-mvqrvc2i.jpg"
   },
   "10628": {
    "code": "10628",
-   "name": "MATE FRUTA PESSEGO 700ML"
+   "name": "MATE FRUTA PESSEGO 700ML",
+   "img": "api/image?f=prod-10628-mvqrvc2n.jpg"
   },
   "10629": {
    "code": "10629",
-   "name": "MATE FRUTA UVA 700ML"
+   "name": "MATE FRUTA UVA 700ML",
+   "img": "api/image?f=prod-10629-mvqrvc2t.jpg"
   },
   "10662": {
    "code": "10662",
-   "name": "GUARAPROTEIN 700ML"
+   "name": "GUARAPROTEIN 700ML",
+   "img": "api/image?f=prod-10662-mvqrvc4b.jpg"
   },
   "10665": {
    "code": "10665",
-   "name": "MEGASHAKE ACAI 700ML"
+   "name": "MEGASHAKE ACAI 700ML",
+   "img": "api/image?f=prod-10665-mvqrvc4h.jpg"
   },
   "10667": {
    "code": "10667",
-   "name": "ACAI C/MORANGO 700ML"
+   "name": "ACAI C/MORANGO 700ML",
+   "img": "api/image?f=prod-10667-mvqrvc3m.jpg"
   },
   "10668": {
    "code": "10668",
-   "name": "ACAI C/BANANA 700ML"
+   "name": "ACAI C/BANANA 700ML",
+   "img": "api/image?f=prod-10668-mvqrvc3j.jpg"
   },
   "10671": {
    "code": "10671",
-   "name": "S.CAJU 700ML"
+   "name": "S.CAJU 700ML",
+   "img": "api/image?f=prod-10671-mvqrvc58.jpg"
   },
   "10676": {
    "code": "10676",
-   "name": "S.PESSEGO 700ML"
+   "name": "S.PESSEGO 700ML",
+   "img": "api/image?f=prod-10676-mvqrvc5w.jpg"
   },
   "10678": {
    "code": "10678",
-   "name": "S.UVA 700ML"
+   "name": "S.UVA 700ML",
+   "img": "api/image?f=prod-10678-mvqrvc5z.jpg"
   },
   "10685": {
    "code": "10685",
-   "name": "VIT.BANANA C/AVEIA 700ML"
+   "name": "VIT.BANANA C/AVEIA 700ML",
+   "img": "api/image?f=prod-10685-mvqrvc4q.jpg"
   },
   "10686": {
    "code": "10686",
-   "name": "VIT.MISTA 700ML"
+   "name": "VIT.MISTA 700ML",
+   "img": "api/image?f=prod-10686-mvqrvc4t.jpg"
   },
   "10687": {
    "code": "10687",
-   "name": "VIT.MORANGO AO LEITE 700ML"
+   "name": "VIT.MORANGO AO LEITE 700ML",
+   "img": "api/image?f=prod-10687-mvqrvc4w.jpg"
   },
   "10708": {
    "code": "10708",
-   "name": "KIT CAFE 1"
+   "name": "KIT CAFE 1",
+   "img": "api/image?f=prod-10708-mvqrvc7v.jpg"
   },
   "10709": {
    "code": "10709",
-   "name": "KIT CAFE 2"
+   "name": "KIT CAFE 2",
+   "img": "api/image?f=prod-10709-mvqrvc7w.jpg"
   },
   "10710": {
    "code": "10710",
-   "name": "KIT CAFE 3"
+   "name": "KIT CAFE 3",
+   "img": "api/image?f=prod-10710-mvqrvc7x.jpg"
   },
   "10763": {
    "code": "10763",
-   "name": "PORCAO DE PACOCA"
+   "name": "PORCAO DE PACOCA",
+   "img": "api/image?f=prod-10763-mvqrvc7s.jpg"
   },
   "10820": {
    "code": "10820",
-   "name": "BRIGADEIRO"
+   "name": "BRIGADEIRO",
+   "img": "api/image?f=prod-10820-mvqrvc6i.jpg"
   },
   "10922": {
    "code": "10922",
-   "name": "PALHA ITALIANA"
+   "name": "PALHA ITALIANA",
+   "img": "api/image?f=prod-10922-mvqrvc6x.jpg"
   },
   "10998": {
    "code": "10998",
-   "name": "P.6 P.QUEIJO"
+   "name": "P.6 P.QUEIJO",
+   "img": "api/image?f=prod-10998-mvqrvc1b.jpg"
   },
   "11009": {
    "code": "11009",
@@ -1312,35 +1472,43 @@
   },
   "11011": {
    "code": "11011",
-   "name": "AGUA DE COCO 200ML"
+   "name": "AGUA DE COCO 200ML",
+   "img": "api/image?f=prod-11011-mvqrvc60.jpg"
   },
   "11037": {
    "code": "11037",
-   "name": "GUARA FRUTA 300ML"
+   "name": "GUARA FRUTA 300ML",
+   "img": "api/image?f=prod-11037-mvqrvc41.jpg"
   },
   "11038": {
    "code": "11038",
-   "name": "GUARA FRUTA 500ML"
+   "name": "GUARA FRUTA 500ML",
+   "img": "api/image?f=prod-11038-mvqrvc42.jpg"
   },
   "11039": {
    "code": "11039",
-   "name": "GUARA FRUTA 700ML"
+   "name": "GUARA FRUTA 700ML",
+   "img": "api/image?f=prod-11039-mvqrvc43.jpg"
   },
   "11040": {
    "code": "11040",
-   "name": "MATE FRUTA 300ML"
+   "name": "MATE FRUTA 300ML",
+   "img": "api/image?f=prod-11040-mvqrvc1s.jpg"
   },
   "11041": {
    "code": "11041",
-   "name": "MATE FRUTA 500ML"
+   "name": "MATE FRUTA 500ML",
+   "img": "api/image?f=prod-11041-mvqrvc1t.jpg"
   },
   "11042": {
    "code": "11042",
-   "name": "MATE FRUTA 700ML"
+   "name": "MATE FRUTA 700ML",
+   "img": "api/image?f=prod-11042-mvqrvc1u.jpg"
   },
   "11050": {
    "code": "11050",
-   "name": "PORCAO DE GUARANÁ EM PÓ"
+   "name": "PORCAO DE GUARANÁ EM PÓ",
+   "img": "api/image?f=prod-11050-mvqrvc7p.jpg"
   },
   "11056": {
    "code": "11056",
@@ -1359,19 +1527,23 @@
   },
   "11086": {
    "code": "11086",
-   "name": "ERVA MATE CX 250G"
+   "name": "ERVA MATE CX 250G",
+   "img": "api/image?f=prod-11086-mvqrvc1g.jpg"
   },
   "11109": {
    "code": "11109",
-   "name": "COOKIE DE CHOCOLATE"
+   "name": "COOKIE DE CHOCOLATE",
+   "img": "api/image?f=prod-11109-mvqrvc6q.jpg"
   },
   "11110": {
    "code": "11110",
-   "name": "P.3 COOKIES DE CHOCOLATE"
+   "name": "P.3 COOKIES DE CHOCOLATE",
+   "img": "api/image?f=prod-11110-mvqrvc6u.jpg"
   },
   "11113": {
    "code": "11113",
-   "name": "SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE"
+   "name": "SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE",
+   "img": "api/image?f=prod-11113-mvqrvc6a.jpg"
   },
   "11114": {
    "code": "11114",
@@ -1388,107 +1560,133 @@
   },
   "11144": {
    "code": "11144",
-   "name": "PORCAO DE MEL"
+   "name": "PORCAO DE MEL",
+   "img": "api/image?f=prod-11144-mvqrvc7r.jpg"
   },
   "11179": {
    "code": "11179",
-   "name": "SAND. NAT. ATUM COM REQUEIJÃO"
+   "name": "SAND. NAT. ATUM COM REQUEIJÃO",
+   "img": "api/image?f=prod-11179-mvqrvc6b.jpg"
   },
   "11180": {
    "code": "11180",
-   "name": "SAND. NAT. FRANGO COM CENOURA"
+   "name": "SAND. NAT. FRANGO COM CENOURA",
+   "img": "api/image?f=prod-11180-mvqrvc6c.jpg"
   },
   "11181": {
    "code": "11181",
-   "name": "SAND. NAT. PEITO DE PERU"
+   "name": "SAND. NAT. PEITO DE PERU",
+   "img": "api/image?f=prod-11181-mvqrvc6d.jpg"
   },
   "11182": {
    "code": "11182",
-   "name": "SAND. NAT. SALPICAO DE FRANGO"
+   "name": "SAND. NAT. SALPICAO DE FRANGO",
+   "img": "api/image?f=prod-11182-mvqrvc6e.jpg"
   },
   "11201": {
    "code": "11201",
-   "name": "GVITAMINA 300 ML"
+   "name": "GVITAMINA 300 ML",
+   "img": "api/image?f=prod-11201-mvqrvc4c.jpg"
   },
   "11202": {
    "code": "11202",
-   "name": "GVITAMINA 500 ML"
+   "name": "GVITAMINA 500 ML",
+   "img": "api/image?f=prod-11202-mvqrvc4d.jpg"
   },
   "11203": {
    "code": "11203",
-   "name": "GVITAMINA 700 ML"
+   "name": "GVITAMINA 700 ML",
+   "img": "api/image?f=prod-11203-mvqrvc4e.jpg"
   },
   "11209": {
    "code": "11209",
-   "name": "ACAI NATURAL 300ML"
+   "name": "ACAI NATURAL 300ML",
+   "img": "api/image?f=prod-11209-mvqrvc3q.jpg"
   },
   "11210": {
    "code": "11210",
-   "name": "ACAI NATURAL 500ML"
+   "name": "ACAI NATURAL 500ML",
+   "img": "api/image?f=prod-11210-mvqrvc3r.jpg"
   },
   "11211": {
    "code": "11211",
-   "name": "ACAI NATURAL 700ML"
+   "name": "ACAI NATURAL 700ML",
+   "img": "api/image?f=prod-11211-mvqrvc3s.jpg"
   },
   "11215": {
    "code": "11215",
-   "name": "ACAI FIT 300ML"
+   "name": "ACAI FIT 300ML",
+   "img": "api/image?f=prod-11215-mvqrvc3n.jpg"
   },
   "11216": {
    "code": "11216",
-   "name": "ACAI FIT 500ML"
+   "name": "ACAI FIT 500ML",
+   "img": "api/image?f=prod-11216-mvqrvc3o.jpg"
   },
   "11217": {
    "code": "11217",
-   "name": "ACAI FIT 700ML"
+   "name": "ACAI FIT 700ML",
+   "img": "api/image?f=prod-11217-mvqrvc3p.jpg"
   },
   "11229": {
    "code": "11229",
-   "name": "GUARANA 1L"
+   "name": "GUARANA 1L",
+   "img": "api/image?f=prod-11229-mvqrvc44.jpg"
   },
   "11255": {
    "code": "11255",
-   "name": "P.8 P.QUEIJO"
+   "name": "P.8 P.QUEIJO",
+   "img": "api/image?f=prod-11255-mvqrvc1c.jpg"
   },
   "11294": {
    "code": "11294",
-   "name": "PROMO COOKIE DE CHOCOLATE UNID"
+   "name": "PROMO COOKIE DE CHOCOLATE UNID",
+   "img": "api/image?f=prod-11294-mvqrvc8l.jpg"
   },
   "11309": {
    "code": "11309",
-   "name": "CAPPUCCINO COM NUTELLA GELADO 300ML"
+   "name": "CAPPUCCINO COM NUTELLA GELADO 300ML",
+   "img": "api/image?f=prod-11309-mvqrvc34.jpg"
   },
   "11310": {
    "code": "11310",
-   "name": "CAPPUCCINO COM NUTELLA GELADO 500ML"
+   "name": "CAPPUCCINO COM NUTELLA GELADO 500ML",
+   "img": "api/image?f=prod-11310-mvqrvc35.jpg"
   },
   "11338": {
    "code": "11338",
-   "name": "MATE 1L REFIL"
+   "name": "MATE 1L REFIL",
+   "img": "api/image?f=prod-11338-mvqrvc1i.jpg"
   },
   "11339": {
    "code": "11339",
-   "name": "GUARANA 1L REFIL"
+   "name": "GUARANA 1L REFIL",
+   "img": "api/image?f=prod-11339-mvqrvc45.jpg"
   },
   "11361": {
    "code": "11361",
-   "name": "CG - CROISSANT"
+   "name": "CG - CROISSANT",
+   "img": "api/image?f=prod-11361-mvqrvc7e.jpg"
   },
   "11362": {
    "code": "11362",
-   "name": "CG - FOLHADO"
+   "name": "CG - FOLHADO",
+   "img": "api/image?f=prod-11362-mvqrvc7f.jpg"
   },
   "11363": {
    "code": "11363",
-   "name": "CG - FOLHADO INT"
+   "name": "CG - FOLHADO INT",
+   "img": "api/image?f=prod-11363-mvqrvc7g.jpg"
   },
   "11368": {
    "code": "11368",
-   "name": "CG - PAO DE BATATA"
+   "name": "CG - PAO DE BATATA",
+   "img": "api/image?f=prod-11368-mvqrvc7h.jpg"
   },
   "11369": {
    "code": "11369",
-   "name": "CG - PASTEL"
+   "name": "CG - PASTEL",
+   "img": "api/image?f=prod-11369-mvqrvc7i.jpg"
   },
   "11417": {
    "code": "11417",
@@ -1512,7 +1710,8 @@
   },
   "11428": {
    "code": "11428",
-   "name": "TORTA BANANA C/ GRANOLA FATIA"
+   "name": "TORTA BANANA C/ GRANOLA FATIA",
+   "img": "api/image?f=prod-11428-mvqrvc78.jpg"
   },
   "11443": {
    "code": "11443",
@@ -1536,103 +1735,128 @@
   },
   "11448": {
    "code": "11448",
-   "name": "CAPPUCCINO TRAD GELADO 300ML"
+   "name": "CAPPUCCINO TRAD GELADO 300ML",
+   "img": "api/image?f=prod-11448-mvqrvc36.jpg"
   },
   "11449": {
    "code": "11449",
-   "name": "FRAPPE OVOMALTINE 300ML"
+   "name": "FRAPPE OVOMALTINE 300ML",
+   "img": "api/image?f=prod-11449-mvqrvc3a.jpg"
   },
   "11451": {
    "code": "11451",
-   "name": "MATE OVOMALTINE 300ML"
+   "name": "MATE OVOMALTINE 300ML",
+   "img": "api/image?f=prod-11451-mvqrvc2u.jpg"
   },
   "11452": {
    "code": "11452",
-   "name": "MATE OVOMALTINE 500ML"
+   "name": "MATE OVOMALTINE 500ML",
+   "img": "api/image?f=prod-11452-mvqrvc2v.jpg"
   },
   "11453": {
    "code": "11453",
-   "name": "MATE OVOMALTINE 700ML"
+   "name": "MATE OVOMALTINE 700ML",
+   "img": "api/image?f=prod-11453-mvqrvc2w.jpg"
   },
   "11457": {
    "code": "11457",
-   "name": "PORCAO OVOMALTINE FLOCOS"
+   "name": "PORCAO OVOMALTINE FLOCOS",
+   "img": "api/image?f=prod-11457-mvqrvc7u.jpg"
   },
   "11570": {
    "code": "11570",
-   "name": "AMENDOIM MONTE SEU ACAI"
+   "name": "AMENDOIM MONTE SEU ACAI",
+   "img": "api/image?f=prod-11570-mvqrvc3w.jpg"
   },
   "11575": {
    "code": "11575",
-   "name": "P.GIRO P.6 + 3 PQ GRATIS COM MATE 300ML"
+   "name": "P.GIRO P.6 + 3 PQ GRATIS COM MATE 300ML",
+   "img": "api/image?f=prod-11575-mvqrvc8d.jpg"
   },
   "11578": {
    "code": "11578",
-   "name": "MATE SOLU 300ML"
+   "name": "MATE SOLU 300ML",
+   "img": "api/image?f=prod-11578-mvqrvc2y.jpg"
   },
   "11579": {
    "code": "11579",
-   "name": "MATE SOLU 500ML"
+   "name": "MATE SOLU 500ML",
+   "img": "api/image?f=prod-11579-mvqrvc2z.jpg"
   },
   "11580": {
    "code": "11580",
-   "name": "MATE SOLU 700ML"
+   "name": "MATE SOLU 700ML",
+   "img": "api/image?f=prod-11580-mvqrvc30.jpg"
   },
   "11581": {
    "code": "11581",
-   "name": "MATE SOLU 1L"
+   "name": "MATE SOLU 1L",
+   "img": "api/image?f=prod-11581-mvqrvc2x.jpg"
   },
   "11591": {
    "code": "11591",
-   "name": "MATE FRUTA SOLU 300ML"
+   "name": "MATE FRUTA SOLU 300ML",
+   "img": "api/image?f=prod-11591-mvqrvc2o.jpg"
   },
   "11592": {
    "code": "11592",
-   "name": "MATE FRUTA SOLU 500ML"
+   "name": "MATE FRUTA SOLU 500ML",
+   "img": "api/image?f=prod-11592-mvqrvc2p.jpg"
   },
   "11593": {
    "code": "11593",
-   "name": "MATE FRUTA SOLU 700ML"
+   "name": "MATE FRUTA SOLU 700ML",
+   "img": "api/image?f=prod-11593-mvqrvc2q.jpg"
   },
   "11595": {
    "code": "11595",
-   "name": "CHOCOLATE GELADO 500ML"
+   "name": "CHOCOLATE GELADO 500ML",
+   "img": "api/image?f=prod-11595-mvqrvc39.jpg"
   },
   "11603": {
    "code": "11603",
-   "name": "ACAI OVOMALTINE 300ML"
+   "name": "ACAI OVOMALTINE 300ML",
+   "img": "api/image?f=prod-11603-mvqrvc3t.jpg"
   },
   "11604": {
    "code": "11604",
-   "name": "ACAI OVOMALTINE 500ML"
+   "name": "ACAI OVOMALTINE 500ML",
+   "img": "api/image?f=prod-11604-mvqrvc3u.jpg"
   },
   "11605": {
    "code": "11605",
-   "name": "ACAI OVOMALTINE 700ML"
+   "name": "ACAI OVOMALTINE 700ML",
+   "img": "api/image?f=prod-11605-mvqrvc3v.jpg"
   },
   "11622": {
    "code": "11622",
-   "name": "PORCAO DE AVEIA"
+   "name": "PORCAO DE AVEIA",
+   "img": "api/image?f=prod-11622-mvqrvc7l.jpg"
   },
   "11650": {
    "code": "11650",
-   "name": "P.MATE 300ML"
+   "name": "P.MATE 300ML",
+   "img": "api/image?f=prod-11650-mvqrvc31.jpg"
   },
   "11651": {
    "code": "11651",
-   "name": "P.GUARANA 300ML"
+   "name": "P.GUARANA 300ML",
+   "img": "api/image?f=prod-11651-mvqrvc8f.jpg"
   },
   "11657": {
    "code": "11657",
-   "name": "P.COOKIE DE CHOCOLATE"
+   "name": "P.COOKIE DE CHOCOLATE",
+   "img": "api/image?f=prod-11657-mvqrvc87.jpg"
   },
   "11659": {
    "code": "11659",
-   "name": "P.BOLO DE BANANA INT"
+   "name": "P.BOLO DE BANANA INT",
+   "img": "api/image?f=prod-11659-mvqrvc86.jpg"
   },
   "11661": {
    "code": "11661",
-   "name": "P.AGUA MINERAL"
+   "name": "P.AGUA MINERAL",
+   "img": "api/image?f=prod-11661-mvqrvc85.jpg"
   },
   "11664": {
    "code": "11664",
@@ -1686,59 +1910,73 @@
   },
   "11689": {
    "code": "11689",
-   "name": "BOLO DE BANANA INT MEGAMATTE"
+   "name": "BOLO DE BANANA INT MEGAMATTE",
+   "img": "api/image?f=prod-11689-mvqrvc6f.jpg"
   },
   "11690": {
    "code": "11690",
-   "name": "BROWNIE CHOCOLATE"
+   "name": "BROWNIE CHOCOLATE",
+   "img": "api/image?f=prod-11690-mvqrvc6l.jpg"
   },
   "11691": {
    "code": "11691",
-   "name": "BROWNIE DOCE DE LEITE"
+   "name": "BROWNIE DOCE DE LEITE",
+   "img": "api/image?f=prod-11691-mvqrvc6n.jpg"
   },
   "11692": {
    "code": "11692",
-   "name": "BROWNIE NINHO"
+   "name": "BROWNIE NINHO",
+   "img": "api/image?f=prod-11692-mvqrvc6o.jpg"
   },
   "11693": {
    "code": "11693",
-   "name": "BROWNIE CREME DE AVELA"
+   "name": "BROWNIE CREME DE AVELA",
+   "img": "api/image?f=prod-11693-mvqrvc6m.jpg"
   },
   "11703": {
    "code": "11703",
-   "name": "P.ACAI 300ML"
+   "name": "P.ACAI 300ML",
+   "img": "api/image?f=prod-11703-mvqrvc81.jpg"
   },
   "11710": {
    "code": "11710",
-   "name": "P.GIRO CAPP. 100ML + 6 PQ"
+   "name": "P.GIRO CAPP. 100ML + 6 PQ",
+   "img": "api/image?f=prod-11710-mvqrvc89.jpg"
   },
   "11711": {
    "code": "11711",
-   "name": "P.GIRO MEGASHAKE ACAI 300ML"
+   "name": "P.GIRO MEGASHAKE ACAI 300ML",
+   "img": "api/image?f=prod-11711-mvqrvc8a.jpg"
   },
   "11712": {
    "code": "11712",
-   "name": "P.GIRO MEGASHAKE BANANA 300ML"
+   "name": "P.GIRO MEGASHAKE BANANA 300ML",
+   "img": "api/image?f=prod-11712-mvqrvc8b.jpg"
   },
   "11713": {
    "code": "11713",
-   "name": "P.GIRO MEGASHAKE MORANGO 300ML"
+   "name": "P.GIRO MEGASHAKE MORANGO 300ML",
+   "img": "api/image?f=prod-11713-mvqrvc8c.jpg"
   },
   "11754": {
    "code": "11754",
-   "name": "P.MATE 300ML - MEGACOPAO"
+   "name": "P.MATE 300ML - MEGACOPAO",
+   "img": "api/image?f=prod-11754-mvqrvc8h.jpg"
   },
   "11755": {
    "code": "11755",
-   "name": "PAO DE QUEIJO GRANDE"
+   "name": "PAO DE QUEIJO GRANDE",
+   "img": "api/image?f=prod-11755-mvqrvc1d.jpg"
   },
   "11762": {
    "code": "11762",
-   "name": "P.8 BROINHAS"
+   "name": "P.8 BROINHAS",
+   "img": "api/image?f=prod-11762-mvqrvc6w.jpg"
   },
   "11768": {
    "code": "11768",
-   "name": "BOLO DE CENOURA MEGAMATTE"
+   "name": "BOLO DE CENOURA MEGAMATTE",
+   "img": "api/image?f=prod-11768-mvqrvc6g.jpg"
   },
   "11781": {
    "code": "11781",
@@ -1762,27 +2000,33 @@
   },
   "11790": {
    "code": "11790",
-   "name": "ADICIONAL MATE FRUTA"
+   "name": "ADICIONAL MATE FRUTA",
+   "img": "api/image?f=prod-11790-mvqrvc7j.jpg"
   },
   "11795": {
    "code": "11795",
-   "name": "PROM -  LOJISTA"
+   "name": "PROM -  LOJISTA",
+   "img": "api/image?f=prod-11795-mvqrvc94.jpg"
   },
   "11804": {
    "code": "11804",
-   "name": "MONTE SEU ACAI 300ML"
+   "name": "MONTE SEU ACAI 300ML",
+   "img": "api/image?f=prod-11804-mvqrvc3c.jpg"
   },
   "11815": {
    "code": "11815",
-   "name": "P.MATE 500ML - MEGACOPAO"
+   "name": "P.MATE 500ML - MEGACOPAO",
+   "img": "api/image?f=prod-11815-mvqrvc8i.jpg"
   },
   "11826": {
    "code": "11826",
-   "name": "OVOLMATINE MONTE SEU ACAI"
+   "name": "OVOLMATINE MONTE SEU ACAI",
+   "img": "api/image?f=prod-11826-mvqrvc7z.jpg"
   },
   "11827": {
    "code": "11827",
-   "name": "MORANGO MONTE SEU ACAI"
+   "name": "MORANGO MONTE SEU ACAI",
+   "img": "api/image?f=prod-11827-mvqrvc7y.jpg"
   },
   "11830": {
    "code": "11830",
@@ -1791,19 +2035,23 @@
   },
   "11831": {
    "code": "11831",
-   "name": "PROMO TORTA INTEIRA"
+   "name": "PROMO TORTA INTEIRA",
+   "img": "api/image?f=prod-11831-mvqrvc75.jpg"
   },
   "11857": {
    "code": "11857",
-   "name": "CAPPUCCINO TRAD GELADO 500ML"
+   "name": "CAPPUCCINO TRAD GELADO 500ML",
+   "img": "api/image?f=prod-11857-mvqrvc37.jpg"
   },
   "11858": {
    "code": "11858",
-   "name": "MONTE SEU ACAI 500ML"
+   "name": "MONTE SEU ACAI 500ML",
+   "img": "api/image?f=prod-11858-mvqrvc3d.jpg"
   },
   "11859": {
    "code": "11859",
-   "name": "FRAPPE OVOMALTINE 500ML"
+   "name": "FRAPPE OVOMALTINE 500ML",
+   "img": "api/image?f=prod-11859-mvqrvc3b.jpg"
   },
   "11863": {
    "code": "11863",
@@ -1812,131 +2060,163 @@
   },
   "11873": {
    "code": "11873",
-   "name": "MONTE SEU ACAI 700ML"
+   "name": "MONTE SEU ACAI 700ML",
+   "img": "api/image?f=prod-11873-mvqrvc40.jpg"
   },
   "11893": {
    "code": "11893",
-   "name": "PL-MEGAMATTE DAY MATE 300ML/500ML"
+   "name": "PL-MEGAMATTE DAY MATE 300ML/500ML",
+   "img": "api/image?f=prod-11893-mvqrvc33.jpg"
   },
   "11901": {
    "code": "11901",
-   "name": "P.MP - 8 PQ/BRO + MATE OU GUA"
+   "name": "P.MP - 8 PQ/BRO + MATE OU GUA",
+   "img": "api/image?f=prod-11901-mvqrvc98.jpg"
   },
   "11908": {
    "code": "11908",
-   "name": "P.MP - SANDUICHE + MATE OU GUA"
+   "name": "P.MP - SANDUICHE + MATE OU GUA",
+   "img": "api/image?f=prod-11908-mvqrvc9a.jpg"
   },
   "11909": {
    "code": "11909",
-   "name": "P.MP - SALGADO + SUCO"
+   "name": "P.MP - SALGADO + SUCO",
+   "img": "api/image?f=prod-11909-mvqrvc97.jpg"
   },
   "11910": {
    "code": "11910",
-   "name": "P.MP - 8 PQ/BRO + SUCO"
+   "name": "P.MP - 8 PQ/BRO + SUCO",
+   "img": "api/image?f=prod-11910-mvqrvc99.jpg"
   },
   "11911": {
    "code": "11911",
-   "name": "P.MP - SALGADO + MATE OU GUA"
+   "name": "P.MP - SALGADO + MATE OU GUA",
+   "img": "api/image?f=prod-11911-mvqrvc96.jpg"
   },
   "11912": {
    "code": "11912",
-   "name": "P.LOJ - 8 PQ/BRO + MATE OU GUA"
+   "name": "P.LOJ - 8 PQ/BRO + MATE OU GUA",
+   "img": "api/image?f=prod-11912-mvqrvc8w.jpg"
   },
   "11931": {
    "code": "11931",
-   "name": "P.MATE OU GUARANA 300ML GRATIS"
+   "name": "P.MATE OU GUARANA 300ML GRATIS",
+   "img": "api/image?f=prod-11931-mvqrvc32.jpg"
   },
   "11941": {
    "code": "11941",
-   "name": "P.LOJ - SALGADO + CAFE 200ML"
+   "name": "P.LOJ - SALGADO + CAFE 200ML",
+   "img": "api/image?f=prod-11941-mvqrvc8z.jpg"
   },
   "11943": {
    "code": "11943",
-   "name": "P.LOJ - 12 PQ/BRO + CAFE 200ML"
+   "name": "P.LOJ - 12 PQ/BRO + CAFE 200ML",
+   "img": "api/image?f=prod-11943-mvqrvc8o.jpg"
   },
   "11960": {
    "code": "11960",
-   "name": "P.LOJ - 6 PQ/BRO + SUCO"
+   "name": "P.LOJ - 6 PQ/BRO + SUCO",
+   "img": "api/image?f=prod-11960-mvqrvc8v.jpg"
   },
   "11961": {
    "code": "11961",
-   "name": "P.LOJ - 8 PQ/BRO + SUCO"
+   "name": "P.LOJ - 8 PQ/BRO + SUCO",
+   "img": "api/image?f=prod-11961-mvqrvc8x.jpg"
   },
   "11962": {
    "code": "11962",
-   "name": "P.LOJ - 12 PQ/BRO + MATE OU GUA"
+   "name": "P.LOJ - 12 PQ/BRO + MATE OU GUA",
+   "img": "api/image?f=prod-11962-mvqrvc8p.jpg"
   },
   "11963": {
    "code": "11963",
-   "name": "P.LOJ - SALGADO + SUCO"
+   "name": "P.LOJ - SALGADO + SUCO",
+   "img": "api/image?f=prod-11963-mvqrvc91.jpg"
   },
   "11965": {
    "code": "11965",
-   "name": "P.LOJ - 6 PQ/BRO + CAFE 50ML"
+   "name": "P.LOJ - 6 PQ/BRO + CAFE 50ML",
+   "img": "api/image?f=prod-11965-mvqrvc8t.jpg"
   },
   "11966": {
    "code": "11966",
-   "name": "P.LOJ - SALGADO + MATE OU GUA"
+   "name": "P.LOJ - SALGADO + MATE OU GUA",
+   "img": "api/image?f=prod-11966-mvqrvc90.jpg"
   },
   "11967": {
    "code": "11967",
-   "name": "P.LOJ - 6 PQ/BRO + MATE OU GUA"
+   "name": "P.LOJ - 6 PQ/BRO + MATE OU GUA",
+   "img": "api/image?f=prod-11967-mvqrvc8u.jpg"
   },
   "11969": {
    "code": "11969",
-   "name": "P.LOJ - 12 PQ/BRO + SUCO"
+   "name": "P.LOJ - 12 PQ/BRO + SUCO",
+   "img": "api/image?f=prod-11969-mvqrvc8q.jpg"
   },
   "11974": {
    "code": "11974",
-   "name": "P.LOJ - SANDUICHE + MATE OU GUA"
+   "name": "P.LOJ - SANDUICHE + MATE OU GUA",
+   "img": "api/image?f=prod-11974-mvqrvc92.jpg"
   },
   "11979": {
    "code": "11979",
-   "name": "P.LOJ - SANDUICHE + SUCO"
+   "name": "P.LOJ - SANDUICHE + SUCO",
+   "img": "api/image?f=prod-11979-mvqrvc93.jpg"
   },
   "11994": {
    "code": "11994",
-   "name": "P.LOJ - 6 PQ/BRO + CAFE 100ML"
+   "name": "P.LOJ - 6 PQ/BRO + CAFE 100ML",
+   "img": "api/image?f=prod-11994-mvqrvc8r.jpg"
   },
   "11995": {
    "code": "11995",
-   "name": "P.LOJ - 6 PQ/BRO + CAFE 200ML"
+   "name": "P.LOJ - 6 PQ/BRO + CAFE 200ML",
+   "img": "api/image?f=prod-11995-mvqrvc8s.jpg"
   },
   "11996": {
    "code": "11996",
-   "name": "P.LOJ - 1 COOKIE + CAFE 100ML"
+   "name": "P.LOJ - 1 COOKIE + CAFE 100ML",
+   "img": "api/image?f=prod-11996-mvqrvc8m.jpg"
   },
   "11997": {
    "code": "11997",
-   "name": "P.LOJ - 1 COOKIE + CAFE 200ML"
+   "name": "P.LOJ - 1 COOKIE + CAFE 200ML",
+   "img": "api/image?f=prod-11997-mvqrvc8n.jpg"
   },
   "12017": {
    "code": "12017",
-   "name": "P.MP - SANDUICHE + SUCO"
+   "name": "P.MP - SANDUICHE + SUCO",
+   "img": "api/image?f=prod-12017-mvqrvc95.jpg"
   },
   "12020": {
    "code": "12020",
-   "name": "P.12 PQ GANHA 6 PQ"
+   "name": "P.12 PQ GANHA 6 PQ",
+   "img": "api/image?f=prod-12020-mvqrvc80.jpg"
   },
   "12047": {
    "code": "12047",
-   "name": "P.LOJ - SALGADO"
+   "name": "P.LOJ - SALGADO",
+   "img": "api/image?f=prod-12047-mvqrvc8y.jpg"
   },
   "12048": {
    "code": "12048",
-   "name": "FCD CAPP 200ML"
+   "name": "FCD CAPP 200ML",
+   "img": "api/image?f=prod-12048-mvqrvc9b.jpg"
   },
   "12058": {
    "code": "12058",
-   "name": "FCD CAPP TRAD 200ML"
+   "name": "FCD CAPP TRAD 200ML",
+   "img": "api/image?f=prod-12058-mvqrvc9g.jpg"
   },
   "12059": {
    "code": "12059",
-   "name": "FCD CHOCO 200ML"
+   "name": "FCD CHOCO 200ML",
+   "img": "api/image?f=prod-12059-mvqrvc9h.jpg"
   },
   "12061": {
    "code": "12061",
-   "name": "PL-P.12 PQ"
+   "name": "PL-P.12 PQ",
+   "img": "api/image?f=prod-12061-mvqrvc1f.jpg"
   },
   "12076": {
    "code": "12076",
@@ -1950,115 +2230,143 @@
   },
   "12080": {
    "code": "12080",
-   "name": "COOKIE DE BAUNILHA"
+   "name": "COOKIE DE BAUNILHA",
+   "img": "api/image?f=prod-12080-mvqrvc6p.jpg"
   },
   "12093": {
    "code": "12093",
-   "name": "P.ACAI EM DOBRO 300ML"
+   "name": "P.ACAI EM DOBRO 300ML",
+   "img": "api/image?f=prod-12093-mvqrvc84.jpg"
   },
   "12200": {
    "code": "12200",
-   "name": "P.18 PQ COPO MARCELO MENT"
+   "name": "P.18 PQ COPO MARCELO MENT",
+   "img": "api/image?f=prod-12200-mvqrvc19.jpg"
   },
   "12650": {
    "code": "12650",
-   "name": "FCD ESPRESSO 50ML"
+   "name": "FCD ESPRESSO 50ML",
+   "img": "api/image?f=prod-12650-mvqrvc9i.jpg"
   },
   "12651": {
    "code": "12651",
-   "name": "FCD CAPP 200ML+TORTA/BOLO"
+   "name": "FCD CAPP 200ML+TORTA/BOLO",
+   "img": "api/image?f=prod-12651-mvqrvc9d.jpg"
   },
   "12652": {
    "code": "12652",
-   "name": "FCD CAPP GEL/FRAPPE"
+   "name": "FCD CAPP GEL/FRAPPE",
+   "img": "api/image?f=prod-12652-mvqrvc9e.jpg"
   },
   "12653": {
    "code": "12653",
-   "name": "FCD CAPP GEL/FRAPPE+6PQ"
+   "name": "FCD CAPP GEL/FRAPPE+6PQ",
+   "img": "api/image?f=prod-12653-mvqrvc9f.jpg"
   },
   "12654": {
    "code": "12654",
-   "name": "FCD CAPP 200ML+1COOKIE"
+   "name": "FCD CAPP 200ML+1COOKIE",
+   "img": "api/image?f=prod-12654-mvqrvc9c.jpg"
   },
   "12655": {
    "code": "12655",
-   "name": "FCD SAND. MEGAMISTO"
+   "name": "FCD SAND. MEGAMISTO",
+   "img": "api/image?f=prod-12655-mvqrvc9j.jpg"
   },
   "12661": {
    "code": "12661",
-   "name": "FCDC ACAI 300ML+GRANOLA"
+   "name": "FCDC ACAI 300ML+GRANOLA",
+   "img": "api/image?f=prod-12661-mvqrvc9k.jpg"
   },
   "12662": {
    "code": "12662",
-   "name": "FCDC SALGADO"
+   "name": "FCDC SALGADO",
+   "img": "api/image?f=prod-12662-mvqrvc9q.jpg"
   },
   "12663": {
    "code": "12663",
-   "name": "FCDC P.8 PQ/BRO"
+   "name": "FCDC P.8 PQ/BRO",
+   "img": "api/image?f=prod-12663-mvqrvc9o.jpg"
   },
   "12664": {
    "code": "12664",
-   "name": "FCDC P.8 PQ/BRO+MATE300ML"
+   "name": "FCDC P.8 PQ/BRO+MATE300ML",
+   "img": "api/image?f=prod-12664-mvqrvc9p.jpg"
   },
   "12665": {
    "code": "12665",
-   "name": "FCDC MEGASHAKE300ML+6PQ/BRO"
+   "name": "FCDC MEGASHAKE300ML+6PQ/BRO",
+   "img": "api/image?f=prod-12665-mvqrvc9l.jpg"
   },
   "12666": {
    "code": "12666",
-   "name": "FCDC SALGADO+MATE300ML"
+   "name": "FCDC SALGADO+MATE300ML",
+   "img": "api/image?f=prod-12666-mvqrvc9r.jpg"
   },
   "12667": {
    "code": "12667",
-   "name": "FCDC P.12 PQ/BRO+MATE300ML"
+   "name": "FCDC P.12 PQ/BRO+MATE300ML",
+   "img": "api/image?f=prod-12667-mvqrvc9m.jpg"
   },
   "12668": {
    "code": "12668",
-   "name": "FCDC P.3 COOKIES"
+   "name": "FCDC P.3 COOKIES",
+   "img": "api/image?f=prod-12668-mvqrvc9n.jpg"
   },
   "15013": {
    "code": "15013",
-   "name": "P.ACAI 500ML"
+   "name": "P.ACAI 500ML",
+   "img": "api/image?f=prod-15013-mvqrvc82.jpg"
   },
   "15014": {
    "code": "15014",
-   "name": "PROM - SALGADO + CAPPUCCINO"
+   "name": "PROM - SALGADO + CAPPUCCINO",
+   "img": "api/image?f=prod-15014-mvqrvc8j.jpg"
   },
   "15015": {
    "code": "15015",
-   "name": "PROM - SALGADO + MATE"
+   "name": "PROM - SALGADO + MATE",
+   "img": "api/image?f=prod-15015-mvqrvc8k.jpg"
   },
   "15050": {
    "code": "15050",
-   "name": "PR.ESPRESSO DUPLO 100ML"
+   "name": "PR.ESPRESSO DUPLO 100ML",
+   "img": "api/image?f=prod-15050-mvqrvc74.jpg"
   },
   "15503": {
    "code": "15503",
-   "name": "PL-LINGUA DE GATO"
+   "name": "PL-LINGUA DE GATO",
+   "img": "api/image?f=prod-15503-mvqrvc71.jpg"
   },
   "15504": {
    "code": "15504",
-   "name": "PL-TRUFA"
+   "name": "PL-TRUFA",
+   "img": "api/image?f=prod-15504-mvqrvc73.jpg"
   },
   "15505": {
    "code": "15505",
-   "name": "PL-BARRA 75%"
+   "name": "PL-BARRA 75%",
+   "img": "api/image?f=prod-15505-mvqrvc6y.jpg"
   },
   "15506": {
    "code": "15506",
-   "name": "PL-BARRA DIET"
+   "name": "PL-BARRA DIET",
+   "img": "api/image?f=prod-15506-mvqrvc6z.jpg"
   },
   "15507": {
    "code": "15507",
-   "name": "PL-DEMAIS BARRAS"
+   "name": "PL-DEMAIS BARRAS",
+   "img": "api/image?f=prod-15507-mvqrvc70.jpg"
   },
   "15508": {
    "code": "15508",
-   "name": "PL-PAO DE MEL"
+   "name": "PL-PAO DE MEL",
+   "img": "api/image?f=prod-15508-mvqrvc72.jpg"
   },
   "15639": {
    "code": "15639",
-   "name": "P.4 P.QUEIJO CEUB"
+   "name": "P.4 P.QUEIJO CEUB",
+   "img": "api/image?f=prod-15639-mvqrvc1a.jpg"
   },
   "novo-mvl29x2t": {
    "code": "",
@@ -2067,6 +2375,10 @@
   }
  },
  "log": [
+  {
+   "t": "2026-10-27T14:19:59.868595Z",
+   "msg": "Lucas colocou fotos no padrão (nome do produto) em 308 produtos que estavam sem imagem"
+  },
   {
    "t": "2026-10-27T14:12:48.111Z",
    "msg": "Mudou a ordem das categorias na tela"
@@ -2452,5 +2764,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-27T14:12:48.126Z"
+ "savedAt": "2026-10-27T14:21:07.016Z"
 }
