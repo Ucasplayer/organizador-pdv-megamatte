@@ -511,21 +511,6 @@
    ]
   },
   {
-   "id": "c101",
-   "code": "101",
-   "name": "COFFEE PARTY TERÊ",
-   "img": "api/image?f=cat-101-mvpfbpfu.jpg",
-   "items": [
-    "11931",
-    "15505",
-    "15506",
-    "15507",
-    "15503",
-    "15508",
-    "15504"
-   ]
-  },
-  {
    "id": "c93",
    "code": "93",
    "name": "FOLDER CAFETERIA",
@@ -2376,6 +2361,10 @@
  },
  "log": [
   {
+   "t": "2026-10-27T14:41:11.413Z",
+   "msg": "Excluiu a categoria COFFEE PARTY TERÊ (com 7 produtos)"
+  },
+  {
    "t": "2026-10-27T14:40:45.154Z",
    "msg": "Trocou a foto da categoria MINI PREÇOS (NOVOS)"
   },
@@ -2780,5 +2769,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-27T14:40:45.167Z"
+ "savedAt": "2026-10-27T14:41:11.425Z"
 }

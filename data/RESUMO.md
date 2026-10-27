@@ -1,13 +1,13 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 27/10/2026, 11:40:46. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 27/10/2026, 11:41:12. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **383** (as fotos ficam na pasta data/img)
-- Produtos que mudaram de categoria: **10**
+- Fotos trocadas: **382** (as fotos ficam na pasta data/img)
+- Produtos que mudaram de categoria: **17**
 - Produtos novos: **1**
 - Produtos retirados do PDV: **2**
 - Categorias novas: **2**
-- Categorias excluídas: **3**
+- Categorias excluídas: **4**
 - Categorias renomeadas: **1**
 
 ## Categorias novas (2)
@@ -17,13 +17,14 @@ Atualizado em 27/10/2026, 11:40:46. Gerado automaticamente pelo Organizador do P
 | CAMPANHA BROWNIE DO LUIZ | 0 |
 | MATE FRUTA DO DIA | 0 |
 
-## Categorias excluídas (3)
+## Categorias excluídas (4)
 
 | Cód. | Categoria |
 |---|---|
 | 7 | CAFETERIA ESPRESSO |
 | 14 | SANDUÍCHES GOURMET |
 | 15 | SANDUÍCHES NATURAIS |
+| 101 | COFFEE PARTY TERÊ |
 
 ## Categorias renomeadas (1)
 
@@ -31,7 +32,7 @@ Atualizado em 27/10/2026, 11:40:46. Gerado automaticamente pelo Organizador do P
 |---|---|---|
 | 13 | SANDUICHES CHAPA | SANDUICHES |
 
-## Produtos que mudaram de categoria (10)
+## Produtos que mudaram de categoria (17)
 
 | Cód. | Produto | Saiu de | Entrou em | Fica em |
 |---|---|---|---|---|
@@ -39,6 +40,13 @@ Atualizado em 27/10/2026, 11:40:46. Gerado automaticamente pelo Organizador do P
 | 463 | ESPRESSO DUPLO 100ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 470 | ESPRESSO DUPLO C/LEITE 200ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 11063 | ESPRESSO MACCHIATO 50ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
+| 11931 | P.MATE OU GUARANA 300ML GRATIS | COFFEE PARTY TERÊ (excluída) | — | MATE |
+| 15505 | PL-BARRA 75% | COFFEE PARTY TERÊ (excluída) | — | SOBREMESAS |
+| 15506 | PL-BARRA DIET | COFFEE PARTY TERÊ (excluída) | — | SOBREMESAS |
+| 15507 | PL-DEMAIS BARRAS | COFFEE PARTY TERÊ (excluída) | — | SOBREMESAS |
+| 15503 | PL-LINGUA DE GATO | COFFEE PARTY TERÊ (excluída) | — | SOBREMESAS |
+| 15508 | PL-PAO DE MEL | COFFEE PARTY TERÊ (excluída) | — | SOBREMESAS |
+| 15504 | PL-TRUFA | COFFEE PARTY TERÊ (excluída) | — | SOBREMESAS |
 | 10362 | SAND. GOURMET CIABATTA CARNE ASSADA | SANDUÍCHES GOURMET (excluída) | SANDUICHES | SANDUICHES |
 | 11113 | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE | SANDUÍCHES GOURMET (excluída) | SANDUICHES | SANDUICHES |
 | 11179 | SAND. NAT. ATUM COM REQUEIJÃO | SANDUÍCHES NATURAIS (excluída) | SANDUICHES | SANDUICHES |
@@ -66,7 +74,7 @@ Atualizado em 27/10/2026, 11:40:46. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (383)
+## Fotos trocadas (382)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -90,7 +98,6 @@ Atualizado em 27/10/2026, 11:40:46. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-2-mvqstgba.jpg) [abrir](img/cat-2-mvqstgba.jpg) | Categoria | 2 | PROMOÇÕES |
 | ![foto](img/cat-111-mvqstsvn.jpg) [abrir](img/cat-111-mvqstsvn.jpg) | Categoria | 111 | LOJISTA (NOVO) |
 | ![foto](img/cat-110-mvqstzxq.jpg) [abrir](img/cat-110-mvqstzxq.jpg) | Categoria | 110 | MINI PREÇOS (NOVOS) |
-| ![foto](img/cat-101-mvpfbpfu.jpg) [abrir](img/cat-101-mvpfbpfu.jpg) | Categoria | 101 | COFFEE PARTY TERÊ |
 | ![foto](img/cat-93-mvpmoy2z.jpg) [abrir](img/cat-93-mvpmoy2z.jpg) | Categoria | 93 | FOLDER CAFETERIA |
 | ![foto](img/cat-92-mvpmqz2e.jpg) [abrir](img/cat-92-mvpmqz2e.jpg) | Categoria | 92 | FOLDER COMBOS |
 | ![foto](img/prod-1-mvqrvc1j.jpg) [abrir](img/prod-1-mvqrvc1j.jpg) | Produto | 1 | MATE 300ML |
@@ -870,17 +877,7 @@ Atualizado em 27/10/2026, 11:40:46. Gerado automaticamente pelo Organizador do P
 6. P.MP - 8 PQ/BRO + SUCO — cód. 11910
 7. P.MP - SANDUICHE + MATE OU GUA — cód. 11908
 
-### 21. COFFEE PARTY TERÊ (grupo 101) — 7 produtos
-
-1. P.MATE OU GUARANA 300ML GRATIS — cód. 11931
-2. PL-BARRA 75% — cód. 15505
-3. PL-BARRA DIET — cód. 15506
-4. PL-DEMAIS BARRAS — cód. 15507
-5. PL-LINGUA DE GATO — cód. 15503
-6. PL-PAO DE MEL — cód. 15508
-7. PL-TRUFA — cód. 15504
-
-### 22. FOLDER CAFETERIA (grupo 93) — 9 produtos
+### 21. FOLDER CAFETERIA (grupo 93) — 9 produtos
 
 1. FCD CAPP 200ML — cód. 12048
 2. FCD CAPP 200ML+1COOKIE — cód. 12654
@@ -892,7 +889,7 @@ Atualizado em 27/10/2026, 11:40:46. Gerado automaticamente pelo Organizador do P
 8. FCD ESPRESSO 50ML — cód. 12650
 9. FCD SAND. MEGAMISTO — cód. 12655
 
-### 23. FOLDER COMBOS (grupo 92) — 8 produtos
+### 22. FOLDER COMBOS (grupo 92) — 8 produtos
 
 1. FCDC ACAI 300ML+GRANOLA — cód. 12661
 2. FCDC MEGASHAKE300ML+6PQ/BRO — cód. 12665
@@ -1006,3 +1003,4 @@ Atualizado em 27/10/2026, 11:40:46. Gerado automaticamente pelo Organizador do P
 - 27/10/2026, 11:40:20 — Trocou a foto da categoria PROMOÇÕES
 - 27/10/2026, 11:40:36 — Trocou a foto da categoria LOJISTA (NOVO)
 - 27/10/2026, 11:40:45 — Trocou a foto da categoria MINI PREÇOS (NOVOS)
+- 27/10/2026, 11:41:11 — Excluiu a categoria COFFEE PARTY TERÊ (com 7 produtos)
