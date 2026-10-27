@@ -286,6 +286,7 @@ async function load() {
     data = j.data || clone(S.original);
     S.mode = 'cloud';
     S.lastSavedAt = j.data && j.data.savedAt ? new Date(j.data.savedAt) : null;
+    S.baseSavedAt = j.data ? (j.data.savedAt || null) : null;
   } catch (e) {
     S.mode = 'local';
     const local = lsGet(LS_DATA);
@@ -352,6 +353,7 @@ async function saveNow() {
   S.saving = true;
   const msgs = S.pendingMsgs.splice(0);
   const message = msgs.length === 1 ? msgs[0] : `${msgs.length} alterações: ` + msgs.slice(0, 6).join(' | ') + (msgs.length > 6 ? ' …' : '');
+  const sentSavedAt = S.data.savedAt || null;
   const files = {
     'pdv.json': JSON.stringify(S.data, null, 1),
     'RESUMO.md': summaryMarkdown(),
@@ -361,7 +363,15 @@ async function saveNow() {
     const headers = { 'Content-Type': 'application/json' };
     const pass = lsGet(LS_PASS);
     if (pass) headers['x-senha'] = pass;
-    const r = await fetch('api/data', { method: 'PUT', headers, body: JSON.stringify({ files, message }) });
+    const r = await fetch('api/data', { method: 'PUT', headers, body: JSON.stringify({ files, message, baseSavedAt: S.baseSavedAt }) });
+    if (r.status === 409) {
+      S.pendingMsgs.unshift(...msgs);
+      S.saving = false;
+      clearTimeout(S.saveTimer);
+      setSaveState('error', 'Não salvo — recarregue a página');
+      showConflict();
+      return;
+    }
     if (r.status === 401) {
       S.pendingMsgs.unshift(...msgs);
       S.saving = false;
@@ -369,6 +379,7 @@ async function saveNow() {
       return;
     }
     if (!r.ok) throw new Error('HTTP ' + r.status);
+    S.baseSavedAt = sentSavedAt;
     S.lastSavedAt = new Date();
     setSaveState(S.pendingMsgs.length ? 'saving' : 'ok');
   } catch (e) {
@@ -379,6 +390,19 @@ async function saveNow() {
   } finally {
     S.saving = false;
   }
+}
+
+function showConflict() {
+  if (document.querySelector('.conflict-modal')) return;
+  const lost = [...new Set(S.pendingMsgs)];
+  const m = modal(`
+    <h3 class="conflict-modal">⚠ Os dados foram atualizados em outro lugar</h3>
+    <div class="body">
+      <p>Enquanto esta tela estava aberta, alguém salvou alterações por outro computador (ou por outra aba). Para não apagar o que foi feito lá, esta tela <b>não salvou</b> e precisa ser recarregada.</p>
+      ${lost.length ? `<p>Depois de recarregar, refaça estas alterações:</p><ul>${lost.map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}
+    </div>
+    <div class="actions"><button class="mbtn primary" data-reload type="button">↻ Recarregar a página</button></div>`);
+  $('[data-reload]', m.el).onclick = () => { S.pendingMsgs = []; location.reload(); };
 }
 
 async function askPassword() {

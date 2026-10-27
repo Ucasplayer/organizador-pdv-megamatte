@@ -112,6 +112,20 @@ module.exports = async function handler(req, res) {
       JSON.parse(clean['pdv.json']); // garante que é JSON válido
       if (total > MAX_BYTES) return res.status(413).json({ error: 'muito_grande' });
 
+      // Proteção: só salva se a tela partiu da versão que está no GitHub agora.
+      // Assim uma aba antiga não apaga o que foi salvo por outro lugar.
+      const cur = await gh(c, `/repos/${c.repo}/contents/${c.dir ? c.dir + '/' : ''}pdv.json?ref=${encodeURIComponent(c.branch)}`, {
+        headers: { Accept: 'application/vnd.github.raw+json' },
+      });
+      if (cur.ok) {
+        let curSaved = null;
+        try { curSaved = JSON.parse(await cur.text()).savedAt || null; } catch (_) {}
+        const base = body.baseSavedAt === undefined ? '(sem versão)' : body.baseSavedAt;
+        if (curSaved !== base) return res.status(409).json({ error: 'conflito', savedAt: curSaved });
+      } else if (cur.status !== 404) {
+        return res.status(502).json({ error: `github_${cur.status}` });
+      }
+
       const message = String((body && body.message) || 'Atualização do organizador do PDV').slice(0, 300);
       let result;
       try {
