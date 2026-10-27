@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 27/10/2026, 15:49:29. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 27/10/2026, 16:54:18. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **382** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **17**
@@ -290,7 +290,7 @@ Atualizado em 27/10/2026, 15:49:29. Gerado automaticamente pelo Organizador do P
 | ![foto](img/prod-11041-mvqrvc1t.jpg) [abrir](img/prod-11041-mvqrvc1t.jpg) | Produto | 11041 | MATE FRUTA 500ML |
 | ![foto](img/prod-11042-mvqrvc1u.jpg) [abrir](img/prod-11042-mvqrvc1u.jpg) | Produto | 11042 | MATE FRUTA 700ML |
 | ![foto](img/prod-11050-mvqrvc7p.jpg) [abrir](img/prod-11050-mvqrvc7p.jpg) | Produto | 11050 | PORCAO DE GUARANÁ EM PÓ |
-| ![foto](img/prod-11056-mvpnn5f0.jpg) [abrir](img/prod-11056-mvpnn5f0.jpg) | Produto | 11056 | CROISSANT DE CHOCOLATE |
+| ![foto](img/prod-11056-mvr41777.jpg) [abrir](img/prod-11056-mvr41777.jpg) | Produto | 11056 | CROISSANT DE CHOCOLATE |
 | ![foto](img/prod-11063-mvqrn1hl.jpg) [abrir](img/prod-11063-mvqrn1hl.jpg) | Produto | 11063 | ESPRESSO MACCHIATO 50ML |
 | ![foto](img/prod-11064-mvqrn1i3.jpg) [abrir](img/prod-11064-mvqrn1i3.jpg) | Produto | 11064 | MOCACCINO 200ML |
 | ![foto](img/prod-11086-mvqrvc1g.jpg) [abrir](img/prod-11086-mvqrvc1g.jpg) | Produto | 11086 | ERVA MATE CX 250G |
@@ -1009,3 +1009,4 @@ Atualizado em 27/10/2026, 15:49:29. Gerado automaticamente pelo Organizador do P
 - 27/10/2026, 15:34:19 — Trocou a foto da categoria MEGASHAKES
 - 27/10/2026, 15:43:49 — Trocou a foto da categoria ÁGUA
 - 27/10/2026, 15:49:28 — Trocou a foto da categoria ÁGUA
+- 27/10/2026, 16:54:16 — Trocou a foto do produto CROISSANT DE CHOCOLATE
