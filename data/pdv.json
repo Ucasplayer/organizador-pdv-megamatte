@@ -514,7 +514,7 @@
    "id": "c93",
    "code": "93",
    "name": "FOLDER CAFETERIA",
-   "img": "api/image?f=cat-93-mvpmoy2z.jpg",
+   "img": "api/image?f=cat-93-mvqsuv85.jpg",
    "items": [
     "12048",
     "12654",
@@ -2361,6 +2361,10 @@
  },
  "log": [
   {
+   "t": "2026-10-27T14:41:25.735Z",
+   "msg": "Trocou a foto da categoria FOLDER CAFETERIA"
+  },
+  {
    "t": "2026-10-27T14:41:11.413Z",
    "msg": "Excluiu a categoria COFFEE PARTY TERÊ (com 7 produtos)"
   },
@@ -2769,5 +2773,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-27T14:41:11.425Z"
+ "savedAt": "2026-10-27T14:41:25.748Z"
 }
