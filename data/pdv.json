@@ -169,6 +169,27 @@
    ]
   },
   {
+   "id": "c21",
+   "code": "21",
+   "name": "CAFETERIA BEBIDAS GELADAS",
+   "img": "api/image?f=cat-21-mvpcj4iz.jpg",
+   "items": [
+    "11309",
+    "11310",
+    "11448",
+    "11857",
+    "1806",
+    "11595",
+    "11449",
+    "11859",
+    "11451",
+    "11452",
+    "11453",
+    "11804",
+    "11858"
+   ]
+  },
+  {
    "id": "c8",
    "code": "8",
    "name": "AÇAÍ",
@@ -221,27 +242,6 @@
     "11201",
     "11202",
     "11203"
-   ]
-  },
-  {
-   "id": "c21",
-   "code": "21",
-   "name": "CAFETERIA BEBIDAS GELADAS",
-   "img": "api/image?f=cat-21-mvpcj4iz.jpg",
-   "items": [
-    "11309",
-    "11310",
-    "11448",
-    "11857",
-    "1806",
-    "11595",
-    "11449",
-    "11859",
-    "11451",
-    "11452",
-    "11453",
-    "11804",
-    "11858"
    ]
   },
   {
@@ -2068,6 +2068,10 @@
  },
  "log": [
   {
+   "t": "2026-10-27T14:12:48.111Z",
+   "msg": "Mudou a ordem das categorias na tela"
+  },
+  {
    "t": "2026-10-27T14:11:30.752Z",
    "msg": "Trocou a foto do produto P.BATATA REQUEIJAO"
   },
@@ -2448,5 +2452,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-27T14:11:30.767Z"
+ "savedAt": "2026-10-27T14:12:48.126Z"
 }
