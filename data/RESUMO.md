@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 27/10/2026, 15:43:50. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 27/10/2026, 15:49:29. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **382** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **17**
@@ -90,7 +90,7 @@ Atualizado em 27/10/2026, 15:43:50. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-9-mvr16d53.jpg) [abrir](img/cat-9-mvr16d53.jpg) | Categoria | 9 | MEGASHAKES |
 | ![foto](img/cat-10-mvpdv8ra.jpg) [abrir](img/cat-10-mvpdv8ra.jpg) | Categoria | 10 | VITAMINAS |
 | ![foto](img/cat-11-mvpdkyy5.jpg) [abrir](img/cat-11-mvpdkyy5.jpg) | Categoria | 11 | SUCOS |
-| ![foto](img/cat-12-mvr1il1a.jpg) [abrir](img/cat-12-mvr1il1a.jpg) | Categoria | 12 | ÁGUA |
+| ![foto](img/cat-12-mvr1pueg.jpg) [abrir](img/cat-12-mvr1pueg.jpg) | Categoria | 12 | ÁGUA |
 | ![foto](img/cat-13-mvpe00gw.jpg) [abrir](img/cat-13-mvpe00gw.jpg) | Categoria | 13 | SANDUICHES |
 | ![foto](img/cat-6-mvpedrqt.jpg) [abrir](img/cat-6-mvpedrqt.jpg) | Categoria | 6 | SOBREMESAS |
 | ![foto](img/cat-45-mvpehoov.jpg) [abrir](img/cat-45-mvpehoov.jpg) | Categoria | 45 | CONGELADOS |
@@ -1008,3 +1008,4 @@ Atualizado em 27/10/2026, 15:43:50. Gerado automaticamente pelo Organizador do P
 - 27/10/2026, 11:41:38 — Trocou a foto da categoria FOLDER COMBOS
 - 27/10/2026, 15:34:19 — Trocou a foto da categoria MEGASHAKES
 - 27/10/2026, 15:43:49 — Trocou a foto da categoria ÁGUA
+- 27/10/2026, 15:49:28 — Trocou a foto da categoria ÁGUA
