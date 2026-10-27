@@ -42,38 +42,6 @@ button:disabled{cursor:not-allowed}
 .sug-cats div{background:#F1F5F9;border-left:4px solid var(--btn);padding:6px 8px;font-size:12px;font-weight:700;text-transform:uppercase}
 .sug-cats div.new{border-left-color:var(--green)}
 .sug-cats small{display:block;font-weight:400;color:#56708A;text-transform:none}
-.chat-btn{background:#fff;color:#0A3150;border:0;border-radius:20px;padding:8px 16px;font-weight:800;font-size:14px;box-shadow:0 2px 8px rgba(0,0,0,.3);white-space:nowrap}
-.chat-btn:hover{background:#E6F3FF}
-.chat{position:fixed;top:0;right:0;bottom:0;width:min(420px,100vw);background:#F4F7FA;color:#123;z-index:40;display:flex;flex-direction:column;box-shadow:-8px 0 30px rgba(0,0,0,.45);border-left:4px solid var(--yellow)}
-.chat[hidden]{display:none}
-@media (min-width:1000px){body.chat-open{padding-right:420px}}
-.chat-head{display:flex;align-items:center;gap:8px;padding:10px 12px;background:var(--panel-2);color:#fff}
-.chat-head b{font-size:16px}
-.chat-head span{color:var(--muted);font-size:12px;flex:1}
-.chat-head button{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:4px;padding:5px 9px;font-size:12px;font-weight:600}
-.chat-head button:hover{background:rgba(255,255,255,.25)}
-.chat-msgs{flex:1;overflow:auto;padding:12px;display:flex;flex-direction:column;gap:10px}
-.cm{max-width:92%;padding:9px 12px;line-height:1.45;font-size:14px;border-radius:12px;word-wrap:break-word}
-.cm p{margin:0 0 6px}.cm p:last-child{margin:0}
-.cm ul{margin:4px 0 6px;padding-left:18px}
-.cm.me{align-self:flex-end;background:var(--btn);color:#fff;border-bottom-right-radius:3px;white-space:pre-wrap}
-.cm.claude{align-self:flex-start;background:#fff;border:1px solid #DCE5EE;border-bottom-left-radius:3px}
-.cm.done{align-self:stretch;max-width:100%;background:#E7F6EC;border:1px solid #9BD3AE;font-size:13px}
-.cm.done b{color:#16632F}
-.cm.done ul{margin:4px 0}
-.cm.done button{margin-top:6px;background:#fff;border:1px solid #9BD3AE;color:#16632F;font-weight:700;padding:5px 10px;border-radius:4px;font-size:12px}
-.cm.error{align-self:stretch;max-width:100%;background:#FDECEC;border:1px solid #F2A7A2;color:#8A1C14;font-size:13px}
-.cm.typing{align-self:flex-start;background:#fff;border:1px solid #DCE5EE;color:#6A8299;font-style:italic}
-.chat-hello{color:#3D5A73;font-size:14px;line-height:1.45}
-.chat-hello b{color:#0A3150}
-.chat-ideas{display:flex;flex-direction:column;gap:6px;margin-top:10px}
-.chat-ideas button{text-align:left;background:#fff;border:1px solid #B9CCDD;border-radius:8px;padding:8px 10px;color:#0B4C79;font-size:13px;font-weight:600}
-.chat-ideas button:hover{border-color:var(--btn);background:#EAF3FA}
-.chat-form{display:flex;gap:6px;padding:10px;border-top:1px solid #DCE5EE;background:#fff}
-.chat-form textarea{flex:1;resize:none;border:2px solid #B9CCDD;padding:9px 10px;font:inherit;font-size:14px;min-height:46px;max-height:140px}
-.chat-form textarea:focus{outline:none;border-color:var(--btn)}
-.chat-form button{background:var(--btn);color:#fff;border:0;font-weight:800;padding:0 16px}
-.chat-form button:disabled{background:#9DB7CC}
 .help-btn{background:transparent;border:1px solid var(--muted);color:var(--white);border-radius:20px;padding:6px 12px;font-size:13px}
 .help-btn:hover{background:rgba(255,255,255,.1)}
 
@@ -223,7 +191,7 @@ main{background:var(--panel);border:1px solid var(--line);display:flex;flex-dire
 @media (max-width:480px){
   .top{flex-wrap:wrap}
   .save{margin-left:0}
-  .sug-btn,.chat-btn{order:3}
+  .sug-btn{order:3}
   .layout{padding:6px}
   .grid-wrap{margin:0 6px}
   :root{--tile-w:104px}
@@ -240,7 +208,6 @@ main{background:var(--panel);border:1px solid var(--line);display:flex;flex-dire
     <span>Organizador do PDV<small>Mega Matte · categorias e produtos</small></span>
   </div>
   <button class="sug-btn" id="sug-btn" type="button">✨ Minha sugestão</button>
-  <button class="chat-btn" id="chat-btn" type="button">💬 Perguntar ao Claude</button>
   <div class="save" id="save"><span class="dot"></span><span id="save-text">Carregando…</span></div>
   <button class="help-btn" id="help-btn" type="button">❔ Como usar</button>
 </header>
@@ -266,16 +233,6 @@ main{background:var(--panel);border:1px solid var(--line);display:flex;flex-dire
 </div>
 
 <footer class="toolbar" id="toolbar"></footer>
-<aside class="chat" id="chat" hidden aria-label="Chat com o Claude">
-  <div class="chat-head"><b>💬 Claude</b><span>assistente do PDV</span>
-    <button id="chat-new" type="button" title="Começar uma conversa nova">Nova conversa</button>
-    <button id="chat-close" type="button" aria-label="Fechar chat">✕</button></div>
-  <div class="chat-msgs" id="chat-msgs"></div>
-  <form class="chat-form" id="chat-form">
-    <textarea id="chat-in" rows="2" placeholder="Escreva o que você quer mudar… (Enter envia)"></textarea>
-    <button type="submit" id="chat-send">Enviar</button>
-  </form>
-</aside>
 <div id="modal-root"></div>
 <div class="toast" id="toast"></div>
 
@@ -603,7 +560,6 @@ $('#back').onclick = goHome;
 $('#undo-btn').onclick = undo;
 $('#help-btn').onclick = showHelp;
 $('#sug-btn').onclick = showSuggestion;
-$('#chat-btn').onclick = () => toggleChat();
 document.addEventListener('keydown', e => {
   if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'z' && !document.querySelector('.overlay')) { e.preventDefault(); undo(); }
 });
@@ -1112,276 +1068,6 @@ function applySuggestion() {
   toast('✨ Sugestão aplicada. Use Desfazer se quiser voltar.');
 }
 
-// ===================== Chat com o Claude =====================
-const CHAT = { msgs: [], view: [], busy: false };
-const CHAT_IDEAS = [
-  'Junte as categorias de sanduíche numa categoria só',
-  'Em qual categoria está o MATE OVOMALTINE?',
-  'Quais categorias têm poucos produtos?',
-  'Coloque as broinhas junto com o pão de queijo',
-];
-
-function toggleChat(force) {
-  const el = $('#chat');
-  const open = force !== undefined ? force : el.hidden;
-  el.hidden = !open;
-  document.body.classList.toggle('chat-open', open);
-  if (open) { renderChat(); setTimeout(() => $('#chat-in').focus(), 30); }
-}
-$('#chat-close').onclick = () => toggleChat(false);
-$('#chat-new').onclick = () => { if (CHAT.busy) return; CHAT.msgs = []; CHAT.view = []; renderChat(); $('#chat-in').focus(); };
-$('#chat-form').addEventListener('submit', e => { e.preventDefault(); const t = $('#chat-in').value.trim(); if (t) { $('#chat-in').value = ''; chatSend(t); } });
-$('#chat-in').addEventListener('keydown', e => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); $('#chat-form').requestSubmit(); } });
-document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$('#chat').hidden && !document.querySelector('.overlay')) toggleChat(false); });
-
-function mdLite(text) {
-  const inline = t => esc(t).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/(^|[^*])\*([^*\n]+)\*/g, '$1<i>$2</i>');
-  const out = []; let list = null;
-  String(text).split('\n').forEach(line => {
-    const m = /^\s*(?:[-•*]|\d+[.)])\s+(.*)$/.exec(line);
-    if (m) { if (!list) { list = []; out.push(list); } list.push(m[1]); return; }
-    list = null;
-    if (line.trim()) out.push(line.replace(/^#+\s*/, ''));
-  });
-  return out.map(x => Array.isArray(x) ? `<ul>${x.map(i => `<li>${inline(i)}</li>`).join('')}</ul>` : `<p>${inline(x)}</p>`).join('');
-}
-
-function renderChat() {
-  const box = $('#chat-msgs');
-  if (!CHAT.view.length) {
-    box.innerHTML = `<div class="chat-hello"><p>Oi! Eu sou o <b>Claude</b>. Posso mudar produtos de categoria, criar, renomear ou excluir categorias, mudar a ordem e responder dúvidas sobre o PDV. É só escrever do seu jeito.</p>
-      <p>Tudo o que eu fizer aparece em <b>Alterações feitas</b> e dá para desfazer.</p>
-      <div class="chat-ideas">${CHAT_IDEAS.map(t => `<button type="button">${esc(t)}</button>`).join('')}</div></div>`;
-    box.querySelectorAll('.chat-ideas button').forEach(b => b.onclick = () => chatSend(b.textContent));
-  } else {
-    box.innerHTML = CHAT.view.map((v, i) => {
-      if (v.who === 'me') return `<div class="cm me">${esc(v.text)}</div>`;
-      if (v.who === 'claude') return `<div class="cm claude">${mdLite(v.text)}</div>`;
-      if (v.who === 'error') return `<div class="cm error">⚠ ${esc(v.text)}</div>`;
-      if (v.who === 'done') return `<div class="cm done"><b>✓ Alterações feitas:</b><ul>${v.items.map(t => `<li>${esc(t)}</li>`).join('')}</ul>
-        ${v.undone ? '<i>Desfeito.</i>' : `<button type="button" data-undo="${i}">↶ Desfazer isso</button>`}</div>`;
-      return '';
-    }).join('') + (CHAT.busy ? '<div class="cm typing">Claude está pensando…</div>' : '');
-    box.querySelectorAll('[data-undo]').forEach(b => b.onclick = () => chatUndo(+b.dataset.undo));
-  }
-  $('#chat-send').disabled = CHAT.busy;
-  box.scrollTop = box.scrollHeight;
-}
-
-function chatUndo(i) {
-  const v = CHAT.view[i];
-  if (!v || v.undone) return;
-  if (S.undo[S.undo.length - 1] !== v.snap) return toast('Já houve outras alterações depois dessa. Use o botão Desfazer do lado esquerdo.');
-  undo();
-  v.undone = true;
-  renderChat();
-}
-
-function chatStructure() {
-  const lines = cats().map(c => `[${c.id}] ${c.name}${c.code ? ` (grupo ${c.code})` : ' (categoria nova)'} — ${c.items.length} produtos: ` +
-    c.items.map(code => `${code}: ${pname(code)}`).join(' | '));
-  const placed = new Set(cats().flatMap(c => c.items));
-  const out = Object.keys(S.data.products).filter(k => !placed.has(k));
-  if (out.length) lines.push(`Fora do PDV (em nenhuma categoria): ` + out.map(k => `${k}: ${pname(k)}`).join(' | '));
-  return lines.join('\n');
-}
-
-function findCat(ref) {
-  const r = String(ref || '').trim();
-  if (!r) throw new Error('faltou dizer a categoria');
-  const byId = catById(r) || catById(r.replace(/^\[|\]$/g, ''));
-  if (byId) return byId;
-  const n = norm(r);
-  const exact = cats().filter(c => norm(c.name) === n);
-  if (exact.length === 1) return exact[0];
-  const part = cats().filter(c => norm(c.name).includes(n));
-  if (part.length === 1) return part[0];
-  throw new Error(`categoria "${r}" não encontrada${part.length > 1 ? ' (mais de uma parecida: ' + part.map(c => c.name).join(', ') + ')' : ''}`);
-}
-let CHAT_NOTES = [];
-function findProds(codes) {
-  const list = (Array.isArray(codes) ? codes : [codes]).map(x => String(x).trim()).filter(Boolean);
-  const bad = list.filter(k => !prod(k));
-  const ok = [...new Set(list.filter(k => prod(k)))];
-  if (!ok.length) throw new Error(list.length ? 'produto(s) não encontrado(s): ' + bad.join(', ') : 'nenhum produto informado');
-  if (bad.length) CHAT_NOTES.push('Códigos que não existem (ignorados): ' + bad.join(', '));
-  return ok;
-}
-
-// Cada ferramenta altera S.data e devolve { log, result }
-const CHAT_TOOLS = {
-  move_products(a) {
-    const from = findCat(a.from_category), to = findCat(a.to_category);
-    if (from.id === to.id) throw new Error('origem e destino são a mesma categoria');
-    const codes = findProds(a.product_codes);
-    const moved = codes.filter(k => from.items.includes(k));
-    const notIn = codes.filter(k => !from.items.includes(k));
-    if (!moved.length) throw new Error(`nenhum desses produtos está em ${from.name}`);
-    moved.forEach(k => { if (!to.items.includes(k)) to.items.push(k); });
-    from.items = from.items.filter(k => !moved.includes(k));
-    const log = `Moveu ${listNames(moved)} de ${from.name} para ${to.name}`;
-    return { log, result: log + (notIn.length ? `. Não estavam em ${from.name}: ${notIn.join(', ')}` : '') };
-  },
-  add_products_to_category(a) {
-    const c = findCat(a.category), codes = findProds(a.product_codes);
-    const add = codes.filter(k => !c.items.includes(k));
-    if (!add.length) return { log: null, result: `Todos já estavam em ${c.name}` };
-    c.items.push(...add);
-    const log = `Colocou ${listNames(add)} em ${c.name}`;
-    return { log, result: log };
-  },
-  remove_products_from_category(a) {
-    const c = findCat(a.category), codes = findProds(a.product_codes);
-    const rem = codes.filter(k => c.items.includes(k));
-    if (!rem.length) throw new Error(`nenhum desses produtos está em ${c.name}`);
-    c.items = c.items.filter(k => !rem.includes(k));
-    const orphans = rem.filter(k => !catsOf(k).length);
-    const log = `Excluiu ${listNames(rem)} de ${c.name}`;
-    return { log, result: log + (orphans.length ? `. Saíram do PDV (não estão em outra categoria): ${orphans.join(', ')}` : '') };
-  },
-  create_category(a) {
-    const nm = String(a.name || '').trim().toUpperCase();
-    if (!nm) throw new Error('faltou o nome');
-    const ex = cats().find(c => norm(c.name) === norm(nm));
-    if (ex) return { log: null, result: `Já existe a categoria ${ex.name} (id ${ex.id})` };
-    const id = 'n' + Date.now().toString(36) + Math.random().toString(36).slice(2, 5);
-    const c = { id, code: '', name: nm, img: null, items: [], isNew: true };
-    if (a.after_category) { const af = findCat(a.after_category); cats().splice(cats().indexOf(af) + 1, 0, c); }
-    else cats().push(c);
-    return { log: `Criou a categoria ${nm}`, result: `Categoria ${nm} criada (id ${id})` };
-  },
-  rename_category(a) {
-    const c = findCat(a.category), nm = String(a.new_name || '').trim().toUpperCase();
-    if (!nm) throw new Error('faltou o nome novo');
-    if (nm === c.name) return { log: null, result: 'O nome já é esse' };
-    const log = `Renomeou a categoria ${c.name} para ${nm}`;
-    c.name = nm;
-    return { log, result: log };
-  },
-  delete_category(a) {
-    const c = findCat(a.category);
-    if (c.items.length && !a.move_products_to && !a.delete_products) throw new Error(`a categoria ${c.name} tem ${c.items.length} produtos: informe move_products_to ou delete_products`);
-    let log;
-    if (c.items.length && a.move_products_to) {
-      const to = findCat(a.move_products_to);
-      if (to.id === c.id) throw new Error('destino é a própria categoria');
-      c.items.forEach(k => { if (!to.items.includes(k)) to.items.push(k); });
-      log = `Excluiu a categoria ${c.name} e moveu os ${c.items.length} produtos para ${to.name}`;
-    } else log = c.items.length ? `Excluiu a categoria ${c.name} (com ${c.items.length} produtos)` : `Excluiu a categoria ${c.name}`;
-    S.data.categories = cats().filter(x => x.id !== c.id);
-    if (S.view === 'cat' && S.catId === c.id) S.view = 'home';
-    return { log, result: log };
-  },
-  rename_product(a) {
-    const [k] = findProds([a.product_code]); const nm = String(a.new_name || '').trim().toUpperCase();
-    if (!nm) throw new Error('faltou o nome novo');
-    const log = `Renomeou o produto ${pname(k)} para ${nm}`;
-    S.data.products[k].name = nm;
-    return { log, result: log };
-  },
-  create_product(a) {
-    const c = findCat(a.category), nm = String(a.name || '').trim().toUpperCase();
-    const code = String(a.code || '').replace(/\s+/g, '');
-    if (!nm && !code) throw new Error('faltou o nome');
-    if (code && prod(code)) {
-      if (c.items.includes(code)) return { log: null, result: `O código ${code} (${pname(code)}) já está em ${c.name}` };
-      c.items.push(code);
-      const log = `Colocou ${pname(code)} também em ${c.name}`;
-      return { log, result: log + ' (o código já existia)' };
-    }
-    const key = code || ('novo-' + Date.now().toString(36) + Math.random().toString(36).slice(2, 4));
-    S.data.products[key] = { code: code || '', name: nm, isNew: true };
-    c.items.push(key);
-    const log = `Criou o produto ${nm} em ${c.name}`;
-    return { log, result: `${log} (código ${key})` };
-  },
-  set_category_order(a) {
-    const first = [...new Set((a.categories_in_order || []).map(r => findCat(r)))];
-    const rest = cats().filter(c => !first.includes(c));
-    S.data.categories = [...first, ...rest];
-    return { log: 'Mudou a ordem das categorias na tela', result: 'Ordem atualizada: ' + S.data.categories.map(c => c.name).join(', ') };
-  },
-  set_product_order(a) {
-    const c = findCat(a.category);
-    const first = findProds(a.product_codes_in_order).filter(k => c.items.includes(k));
-    c.items = [...first, ...c.items.filter(k => !first.includes(k))];
-    return { log: `Mudou a ordem dos produtos em ${c.name}`, result: 'Ordem atualizada' };
-  },
-};
-
-async function chatCall() {
-  for (let tries = 0; tries < 2; tries++) {
-    const headers = { 'Content-Type': 'application/json' };
-    const pass = lsGet(LS_PASS);
-    if (pass) headers['x-senha'] = pass;
-    const recent = S.data.log.slice(0, 12).map(l => '- ' + l.msg).join('\n');
-    const r = await fetch('api/chat', { method: 'POST', headers, body: JSON.stringify({ messages: CHAT.msgs, structure: chatStructure(), recent }) });
-    if (r.status === 401) { if (await askPassword()) continue; throw new Error('Falta a senha de edição.'); }
-    const j = await r.json().catch(() => ({}));
-    if (r.status === 503 || r.status === 404) throw new Error('O chat ainda não foi ligado. Peça para o Lucas configurar a chave do Claude na Vercel.');
-    if (!r.ok) throw new Error(j.error || ('Erro ' + r.status));
-    return j;
-  }
-  throw new Error('Senha incorreta.');
-}
-
-async function chatSend(text) {
-  if (CHAT.busy) return;
-  CHAT.busy = true;
-  const last = CHAT.msgs[CHAT.msgs.length - 1];
-  if (last && last.role === 'user') {
-    // a última rodada parou no meio: junta a mensagem nova com ela
-    last.content = [...(typeof last.content === 'string' ? [{ type: 'text', text: last.content }] : last.content), { type: 'text', text }];
-  } else CHAT.msgs.push({ role: 'user', content: text });
-  CHAT.view.push({ who: 'me', text });
-  renderChat();
-  let done = null;
-  try {
-    for (let round = 0; round < 10; round++) {
-      const r = await chatCall();
-      const content = (r.content || []).filter(b => b.type === 'text' || b.type === 'tool_use');
-      CHAT.msgs.push({ role: 'assistant', content: content.length ? content : [{ type: 'text', text: '…' }] });
-      const txt = content.filter(b => b.type === 'text').map(b => b.text).join('\n').trim();
-      const uses = content.filter(b => b.type === 'tool_use');
-      if (txt) CHAT.view.push({ who: 'claude', text: txt });
-      if (!uses.length) break;
-      const snap = JSON.stringify(S.data);
-      const results = [], logs = [];
-      for (const u of uses) {
-        const fn = CHAT_TOOLS[u.name];
-        try {
-          if (!fn) throw new Error('ferramenta desconhecida');
-          CHAT_NOTES = [];
-          const out = fn(u.input || {});
-          if (out.log) logs.push(out.log);
-          results.push({ type: 'tool_result', tool_use_id: u.id, content: [out.result || 'ok', ...CHAT_NOTES].join('. ') });
-        } catch (e) {
-          results.push({ type: 'tool_result', tool_use_id: u.id, content: 'Erro: ' + e.message, is_error: true });
-        }
-      }
-      CHAT.msgs.push({ role: 'user', content: results });
-      if (logs.length) {
-        if (!done) {
-          S.undo.push(snap); if (S.undo.length > 80) S.undo.shift();
-          done = { who: 'done', items: [], snap };
-          CHAT.view.push(done);
-        }
-        done.items.push(...logs);
-        logs.forEach(l => addLog('Claude: ' + l));
-        S.selected.clear();
-        render();
-        scheduleSave('Claude: ' + logs.join(' | '));
-      }
-      renderChat();
-    }
-  } catch (e) {
-    CHAT.view.push({ who: 'error', text: e.message });
-  } finally {
-    CHAT.busy = false;
-    renderChat();
-  }
-}
-
 // ===================== Ajuda =====================
 function showHelp() {
   modal(`
@@ -1397,7 +1083,6 @@ function showHelp() {
       <p><b>↕ Mudar a ordem:</b> arraste a categoria ou o produto para a posição que quiser.</p>
       <p><b>↶ Errou?</b> Clique em <b>Desfazer</b> quantas vezes precisar.</p>
       <p><b>📋 Resumo das Mudanças</b> (tela inicial) mostra tudo o que já foi alterado.</p>
-      <p><b>💬 Perguntar ao Claude</b> (no topo): escreva o que quer mudar, do seu jeito, e o Claude faz por você. Ex.: <i>"passe todos os sucos de 700ml para uma categoria nova chamada SUCOS GRANDES"</i>.</p>
     </div>
     <div class="actions"><button class="mbtn primary" data-close type="button">Entendi</button></div>`, { wide: false });
 }
