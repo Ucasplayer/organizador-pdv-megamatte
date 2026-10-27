@@ -779,7 +779,7 @@
   "501": {
    "code": "501",
    "name": "P.BATATA REQUEIJAO",
-   "img": "api/image?f=prod-501-mvpody7y.jpg"
+   "img": "api/image?f=prod-501-mvqrse6l.jpg"
   },
   "502": {
    "code": "502",
@@ -2068,6 +2068,10 @@
  },
  "log": [
   {
+   "t": "2026-10-27T14:11:30.752Z",
+   "msg": "Trocou a foto do produto P.BATATA REQUEIJAO"
+  },
+  {
    "t": "2026-10-27T14:13:34.956600Z",
    "msg": "Lucas colocou as fotos de 28 produtos de SALGADOS"
   },
@@ -2444,5 +2448,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-27T14:13:56.475Z"
+ "savedAt": "2026-10-27T14:11:30.767Z"
 }

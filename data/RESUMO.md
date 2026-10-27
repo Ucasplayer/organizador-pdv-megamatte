@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 27/10/2026, 11:13:57. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 27/10/2026, 11:11:32. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **75** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
@@ -97,7 +97,7 @@ Atualizado em 27/10/2026, 11:13:57. Gerado automaticamente pelo Organizador do P
 | ![foto](img/prod-463-mvqrn1hj.jpg) [abrir](img/prod-463-mvqrn1hj.jpg) | Produto | 463 | ESPRESSO DUPLO 100ML |
 | ![foto](img/prod-467-mvqrn1hx.jpg) [abrir](img/prod-467-mvqrn1hx.jpg) | Produto | 467 | CHOCOLATE QUENTE 200ML |
 | ![foto](img/prod-470-mvqrn1hk.jpg) [abrir](img/prod-470-mvqrn1hk.jpg) | Produto | 470 | ESPRESSO DUPLO C/LEITE 200ML |
-| ![foto](img/prod-501-mvpody7y.jpg) [abrir](img/prod-501-mvpody7y.jpg) | Produto | 501 | P.BATATA REQUEIJAO |
+| ![foto](img/prod-501-mvqrse6l.jpg) [abrir](img/prod-501-mvqrse6l.jpg) | Produto | 501 | P.BATATA REQUEIJAO |
 | ![foto](img/prod-502-mvqrn1ik.jpg) [abrir](img/prod-502-mvqrn1ik.jpg) | Produto | 502 | P.BATATA CALABRESA |
 | ![foto](img/prod-506-mvqrn1ip.jpg) [abrir](img/prod-506-mvqrn1ip.jpg) | Produto | 506 | P.BATATA MISTO |
 | ![foto](img/prod-507-mvqrn1i4.jpg) [abrir](img/prod-507-mvqrn1i4.jpg) | Produto | 507 | CROISSANT QUATRO QUEIJOS |
@@ -691,3 +691,4 @@ Atualizado em 27/10/2026, 11:13:57. Gerado automaticamente pelo Organizador do P
 - 26/10/2026, 17:20:44 — Trocou a foto da categoria MEGASHAKES
 - 27/10/2026, 11:13:34 — Lucas colocou as fotos de 22 produtos de CAFETERIA BEBIDAS QUENTES
 - 27/10/2026, 11:13:34 — Lucas colocou as fotos de 28 produtos de SALGADOS
+- 27/10/2026, 11:11:30 — Trocou a foto do produto P.BATATA REQUEIJAO
