@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 27/10/2026, 11:41:40. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 27/10/2026, 15:34:20. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **382** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **17**
@@ -87,7 +87,7 @@ Atualizado em 27/10/2026, 11:41:40. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-21-mvpcj4iz.jpg) [abrir](img/cat-21-mvpcj4iz.jpg) | Categoria | 21 | CAFETERIA BEBIDAS GELADAS |
 | ![foto](img/cat-8-mvpb5vjl.jpg) [abrir](img/cat-8-mvpb5vjl.jpg) | Categoria | 8 | AÇAÍ |
 | ![foto](img/cat-5-mvpcbfxk.jpg) [abrir](img/cat-5-mvpcbfxk.jpg) | Categoria | 5 | GUARANA NATURAL |
-| ![foto](img/cat-9-mvppjcjt.jpg) [abrir](img/cat-9-mvppjcjt.jpg) | Categoria | 9 | MEGASHAKES |
+| ![foto](img/cat-9-mvr16d53.jpg) [abrir](img/cat-9-mvr16d53.jpg) | Categoria | 9 | MEGASHAKES |
 | ![foto](img/cat-10-mvpdv8ra.jpg) [abrir](img/cat-10-mvpdv8ra.jpg) | Categoria | 10 | VITAMINAS |
 | ![foto](img/cat-11-mvpdkyy5.jpg) [abrir](img/cat-11-mvpdkyy5.jpg) | Categoria | 11 | SUCOS |
 | ![foto](img/cat-12-mvpf9mba.jpg) [abrir](img/cat-12-mvpf9mba.jpg) | Categoria | 12 | ÁGUA |
@@ -1006,3 +1006,4 @@ Atualizado em 27/10/2026, 11:41:40. Gerado automaticamente pelo Organizador do P
 - 27/10/2026, 11:41:11 — Excluiu a categoria COFFEE PARTY TERÊ (com 7 produtos)
 - 27/10/2026, 11:41:25 — Trocou a foto da categoria FOLDER CAFETERIA
 - 27/10/2026, 11:41:38 — Trocou a foto da categoria FOLDER COMBOS
+- 27/10/2026, 15:34:19 — Trocou a foto da categoria MEGASHAKES
