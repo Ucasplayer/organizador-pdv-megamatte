@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 27/10/2026, 11:41:27. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 27/10/2026, 11:41:40. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **382** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **17**
@@ -99,7 +99,7 @@ Atualizado em 27/10/2026, 11:41:27. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-111-mvqstsvn.jpg) [abrir](img/cat-111-mvqstsvn.jpg) | Categoria | 111 | LOJISTA (NOVO) |
 | ![foto](img/cat-110-mvqstzxq.jpg) [abrir](img/cat-110-mvqstzxq.jpg) | Categoria | 110 | MINI PREÇOS (NOVOS) |
 | ![foto](img/cat-93-mvqsuv85.jpg) [abrir](img/cat-93-mvqsuv85.jpg) | Categoria | 93 | FOLDER CAFETERIA |
-| ![foto](img/cat-92-mvpmqz2e.jpg) [abrir](img/cat-92-mvpmqz2e.jpg) | Categoria | 92 | FOLDER COMBOS |
+| ![foto](img/cat-92-mvqsv53t.jpg) [abrir](img/cat-92-mvqsv53t.jpg) | Categoria | 92 | FOLDER COMBOS |
 | ![foto](img/prod-1-mvqrvc1j.jpg) [abrir](img/prod-1-mvqrvc1j.jpg) | Produto | 1 | MATE 300ML |
 | ![foto](img/prod-5-mvqrvc1m.jpg) [abrir](img/prod-5-mvqrvc1m.jpg) | Produto | 5 | MATE C/LEITE 300ML |
 | ![foto](img/prod-7-mvqrvc1p.jpg) [abrir](img/prod-7-mvqrvc1p.jpg) | Produto | 7 | MATE C/PROTEINATO 300ML |
@@ -1005,3 +1005,4 @@ Atualizado em 27/10/2026, 11:41:27. Gerado automaticamente pelo Organizador do P
 - 27/10/2026, 11:40:45 — Trocou a foto da categoria MINI PREÇOS (NOVOS)
 - 27/10/2026, 11:41:11 — Excluiu a categoria COFFEE PARTY TERÊ (com 7 produtos)
 - 27/10/2026, 11:41:25 — Trocou a foto da categoria FOLDER CAFETERIA
+- 27/10/2026, 11:41:38 — Trocou a foto da categoria FOLDER COMBOS
