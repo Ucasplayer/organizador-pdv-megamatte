@@ -21,6 +21,7 @@ Cada salvamento vira um commit, com a descrição da alteração na mensagem —
 - `seed.json` — como o PDV está **hoje** (gerado a partir dos CSVs exportados do Linx). É a base de comparação do resumo.
 - `img/` — imagens das categorias recortadas da tela do PDV.
 - `api/data.js` — função da Vercel que lê e grava os dados no GitHub.
+- `api/chat.js` — chat com o Claude (botão **💬 Perguntar ao Claude**). O Claude propõe as alterações e o navegador aplica, então tudo entra no histórico e pode ser desfeito.
 - `api/image.js` — envia e mostra as fotos de categorias e produtos (ficam em `data/img/`).
 - `vercel.json` — faz a Vercel **não** refazer o deploy quando só a pasta `data/` muda.
 
@@ -38,6 +39,14 @@ Cada salvamento vira um commit, com a descrição da alteração na mensagem —
 4. Clique em **Deploy** e mande o link para a gestora.
 
 Se mudar alguma variável depois, faça *Redeploy* para valer.
+
+### Ligar o chat do Claude
+
+1. Em console.anthropic.com, crie uma chave em **API Keys** e coloque crédito em **Billing**. Vale definir um limite de gasto mensal em **Limits**.
+2. Na Vercel, adicione a variável `ANTHROPIC_API_KEY` com a chave e faça *Redeploy*.
+3. (Opcional) `CLAUDE_MODEL` troca o modelo. Padrão: `claude-sonnet-5-5`.
+
+Sem a chave, o chat aparece mas avisa que ainda não foi ligado. Se `EDIT_PASSWORD` estiver definida, o chat também pede a senha, então ninguém de fora gasta seus créditos.
 
 ## Recomeçar do zero
 
