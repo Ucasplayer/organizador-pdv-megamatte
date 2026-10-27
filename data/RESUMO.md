@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 27/10/2026, 11:40:37. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 27/10/2026, 11:40:46. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **383** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
@@ -89,7 +89,7 @@ Atualizado em 27/10/2026, 11:40:37. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-18-mvqst7v2.jpg) [abrir](img/cat-18-mvqst7v2.jpg) | Categoria | 18 | EXTRA |
 | ![foto](img/cat-2-mvqstgba.jpg) [abrir](img/cat-2-mvqstgba.jpg) | Categoria | 2 | PROMOÇÕES |
 | ![foto](img/cat-111-mvqstsvn.jpg) [abrir](img/cat-111-mvqstsvn.jpg) | Categoria | 111 | LOJISTA (NOVO) |
-| ![foto](img/cat-110-mvpfc5kn.jpg) [abrir](img/cat-110-mvpfc5kn.jpg) | Categoria | 110 | MINI PREÇOS (NOVOS) |
+| ![foto](img/cat-110-mvqstzxq.jpg) [abrir](img/cat-110-mvqstzxq.jpg) | Categoria | 110 | MINI PREÇOS (NOVOS) |
 | ![foto](img/cat-101-mvpfbpfu.jpg) [abrir](img/cat-101-mvpfbpfu.jpg) | Categoria | 101 | COFFEE PARTY TERÊ |
 | ![foto](img/cat-93-mvpmoy2z.jpg) [abrir](img/cat-93-mvpmoy2z.jpg) | Categoria | 93 | FOLDER CAFETERIA |
 | ![foto](img/cat-92-mvpmqz2e.jpg) [abrir](img/cat-92-mvpmqz2e.jpg) | Categoria | 92 | FOLDER COMBOS |
@@ -1005,3 +1005,4 @@ Atualizado em 27/10/2026, 11:40:37. Gerado automaticamente pelo Organizador do P
 - 27/10/2026, 11:40:09 — Trocou a foto da categoria EXTRA
 - 27/10/2026, 11:40:20 — Trocou a foto da categoria PROMOÇÕES
 - 27/10/2026, 11:40:36 — Trocou a foto da categoria LOJISTA (NOVO)
+- 27/10/2026, 11:40:45 — Trocou a foto da categoria MINI PREÇOS (NOVOS)

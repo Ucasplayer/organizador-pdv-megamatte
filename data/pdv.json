@@ -499,7 +499,7 @@
    "id": "c110",
    "code": "110",
    "name": "MINI PREÇOS (NOVOS)",
-   "img": "api/image?f=cat-110-mvpfc5kn.jpg",
+   "img": "api/image?f=cat-110-mvqstzxq.jpg",
    "items": [
     "12017",
     "11795",
@@ -2376,6 +2376,10 @@
  },
  "log": [
   {
+   "t": "2026-10-27T14:40:45.154Z",
+   "msg": "Trocou a foto da categoria MINI PREÇOS (NOVOS)"
+  },
+  {
    "t": "2026-10-27T14:40:36.143Z",
    "msg": "Trocou a foto da categoria LOJISTA (NOVO)"
   },
@@ -2776,5 +2780,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-27T14:40:36.152Z"
+ "savedAt": "2026-10-27T14:40:45.167Z"
 }
