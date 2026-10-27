@@ -14,6 +14,7 @@
   --red:#E53935; --white:#fff; --muted:#9FC3DE;
   --tile-w:158px;
 }
+@font-face{font-family:"Oswald Card";src:url(fonts/oswald-600.woff2) format("woff2");font-weight:600;font-display:block}
 *{box-sizing:border-box}
 html,body{margin:0;height:100%}
 body{background:var(--bg);color:var(--white);font-family:"Segoe UI",Tahoma,Verdana,Arial,sans-serif;font-size:14px;display:flex;flex-direction:column;min-height:100vh}
@@ -99,8 +100,12 @@ main{background:var(--panel);border:1px solid var(--line);display:flex;flex-dire
 .ph-drop:hover,.ph-drop.over{background:#E1EEF8;border-color:var(--btn)}
 .ph-drop small{display:block;font-weight:400;color:#56708A}
 .ph-fit{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}
+.ph-fit[hidden]{display:none}
 .ph-fit button{flex:1;border:2px solid #DCE5EE;background:#fff;padding:7px;font-size:12.5px;font-weight:700;color:#123}
 .ph-fit button.on{border-color:var(--btn);background:#EAF3FA}
+.ph-gen{display:block;width:100%;margin-top:8px;background:#1C1C1C;color:#fff;border:0;padding:9px;font-weight:700;font-size:13px;border-bottom:3px solid #8A5A2B}
+.ph-gen:hover{background:#333}
+.ph-gen:disabled{opacity:.6;cursor:wait}
 .ph-remove{background:none;border:0;color:#B3261E;font-weight:700;padding:6px 0;margin-top:6px;font-size:13px}
 .mbtn:disabled{opacity:.6;cursor:wait}
 .sum td img{height:42px;aspect-ratio:160/84;object-fit:cover;border:1px solid #DCE5EE;display:block}
@@ -299,6 +304,7 @@ async function load() {
     showBanner('⚠ Não foi possível conectar à nuvem. As alterações estão sendo guardadas só neste navegador. Avise o Lucas.');
   }
   $('#loading').remove();
+  cardAssets().catch(() => {});
   render();
   if (!lsGet('pdv-org:viu-ajuda')) { lsSet('pdv-org:viu-ajuda', '1'); showHelp(); }
 }
@@ -703,6 +709,12 @@ async function editProduct() {
     sub: many ? 'O nome e a foto mudam em todas as categorias onde o produto aparece.' : '' });
   if (!res) return;
   const nm = res.name.toUpperCase();
+  // se a foto é o cartão automático com o nome, refaz o cartão com o nome novo
+  if (nm !== p.name && res.img === undefined && isAutoCard(p)) {
+    toast('Atualizando o cartão com o nome novo…');
+    try { res.img = await uploadPhoto('prod', code, nm, await makeCard(nm)); res.auto = true; }
+    catch (e) { toast('O nome mudou, mas não deu para refazer o cartão: ' + e.message); }
+  }
   const msgs = [];
   if (nm !== p.name) msgs.push(`Renomeou o produto ${p.name} para ${nm}`);
   if (res.img !== undefined) msgs.push(res.img ? `Trocou a foto do produto ${nm}` : `Tirou a foto do produto ${nm}`);
@@ -710,6 +722,7 @@ async function editProduct() {
   change(msgs.map((x, i) => i ? x[0].toLowerCase() + x.slice(1) : x).join(' e '), () => {
     const pp = S.data.products[code]; pp.name = nm;
     if (res.img !== undefined) { if (res.img) pp.img = res.img; else delete pp.img; }
+    if (res.img !== undefined) { if (res.auto && res.img) pp.autoImg = true; else delete pp.autoImg; }
   });
   S.selected.clear(); render();
   if (res.img !== undefined) toast('✓ Foto do produto salva');
@@ -756,6 +769,86 @@ async function uploadPhoto(kind, id, label, dataUrl) {
   throw new Error('Senha incorreta.');
 }
 
+// ----- Cartão automático (mesmo padrão das fotos da Mega Matte) -----
+const CARD = { bg: null, ready: null, auto: new Set() };
+const CARD_W = 1288, CARD_H = 719;
+const CARD_SIZE_RE = /\s+(\d+(?:[.,]\d+)?\s?(?:ML|L|G|KG)(?:\s?\/\s?\d+(?:[.,]\d+)?\s?(?:ML|L|G|KG))?)$/;
+
+function cardAssets() {
+  if (!CARD.ready) {
+    CARD.ready = Promise.all([
+      new Promise((res, rej) => { const im = new Image(); im.onload = () => { CARD.bg = im; res(); }; im.onerror = () => rej(new Error('fundo do cartão não carregou')); im.src = 'img/card-bg.jpg'; }),
+      document.fonts.load('600 100px "Oswald Card"'),
+      fetch('auto-cards.json').then(r => r.ok ? r.json() : []).then(l => l.forEach(f => CARD.auto.add(f))).catch(() => {}),
+    ]).catch(e => { CARD.ready = null; throw e; });
+  }
+  return CARD.ready;
+}
+
+function isAutoCard(p) {
+  return !!(p && p.img && (p.autoImg || CARD.auto.has(photoFile(p.img))));
+}
+
+function cardBalanced(words, n, tw, maxW) {
+  let best = null;
+  const rec = (i, k, acc) => {
+    if (k === 1) {
+      const lines = [...acc, words.slice(i).join(' ')];
+      const ws = lines.map(tw);
+      if (Math.max(...ws) <= maxW) { const sc = Math.max(...ws) - Math.min(...ws); if (!best || sc < best[0]) best = [sc, lines]; }
+      return;
+    }
+    for (let j = i + 1; j <= words.length - k + 1; j++) rec(j, k - 1, [...acc, words.slice(i, j).join(' ')]);
+  };
+  if (words.length >= n) rec(0, n, []);
+  return best ? best[1] : null;
+}
+
+function cardLayout(g, raw) {
+  const name = String(raw).trim().toUpperCase().replace(/\s+/g, ' ');
+  const m = CARD_SIZE_RE.exec(name);
+  const size = m ? m[1].replace(/\s/g, '') : '';
+  const main = m ? name.slice(0, m.index).trim() : name;
+  const words = main ? main.split(' ') : [];
+  const maxW = CARD_W * 0.90, room = CARD_H * 0.70 - CARD_H * 0.06;
+  let last = null;
+  for (let px = 114; px > 50; px -= 4) {
+    g.font = `600 ${px}px "Oswald Card"`;
+    const tw = t => g.measureText(t).width;
+    if (words.some(w => tw(w) > maxW)) continue;
+    const greedy = []; let cur = '';
+    for (const w of words) { const t = (cur + ' ' + w).trim(); if (!cur || tw(t) <= maxW) cur = t; else { greedy.push(cur); cur = w; } }
+    if (cur) greedy.push(cur);
+    let lines = cardBalanced(words, greedy.length, tw, maxW) || greedy;
+    if (size) lines = [...lines, size];
+    const lh = Math.round(px * 1.12);
+    last = { lines, px, lh };
+    if (lines.length * lh <= room && lines.length <= 4) break;
+  }
+  return last;
+}
+
+async function makeCard(name) {
+  await cardAssets();
+  const cv = document.createElement('canvas');
+  cv.width = CARD_W; cv.height = Math.round(CARD_W * 84 / 160);   // mesmo recorte do bloco do PDV
+  const g = cv.getContext('2d');
+  g.drawImage(CARD.bg, 0, 0, CARD_W, CARD_H);
+  const { lines, px, lh } = cardLayout(g, name);
+  g.font = `600 ${px}px "Oswald Card"`;
+  g.fillStyle = '#fff'; g.textAlign = 'center'; g.textBaseline = 'alphabetic';
+  const asc = g.measureText('H').fontBoundingBoxAscent || px * 0.95;
+  const total = lines.length * lh;
+  let y = Math.max(CARD_H * 0.06, Math.min(CARD_H * 0.40 - total / 2, CARD_H * 0.70 - total));
+  for (const ln of lines) { g.fillText(ln, CARD_W / 2, y - lh * 0.08 + asc); y += lh; }
+  const out = document.createElement('canvas');
+  out.width = PH_W; out.height = PH_H;
+  const o = out.getContext('2d');
+  o.imageSmoothingQuality = 'high';
+  o.drawImage(cv, 0, 0, PH_W, PH_H);
+  return out.toDataURL('image/jpeg', 0.86);
+}
+
 function photoFile(img) {
   const m = /[?&]f=([^&]+)/.exec(img || '');
   return m ? m[1] : '';
@@ -766,6 +859,7 @@ function editBox({ title, kind, id, name, img, fit, sub = '' }) {
     let chosen = null;      // imagem carregada (Image)
     let fitMode = fit;
     let newImg;             // undefined = sem mudança, null = removida, string = dataURL nova
+    let isAuto = false;     // a foto nova é o cartão automático
     const m = modal(`
       <h3>${esc(title)}</h3>
       <div class="body">
@@ -781,6 +875,7 @@ function editBox({ title, kind, id, name, img, fit, sub = '' }) {
               <button type="button" data-fit="cover">Preencher o espaço<br><small style="font-weight:400">corta as bordas</small></button>
               <button type="button" data-fit="contain">Mostrar a foto inteira<br><small style="font-weight:400">com fundo branco</small></button>
             </div>
+            ${kind === 'prod' ? '<button class="ph-gen" id="ph-gen" type="button">🪄 Gerar cartão com o nome</button>' : ''}
             <button class="ph-remove" id="ph-remove" type="button" ${img ? '' : 'hidden'}>🗑 Tirar a foto</button>
           </div>
         </div>
@@ -798,7 +893,7 @@ function editBox({ title, kind, id, name, img, fit, sub = '' }) {
     };
     const take = async blob => {
       if (!blob || !/^image\//.test(blob.type || 'image/')) return toast('Isso não é uma imagem.');
-      try { chosen = await loadImg(blob); newImg = drawPhoto(chosen, fitMode); show(); }
+      try { chosen = await loadImg(blob); newImg = drawPhoto(chosen, fitMode); isAuto = false; show(); }
       catch (e) { toast(e.message); }
     };
     const onPaste = e => {
@@ -813,19 +908,27 @@ function editBox({ title, kind, id, name, img, fit, sub = '' }) {
     drop.ondragleave = () => drop.classList.remove('over');
     drop.ondrop = e => { e.preventDefault(); drop.classList.remove('over'); take(e.dataTransfer.files[0]); };
     fitBox.onclick = e => { const b = e.target.closest('[data-fit]'); if (!b || !chosen) return; fitMode = b.dataset.fit; newImg = drawPhoto(chosen, fitMode); show(); };
-    rm.onclick = () => { chosen = null; newImg = null; show(); };
+    rm.onclick = () => { chosen = null; newImg = null; isAuto = false; show(); };
+    const genBtn = $('#ph-gen', m.el);
+    if (genBtn) genBtn.onclick = async () => {
+      genBtn.disabled = true;
+      try { newImg = await makeCard(nameIn.value || name); chosen = null; isAuto = true; show(); }
+      catch (e) { toast('Não foi possível gerar o cartão: ' + e.message); }
+      genBtn.disabled = false;
+    };
     nameIn.oninput = () => { if (kind === 'cat' && !(newImg === undefined ? img : newImg)) show(); };
     const okBtn = $('[data-ok]', m.el);
     okBtn.onclick = async () => {
       const nm = nameIn.value.trim();
       if (!nm) return nameIn.focus();
+      if (isAuto) { try { newImg = await makeCard(nm); } catch (_) {} }
       let finalImg = newImg;
       if (typeof newImg === 'string') {
         okBtn.disabled = true; okBtn.textContent = 'Enviando foto…';
         try { finalImg = await uploadPhoto(kind, id, nm, newImg); }
         catch (e) { okBtn.disabled = false; okBtn.textContent = 'Salvar'; return toast('Não foi possível enviar a foto: ' + e.message); }
       }
-      m.close({ name: nm, img: finalImg });
+      m.close({ name: nm, img: finalImg, auto: isAuto });
     };
     nameIn.addEventListener('keydown', e => { if (e.key === 'Enter') okBtn.click(); });
     show();
@@ -853,8 +956,11 @@ async function newProduct() {
     return toast(`O código ${code} já existia (${p.name}) — ele foi colocado aqui.`);
   }
   const key = code || ('novo-' + Date.now().toString(36));
+  let img = null;
+  try { toast('Criando o produto e o cartão com o nome…'); img = await uploadPhoto('prod', key, name, await makeCard(name)); }
+  catch (e) { toast('Produto criado sem foto: ' + e.message); }
   change(`Criou o produto ${name} em ${c.name}`, () => {
-    S.data.products[key] = { code: code || '', name, isNew: true };
+    S.data.products[key] = { code: code || '', name, isNew: true, ...(img ? { img, autoImg: true } : {}) };
     catById(c.id).items.push(key);
   });
   setTimeout(() => { const el = $('#grid .tile.prod:last-of-type'); if (el) el.scrollIntoView({ block: 'nearest' }); }, 50);
@@ -1103,7 +1209,7 @@ function showHelp() {
       <p><b>⧉ Produto em mais de uma categoria:</b> marque e clique em <b>Colocar também em…</b>. A etiqueta verde <i>+1 categ.</i> mostra que o produto aparece em outro lugar também.</p>
       <p><b>＋ Criar:</b> use <b>Nova Categoria</b> (na tela inicial) ou <b>Novo Produto</b> (dentro de uma categoria).</p>
       <p><b>🗑 Excluir:</b> marque os produtos e clique em <b>Excluir</b>. Para excluir uma categoria, abra a categoria e use o botão ao lado do nome dela.</p>
-      <p><b>🖼 Nome e foto:</b> marque um produto e clique em <b>Editar Nome e Foto</b>. Para a categoria, abra a categoria e clique em <b>Editar nome e foto</b> ao lado do nome. Dá para escolher a foto do computador, arrastar ou colar (Ctrl+V).</p>
+      <p><b>🖼 Nome e foto:</b> marque um produto e clique em <b>Editar Nome e Foto</b>. Para a categoria, abra a categoria e clique em <b>Editar nome e foto</b> ao lado do nome. Dá para escolher a foto do computador, arrastar ou colar (Ctrl+V), ou clicar em <b>🪄 Gerar cartão com o nome</b>. Produtos novos já ganham esse cartão sozinhos.</p>
       <p><b>↕ Mudar a ordem:</b> arraste a categoria ou o produto para a posição que quiser.</p>
       <p><b>↶ Errou?</b> Clique em <b>Desfazer</b> quantas vezes precisar.</p>
       <p><b>📋 Resumo das Mudanças</b> (tela inicial) mostra tudo o que já foi alterado.</p>
