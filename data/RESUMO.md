@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 27/10/2026, 11:39:59. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 27/10/2026, 11:40:10. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **383** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **10**
@@ -86,7 +86,7 @@ Atualizado em 27/10/2026, 11:39:59. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-13-mvpe00gw.jpg) [abrir](img/cat-13-mvpe00gw.jpg) | Categoria | 13 | SANDUICHES |
 | ![foto](img/cat-6-mvpedrqt.jpg) [abrir](img/cat-6-mvpedrqt.jpg) | Categoria | 6 | SOBREMESAS |
 | ![foto](img/cat-45-mvpehoov.jpg) [abrir](img/cat-45-mvpehoov.jpg) | Categoria | 45 | CONGELADOS |
-| ![foto](img/cat-18-mvqsszes.jpg) [abrir](img/cat-18-mvqsszes.jpg) | Categoria | 18 | EXTRA |
+| ![foto](img/cat-18-mvqst7v2.jpg) [abrir](img/cat-18-mvqst7v2.jpg) | Categoria | 18 | EXTRA |
 | ![foto](img/cat-2-mvpexm5r.jpg) [abrir](img/cat-2-mvpexm5r.jpg) | Categoria | 2 | PROMOÇÕES |
 | ![foto](img/cat-111-mvpeull3.jpg) [abrir](img/cat-111-mvpeull3.jpg) | Categoria | 111 | LOJISTA (NOVO) |
 | ![foto](img/cat-110-mvpfc5kn.jpg) [abrir](img/cat-110-mvpfc5kn.jpg) | Categoria | 110 | MINI PREÇOS (NOVOS) |
@@ -1002,4 +1002,4 @@ Atualizado em 27/10/2026, 11:39:59. Gerado automaticamente pelo Organizador do P
 - 27/10/2026, 11:11:30 — Trocou a foto do produto P.BATATA REQUEIJAO
 - 27/10/2026, 11:12:48 — Mudou a ordem das categorias na tela
 - 27/10/2026, 11:19:59 — Lucas colocou fotos no padrão (nome do produto) em 308 produtos que estavam sem imagem
-- 27/10/2026, 11:39:57 — Trocou a foto da categoria EXTRA
+- 27/10/2026, 11:40:09 — Trocou a foto da categoria EXTRA
