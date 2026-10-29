@@ -10,7 +10,8 @@
     "12113",
     "12112",
     "12111",
-    "12110"
+    "12110",
+    "12114"
    ],
    "isNew": true
   },
@@ -2277,6 +2278,13 @@
    "img": "api/image?f=prod-12113-mvtn877i.jpg",
    "autoImg": true
   },
+  "12114": {
+   "code": "12114",
+   "name": "MINI BROWNIE DO LUIZ",
+   "isNew": true,
+   "img": "api/image?f=prod-12114-mvtn9utn.jpg",
+   "autoImg": true
+  },
   "12200": {
    "code": "12200",
    "name": "P.18 PQ COPO MARCELO MENT",
@@ -2421,6 +2429,10 @@
   }
  },
  "log": [
+  {
+   "t": "2026-10-29T14:34:33.941Z",
+   "msg": "Criou o produto MINI BROWNIE DO LUIZ em CAMPANHA BROWNIE DO LUIZ"
+  },
   {
    "t": "2026-10-29T14:34:20.432Z",
    "msg": "Criou o produto MEGA CAPUCCINO DO LUIZ QUENTE em CAMPANHA BROWNIE DO LUIZ"
@@ -2918,5 +2930,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T14:34:20.449Z"
+ "savedAt": "2026-10-29T14:34:33.970Z"
 }
