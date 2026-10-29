@@ -8,7 +8,8 @@
    "img": "api/image?f=cat-nmvpkogad-mvpkwm7i.jpg",
    "items": [
     "12113",
-    "12112"
+    "12112",
+    "12111"
    ],
    "isNew": true
   },
@@ -2247,6 +2248,13 @@
    "name": "P.ACAI EM DOBRO 300ML",
    "img": "api/image?f=prod-12093-mvqrvc84.jpg"
   },
+  "12111": {
+   "code": "12111",
+   "name": "MEGA CAPUCCINO DO LUIZ GELADO",
+   "isNew": true,
+   "img": "api/image?f=prod-12111-mvtn9a34.jpg",
+   "autoImg": true
+  },
   "12112": {
    "code": "12112",
    "name": "CHOCOMEGA DO LUIZ QUENTE",
@@ -2405,6 +2413,10 @@
   }
  },
  "log": [
+  {
+   "t": "2026-10-29T14:34:06.955Z",
+   "msg": "Criou o produto MEGA CAPUCCINO DO LUIZ GELADO em CAMPANHA BROWNIE DO LUIZ"
+  },
   {
    "t": "2026-10-29T14:33:36.874Z",
    "msg": "Criou o produto CHOCOMEGA DO LUIZ QUENTE em CAMPANHA BROWNIE DO LUIZ"
@@ -2894,5 +2906,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T14:33:36.909Z"
+ "savedAt": "2026-10-29T14:34:06.973Z"
 }
