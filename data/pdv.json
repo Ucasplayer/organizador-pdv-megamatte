@@ -551,6 +551,14 @@
     "12662",
     "12666"
    ]
+  },
+  {
+   "id": "nmvtw1f45",
+   "code": "",
+   "name": "K",
+   "img": null,
+   "items": [],
+   "isNew": true
   }
  ],
  "products": {
@@ -3398,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T18:39:55.590Z",
+   "msg": "Criou a categoria K"
+  },
+  {
    "t": "2026-10-29T18:45:40.215Z",
    "msg": "Mudou a ordem das categorias na tela"
   },
@@ -3926,7 +3938,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T18:45:40.231Z",
+ "savedAt": "2026-10-29T18:39:55.607Z",
  "deliveryCategories": [
   {
    "id": "d39",

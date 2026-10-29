@@ -1,23 +1,24 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 15:45:41. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 15:39:57. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
 - Produtos que mudaram de categoria: **13**
 - Produtos novos: **8**
 - Produtos retirados: **9**
-- Categorias novas: **3**
+- Categorias novas: **4**
 - Categorias excluídas: **4**
 - Categorias renomeadas: **1**
 
-### Categorias novas (3)
+### Categorias novas (4)
 
 | Categoria | Qtd. produtos |
 |---|---|
 | CAMPANHA BROWNIE DO LUIZ | 5 |
 | MATE FRUTA DO DIA | 2 |
 | RETORNAVEL MENT | 0 |
+| K | 0 |
 
 ### Categorias excluídas (4)
 
@@ -1133,6 +1134,9 @@ _Nenhuma._
 7. FCDC SALGADO — cód. 12662
 8. FCDC SALGADO+MATE300ML — cód. 12666
 
+### 24. K (NOVA) — 0 produtos
+
+
 ## Estrutura final — 🛵 Delivery (na ordem da tela)
 
 ### 1. D - PROMOÇÕES E COMBOS (grupo 39) — 21 produtos
@@ -1494,3 +1498,4 @@ _Nenhuma._
 - 29/10/2026, 15:45:27 — Excluiu a categoria MONTE SEU AÇAI (com 3 produtos)
 - 29/10/2026, 15:45:37 — Criou a categoria RETORNAVEL MENT
 - 29/10/2026, 15:45:40 — Mudou a ordem das categorias na tela
+- 29/10/2026, 15:39:55 — Criou a categoria K
