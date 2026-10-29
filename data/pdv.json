@@ -27,6 +27,14 @@
    "isNew": true
   },
   {
+   "id": "nmvtw8qpu",
+   "code": "",
+   "name": "RETORNAVEL MENT",
+   "img": null,
+   "items": [],
+   "isNew": true
+  },
+  {
    "id": "c19",
    "code": "19",
    "name": "PAO DE QUEIJO",
@@ -543,14 +551,6 @@
     "12662",
     "12666"
    ]
-  },
-  {
-   "id": "nmvtw8qpu",
-   "code": "",
-   "name": "RETORNAVEL MENT",
-   "img": null,
-   "items": [],
-   "isNew": true
   }
  ],
  "products": {
@@ -3398,6 +3398,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T18:45:40.215Z",
+   "msg": "Mudou a ordem das categorias na tela"
+  },
+  {
    "t": "2026-10-29T18:45:37.219Z",
    "msg": "Criou a categoria RETORNAVEL MENT"
   },
@@ -3922,7 +3926,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T18:45:37.240Z",
+ "savedAt": "2026-10-29T18:45:40.231Z",
  "deliveryCategories": [
   {
    "id": "d39",
