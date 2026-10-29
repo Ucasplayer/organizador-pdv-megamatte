@@ -184,9 +184,7 @@
     "11859",
     "11451",
     "11452",
-    "11453",
-    "11804",
-    "11858"
+    "11453"
    ]
   },
   {
@@ -2362,6 +2360,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T14:29:51.084Z",
+   "msg": "Excluiu MONTE SEU ACAI 300ML, MONTE SEU ACAI 500ML de CAFETERIA BEBIDAS GELADAS"
+  },
+  {
    "t": "2026-10-29T14:28:18.228Z",
    "msg": "Mudou a ordem dos produtos em SOBREMESAS"
   },
@@ -2810,5 +2812,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T14:28:18.245Z"
+ "savedAt": "2026-10-29T14:29:51.099Z"
 }

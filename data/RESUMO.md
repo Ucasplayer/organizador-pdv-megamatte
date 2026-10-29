@@ -1,9 +1,9 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 11:28:19. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 11:29:52. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **383** (as fotos ficam na pasta data/img)
-- Produtos que mudaram de categoria: **11**
+- Produtos que mudaram de categoria: **13**
 - Produtos novos: **2**
 - Produtos retirados do PDV: **9**
 - Categorias novas: **2**
@@ -32,7 +32,7 @@ Atualizado em 29/10/2026, 11:28:19. Gerado automaticamente pelo Organizador do P
 |---|---|---|
 | 13 | SANDUICHES CHAPA | SANDUICHES |
 
-## Produtos que mudaram de categoria (11)
+## Produtos que mudaram de categoria (13)
 
 | Cód. | Produto | Saiu de | Entrou em | Fica em |
 |---|---|---|---|---|
@@ -40,6 +40,8 @@ Atualizado em 29/10/2026, 11:28:19. Gerado automaticamente pelo Organizador do P
 | 463 | ESPRESSO DUPLO 100ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 470 | ESPRESSO DUPLO C/LEITE 200ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 11063 | ESPRESSO MACCHIATO 50ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
+| 11804 | MONTE SEU ACAI 300ML | CAFETERIA BEBIDAS GELADAS | — | AÇAÍ |
+| 11858 | MONTE SEU ACAI 500ML | CAFETERIA BEBIDAS GELADAS | — | AÇAÍ |
 | 11931 | P.MATE OU GUARANA 300ML GRATIS | COFFEE PARTY TERÊ (excluída) | — | MATE |
 | 10362 | SAND. GOURMET CIABATTA CARNE ASSADA | SANDUÍCHES GOURMET (excluída) | SANDUICHES | SANDUICHES |
 | 11113 | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE | SANDUÍCHES GOURMET (excluída) | SANDUICHES | SANDUICHES |
@@ -608,7 +610,7 @@ Atualizado em 29/10/2026, 11:28:19. Gerado automaticamente pelo Organizador do P
 21. MOCACCINO 100ML — cód. 11671
 22. MOCACCINO 200ML — cód. 11064
 
-### 7. CAFETERIA BEBIDAS GELADAS (grupo 21) — 13 produtos
+### 7. CAFETERIA BEBIDAS GELADAS (grupo 21) — 11 produtos
 
 1. CAPPUCCINO COM NUTELLA GELADO 300ML — cód. 11309
 2. CAPPUCCINO COM NUTELLA GELADO 500ML — cód. 11310
@@ -621,8 +623,6 @@ Atualizado em 29/10/2026, 11:28:19. Gerado automaticamente pelo Organizador do P
 9. MATE OVOMALTINE 300ML — cód. 11451
 10. MATE OVOMALTINE 500ML — cód. 11452
 11. MATE OVOMALTINE 700ML — cód. 11453
-12. MONTE SEU ACAI 300ML — cód. 11804
-13. MONTE SEU ACAI 500ML — cód. 11858
 
 ### 8. AÇAÍ (grupo 8) — 25 produtos
 
@@ -1011,3 +1011,4 @@ Atualizado em 29/10/2026, 11:28:19. Gerado automaticamente pelo Organizador do P
 - 29/10/2026, 11:26:53 — Excluiu PR.ESPRESSO DUPLO 100ML de SOBREMESAS
 - 29/10/2026, 11:27:57 — Criou o produto P3. COOKIES DE BAUNILHA em SOBREMESAS
 - 29/10/2026, 11:28:18 — Mudou a ordem dos produtos em SOBREMESAS
+- 29/10/2026, 11:29:51 — Excluiu MONTE SEU ACAI 300ML, MONTE SEU ACAI 500ML de CAFETERIA BEBIDAS GELADAS
