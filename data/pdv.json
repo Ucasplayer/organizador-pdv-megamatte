@@ -27,14 +27,6 @@
    "isNew": true
   },
   {
-   "id": "nmvtng5ru",
-   "code": "",
-   "name": "MATE RETORNÁVEL MENT",
-   "img": null,
-   "items": [],
-   "isNew": true
-  },
-  {
    "id": "c19",
    "code": "19",
    "name": "PAO DE QUEIJO",
@@ -3410,6 +3402,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T18:45:20.329Z",
+   "msg": "Excluiu a categoria MATE RETORNÁVEL MENT"
+  },
+  {
    "t": "2026-10-29T15:20:54.004035Z",
    "msg": "[Delivery] Lucas adicionou a tela do delivery (16 categorias) e colocou fotos no padrão em 162 produtos"
   },
@@ -3922,7 +3918,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T15:21:21.748Z",
+ "savedAt": "2026-10-29T18:45:20.346Z",
  "deliveryCategories": [
   {
    "id": "d39",
