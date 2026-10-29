@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:19:10.257Z",
+   "msg": "[Delivery] Trocou a foto da categoria D - SUCOS"
+  },
+  {
    "t": "2026-10-29T19:18:49.689Z",
    "msg": "[Delivery] Trocou a foto da categoria D - VITAMINAS"
   },
@@ -3990,7 +3994,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:18:49.704Z",
+ "savedAt": "2026-10-29T19:19:10.274Z",
  "deliveryCategories": [
   {
    "id": "d39",
@@ -4194,7 +4198,7 @@
    "id": "d32",
    "code": "32",
    "name": "D - SUCOS",
-   "img": "img/del-32.jpg",
+   "img": "api/image?f=cat-32-mvtxnscn.jpg",
    "items": [
     "11543",
     "11544",
