@@ -382,7 +382,6 @@
     "2688",
     "11762",
     "10922",
-    "15050",
     "11831",
     "2112",
     "2073",
@@ -2355,6 +2354,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T14:26:53.533Z",
+   "msg": "Excluiu PR.ESPRESSO DUPLO 100ML de SOBREMESAS"
+  },
+  {
    "t": "2026-10-29T14:26:46.653Z",
    "msg": "Excluiu PL-BARRA 75%, PL-BARRA DIET, PL-DEMAIS BARRAS e mais 3 de SOBREMESAS"
   },
@@ -2791,5 +2794,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T14:26:46.668Z"
+ "savedAt": "2026-10-29T14:26:53.551Z"
 }

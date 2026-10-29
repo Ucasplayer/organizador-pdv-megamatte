@@ -1,11 +1,11 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 11:26:48. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 11:26:55. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **382** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **11**
 - Produtos novos: **1**
-- Produtos retirados do PDV: **8**
+- Produtos retirados do PDV: **9**
 - Categorias novas: **2**
 - Categorias excluídas: **4**
 - Categorias renomeadas: **1**
@@ -54,7 +54,7 @@ Atualizado em 29/10/2026, 11:26:48. Gerado automaticamente pelo Organizador do P
 |---|---|---|
 | — | AIA IAI |  |
 
-## Produtos retirados do PDV (8)
+## Produtos retirados do PDV (9)
 
 | Cód. | Produto | Estava em |
 |---|---|---|
@@ -64,6 +64,7 @@ Atualizado em 29/10/2026, 11:26:48. Gerado automaticamente pelo Organizador do P
 | 15503 | PL-LINGUA DE GATO | SOBREMESAS, COFFEE PARTY TERÊ |
 | 15508 | PL-PAO DE MEL | SOBREMESAS, COFFEE PARTY TERÊ |
 | 15504 | PL-TRUFA | SOBREMESAS, COFFEE PARTY TERÊ |
+| 15050 | PR.ESPRESSO DUPLO 100ML | SOBREMESAS |
 | 11114 | SAND. ABOBRINHA GREL PAST BERINJELA CIAB | SANDUÍCHES GOURMET |
 | 11118 | SAND. COSTELA NO PÃO AUSTRALIANO | SANDUÍCHES GOURMET |
 
@@ -753,7 +754,7 @@ Atualizado em 29/10/2026, 11:26:48. Gerado automaticamente pelo Organizador do P
 8. SAND. NAT. PEITO DE PERU — cód. 11181
 9. SAND. NAT. SALPICAO DE FRANGO — cód. 11182
 
-### 15. SOBREMESAS (grupo 6) — 28 produtos
+### 15. SOBREMESAS (grupo 6) — 27 produtos
 
 1. BOLO DE BANANA INT MEGAMATTE — cód. 11689
 2. BOLO DE CENOURA MEGAMATTE — cód. 11768
@@ -775,14 +776,13 @@ Atualizado em 29/10/2026, 11:26:48. Gerado automaticamente pelo Organizador do P
 18. P.6 BROINHAS — cód. 2688
 19. P.8 BROINHAS — cód. 11762
 20. PALHA ITALIANA — cód. 10922
-21. PR.ESPRESSO DUPLO 100ML — cód. 15050
-22. PROMO TORTA INTEIRA — cód. 11831
-23. SALADA DE FRUTAS MEDIA/GRANDE — cód. 2112
-24. SALADA DE FRUTAS PEQUENA — cód. 2073
-25. TORTA BANANA C/ GRANOLA FATIA — cód. 11428
-26. TORTA CHEESECAKE — cód. 485
-27. TORTA ESPECIAL FATIA — cód. 10231
-28. TORTA ESPECIAL INTEIRA — cód. 10298
+21. PROMO TORTA INTEIRA — cód. 11831
+22. SALADA DE FRUTAS MEDIA/GRANDE — cód. 2112
+23. SALADA DE FRUTAS PEQUENA — cód. 2073
+24. TORTA BANANA C/ GRANOLA FATIA — cód. 11428
+25. TORTA CHEESECAKE — cód. 485
+26. TORTA ESPECIAL FATIA — cód. 10231
+27. TORTA ESPECIAL INTEIRA — cód. 10298
 
 ### 16. CONGELADOS (grupo 45) — 7 produtos
 
@@ -1005,3 +1005,4 @@ Atualizado em 29/10/2026, 11:26:48. Gerado automaticamente pelo Organizador do P
 - 27/10/2026, 15:49:28 — Trocou a foto da categoria ÁGUA
 - 27/10/2026, 16:54:16 — Trocou a foto do produto CROISSANT DE CHOCOLATE
 - 29/10/2026, 11:26:46 — Excluiu PL-BARRA 75%, PL-BARRA DIET, PL-DEMAIS BARRAS e mais 3 de SOBREMESAS
+- 29/10/2026, 11:26:53 — Excluiu PR.ESPRESSO DUPLO 100ML de SOBREMESAS
