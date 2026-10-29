@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:20:35.734Z",
+   "msg": "[Delivery] Moveu DEL SAND. ABOBRINHA GRELH PAST BERIN, DEL SAND. CIABATTA CARNE ASSADA, DEL SAND. COSTELA P. AUSTRALIANO e mais 1 de D - SANDUÍCHES GOURMET para D - SANDUÍCHES CHAPA"
+  },
+  {
    "t": "2026-10-29T19:20:20.073Z",
    "msg": "[Delivery] Mudou a ordem das categorias na tela"
   },
@@ -4014,7 +4018,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:20:20.083Z",
+ "savedAt": "2026-10-29T19:20:35.749Z",
  "deliveryCategories": [
   {
    "id": "d24",
@@ -4225,7 +4229,11 @@
     "11596",
     "11563",
     "11564",
-    "11565"
+    "11565",
+    "11560",
+    "11561",
+    "11555",
+    "11562"
    ]
   },
   {
@@ -4233,12 +4241,7 @@
    "code": "36",
    "name": "D - SANDUÍCHES GOURMET",
    "img": "img/del-36.jpg",
-   "items": [
-    "11560",
-    "11561",
-    "11555",
-    "11562"
-   ]
+   "items": []
   },
   {
    "id": "d34",

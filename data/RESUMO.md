@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 16:20:21. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 16:20:37. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
@@ -116,7 +116,7 @@ Atualizado em 29/10/2026, 16:20:21. Gerado automaticamente pelo Organizador do P
 
 ## 🛵 DELIVERY
 
-- Produtos que mudaram de categoria: **0**
+- Produtos que mudaram de categoria: **4**
 - Produtos novos: **0**
 - Produtos retirados: **0**
 - Categorias novas: **0**
@@ -135,9 +135,14 @@ _Nenhuma._
 
 _Nenhuma._
 
-### Produtos que mudaram de categoria (0)
+### Produtos que mudaram de categoria (4)
 
-_Nenhuma._
+| Cód. | Produto | Saiu de | Entrou em | Fica em |
+|---|---|---|---|---|
+| 11560 | DEL SAND. ABOBRINHA GRELH PAST BERIN | D - SANDUÍCHES GOURMET | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
+| 11561 | DEL SAND. CIABATTA CARNE ASSADA | D - SANDUÍCHES GOURMET | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
+| 11555 | DEL SAND. COSTELA P. AUSTRALIANO | D - SANDUÍCHES GOURMET | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
+| 11562 | DEL SAND. FRANGO TOMATE AZEITONA | D - SANDUÍCHES GOURMET | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
 
 ### Produtos novos (0)
 
@@ -1304,19 +1309,19 @@ _Nenhuma._
 2. DEL AGUA MINERAL S/GAS 510ML — cód. 11475
 3. DEL AGUA DE COCO 500ML — cód. 11474
 
-### 11. D - SANDUÍCHES CHAPA (grupo 35) — 4 produtos
+### 11. D - SANDUÍCHES CHAPA (grupo 35) — 8 produtos
 
 1. DEL PAO FRANCES NA CHAPA — cód. 11596
 2. DEL SAND. MEGALEVE — cód. 11563
 3. DEL SAND. MEGAMISTO — cód. 11564
 4. DEL SAND. QUEIJO QUENTE — cód. 11565
+5. DEL SAND. ABOBRINHA GRELH PAST BERIN — cód. 11560
+6. DEL SAND. CIABATTA CARNE ASSADA — cód. 11561
+7. DEL SAND. COSTELA P. AUSTRALIANO — cód. 11555
+8. DEL SAND. FRANGO TOMATE AZEITONA — cód. 11562
 
-### 12. D - SANDUÍCHES GOURMET (grupo 36) — 4 produtos
+### 12. D - SANDUÍCHES GOURMET (grupo 36) — 0 produtos
 
-1. DEL SAND. ABOBRINHA GRELH PAST BERIN — cód. 11560
-2. DEL SAND. CIABATTA CARNE ASSADA — cód. 11561
-3. DEL SAND. COSTELA P. AUSTRALIANO — cód. 11555
-4. DEL SAND. FRANGO TOMATE AZEITONA — cód. 11562
 
 ### 13. D - SANDUÍCHES NATURAIS (grupo 34) — 4 produtos
 
@@ -1533,3 +1538,4 @@ _Nenhuma._
 - 29/10/2026, 16:19:54 — [Delivery] Trocou a foto da categoria D - SOBREMESAS
 - 29/10/2026, 16:20:11 — [Delivery] Trocou a foto da categoria D - EXTRA
 - 29/10/2026, 16:20:20 — [Delivery] Mudou a ordem das categorias na tela
+- 29/10/2026, 16:20:35 — [Delivery] Moveu DEL SAND. ABOBRINHA GRELH PAST BERIN, DEL SAND. CIABATTA CARNE ASSADA, DEL SAND. COSTELA P. AUSTRALIANO e mais 1 de D - SANDUÍCHES GOURMET para D - SANDUÍCHES CHAPA
