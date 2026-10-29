@@ -1,10 +1,10 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 11:31:31. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 11:32:21. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **383** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **384** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **14**
-- Produtos novos: **2**
+- Produtos novos: **3**
 - Produtos retirados do PDV: **9**
 - Categorias novas: **3**
 - Categorias excluídas: **4**
@@ -15,7 +15,7 @@ Atualizado em 29/10/2026, 11:31:31. Gerado automaticamente pelo Organizador do P
 | Categoria | Qtd. produtos |
 |---|---|
 | CAMPANHA BROWNIE DO LUIZ | 0 |
-| MATE FRUTA DO DIA | 0 |
+| MATE FRUTA DO DIA | 1 |
 | MONTE SEU AÇAI | 3 |
 
 ## Categorias excluídas (4)
@@ -52,12 +52,13 @@ Atualizado em 29/10/2026, 11:31:31. Gerado automaticamente pelo Organizador do P
 | 11181 | SAND. NAT. PEITO DE PERU | SANDUÍCHES NATURAIS (excluída) | SANDUICHES | SANDUICHES |
 | 11182 | SAND. NAT. SALPICAO DE FRANGO | SANDUÍCHES NATURAIS (excluída) | SANDUICHES | SANDUICHES |
 
-## Produtos novos (2)
+## Produtos novos (3)
 
 | Cód. | Produto | Categorias |
 |---|---|---|
 | — | AIA IAI |  |
 | 12084 | P3. COOKIES DE BAUNILHA | SOBREMESAS |
+| 11958 | PROMO MATE FRUTA DO DIA | MATE FRUTA DO DIA |
 
 ## Produtos retirados do PDV (9)
 
@@ -80,7 +81,7 @@ Atualizado em 29/10/2026, 11:31:31. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (383)
+## Fotos trocadas (384)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -415,6 +416,7 @@ Atualizado em 29/10/2026, 11:31:31. Gerado automaticamente pelo Organizador do P
 | ![foto](img/prod-11931-mvqrvc32.jpg) [abrir](img/prod-11931-mvqrvc32.jpg) | Produto | 11931 | P.MATE OU GUARANA 300ML GRATIS |
 | ![foto](img/prod-11941-mvqrvc8z.jpg) [abrir](img/prod-11941-mvqrvc8z.jpg) | Produto | 11941 | P.LOJ - SALGADO + CAFE 200ML |
 | ![foto](img/prod-11943-mvqrvc8o.jpg) [abrir](img/prod-11943-mvqrvc8o.jpg) | Produto | 11943 | P.LOJ - 12 PQ/BRO + CAFE 200ML |
+| ![foto](img/prod-11958-mvtn6zh7.jpg) [abrir](img/prod-11958-mvtn6zh7.jpg) | Produto | 11958 | PROMO MATE FRUTA DO DIA |
 | ![foto](img/prod-11960-mvqrvc8v.jpg) [abrir](img/prod-11960-mvqrvc8v.jpg) | Produto | 11960 | P.LOJ - 6 PQ/BRO + SUCO |
 | ![foto](img/prod-11961-mvqrvc8x.jpg) [abrir](img/prod-11961-mvqrvc8x.jpg) | Produto | 11961 | P.LOJ - 8 PQ/BRO + SUCO |
 | ![foto](img/prod-11962-mvqrvc8p.jpg) [abrir](img/prod-11962-mvqrvc8p.jpg) | Produto | 11962 | P.LOJ - 12 PQ/BRO + MATE OU GUA |
@@ -478,8 +480,9 @@ Atualizado em 29/10/2026, 11:31:31. Gerado automaticamente pelo Organizador do P
 ### 1. CAMPANHA BROWNIE DO LUIZ (NOVA) — 0 produtos
 
 
-### 2. MATE FRUTA DO DIA (NOVA) — 0 produtos
+### 2. MATE FRUTA DO DIA (NOVA) — 1 produtos
 
+1. PROMO MATE FRUTA DO DIA — cód. 11958
 
 ### 3. PAO DE QUEIJO (grupo 19) — 8 produtos
 
@@ -1025,3 +1028,4 @@ Atualizado em 29/10/2026, 11:31:31. Gerado automaticamente pelo Organizador do P
 - 29/10/2026, 11:30:54 — Colocou MONTE SEU ACAI 300ML também em MONTE SEU AÇAI
 - 29/10/2026, 11:31:12 — Colocou MONTE SEU ACAI 500ML também em MONTE SEU AÇAI
 - 29/10/2026, 11:31:30 — Colocou MONTE SEU ACAI 700ML também em MONTE SEU AÇAI
+- 29/10/2026, 11:32:19 — Criou o produto PROMO MATE FRUTA DO DIA em MATE FRUTA DO DIA
