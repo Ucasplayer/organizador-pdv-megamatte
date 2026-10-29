@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 16:18:12. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 16:18:32. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
@@ -147,7 +147,7 @@ _Nenhuma._
 
 _Nenhuma._
 
-### Fotos de categoria trocadas (6)
+### Fotos de categoria trocadas (7)
 
 | Foto | Cód. | Categoria |
 |---|---|---|
@@ -157,6 +157,7 @@ _Nenhuma._
 | ![foto](img/cat-25-mvtxltgv.jpg) [abrir](img/cat-25-mvtxltgv.jpg) | 25 | D - MATE |
 | ![foto](img/cat-22-mvtxm4h0.jpg) [abrir](img/cat-22-mvtxm4h0.jpg) | 22 | D - AÇAÍ |
 | ![foto](img/cat-29-mvtxmim2.jpg) [abrir](img/cat-29-mvtxmim2.jpg) | 29 | D - GUARANÁ NATURAL |
+| ![foto](img/cat-30-mvtxmxwz.jpg) [abrir](img/cat-30-mvtxmxwz.jpg) | 30 | D - MEGASHAKES |
 
 ### Ordem na tela
 
@@ -1519,3 +1520,4 @@ _Nenhuma._
 - 29/10/2026, 16:17:38 — [Delivery] Trocou a foto da categoria D - MATE
 - 29/10/2026, 16:17:52 — [Delivery] Trocou a foto da categoria D - AÇAÍ
 - 29/10/2026, 16:18:11 — [Delivery] Trocou a foto da categoria D - GUARANÁ NATURAL
+- 29/10/2026, 16:18:30 — [Delivery] Trocou a foto da categoria D - MEGASHAKES
