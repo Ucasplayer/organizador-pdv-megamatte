@@ -27,6 +27,14 @@
    "isNew": true
   },
   {
+   "id": "nmvtng5ru",
+   "code": "",
+   "name": "MATE RETORNÁVEL MENT",
+   "img": null,
+   "items": [],
+   "isNew": true
+  },
+  {
    "id": "c19",
    "code": "19",
    "name": "PAO DE QUEIJO",
@@ -555,14 +563,6 @@
     "12662",
     "12666"
    ]
-  },
-  {
-   "id": "nmvtng5ru",
-   "code": "",
-   "name": "MATE RETORNÁVEL MENT",
-   "img": null,
-   "items": [],
-   "isNew": true
   }
  ],
  "products": {
@@ -2438,6 +2438,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T14:39:32.417Z",
+   "msg": "Mudou a ordem das categorias na tela"
+  },
+  {
    "t": "2026-10-29T14:39:26.779Z",
    "msg": "Criou a categoria MATE RETORNÁVEL MENT"
   },
@@ -2942,5 +2946,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T14:39:26.794Z"
+ "savedAt": "2026-10-29T14:39:32.437Z"
 }
