@@ -38,7 +38,7 @@
    "id": "nmvtw8qpu",
    "code": "",
    "name": "RETORNAVEL MENT",
-   "img": "api/image?f=cat-nmvtw8qpu-mvtwpdmk.jpg",
+   "img": "api/image?f=cat-nmvtw8qpu-mvtx05ho.jpg",
    "items": [],
    "isNew": true
   },
@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:00:47.603Z",
+   "msg": "Trocou a foto da categoria RETORNAVEL MENT"
+  },
+  {
    "t": "2026-10-29T18:53:03.341Z",
    "msg": "Trocou a foto da categoria MATE"
   },
@@ -3954,7 +3958,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T18:53:03.358Z",
+ "savedAt": "2026-10-29T19:00:47.620Z",
  "deliveryCategories": [
   {
    "id": "d39",

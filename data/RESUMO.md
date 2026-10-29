@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 15:53:04. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 16:00:49. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
@@ -87,7 +87,7 @@ Atualizado em 29/10/2026, 15:53:04. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-nmvtw1f45-mvtw9yjg.jpg) [abrir](img/cat-nmvtw1f45-mvtw9yjg.jpg) | nova | CAMPANHA RAFA & LUIZ |
 | ![foto](img/cat-nmvpkogad-mvpkwm7i.jpg) [abrir](img/cat-nmvpkogad-mvpkwm7i.jpg) | nova | CAMPANHA BROWNIE DO LUIZ |
 | ![foto](img/cat-nmvpkilu8-mvpkqqvh.jpg) [abrir](img/cat-nmvpkilu8-mvpkqqvh.jpg) | nova | MATE FRUTA DO DIA |
-| ![foto](img/cat-nmvtw8qpu-mvtwpdmk.jpg) [abrir](img/cat-nmvtw8qpu-mvtwpdmk.jpg) | nova | RETORNAVEL MENT |
+| ![foto](img/cat-nmvtw8qpu-mvtx05ho.jpg) [abrir](img/cat-nmvtw8qpu-mvtx05ho.jpg) | nova | RETORNAVEL MENT |
 | ![foto](img/cat-19-mvpb6mfd.jpg) [abrir](img/cat-19-mvpb6mfd.jpg) | 19 | PAO DE QUEIJO |
 | ![foto](img/cat-3-mvpcb5fd.jpg) [abrir](img/cat-3-mvpcb5fd.jpg) | 3 | SALGADOS |
 | ![foto](img/cat-4-mvtwq71s.jpg) [abrir](img/cat-4-mvtwq71s.jpg) | 4 | MATE |
@@ -1505,3 +1505,4 @@ _Nenhuma._
 - 29/10/2026, 15:40:35 — Mudou a ordem das categorias na tela
 - 29/10/2026, 15:52:25 — Trocou a foto da categoria RETORNAVEL MENT
 - 29/10/2026, 15:53:03 — Trocou a foto da categoria MATE
+- 29/10/2026, 16:00:47 — Trocou a foto da categoria RETORNAVEL MENT
