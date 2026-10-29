@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:17:38.492Z",
+   "msg": "[Delivery] Trocou a foto da categoria D - MATE"
+  },
+  {
    "t": "2026-10-29T19:17:25.028Z",
    "msg": "[Delivery] Trocou a foto da categoria D - SALGADOS"
   },
@@ -3970,7 +3974,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:17:25.042Z",
+ "savedAt": "2026-10-29T19:17:38.502Z",
  "deliveryCategories": [
   {
    "id": "d39",
@@ -4069,7 +4073,7 @@
    "id": "d25",
    "code": "25",
    "name": "D - MATE",
-   "img": "img/del-25.jpg",
+   "img": "api/image?f=cat-25-mvtxltgv.jpg",
    "items": [
     "11478",
     "11498",

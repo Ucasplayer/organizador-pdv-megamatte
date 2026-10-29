@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 16:17:26. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 16:17:40. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
@@ -147,13 +147,14 @@ _Nenhuma._
 
 _Nenhuma._
 
-### Fotos de categoria trocadas (3)
+### Fotos de categoria trocadas (4)
 
 | Foto | Cód. | Categoria |
 |---|---|---|
 | ![foto](img/cat-39-mvtxl8uh.jpg) [abrir](img/cat-39-mvtxl8uh.jpg) | 39 | D - PROMOÇÕES E COMBOS |
 | ![foto](img/cat-24-mvtxkwkk.jpg) [abrir](img/cat-24-mvtxkwkk.jpg) | 24 | D - PÃO DE QUEIJO |
 | ![foto](img/cat-23-mvtxlj2p.jpg) [abrir](img/cat-23-mvtxlj2p.jpg) | 23 | D - SALGADOS |
+| ![foto](img/cat-25-mvtxltgv.jpg) [abrir](img/cat-25-mvtxltgv.jpg) | 25 | D - MATE |
 
 ### Ordem na tela
 
@@ -1513,3 +1514,4 @@ _Nenhuma._
 - 29/10/2026, 16:16:55 — [Delivery] Trocou a foto da categoria D - PÃO DE QUEIJO
 - 29/10/2026, 16:17:11 — [Delivery] Trocou a foto da categoria D - PROMOÇÕES E COMBOS
 - 29/10/2026, 16:17:25 — [Delivery] Trocou a foto da categoria D - SALGADOS
+- 29/10/2026, 16:17:38 — [Delivery] Trocou a foto da categoria D - MATE
