@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:19:24.641Z",
+   "msg": "[Delivery] Trocou a foto da categoria D - VITAMINAS"
+  },
+  {
    "t": "2026-10-29T19:19:10.257Z",
    "msg": "[Delivery] Trocou a foto da categoria D - SUCOS"
   },
@@ -3994,7 +3998,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:19:10.274Z",
+ "savedAt": "2026-10-29T19:19:24.658Z",
  "deliveryCategories": [
   {
    "id": "d39",
@@ -4175,7 +4179,7 @@
    "id": "d31",
    "code": "31",
    "name": "D - VITAMINAS",
-   "img": "api/image?f=cat-31-mvtxnceo.jpg",
+   "img": "api/image?f=cat-31-mvtxo3fn.jpg",
    "items": [
     "11566",
     "11567"
