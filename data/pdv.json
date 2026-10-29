@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:16:55.865Z",
+   "msg": "[Delivery] Trocou a foto da categoria D - PÃO DE QUEIJO"
+  },
+  {
    "t": "2026-10-29T19:00:47.603Z",
    "msg": "Trocou a foto da categoria RETORNAVEL MENT"
   },
@@ -3958,7 +3962,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:00:47.620Z",
+ "savedAt": "2026-10-29T19:16:55.882Z",
  "deliveryCategories": [
   {
    "id": "d39",
@@ -3993,7 +3997,7 @@
    "id": "d24",
    "code": "24",
    "name": "D - PÃO DE QUEIJO",
-   "img": "img/del-24.jpg",
+   "img": "api/image?f=cat-24-mvtxkwkk.jpg",
    "items": [
     "11533",
     "11524",

@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 16:00:49. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 16:16:57. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
@@ -147,9 +147,11 @@ _Nenhuma._
 
 _Nenhuma._
 
-### Fotos de categoria trocadas (0)
+### Fotos de categoria trocadas (1)
 
-_Nenhuma._
+| Foto | Cód. | Categoria |
+|---|---|---|
+| ![foto](img/cat-24-mvtxkwkk.jpg) [abrir](img/cat-24-mvtxkwkk.jpg) | 24 | D - PÃO DE QUEIJO |
 
 ### Ordem na tela
 
@@ -1506,3 +1508,4 @@ _Nenhuma._
 - 29/10/2026, 15:52:25 — Trocou a foto da categoria RETORNAVEL MENT
 - 29/10/2026, 15:53:03 — Trocou a foto da categoria MATE
 - 29/10/2026, 16:00:47 — Trocou a foto da categoria RETORNAVEL MENT
+- 29/10/2026, 16:16:55 — [Delivery] Trocou a foto da categoria D - PÃO DE QUEIJO
