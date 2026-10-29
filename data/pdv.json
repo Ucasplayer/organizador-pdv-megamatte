@@ -555,6 +555,14 @@
     "12662",
     "12666"
    ]
+  },
+  {
+   "id": "nmvtng5ru",
+   "code": "",
+   "name": "MATE RETORNÁVEL MENT",
+   "img": null,
+   "items": [],
+   "isNew": true
   }
  ],
  "products": {
@@ -2430,6 +2438,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T14:39:26.779Z",
+   "msg": "Criou a categoria MATE RETORNÁVEL MENT"
+  },
+  {
    "t": "2026-10-29T14:34:33.941Z",
    "msg": "Criou o produto MINI BROWNIE DO LUIZ em CAMPANHA BROWNIE DO LUIZ"
   },
@@ -2930,5 +2942,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T14:34:33.970Z"
+ "savedAt": "2026-10-29T14:39:26.794Z"
 }

@@ -1,22 +1,23 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 11:34:35. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 11:39:28. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **390** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **14**
 - Produtos novos: **9**
 - Produtos retirados do PDV: **9**
-- Categorias novas: **3**
+- Categorias novas: **4**
 - Categorias excluídas: **4**
 - Categorias renomeadas: **1**
 
-## Categorias novas (3)
+## Categorias novas (4)
 
 | Categoria | Qtd. produtos |
 |---|---|
 | CAMPANHA BROWNIE DO LUIZ | 5 |
 | MATE FRUTA DO DIA | 2 |
 | MONTE SEU AÇAI | 3 |
+| MATE RETORNÁVEL MENT | 0 |
 
 ## Categorias excluídas (4)
 
@@ -926,6 +927,9 @@ Atualizado em 29/10/2026, 11:34:35. Gerado automaticamente pelo Organizador do P
 7. FCDC SALGADO — cód. 12662
 8. FCDC SALGADO+MATE300ML — cód. 12666
 
+### 24. MATE RETORNÁVEL MENT (NOVA) — 0 produtos
+
+
 ## Histórico de alterações
 
 - 23/10/2026, 11:24:25 — Criou a categoria TESTE SITE
@@ -1053,3 +1057,4 @@ Atualizado em 29/10/2026, 11:34:35. Gerado automaticamente pelo Organizador do P
 - 29/10/2026, 11:34:06 — Criou o produto MEGA CAPUCCINO DO LUIZ GELADO em CAMPANHA BROWNIE DO LUIZ
 - 29/10/2026, 11:34:20 — Criou o produto MEGA CAPUCCINO DO LUIZ QUENTE em CAMPANHA BROWNIE DO LUIZ
 - 29/10/2026, 11:34:33 — Criou o produto MINI BROWNIE DO LUIZ em CAMPANHA BROWNIE DO LUIZ
+- 29/10/2026, 11:39:26 — Criou a categoria MATE RETORNÁVEL MENT
