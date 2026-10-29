@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:17:52.605Z",
+   "msg": "[Delivery] Trocou a foto da categoria D - AÇAÍ"
+  },
+  {
    "t": "2026-10-29T19:17:38.492Z",
    "msg": "[Delivery] Trocou a foto da categoria D - MATE"
   },
@@ -3974,7 +3978,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:17:38.502Z",
+ "savedAt": "2026-10-29T19:17:52.622Z",
  "deliveryCategories": [
   {
    "id": "d39",
@@ -4089,7 +4093,7 @@
    "id": "d22",
    "code": "22",
    "name": "D - AÇAÍ",
-   "img": "img/del-22.jpg",
+   "img": "api/image?f=cat-22-mvtxm4h0.jpg",
    "items": [
     "446",
     "458",
