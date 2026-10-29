@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:19:54.331Z",
+   "msg": "[Delivery] Trocou a foto da categoria D - SOBREMESAS"
+  },
+  {
    "t": "2026-10-29T19:19:36.414Z",
    "msg": "[Delivery] Trocou a foto da categoria D - ÁGUA"
   },
@@ -4002,7 +4006,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:19:36.429Z",
+ "savedAt": "2026-10-29T19:19:54.346Z",
  "deliveryCategories": [
   {
    "id": "d39",
@@ -4273,7 +4277,7 @@
    "id": "d38",
    "code": "38",
    "name": "D - SOBREMESAS",
-   "img": "img/del-38.jpg",
+   "img": "api/image?f=cat-38-mvtxopv2.jpg",
    "items": [
     "11477",
     "11769",
