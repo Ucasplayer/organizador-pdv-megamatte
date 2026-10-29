@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:17:25.028Z",
+   "msg": "[Delivery] Trocou a foto da categoria D - SALGADOS"
+  },
+  {
    "t": "2026-10-29T19:17:11.764Z",
    "msg": "[Delivery] Trocou a foto da categoria D - PROMOÇÕES E COMBOS"
   },
@@ -3966,7 +3970,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:17:11.776Z",
+ "savedAt": "2026-10-29T19:17:25.042Z",
  "deliveryCategories": [
   {
    "id": "d39",
@@ -4017,7 +4021,7 @@
    "id": "d23",
    "code": "23",
    "name": "D - SALGADOS",
-   "img": "img/del-23.jpg",
+   "img": "api/image?f=cat-23-mvtxlj2p.jpg",
    "items": [
     "524",
     "508",
