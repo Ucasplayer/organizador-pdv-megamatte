@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 16:19:26. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 16:19:37. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
@@ -147,7 +147,7 @@ _Nenhuma._
 
 _Nenhuma._
 
-### Fotos de categoria trocadas (9)
+### Fotos de categoria trocadas (10)
 
 | Foto | Cód. | Categoria |
 |---|---|---|
@@ -160,6 +160,7 @@ _Nenhuma._
 | ![foto](img/cat-30-mvtxmxwz.jpg) [abrir](img/cat-30-mvtxmxwz.jpg) | 30 | D - MEGASHAKES |
 | ![foto](img/cat-31-mvtxo3fn.jpg) [abrir](img/cat-31-mvtxo3fn.jpg) | 31 | D - VITAMINAS |
 | ![foto](img/cat-32-mvtxnscn.jpg) [abrir](img/cat-32-mvtxnscn.jpg) | 32 | D - SUCOS |
+| ![foto](img/cat-33-mvtxocg5.jpg) [abrir](img/cat-33-mvtxocg5.jpg) | 33 | D - ÁGUA |
 
 ### Ordem na tela
 
@@ -1526,3 +1527,4 @@ _Nenhuma._
 - 29/10/2026, 16:18:49 — [Delivery] Trocou a foto da categoria D - VITAMINAS
 - 29/10/2026, 16:19:10 — [Delivery] Trocou a foto da categoria D - SUCOS
 - 29/10/2026, 16:19:24 — [Delivery] Trocou a foto da categoria D - VITAMINAS
+- 29/10/2026, 16:19:36 — [Delivery] Trocou a foto da categoria D - ÁGUA

@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:19:36.414Z",
+   "msg": "[Delivery] Trocou a foto da categoria D - ÁGUA"
+  },
+  {
    "t": "2026-10-29T19:19:24.641Z",
    "msg": "[Delivery] Trocou a foto da categoria D - VITAMINAS"
   },
@@ -3998,7 +4002,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:19:24.658Z",
+ "savedAt": "2026-10-29T19:19:36.429Z",
  "deliveryCategories": [
   {
    "id": "d39",
@@ -4222,7 +4226,7 @@
    "id": "d33",
    "code": "33",
    "name": "D - ÁGUA",
-   "img": "img/del-33.jpg",
+   "img": "api/image?f=cat-33-mvtxocg5.jpg",
    "items": [
     "11476",
     "11475",
