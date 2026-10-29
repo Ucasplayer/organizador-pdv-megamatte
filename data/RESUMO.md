@@ -1,9 +1,9 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 11:31:14. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 11:31:31. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **383** (as fotos ficam na pasta data/img)
-- Produtos que mudaram de categoria: **13**
+- Produtos que mudaram de categoria: **14**
 - Produtos novos: **2**
 - Produtos retirados do PDV: **9**
 - Categorias novas: **3**
@@ -16,7 +16,7 @@ Atualizado em 29/10/2026, 11:31:14. Gerado automaticamente pelo Organizador do P
 |---|---|
 | CAMPANHA BROWNIE DO LUIZ | 0 |
 | MATE FRUTA DO DIA | 0 |
-| MONTE SEU AÇAI | 2 |
+| MONTE SEU AÇAI | 3 |
 
 ## Categorias excluídas (4)
 
@@ -33,7 +33,7 @@ Atualizado em 29/10/2026, 11:31:14. Gerado automaticamente pelo Organizador do P
 |---|---|---|
 | 13 | SANDUICHES CHAPA | SANDUICHES |
 
-## Produtos que mudaram de categoria (13)
+## Produtos que mudaram de categoria (14)
 
 | Cód. | Produto | Saiu de | Entrou em | Fica em |
 |---|---|---|---|---|
@@ -43,6 +43,7 @@ Atualizado em 29/10/2026, 11:31:14. Gerado automaticamente pelo Organizador do P
 | 11063 | ESPRESSO MACCHIATO 50ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 11804 | MONTE SEU ACAI 300ML | CAFETERIA BEBIDAS GELADAS | MONTE SEU AÇAI | AÇAÍ, MONTE SEU AÇAI |
 | 11858 | MONTE SEU ACAI 500ML | CAFETERIA BEBIDAS GELADAS | MONTE SEU AÇAI | AÇAÍ, MONTE SEU AÇAI |
+| 11873 | MONTE SEU ACAI 700ML | — | MONTE SEU AÇAI | AÇAÍ, MONTE SEU AÇAI |
 | 11931 | P.MATE OU GUARANA 300ML GRATIS | COFFEE PARTY TERÊ (excluída) | — | MATE |
 | 10362 | SAND. GOURMET CIABATTA CARNE ASSADA | SANDUÍCHES GOURMET (excluída) | SANDUICHES | SANDUICHES |
 | 11113 | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE | SANDUÍCHES GOURMET (excluída) | SANDUICHES | SANDUICHES |
@@ -653,10 +654,11 @@ Atualizado em 29/10/2026, 11:31:14. Gerado automaticamente pelo Organizador do P
 24. MONTE SEU ACAI 500ML — cód. 11858
 25. MONTE SEU ACAI 700ML — cód. 11873
 
-### 9. MONTE SEU AÇAI (NOVA) — 2 produtos
+### 9. MONTE SEU AÇAI (NOVA) — 3 produtos
 
 1. MONTE SEU ACAI 300ML — cód. 11804
 2. MONTE SEU ACAI 500ML — cód. 11858
+3. MONTE SEU ACAI 700ML — cód. 11873
 
 ### 10. GUARANA NATURAL (grupo 5) — 14 produtos
 
@@ -1022,3 +1024,4 @@ Atualizado em 29/10/2026, 11:31:14. Gerado automaticamente pelo Organizador do P
 - 29/10/2026, 11:30:10 — Mudou a ordem das categorias na tela
 - 29/10/2026, 11:30:54 — Colocou MONTE SEU ACAI 300ML também em MONTE SEU AÇAI
 - 29/10/2026, 11:31:12 — Colocou MONTE SEU ACAI 500ML também em MONTE SEU AÇAI
+- 29/10/2026, 11:31:30 — Colocou MONTE SEU ACAI 700ML também em MONTE SEU AÇAI
