@@ -1,11 +1,11 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 27/10/2026, 16:54:18. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 11:26:48. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **382** (as fotos ficam na pasta data/img)
-- Produtos que mudaram de categoria: **17**
+- Produtos que mudaram de categoria: **11**
 - Produtos novos: **1**
-- Produtos retirados do PDV: **2**
+- Produtos retirados do PDV: **8**
 - Categorias novas: **2**
 - Categorias excluídas: **4**
 - Categorias renomeadas: **1**
@@ -32,7 +32,7 @@ Atualizado em 27/10/2026, 16:54:18. Gerado automaticamente pelo Organizador do P
 |---|---|---|
 | 13 | SANDUICHES CHAPA | SANDUICHES |
 
-## Produtos que mudaram de categoria (17)
+## Produtos que mudaram de categoria (11)
 
 | Cód. | Produto | Saiu de | Entrou em | Fica em |
 |---|---|---|---|---|
@@ -41,12 +41,6 @@ Atualizado em 27/10/2026, 16:54:18. Gerado automaticamente pelo Organizador do P
 | 470 | ESPRESSO DUPLO C/LEITE 200ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 11063 | ESPRESSO MACCHIATO 50ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 11931 | P.MATE OU GUARANA 300ML GRATIS | COFFEE PARTY TERÊ (excluída) | — | MATE |
-| 15505 | PL-BARRA 75% | COFFEE PARTY TERÊ (excluída) | — | SOBREMESAS |
-| 15506 | PL-BARRA DIET | COFFEE PARTY TERÊ (excluída) | — | SOBREMESAS |
-| 15507 | PL-DEMAIS BARRAS | COFFEE PARTY TERÊ (excluída) | — | SOBREMESAS |
-| 15503 | PL-LINGUA DE GATO | COFFEE PARTY TERÊ (excluída) | — | SOBREMESAS |
-| 15508 | PL-PAO DE MEL | COFFEE PARTY TERÊ (excluída) | — | SOBREMESAS |
-| 15504 | PL-TRUFA | COFFEE PARTY TERÊ (excluída) | — | SOBREMESAS |
 | 10362 | SAND. GOURMET CIABATTA CARNE ASSADA | SANDUÍCHES GOURMET (excluída) | SANDUICHES | SANDUICHES |
 | 11113 | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE | SANDUÍCHES GOURMET (excluída) | SANDUICHES | SANDUICHES |
 | 11179 | SAND. NAT. ATUM COM REQUEIJÃO | SANDUÍCHES NATURAIS (excluída) | SANDUICHES | SANDUICHES |
@@ -60,10 +54,16 @@ Atualizado em 27/10/2026, 16:54:18. Gerado automaticamente pelo Organizador do P
 |---|---|---|
 | — | AIA IAI |  |
 
-## Produtos retirados do PDV (2)
+## Produtos retirados do PDV (8)
 
 | Cód. | Produto | Estava em |
 |---|---|---|
+| 15505 | PL-BARRA 75% | SOBREMESAS, COFFEE PARTY TERÊ |
+| 15506 | PL-BARRA DIET | SOBREMESAS, COFFEE PARTY TERÊ |
+| 15507 | PL-DEMAIS BARRAS | SOBREMESAS, COFFEE PARTY TERÊ |
+| 15503 | PL-LINGUA DE GATO | SOBREMESAS, COFFEE PARTY TERÊ |
+| 15508 | PL-PAO DE MEL | SOBREMESAS, COFFEE PARTY TERÊ |
+| 15504 | PL-TRUFA | SOBREMESAS, COFFEE PARTY TERÊ |
 | 11114 | SAND. ABOBRINHA GREL PAST BERINJELA CIAB | SANDUÍCHES GOURMET |
 | 11118 | SAND. COSTELA NO PÃO AUSTRALIANO | SANDUÍCHES GOURMET |
 
@@ -753,7 +753,7 @@ Atualizado em 27/10/2026, 16:54:18. Gerado automaticamente pelo Organizador do P
 8. SAND. NAT. PEITO DE PERU — cód. 11181
 9. SAND. NAT. SALPICAO DE FRANGO — cód. 11182
 
-### 15. SOBREMESAS (grupo 6) — 34 produtos
+### 15. SOBREMESAS (grupo 6) — 28 produtos
 
 1. BOLO DE BANANA INT MEGAMATTE — cód. 11689
 2. BOLO DE CENOURA MEGAMATTE — cód. 11768
@@ -775,20 +775,14 @@ Atualizado em 27/10/2026, 16:54:18. Gerado automaticamente pelo Organizador do P
 18. P.6 BROINHAS — cód. 2688
 19. P.8 BROINHAS — cód. 11762
 20. PALHA ITALIANA — cód. 10922
-21. PL-BARRA 75% — cód. 15505
-22. PL-BARRA DIET — cód. 15506
-23. PL-DEMAIS BARRAS — cód. 15507
-24. PL-LINGUA DE GATO — cód. 15503
-25. PL-PAO DE MEL — cód. 15508
-26. PL-TRUFA — cód. 15504
-27. PR.ESPRESSO DUPLO 100ML — cód. 15050
-28. PROMO TORTA INTEIRA — cód. 11831
-29. SALADA DE FRUTAS MEDIA/GRANDE — cód. 2112
-30. SALADA DE FRUTAS PEQUENA — cód. 2073
-31. TORTA BANANA C/ GRANOLA FATIA — cód. 11428
-32. TORTA CHEESECAKE — cód. 485
-33. TORTA ESPECIAL FATIA — cód. 10231
-34. TORTA ESPECIAL INTEIRA — cód. 10298
+21. PR.ESPRESSO DUPLO 100ML — cód. 15050
+22. PROMO TORTA INTEIRA — cód. 11831
+23. SALADA DE FRUTAS MEDIA/GRANDE — cód. 2112
+24. SALADA DE FRUTAS PEQUENA — cód. 2073
+25. TORTA BANANA C/ GRANOLA FATIA — cód. 11428
+26. TORTA CHEESECAKE — cód. 485
+27. TORTA ESPECIAL FATIA — cód. 10231
+28. TORTA ESPECIAL INTEIRA — cód. 10298
 
 ### 16. CONGELADOS (grupo 45) — 7 produtos
 
@@ -1010,3 +1004,4 @@ Atualizado em 27/10/2026, 16:54:18. Gerado automaticamente pelo Organizador do P
 - 27/10/2026, 15:43:49 — Trocou a foto da categoria ÁGUA
 - 27/10/2026, 15:49:28 — Trocou a foto da categoria ÁGUA
 - 27/10/2026, 16:54:16 — Trocou a foto do produto CROISSANT DE CHOCOLATE
+- 29/10/2026, 11:26:46 — Excluiu PL-BARRA 75%, PL-BARRA DIET, PL-DEMAIS BARRAS e mais 3 de SOBREMESAS

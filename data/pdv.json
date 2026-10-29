@@ -382,12 +382,6 @@
     "2688",
     "11762",
     "10922",
-    "15505",
-    "15506",
-    "15507",
-    "15503",
-    "15508",
-    "15504",
     "15050",
     "11831",
     "2112",
@@ -2361,6 +2355,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T14:26:46.653Z",
+   "msg": "Excluiu PL-BARRA 75%, PL-BARRA DIET, PL-DEMAIS BARRAS e mais 3 de SOBREMESAS"
+  },
+  {
    "t": "2026-10-27T19:54:16.942Z",
    "msg": "Trocou a foto do produto CROISSANT DE CHOCOLATE"
   },
@@ -2793,5 +2791,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-27T19:54:16.957Z"
+ "savedAt": "2026-10-29T14:26:46.668Z"
 }
