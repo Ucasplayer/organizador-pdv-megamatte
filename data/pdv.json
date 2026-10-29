@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:20:56.691Z",
+   "msg": "[Delivery] Excluiu a categoria D - SANDUÍCHES NATURAIS"
+  },
+  {
    "t": "2026-10-29T19:20:53.646Z",
    "msg": "[Delivery] Excluiu a categoria D - SANDUÍCHES GOURMET"
   },
@@ -4026,7 +4030,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:20:53.662Z",
+ "savedAt": "2026-10-29T19:20:56.707Z",
  "deliveryCategories": [
   {
    "id": "d24",
@@ -4247,13 +4251,6 @@
     "11558",
     "11559"
    ]
-  },
-  {
-   "id": "d34",
-   "code": "34",
-   "name": "D - SANDUÍCHES NATURAIS",
-   "img": "img/del-34.jpg",
-   "items": []
   },
   {
    "id": "d38",

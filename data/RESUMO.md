@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 16:20:55. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 16:20:58. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
@@ -120,18 +120,19 @@ Atualizado em 29/10/2026, 16:20:55. Gerado automaticamente pelo Organizador do P
 - Produtos novos: **0**
 - Produtos retirados: **0**
 - Categorias novas: **0**
-- Categorias excluídas: **1**
+- Categorias excluídas: **2**
 - Categorias renomeadas: **0**
 
 ### Categorias novas (0)
 
 _Nenhuma._
 
-### Categorias excluídas (1)
+### Categorias excluídas (2)
 
 | Cód. | Categoria |
 |---|---|
 | 36 | D - SANDUÍCHES GOURMET |
+| 34 | D - SANDUÍCHES NATURAIS |
 
 ### Categorias renomeadas (0)
 
@@ -145,10 +146,10 @@ _Nenhuma._
 | 11561 | DEL SAND. CIABATTA CARNE ASSADA | D - SANDUÍCHES GOURMET (excluída) | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
 | 11555 | DEL SAND. COSTELA P. AUSTRALIANO | D - SANDUÍCHES GOURMET (excluída) | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
 | 11562 | DEL SAND. FRANGO TOMATE AZEITONA | D - SANDUÍCHES GOURMET (excluída) | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
-| 11556 | DEL SAND. NAT. ATUM COM REQUEIJÃO | D - SANDUÍCHES NATURAIS | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
-| 11557 | DEL SAND. NAT. FRANGO COM CENOURA | D - SANDUÍCHES NATURAIS | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
-| 11558 | DEL SAND. NAT. PEITO DE PERU | D - SANDUÍCHES NATURAIS | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
-| 11559 | DEL SAND. NAT. SALPICÃO DE FRANGO | D - SANDUÍCHES NATURAIS | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
+| 11556 | DEL SAND. NAT. ATUM COM REQUEIJÃO | D - SANDUÍCHES NATURAIS (excluída) | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
+| 11557 | DEL SAND. NAT. FRANGO COM CENOURA | D - SANDUÍCHES NATURAIS (excluída) | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
+| 11558 | DEL SAND. NAT. PEITO DE PERU | D - SANDUÍCHES NATURAIS (excluída) | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
+| 11559 | DEL SAND. NAT. SALPICÃO DE FRANGO | D - SANDUÍCHES NATURAIS (excluída) | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
 
 ### Produtos novos (0)
 
@@ -1330,10 +1331,7 @@ _Nenhuma._
 11. DEL SAND. NAT. PEITO DE PERU — cód. 11558
 12. DEL SAND. NAT. SALPICÃO DE FRANGO — cód. 11559
 
-### 12. D - SANDUÍCHES NATURAIS (grupo 34) — 0 produtos
-
-
-### 13. D - SOBREMESAS (grupo 38) — 14 produtos
+### 12. D - SOBREMESAS (grupo 38) — 14 produtos
 
 1. DEL BOLO DE BANANA INT (PEDACO) — cód. 11477
 2. DEL BOLO DE CENOURA MEGAMATTE — cód. 11769
@@ -1350,7 +1348,7 @@ _Nenhuma._
 13. DEL P.8 BROINHAS — cód. 11528
 14. DEL TORTA BANANA C/ GRANOLA FATIA — cód. 11499
 
-### 14. D - EXTRA (grupo 44) — 10 produtos
+### 13. D - EXTRA (grupo 44) — 10 produtos
 
 1. DEL PORCAO DE AMENDOIM — cód. 11537
 2. DEL PORCAO DE GRANOLA — cód. 11538
@@ -1363,7 +1361,7 @@ _Nenhuma._
 9. KIT CAFE 2 — cód. 10709
 10. KIT CAFE 3 — cód. 10710
 
-### 15. D - PROMOÇÕES E COMBOS (grupo 39) — 21 produtos
+### 14. D - PROMOÇÕES E COMBOS (grupo 39) — 21 produtos
 
 1. DEL 2 ACAI 700ML — cód. 11892
 2. DEL 2 CROI FRAN + GUARANÁ 1L — cód. 11888
@@ -1544,3 +1542,4 @@ _Nenhuma._
 - 29/10/2026, 16:20:35 — [Delivery] Moveu DEL SAND. ABOBRINHA GRELH PAST BERIN, DEL SAND. CIABATTA CARNE ASSADA, DEL SAND. COSTELA P. AUSTRALIANO e mais 1 de D - SANDUÍCHES GOURMET para D - SANDUÍCHES CHAPA
 - 29/10/2026, 16:20:48 — [Delivery] Moveu DEL SAND. NAT. ATUM COM REQUEIJÃO, DEL SAND. NAT. FRANGO COM CENOURA, DEL SAND. NAT. PEITO DE PERU e mais 1 de D - SANDUÍCHES NATURAIS para D - SANDUÍCHES CHAPA
 - 29/10/2026, 16:20:53 — [Delivery] Excluiu a categoria D - SANDUÍCHES GOURMET
+- 29/10/2026, 16:20:56 — [Delivery] Excluiu a categoria D - SANDUÍCHES NATURAIS
