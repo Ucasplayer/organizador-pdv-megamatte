@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:20:48.062Z",
+   "msg": "[Delivery] Moveu DEL SAND. NAT. ATUM COM REQUEIJÃO, DEL SAND. NAT. FRANGO COM CENOURA, DEL SAND. NAT. PEITO DE PERU e mais 1 de D - SANDUÍCHES NATURAIS para D - SANDUÍCHES CHAPA"
+  },
+  {
    "t": "2026-10-29T19:20:35.734Z",
    "msg": "[Delivery] Moveu DEL SAND. ABOBRINHA GRELH PAST BERIN, DEL SAND. CIABATTA CARNE ASSADA, DEL SAND. COSTELA P. AUSTRALIANO e mais 1 de D - SANDUÍCHES GOURMET para D - SANDUÍCHES CHAPA"
   },
@@ -4018,7 +4022,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:20:35.749Z",
+ "savedAt": "2026-10-29T19:20:48.077Z",
  "deliveryCategories": [
   {
    "id": "d24",
@@ -4233,7 +4237,11 @@
     "11560",
     "11561",
     "11555",
-    "11562"
+    "11562",
+    "11556",
+    "11557",
+    "11558",
+    "11559"
    ]
   },
   {
@@ -4248,12 +4256,7 @@
    "code": "34",
    "name": "D - SANDUÍCHES NATURAIS",
    "img": "img/del-34.jpg",
-   "items": [
-    "11556",
-    "11557",
-    "11558",
-    "11559"
-   ]
+   "items": []
   },
   {
    "id": "d38",
