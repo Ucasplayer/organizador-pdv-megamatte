@@ -543,6 +543,14 @@
     "12662",
     "12666"
    ]
+  },
+  {
+   "id": "nmvtw8qpu",
+   "code": "",
+   "name": "RETORNAVEL MENT",
+   "img": null,
+   "items": [],
+   "isNew": true
   }
  ],
  "products": {
@@ -3390,6 +3398,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T18:45:37.219Z",
+   "msg": "Criou a categoria RETORNAVEL MENT"
+  },
+  {
    "t": "2026-10-29T18:45:27.649Z",
    "msg": "Excluiu a categoria MONTE SEU AÇAI (com 3 produtos)"
   },
@@ -3910,7 +3922,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T18:45:27.665Z",
+ "savedAt": "2026-10-29T18:45:37.240Z",
  "deliveryCategories": [
   {
    "id": "d39",
