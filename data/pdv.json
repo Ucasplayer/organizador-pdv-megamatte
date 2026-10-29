@@ -2,6 +2,14 @@
  "version": 1,
  "categories": [
   {
+   "id": "nmvtw1f45",
+   "code": "",
+   "name": "CAMPANHA RAFA & LUIZ",
+   "img": "api/image?f=cat-nmvtw1f45-mvtw9yjg.jpg",
+   "items": [],
+   "isNew": true
+  },
+  {
    "id": "nmvpkogad",
    "code": "",
    "name": "CAMPANHA BROWNIE DO LUIZ",
@@ -551,14 +559,6 @@
     "12662",
     "12666"
    ]
-  },
-  {
-   "id": "nmvtw1f45",
-   "code": "",
-   "name": "CAMPANHA RAFA & LUIZ",
-   "img": "api/image?f=cat-nmvtw1f45-mvtw9yjg.jpg",
-   "items": [],
-   "isNew": true
   }
  ],
  "products": {
@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T18:40:35.698Z",
+   "msg": "Mudou a ordem das categorias na tela"
+  },
+  {
    "t": "2026-10-29T18:40:25.619Z",
    "msg": "Renomeou a categoria K para CAMPANHA RAFA & LUIZ e trocou a foto da categoria CAMPANHA RAFA & LUIZ"
   },
@@ -3942,7 +3946,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T18:40:25.641Z",
+ "savedAt": "2026-10-29T18:40:35.709Z",
  "deliveryCategories": [
   {
    "id": "d39",

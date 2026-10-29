@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 15:40:27. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 15:40:37. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
@@ -15,10 +15,10 @@ Atualizado em 29/10/2026, 15:40:27. Gerado automaticamente pelo Organizador do P
 
 | Categoria | Qtd. produtos |
 |---|---|
+| CAMPANHA RAFA & LUIZ | 0 |
 | CAMPANHA BROWNIE DO LUIZ | 5 |
 | MATE FRUTA DO DIA | 2 |
 | RETORNAVEL MENT | 0 |
-| CAMPANHA RAFA & LUIZ | 0 |
 
 ### Categorias excluídas (4)
 
@@ -84,6 +84,7 @@ Atualizado em 29/10/2026, 15:40:27. Gerado automaticamente pelo Organizador do P
 
 | Foto | Cód. | Categoria |
 |---|---|---|
+| ![foto](img/cat-nmvtw1f45-mvtw9yjg.jpg) [abrir](img/cat-nmvtw1f45-mvtw9yjg.jpg) | nova | CAMPANHA RAFA & LUIZ |
 | ![foto](img/cat-nmvpkogad-mvpkwm7i.jpg) [abrir](img/cat-nmvpkogad-mvpkwm7i.jpg) | nova | CAMPANHA BROWNIE DO LUIZ |
 | ![foto](img/cat-nmvpkilu8-mvpkqqvh.jpg) [abrir](img/cat-nmvpkilu8-mvpkqqvh.jpg) | nova | MATE FRUTA DO DIA |
 | ![foto](img/cat-19-mvpb6mfd.jpg) [abrir](img/cat-19-mvpb6mfd.jpg) | 19 | PAO DE QUEIJO |
@@ -106,7 +107,6 @@ Atualizado em 29/10/2026, 15:40:27. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-110-mvqstzxq.jpg) [abrir](img/cat-110-mvqstzxq.jpg) | 110 | MINI PREÇOS (NOVOS) |
 | ![foto](img/cat-93-mvqsuv85.jpg) [abrir](img/cat-93-mvqsuv85.jpg) | 93 | FOLDER CAFETERIA |
 | ![foto](img/cat-92-mvqsv53t.jpg) [abrir](img/cat-92-mvqsv53t.jpg) | 92 | FOLDER COMBOS |
-| ![foto](img/cat-nmvtw1f45-mvtw9yjg.jpg) [abrir](img/cat-nmvtw1f45-mvtw9yjg.jpg) | nova | CAMPANHA RAFA & LUIZ |
 
 ### Ordem na tela
 
@@ -701,7 +701,10 @@ _Nenhuma._
 
 ## Estrutura final — 🏪 Loja (na ordem da tela)
 
-### 1. CAMPANHA BROWNIE DO LUIZ (NOVA) — 5 produtos
+### 1. CAMPANHA RAFA & LUIZ (NOVA) — 0 produtos
+
+
+### 2. CAMPANHA BROWNIE DO LUIZ (NOVA) — 5 produtos
 
 1. CHOCOMEGA DO LUIZ GELADO — cód. 12113
 2. CHOCOMEGA DO LUIZ QUENTE — cód. 12112
@@ -709,15 +712,15 @@ _Nenhuma._
 4. MEGA CAPUCCINO DO LUIZ QUENTE — cód. 12110
 5. MINI BROWNIE DO LUIZ — cód. 12114
 
-### 2. MATE FRUTA DO DIA (NOVA) — 2 produtos
+### 3. MATE FRUTA DO DIA (NOVA) — 2 produtos
 
 1. PROMO MATE FRUTA DO DIA — cód. 11958
 2. PROMO BRINDE MATE FRUTA DO DIA — cód. 15502
 
-### 3. RETORNAVEL MENT (NOVA) — 0 produtos
+### 4. RETORNAVEL MENT (NOVA) — 0 produtos
 
 
-### 4. PAO DE QUEIJO (grupo 19) — 8 produtos
+### 5. PAO DE QUEIJO (grupo 19) — 8 produtos
 
 1. P.12 P.QUEIJO — cód. 2562
 2. P.18 PQ COPO MARCELO MENT — cód. 12200
@@ -728,7 +731,7 @@ _Nenhuma._
 7. PAO DE QUEIJO UNID — cód. 491
 8. PL-P.12 PQ — cód. 12061
 
-### 5. SALGADOS (grupo 3) — 29 produtos
+### 6. SALGADOS (grupo 3) — 29 produtos
 
 1. CHEESEB. FORNO CHEDDAR — cód. 524
 2. CHEESEB. FORNO TRADICIONAL — cód. 11863
@@ -760,7 +763,7 @@ _Nenhuma._
 28. PROMO EMPADA FRANGO — cód. 11419
 29. PROMO EMPADA PALMITO — cód. 11421
 
-### 6. MATE (grupo 4) — 60 produtos
+### 7. MATE (grupo 4) — 60 produtos
 
 1. ERVA MATE CX 250G — cód. 11086
 2. MATE 1L — cód. 226
@@ -823,7 +826,7 @@ _Nenhuma._
 59. P.MATE OU GUARANA 300ML GRATIS — cód. 11931
 60. PL-MEGAMATTE DAY MATE 300ML/500ML — cód. 11893
 
-### 7. CAFETERIA BEBIDAS QUENTES (grupo 20) — 22 produtos
+### 8. CAFETERIA BEBIDAS QUENTES (grupo 20) — 22 produtos
 
 1. ESPRESSO 50ML — cód. 462
 2. ESPRESSO DUPLO 100ML — cód. 463
@@ -848,7 +851,7 @@ _Nenhuma._
 21. MOCACCINO 100ML — cód. 11671
 22. MOCACCINO 200ML — cód. 11064
 
-### 8. CAFETERIA BEBIDAS GELADAS (grupo 21) — 11 produtos
+### 9. CAFETERIA BEBIDAS GELADAS (grupo 21) — 11 produtos
 
 1. CAPPUCCINO COM NUTELLA GELADO 300ML — cód. 11309
 2. CAPPUCCINO COM NUTELLA GELADO 500ML — cód. 11310
@@ -862,7 +865,7 @@ _Nenhuma._
 10. MATE OVOMALTINE 500ML — cód. 11452
 11. MATE OVOMALTINE 700ML — cód. 11453
 
-### 9. AÇAÍ (grupo 8) — 25 produtos
+### 10. AÇAÍ (grupo 8) — 25 produtos
 
 1. ACAI 300ML — cód. 446
 2. ACAI 500ML — cód. 458
@@ -890,7 +893,7 @@ _Nenhuma._
 24. MONTE SEU ACAI 500ML — cód. 11858
 25. MONTE SEU ACAI 700ML — cód. 11873
 
-### 10. GUARANA NATURAL (grupo 5) — 14 produtos
+### 11. GUARANA NATURAL (grupo 5) — 14 produtos
 
 1. GUARA FRUTA 300ML — cód. 11037
 2. GUARA FRUTA 500ML — cód. 11038
@@ -907,7 +910,7 @@ _Nenhuma._
 13. GVITAMINA 500 ML — cód. 11202
 14. GVITAMINA 700 ML — cód. 11203
 
-### 11. MEGASHAKES (grupo 9) — 9 produtos
+### 12. MEGASHAKES (grupo 9) — 9 produtos
 
 1. MEGASHAKE ACAI 300ML — cód. 305
 2. MEGASHAKE ACAI 500ML — cód. 345
@@ -919,7 +922,7 @@ _Nenhuma._
 8. MEGASHAKE MORANGO 500ML — cód. 363
 9. MEGASHAKE MORANGO 700ML — cód. 10575
 
-### 12. VITAMINAS (grupo 10) — 9 produtos
+### 13. VITAMINAS (grupo 10) — 9 produtos
 
 1. VIT.BANANA C/AVEIA 300ML — cód. 2102
 2. VIT.BANANA C/AVEIA 500ML — cód. 2103
@@ -931,7 +934,7 @@ _Nenhuma._
 8. VIT.MORANGO AO LEITE 500ML — cód. 887
 9. VIT.MORANGO AO LEITE 700ML — cód. 10687
 
-### 13. SUCOS (grupo 11) — 39 produtos
+### 14. SUCOS (grupo 11) — 39 produtos
 
 1. S.ABACAXI 300ML — cód. 616
 2. S.ABACAXI 500ML — cód. 850
@@ -973,7 +976,7 @@ _Nenhuma._
 38. S.UVA 500ML — cód. 870
 39. S.UVA 700ML — cód. 10678
 
-### 14. ÁGUA (grupo 12) — 6 produtos
+### 15. ÁGUA (grupo 12) — 6 produtos
 
 1. AGUA DE COCO 200ML — cód. 11011
 2. AGUA MINERAL S/GAS 510ML — cód. 2027
@@ -982,7 +985,7 @@ _Nenhuma._
 5. AGUA DE COCO 500ML — cód. 1801
 6. AGUA DE COCO 700ML — cód. 10597
 
-### 15. SANDUICHES (grupo 13) — 9 produtos
+### 16. SANDUICHES (grupo 13) — 9 produtos
 
 1. PAO FRANCES NA CHAPA — cód. 10361
 2. SAND. MEGALEVE — cód. 10233
@@ -994,7 +997,7 @@ _Nenhuma._
 8. SAND. NAT. PEITO DE PERU — cód. 11181
 9. SAND. NAT. SALPICAO DE FRANGO — cód. 11182
 
-### 16. SOBREMESAS (grupo 6) — 28 produtos
+### 17. SOBREMESAS (grupo 6) — 28 produtos
 
 1. BOLO DE BANANA INT MEGAMATTE — cód. 11689
 2. BOLO DE CENOURA MEGAMATTE — cód. 11768
@@ -1025,7 +1028,7 @@ _Nenhuma._
 27. TORTA ESPECIAL INTEIRA — cód. 10298
 28. PROMO TORTA INTEIRA — cód. 11831
 
-### 17. CONGELADOS (grupo 45) — 7 produtos
+### 18. CONGELADOS (grupo 45) — 7 produtos
 
 1. CG - BROINHA 1KG — cód. 10261
 2. CG - PAO DE QUEIJO 1KG — cód. 2127
@@ -1035,7 +1038,7 @@ _Nenhuma._
 6. CG - PAO DE BATATA — cód. 11368
 7. CG - PASTEL — cód. 11369
 
-### 18. EXTRA (grupo 18) — 12 produtos
+### 19. EXTRA (grupo 18) — 12 produtos
 
 1. ADICIONAL MATE FRUTA — cód. 11790
 2. PORCAO DE AMENDOIM — cód. 607
@@ -1050,7 +1053,7 @@ _Nenhuma._
 11. PORCAO DE PROTEINATO — cód. 613
 12. PORCAO OVOMALTINE FLOCOS — cód. 11457
 
-### 19. PROMOÇÕES (grupo 2) — 27 produtos
+### 20. PROMOÇÕES (grupo 2) — 27 produtos
 
 1. KIT CAFE 1 — cód. 10708
 2. KIT CAFE 2 — cód. 10709
@@ -1080,7 +1083,7 @@ _Nenhuma._
 26. PROM - SALGADO + MATE — cód. 15015
 27. PROMO COOKIE DE CHOCOLATE UNID — cód. 11294
 
-### 20. LOJISTA (NOVO) (grupo 111) — 19 produtos
+### 21. LOJISTA (NOVO) (grupo 111) — 19 produtos
 
 1. P.LOJ - 1 COOKIE + CAFE 100ML — cód. 11996
 2. P.LOJ - 1 COOKIE + CAFE 200ML — cód. 11997
@@ -1102,7 +1105,7 @@ _Nenhuma._
 18. P.LOJ - SANDUICHE + SUCO — cód. 11979
 19. PROM -  LOJISTA — cód. 11795
 
-### 21. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
+### 22. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
 
 1. P.MP - SANDUICHE + SUCO — cód. 12017
 2. PROM -  LOJISTA — cód. 11795
@@ -1112,7 +1115,7 @@ _Nenhuma._
 6. P.MP - 8 PQ/BRO + SUCO — cód. 11910
 7. P.MP - SANDUICHE + MATE OU GUA — cód. 11908
 
-### 22. FOLDER CAFETERIA (grupo 93) — 9 produtos
+### 23. FOLDER CAFETERIA (grupo 93) — 9 produtos
 
 1. FCD CAPP 200ML — cód. 12048
 2. FCD CAPP 200ML+1COOKIE — cód. 12654
@@ -1124,7 +1127,7 @@ _Nenhuma._
 8. FCD ESPRESSO 50ML — cód. 12650
 9. FCD SAND. MEGAMISTO — cód. 12655
 
-### 23. FOLDER COMBOS (grupo 92) — 8 produtos
+### 24. FOLDER COMBOS (grupo 92) — 8 produtos
 
 1. FCDC ACAI 300ML+GRANOLA — cód. 12661
 2. FCDC MEGASHAKE300ML+6PQ/BRO — cód. 12665
@@ -1134,9 +1137,6 @@ _Nenhuma._
 6. FCDC P.8 PQ/BRO+MATE300ML — cód. 12664
 7. FCDC SALGADO — cód. 12662
 8. FCDC SALGADO+MATE300ML — cód. 12666
-
-### 24. CAMPANHA RAFA & LUIZ (NOVA) — 0 produtos
-
 
 ## Estrutura final — 🛵 Delivery (na ordem da tela)
 
@@ -1501,3 +1501,4 @@ _Nenhuma._
 - 29/10/2026, 15:45:40 — Mudou a ordem das categorias na tela
 - 29/10/2026, 15:39:55 — Criou a categoria K
 - 29/10/2026, 15:40:25 — Renomeou a categoria K para CAMPANHA RAFA & LUIZ e trocou a foto da categoria CAMPANHA RAFA & LUIZ
+- 29/10/2026, 15:40:35 — Mudou a ordem das categorias na tela
