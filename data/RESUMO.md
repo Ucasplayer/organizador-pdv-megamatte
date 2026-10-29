@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 15:52:26. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 15:53:04. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
@@ -90,7 +90,7 @@ Atualizado em 29/10/2026, 15:52:26. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-nmvtw8qpu-mvtwpdmk.jpg) [abrir](img/cat-nmvtw8qpu-mvtwpdmk.jpg) | nova | RETORNAVEL MENT |
 | ![foto](img/cat-19-mvpb6mfd.jpg) [abrir](img/cat-19-mvpb6mfd.jpg) | 19 | PAO DE QUEIJO |
 | ![foto](img/cat-3-mvpcb5fd.jpg) [abrir](img/cat-3-mvpcb5fd.jpg) | 3 | SALGADOS |
-| ![foto](img/cat-4-mvpmaquu.jpg) [abrir](img/cat-4-mvpmaquu.jpg) | 4 | MATE |
+| ![foto](img/cat-4-mvtwq71s.jpg) [abrir](img/cat-4-mvtwq71s.jpg) | 4 | MATE |
 | ![foto](img/cat-20-mvpaq0rr.jpg) [abrir](img/cat-20-mvpaq0rr.jpg) | 20 | CAFETERIA BEBIDAS QUENTES |
 | ![foto](img/cat-21-mvpcj4iz.jpg) [abrir](img/cat-21-mvpcj4iz.jpg) | 21 | CAFETERIA BEBIDAS GELADAS |
 | ![foto](img/cat-8-mvpb5vjl.jpg) [abrir](img/cat-8-mvpb5vjl.jpg) | 8 | AÇAÍ |
@@ -1504,3 +1504,4 @@ _Nenhuma._
 - 29/10/2026, 15:40:25 — Renomeou a categoria K para CAMPANHA RAFA & LUIZ e trocou a foto da categoria CAMPANHA RAFA & LUIZ
 - 29/10/2026, 15:40:35 — Mudou a ordem das categorias na tela
 - 29/10/2026, 15:52:25 — Trocou a foto da categoria RETORNAVEL MENT
+- 29/10/2026, 15:53:03 — Trocou a foto da categoria MATE

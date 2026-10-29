@@ -99,7 +99,7 @@
    "id": "c4",
    "code": "4",
    "name": "MATE",
-   "img": "api/image?f=cat-4-mvpmaquu.jpg",
+   "img": "api/image?f=cat-4-mvtwq71s.jpg",
    "items": [
     "11086",
     "226",
@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T18:53:03.341Z",
+   "msg": "Trocou a foto da categoria MATE"
+  },
+  {
    "t": "2026-10-29T18:52:25.051Z",
    "msg": "Trocou a foto da categoria RETORNAVEL MENT"
   },
@@ -3950,7 +3954,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T18:52:25.066Z",
+ "savedAt": "2026-10-29T18:53:03.358Z",
  "deliveryCategories": [
   {
    "id": "d39",
