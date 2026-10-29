@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:21:12.463Z",
+   "msg": "[Delivery] Trocou a foto da categoria D - SANDUÍCHES CHAPA"
+  },
+  {
    "t": "2026-10-29T19:20:56.691Z",
    "msg": "[Delivery] Excluiu a categoria D - SANDUÍCHES NATURAIS"
   },
@@ -4030,7 +4034,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:20:56.707Z",
+ "savedAt": "2026-10-29T19:21:12.480Z",
  "deliveryCategories": [
   {
    "id": "d24",
@@ -4236,7 +4240,7 @@
    "id": "d35",
    "code": "35",
    "name": "D - SANDUÍCHES CHAPA",
-   "img": "img/del-35.jpg",
+   "img": "api/image?f=cat-35-mvtxqekq.jpg",
    "items": [
     "11596",
     "11563",

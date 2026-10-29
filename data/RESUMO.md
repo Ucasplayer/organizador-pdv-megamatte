@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 16:20:58. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 16:21:13. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
@@ -159,7 +159,7 @@ _Nenhuma._
 
 _Nenhuma._
 
-### Fotos de categoria trocadas (12)
+### Fotos de categoria trocadas (13)
 
 | Foto | Cód. | Categoria |
 |---|---|---|
@@ -172,6 +172,7 @@ _Nenhuma._
 | ![foto](img/cat-31-mvtxo3fn.jpg) [abrir](img/cat-31-mvtxo3fn.jpg) | 31 | D - VITAMINAS |
 | ![foto](img/cat-32-mvtxnscn.jpg) [abrir](img/cat-32-mvtxnscn.jpg) | 32 | D - SUCOS |
 | ![foto](img/cat-33-mvtxocg5.jpg) [abrir](img/cat-33-mvtxocg5.jpg) | 33 | D - ÁGUA |
+| ![foto](img/cat-35-mvtxqekq.jpg) [abrir](img/cat-35-mvtxqekq.jpg) | 35 | D - SANDUÍCHES CHAPA |
 | ![foto](img/cat-38-mvtxopv2.jpg) [abrir](img/cat-38-mvtxopv2.jpg) | 38 | D - SOBREMESAS |
 | ![foto](img/cat-44-mvtxp3ni.jpg) [abrir](img/cat-44-mvtxp3ni.jpg) | 44 | D - EXTRA |
 | ![foto](img/cat-39-mvtxl8uh.jpg) [abrir](img/cat-39-mvtxl8uh.jpg) | 39 | D - PROMOÇÕES E COMBOS |
@@ -1543,3 +1544,4 @@ _Nenhuma._
 - 29/10/2026, 16:20:48 — [Delivery] Moveu DEL SAND. NAT. ATUM COM REQUEIJÃO, DEL SAND. NAT. FRANGO COM CENOURA, DEL SAND. NAT. PEITO DE PERU e mais 1 de D - SANDUÍCHES NATURAIS para D - SANDUÍCHES CHAPA
 - 29/10/2026, 16:20:53 — [Delivery] Excluiu a categoria D - SANDUÍCHES GOURMET
 - 29/10/2026, 16:20:56 — [Delivery] Excluiu a categoria D - SANDUÍCHES NATURAIS
+- 29/10/2026, 16:21:12 — [Delivery] Trocou a foto da categoria D - SANDUÍCHES CHAPA
