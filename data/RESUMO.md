@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 16:20:13. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 16:20:21. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
@@ -151,7 +151,6 @@ _Nenhuma._
 
 | Foto | Cód. | Categoria |
 |---|---|---|
-| ![foto](img/cat-39-mvtxl8uh.jpg) [abrir](img/cat-39-mvtxl8uh.jpg) | 39 | D - PROMOÇÕES E COMBOS |
 | ![foto](img/cat-24-mvtxkwkk.jpg) [abrir](img/cat-24-mvtxkwkk.jpg) | 24 | D - PÃO DE QUEIJO |
 | ![foto](img/cat-23-mvtxlj2p.jpg) [abrir](img/cat-23-mvtxlj2p.jpg) | 23 | D - SALGADOS |
 | ![foto](img/cat-25-mvtxltgv.jpg) [abrir](img/cat-25-mvtxltgv.jpg) | 25 | D - MATE |
@@ -163,10 +162,11 @@ _Nenhuma._
 | ![foto](img/cat-33-mvtxocg5.jpg) [abrir](img/cat-33-mvtxocg5.jpg) | 33 | D - ÁGUA |
 | ![foto](img/cat-38-mvtxopv2.jpg) [abrir](img/cat-38-mvtxopv2.jpg) | 38 | D - SOBREMESAS |
 | ![foto](img/cat-44-mvtxp3ni.jpg) [abrir](img/cat-44-mvtxp3ni.jpg) | 44 | D - EXTRA |
+| ![foto](img/cat-39-mvtxl8uh.jpg) [abrir](img/cat-39-mvtxl8uh.jpg) | 39 | D - PROMOÇÕES E COMBOS |
 
 ### Ordem na tela
 
-- A ordem das categorias não mudou.
+- A ordem das categorias mudou (ver estrutura no fim).
 - A ordem dos produtos não mudou.
 
 ## Vale para as duas telas
@@ -1154,31 +1154,7 @@ _Nenhuma._
 
 ## Estrutura final — 🛵 Delivery (na ordem da tela)
 
-### 1. D - PROMOÇÕES E COMBOS (grupo 39) — 21 produtos
-
-1. DEL 2 ACAI 700ML — cód. 11892
-2. DEL 2 CROI FRAN + GUARANÁ 1L — cód. 11888
-3. DEL 2 CROI FRAN + MATE 1L — cód. 11889
-4. DEL 2 CROI FRANG+ 24 PQ +MATE 1L — cód. 11887
-5. DEL 2 PÃES BAT C/ REQ + GUARANÁ 1L — cód. 11890
-6. DEL 2 PÃES BAT C/ REQ + MATE 1L — cód. 11891
-7. DEL 24 P.QUEIJO + MATE 1L — cód. 11886
-8. DEL COMBO CROISSANT + MAT OU GUARA 500ML — cód. 11514
-9. DEL COMBO P.12 PQ + MATE OU GUAR 500ML — cód. 11516
-10. DEL COMBO PAO DE BAT + MAT OU GUAR 500ML — cód. 11515
-11. DEL P.COMB - 12 PQ - MATE OU GUA 500ML — cód. 11985
-12. DEL P.COMB - P.BAT. - MATE OU GUA 500ML — cód. 11987
-13. KIT FOOD TO SAVE 1 — cód. 11776
-14. KIT FOOD TO SAVE 2 — cód. 11773
-15. KIT FOOD TO SAVE 3 — cód. 11774
-16. KIT FOOD TO SAVE 4 — cód. 11775
-17. PR.S.ABACAXI 300ML — cód. 11983
-18. PR.S.LIMONADA SUICA 300ML — cód. 11959
-19. PR.S.MAMAO 300ML — cód. 11980
-20. PR.S.MANGA 300ML — cód. 11970
-21. PR.S.MARACUJA 300ML — cód. 11971
-
-### 2. D - PÃO DE QUEIJO (grupo 24) — 8 produtos
+### 1. D - PÃO DE QUEIJO (grupo 24) — 8 produtos
 
 1. DEL CG - PAO DE QUEIJO 1KG — cód. 11533
 2. DEL P.12 P.QUEIJO — cód. 11524
@@ -1189,7 +1165,7 @@ _Nenhuma._
 7. P.12 P.QUEIJO — cód. 2562
 8. P.6 P.QUEIJO — cód. 10998
 
-### 3. D - SALGADOS (grupo 23) — 40 produtos
+### 2. D - SALGADOS (grupo 23) — 40 produtos
 
 1. CHEESEB. FORNO CHEDDAR — cód. 524
 2. CROISSANT FRANGO — cód. 508
@@ -1232,7 +1208,7 @@ _Nenhuma._
 39. DEL QUICHE INT ALHO PORO — cód. 12092
 40. DEL SALGADOS DIVERSOS — cód. 11745
 
-### 4. D - MATE (grupo 25) — 8 produtos
+### 3. D - MATE (grupo 25) — 8 produtos
 
 1. DEL 2 CAIXAS DE ERVA MATE — cód. 11478
 2. DEL ERVA MATE CX 250G — cód. 11498
@@ -1243,7 +1219,7 @@ _Nenhuma._
 7. DEL MATE C/PROTEINATO 500ML — cód. 11509
 8. DEL PROM MATE 500ML — cód. 11739
 
-### 5. D - AÇAÍ (grupo 22) — 35 produtos
+### 4. D - AÇAÍ (grupo 22) — 35 produtos
 
 1. ACAI 300ML — cód. 446
 2. ACAI 500ML — cód. 458
@@ -1281,25 +1257,25 @@ _Nenhuma._
 34. DEL MEGA ACAI 450ML - ISOPOR — cód. 11512
 35. DEL PROM ACAI 300 ML - ISOPOR — cód. 11740
 
-### 6. D - GUARANÁ NATURAL (grupo 29) — 3 produtos
+### 5. D - GUARANÁ NATURAL (grupo 29) — 3 produtos
 
 1. DEL GUARANA 1 L — cód. 11504
 2. DEL GUARANA 1 L - DELIVERY — cód. 11359
 3. DEL GUARANA 500ML — cód. 11505
 
-### 7. D - MEGASHAKES (grupo 30) — 4 produtos
+### 6. D - MEGASHAKES (grupo 30) — 4 produtos
 
 1. DEL BANANAPROTEIN 500ML — cód. 11521
 2. DEL GUARAPROTEIN 500ML — cód. 11517
 3. DEL MEGASHAKE ACAI 500ML — cód. 11520
 4. DEL MEGASHAKE MORANGO 500ML — cód. 11522
 
-### 8. D - VITAMINAS (grupo 31) — 2 produtos
+### 7. D - VITAMINAS (grupo 31) — 2 produtos
 
 1. DEL VIT.BANANA C/AVEIA 500ML — cód. 11566
 2. DEL VIT.MORANGO AO LEITE 500ML — cód. 11567
 
-### 9. D - SUCOS FUNCIONAIS (grupo 40) — 5 produtos
+### 8. D - SUCOS FUNCIONAIS (grupo 40) — 5 produtos
 
 1. DEL COMBO CROISSANT + MAT OU GUARA 500ML — cód. 11514
 2. DEL COMBO P.12 PQ + MATE OU GUAR 500ML — cód. 11516
@@ -1307,7 +1283,7 @@ _Nenhuma._
 4. DEL GUARAPROTEIN 500ML — cód. 11517
 5. DEL MATE 500 ML PROMOCIONAL — cód. 11518
 
-### 10. D - SUCOS (grupo 32) — 12 produtos
+### 9. D - SUCOS (grupo 32) — 12 produtos
 
 1. DEL S.ABACAXI 500ML — cód. 11543
 2. DEL S.ABACAXI C/HORTELA 500ML — cód. 11544
@@ -1322,34 +1298,34 @@ _Nenhuma._
 11. DEL S.PESSEGO 500ML — cód. 11553
 12. DEL S.UVA 500ML — cód. 11554
 
-### 11. D - ÁGUA (grupo 33) — 3 produtos
+### 10. D - ÁGUA (grupo 33) — 3 produtos
 
 1. DEL AGUA MINERAL C/GAS 500ML — cód. 11476
 2. DEL AGUA MINERAL S/GAS 510ML — cód. 11475
 3. DEL AGUA DE COCO 500ML — cód. 11474
 
-### 12. D - SANDUÍCHES CHAPA (grupo 35) — 4 produtos
+### 11. D - SANDUÍCHES CHAPA (grupo 35) — 4 produtos
 
 1. DEL PAO FRANCES NA CHAPA — cód. 11596
 2. DEL SAND. MEGALEVE — cód. 11563
 3. DEL SAND. MEGAMISTO — cód. 11564
 4. DEL SAND. QUEIJO QUENTE — cód. 11565
 
-### 13. D - SANDUÍCHES GOURMET (grupo 36) — 4 produtos
+### 12. D - SANDUÍCHES GOURMET (grupo 36) — 4 produtos
 
 1. DEL SAND. ABOBRINHA GRELH PAST BERIN — cód. 11560
 2. DEL SAND. CIABATTA CARNE ASSADA — cód. 11561
 3. DEL SAND. COSTELA P. AUSTRALIANO — cód. 11555
 4. DEL SAND. FRANGO TOMATE AZEITONA — cód. 11562
 
-### 14. D - SANDUÍCHES NATURAIS (grupo 34) — 4 produtos
+### 13. D - SANDUÍCHES NATURAIS (grupo 34) — 4 produtos
 
 1. DEL SAND. NAT. ATUM COM REQUEIJÃO — cód. 11556
 2. DEL SAND. NAT. FRANGO COM CENOURA — cód. 11557
 3. DEL SAND. NAT. PEITO DE PERU — cód. 11558
 4. DEL SAND. NAT. SALPICÃO DE FRANGO — cód. 11559
 
-### 15. D - SOBREMESAS (grupo 38) — 14 produtos
+### 14. D - SOBREMESAS (grupo 38) — 14 produtos
 
 1. DEL BOLO DE BANANA INT (PEDACO) — cód. 11477
 2. DEL BOLO DE CENOURA MEGAMATTE — cód. 11769
@@ -1366,7 +1342,7 @@ _Nenhuma._
 13. DEL P.8 BROINHAS — cód. 11528
 14. DEL TORTA BANANA C/ GRANOLA FATIA — cód. 11499
 
-### 16. D - EXTRA (grupo 44) — 10 produtos
+### 15. D - EXTRA (grupo 44) — 10 produtos
 
 1. DEL PORCAO DE AMENDOIM — cód. 11537
 2. DEL PORCAO DE GRANOLA — cód. 11538
@@ -1378,6 +1354,30 @@ _Nenhuma._
 8. KIT CAFE 1 — cód. 10708
 9. KIT CAFE 2 — cód. 10709
 10. KIT CAFE 3 — cód. 10710
+
+### 16. D - PROMOÇÕES E COMBOS (grupo 39) — 21 produtos
+
+1. DEL 2 ACAI 700ML — cód. 11892
+2. DEL 2 CROI FRAN + GUARANÁ 1L — cód. 11888
+3. DEL 2 CROI FRAN + MATE 1L — cód. 11889
+4. DEL 2 CROI FRANG+ 24 PQ +MATE 1L — cód. 11887
+5. DEL 2 PÃES BAT C/ REQ + GUARANÁ 1L — cód. 11890
+6. DEL 2 PÃES BAT C/ REQ + MATE 1L — cód. 11891
+7. DEL 24 P.QUEIJO + MATE 1L — cód. 11886
+8. DEL COMBO CROISSANT + MAT OU GUARA 500ML — cód. 11514
+9. DEL COMBO P.12 PQ + MATE OU GUAR 500ML — cód. 11516
+10. DEL COMBO PAO DE BAT + MAT OU GUAR 500ML — cód. 11515
+11. DEL P.COMB - 12 PQ - MATE OU GUA 500ML — cód. 11985
+12. DEL P.COMB - P.BAT. - MATE OU GUA 500ML — cód. 11987
+13. KIT FOOD TO SAVE 1 — cód. 11776
+14. KIT FOOD TO SAVE 2 — cód. 11773
+15. KIT FOOD TO SAVE 3 — cód. 11774
+16. KIT FOOD TO SAVE 4 — cód. 11775
+17. PR.S.ABACAXI 300ML — cód. 11983
+18. PR.S.LIMONADA SUICA 300ML — cód. 11959
+19. PR.S.MAMAO 300ML — cód. 11980
+20. PR.S.MANGA 300ML — cód. 11970
+21. PR.S.MARACUJA 300ML — cód. 11971
 
 ## Histórico de alterações
 
@@ -1532,3 +1532,4 @@ _Nenhuma._
 - 29/10/2026, 16:19:36 — [Delivery] Trocou a foto da categoria D - ÁGUA
 - 29/10/2026, 16:19:54 — [Delivery] Trocou a foto da categoria D - SOBREMESAS
 - 29/10/2026, 16:20:11 — [Delivery] Trocou a foto da categoria D - EXTRA
+- 29/10/2026, 16:20:20 — [Delivery] Mudou a ordem das categorias na tela
