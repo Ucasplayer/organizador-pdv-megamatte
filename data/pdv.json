@@ -226,7 +226,8 @@
    "name": "MONTE SEU AÇAI",
    "img": null,
    "items": [
-    "11804"
+    "11804",
+    "11858"
    ],
    "isNew": true
   },
@@ -2370,6 +2371,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T14:31:12.916Z",
+   "msg": "Colocou MONTE SEU ACAI 500ML também em MONTE SEU AÇAI"
+  },
+  {
    "t": "2026-10-29T14:30:54.477Z",
    "msg": "Colocou MONTE SEU ACAI 300ML também em MONTE SEU AÇAI"
   },
@@ -2834,5 +2839,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T14:30:54.492Z"
+ "savedAt": "2026-10-29T14:31:12.926Z"
 }
