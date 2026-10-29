@@ -1,10 +1,10 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 11:26:55. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 11:27:59. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **382** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **383** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **11**
-- Produtos novos: **1**
+- Produtos novos: **2**
 - Produtos retirados do PDV: **9**
 - Categorias novas: **2**
 - Categorias excluídas: **4**
@@ -48,11 +48,12 @@ Atualizado em 29/10/2026, 11:26:55. Gerado automaticamente pelo Organizador do P
 | 11181 | SAND. NAT. PEITO DE PERU | SANDUÍCHES NATURAIS (excluída) | SANDUICHES | SANDUICHES |
 | 11182 | SAND. NAT. SALPICAO DE FRANGO | SANDUÍCHES NATURAIS (excluída) | SANDUICHES | SANDUICHES |
 
-## Produtos novos (1)
+## Produtos novos (2)
 
 | Cód. | Produto | Categorias |
 |---|---|---|
 | — | AIA IAI |  |
+| 12084 | P3. COOKIES DE BAUNILHA | SOBREMESAS |
 
 ## Produtos retirados do PDV (9)
 
@@ -75,7 +76,7 @@ Atualizado em 29/10/2026, 11:26:55. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (382)
+## Fotos trocadas (383)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -434,6 +435,7 @@ Atualizado em 29/10/2026, 11:26:55. Gerado automaticamente pelo Organizador do P
 | ![foto](img/prod-12076-mvqrn1im.jpg) [abrir](img/prod-12076-mvqrn1im.jpg) | Produto | 12076 | QUICHE 4 QUEIJOS |
 | ![foto](img/prod-12077-mvqrn1i6.jpg) [abrir](img/prod-12077-mvqrn1i6.jpg) | Produto | 12077 | QUICHE INT ALHO PORO |
 | ![foto](img/prod-12080-mvqrvc6p.jpg) [abrir](img/prod-12080-mvqrvc6p.jpg) | Produto | 12080 | COOKIE DE BAUNILHA |
+| ![foto](img/prod-12084-mvtn1d8w.jpg) [abrir](img/prod-12084-mvtn1d8w.jpg) | Produto | 12084 | P3. COOKIES DE BAUNILHA |
 | ![foto](img/prod-12093-mvqrvc84.jpg) [abrir](img/prod-12093-mvqrvc84.jpg) | Produto | 12093 | P.ACAI EM DOBRO 300ML |
 | ![foto](img/prod-12200-mvqrvc19.jpg) [abrir](img/prod-12200-mvqrvc19.jpg) | Produto | 12200 | P.18 PQ COPO MARCELO MENT |
 | ![foto](img/prod-12650-mvqrvc9i.jpg) [abrir](img/prod-12650-mvqrvc9i.jpg) | Produto | 12650 | FCD ESPRESSO 50ML |
@@ -754,7 +756,7 @@ Atualizado em 29/10/2026, 11:26:55. Gerado automaticamente pelo Organizador do P
 8. SAND. NAT. PEITO DE PERU — cód. 11181
 9. SAND. NAT. SALPICAO DE FRANGO — cód. 11182
 
-### 15. SOBREMESAS (grupo 6) — 27 produtos
+### 15. SOBREMESAS (grupo 6) — 28 produtos
 
 1. BOLO DE BANANA INT MEGAMATTE — cód. 11689
 2. BOLO DE CENOURA MEGAMATTE — cód. 11768
@@ -783,6 +785,7 @@ Atualizado em 29/10/2026, 11:26:55. Gerado automaticamente pelo Organizador do P
 25. TORTA CHEESECAKE — cód. 485
 26. TORTA ESPECIAL FATIA — cód. 10231
 27. TORTA ESPECIAL INTEIRA — cód. 10298
+28. P3. COOKIES DE BAUNILHA — cód. 12084
 
 ### 16. CONGELADOS (grupo 45) — 7 produtos
 
@@ -1006,3 +1009,4 @@ Atualizado em 29/10/2026, 11:26:55. Gerado automaticamente pelo Organizador do P
 - 27/10/2026, 16:54:16 — Trocou a foto do produto CROISSANT DE CHOCOLATE
 - 29/10/2026, 11:26:46 — Excluiu PL-BARRA 75%, PL-BARRA DIET, PL-DEMAIS BARRAS e mais 3 de SOBREMESAS
 - 29/10/2026, 11:26:53 — Excluiu PR.ESPRESSO DUPLO 100ML de SOBREMESAS
+- 29/10/2026, 11:27:57 — Criou o produto P3. COOKIES DE BAUNILHA em SOBREMESAS

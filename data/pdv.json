@@ -388,7 +388,8 @@
     "11428",
     "485",
     "10231",
-    "10298"
+    "10298",
+    "12084"
    ]
   },
   {
@@ -2211,6 +2212,13 @@
    "name": "COOKIE DE BAUNILHA",
    "img": "api/image?f=prod-12080-mvqrvc6p.jpg"
   },
+  "12084": {
+   "code": "12084",
+   "name": "P3. COOKIES DE BAUNILHA",
+   "isNew": true,
+   "img": "api/image?f=prod-12084-mvtn1d8w.jpg",
+   "autoImg": true
+  },
   "12093": {
    "code": "12093",
    "name": "P.ACAI EM DOBRO 300ML",
@@ -2353,6 +2361,10 @@
   }
  },
  "log": [
+  {
+   "t": "2026-10-29T14:27:57.989Z",
+   "msg": "Criou o produto P3. COOKIES DE BAUNILHA em SOBREMESAS"
+  },
   {
    "t": "2026-10-29T14:26:53.533Z",
    "msg": "Excluiu PR.ESPRESSO DUPLO 100ML de SOBREMESAS"
@@ -2794,5 +2806,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T14:26:53.551Z"
+ "savedAt": "2026-10-29T14:27:58.018Z"
 }
