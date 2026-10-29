@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:18:49.689Z",
+   "msg": "[Delivery] Trocou a foto da categoria D - VITAMINAS"
+  },
+  {
    "t": "2026-10-29T19:18:30.891Z",
    "msg": "[Delivery] Trocou a foto da categoria D - MEGASHAKES"
   },
@@ -3986,7 +3990,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:18:30.906Z",
+ "savedAt": "2026-10-29T19:18:49.704Z",
  "deliveryCategories": [
   {
    "id": "d39",
@@ -4167,7 +4171,7 @@
    "id": "d31",
    "code": "31",
    "name": "D - VITAMINAS",
-   "img": "img/del-31.jpg",
+   "img": "api/image?f=cat-31-mvtxnceo.jpg",
    "items": [
     "11566",
     "11567"

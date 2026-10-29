@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 16:18:32. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 16:18:51. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
@@ -147,7 +147,7 @@ _Nenhuma._
 
 _Nenhuma._
 
-### Fotos de categoria trocadas (7)
+### Fotos de categoria trocadas (8)
 
 | Foto | Cód. | Categoria |
 |---|---|---|
@@ -158,6 +158,7 @@ _Nenhuma._
 | ![foto](img/cat-22-mvtxm4h0.jpg) [abrir](img/cat-22-mvtxm4h0.jpg) | 22 | D - AÇAÍ |
 | ![foto](img/cat-29-mvtxmim2.jpg) [abrir](img/cat-29-mvtxmim2.jpg) | 29 | D - GUARANÁ NATURAL |
 | ![foto](img/cat-30-mvtxmxwz.jpg) [abrir](img/cat-30-mvtxmxwz.jpg) | 30 | D - MEGASHAKES |
+| ![foto](img/cat-31-mvtxnceo.jpg) [abrir](img/cat-31-mvtxnceo.jpg) | 31 | D - VITAMINAS |
 
 ### Ordem na tela
 
@@ -1521,3 +1522,4 @@ _Nenhuma._
 - 29/10/2026, 16:17:52 — [Delivery] Trocou a foto da categoria D - AÇAÍ
 - 29/10/2026, 16:18:11 — [Delivery] Trocou a foto da categoria D - GUARANÁ NATURAL
 - 29/10/2026, 16:18:30 — [Delivery] Trocou a foto da categoria D - MEGASHAKES
+- 29/10/2026, 16:18:49 — [Delivery] Trocou a foto da categoria D - VITAMINAS
