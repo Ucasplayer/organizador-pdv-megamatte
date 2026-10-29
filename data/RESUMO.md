@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 11:28:07. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 11:28:19. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **383** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **11**
@@ -467,7 +467,7 @@ Atualizado em 29/10/2026, 11:28:07. Gerado automaticamente pelo Organizador do P
 ## Ordem na tela
 
 - A ordem das categorias mudou (ver estrutura abaixo).
-- Ordem dos produtos mudou em: SALGADOS, CAFETERIA BEBIDAS QUENTES
+- Ordem dos produtos mudou em: SALGADOS, CAFETERIA BEBIDAS QUENTES, SOBREMESAS
 
 ## Estrutura final (na ordem da tela)
 
@@ -779,13 +779,13 @@ Atualizado em 29/10/2026, 11:28:07. Gerado automaticamente pelo Organizador do P
 19. P.6 BROINHAS — cód. 2688
 20. P.8 BROINHAS — cód. 11762
 21. PALHA ITALIANA — cód. 10922
-22. PROMO TORTA INTEIRA — cód. 11831
-23. SALADA DE FRUTAS MEDIA/GRANDE — cód. 2112
-24. SALADA DE FRUTAS PEQUENA — cód. 2073
-25. TORTA BANANA C/ GRANOLA FATIA — cód. 11428
-26. TORTA CHEESECAKE — cód. 485
-27. TORTA ESPECIAL FATIA — cód. 10231
-28. TORTA ESPECIAL INTEIRA — cód. 10298
+22. SALADA DE FRUTAS MEDIA/GRANDE — cód. 2112
+23. SALADA DE FRUTAS PEQUENA — cód. 2073
+24. TORTA BANANA C/ GRANOLA FATIA — cód. 11428
+25. TORTA CHEESECAKE — cód. 485
+26. TORTA ESPECIAL FATIA — cód. 10231
+27. TORTA ESPECIAL INTEIRA — cód. 10298
+28. PROMO TORTA INTEIRA — cód. 11831
 
 ### 16. CONGELADOS (grupo 45) — 7 produtos
 
@@ -1010,4 +1010,4 @@ Atualizado em 29/10/2026, 11:28:07. Gerado automaticamente pelo Organizador do P
 - 29/10/2026, 11:26:46 — Excluiu PL-BARRA 75%, PL-BARRA DIET, PL-DEMAIS BARRAS e mais 3 de SOBREMESAS
 - 29/10/2026, 11:26:53 — Excluiu PR.ESPRESSO DUPLO 100ML de SOBREMESAS
 - 29/10/2026, 11:27:57 — Criou o produto P3. COOKIES DE BAUNILHA em SOBREMESAS
-- 29/10/2026, 11:28:06 — Mudou a ordem dos produtos em SOBREMESAS
+- 29/10/2026, 11:28:18 — Mudou a ordem dos produtos em SOBREMESAS
