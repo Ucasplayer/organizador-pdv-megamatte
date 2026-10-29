@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 11:30:12. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 11:30:56. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **383** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **13**
@@ -16,7 +16,7 @@ Atualizado em 29/10/2026, 11:30:12. Gerado automaticamente pelo Organizador do P
 |---|---|
 | CAMPANHA BROWNIE DO LUIZ | 0 |
 | MATE FRUTA DO DIA | 0 |
-| MONTE SEU AÇAI | 0 |
+| MONTE SEU AÇAI | 1 |
 
 ## Categorias excluídas (4)
 
@@ -41,7 +41,7 @@ Atualizado em 29/10/2026, 11:30:12. Gerado automaticamente pelo Organizador do P
 | 463 | ESPRESSO DUPLO 100ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 470 | ESPRESSO DUPLO C/LEITE 200ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 11063 | ESPRESSO MACCHIATO 50ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
-| 11804 | MONTE SEU ACAI 300ML | CAFETERIA BEBIDAS GELADAS | — | AÇAÍ |
+| 11804 | MONTE SEU ACAI 300ML | CAFETERIA BEBIDAS GELADAS | MONTE SEU AÇAI | AÇAÍ, MONTE SEU AÇAI |
 | 11858 | MONTE SEU ACAI 500ML | CAFETERIA BEBIDAS GELADAS | — | AÇAÍ |
 | 11931 | P.MATE OU GUARANA 300ML GRATIS | COFFEE PARTY TERÊ (excluída) | — | MATE |
 | 10362 | SAND. GOURMET CIABATTA CARNE ASSADA | SANDUÍCHES GOURMET (excluída) | SANDUICHES | SANDUICHES |
@@ -653,8 +653,9 @@ Atualizado em 29/10/2026, 11:30:12. Gerado automaticamente pelo Organizador do P
 24. MONTE SEU ACAI 500ML — cód. 11858
 25. MONTE SEU ACAI 700ML — cód. 11873
 
-### 9. MONTE SEU AÇAI (NOVA) — 0 produtos
+### 9. MONTE SEU AÇAI (NOVA) — 1 produtos
 
+1. MONTE SEU ACAI 300ML — cód. 11804
 
 ### 10. GUARANA NATURAL (grupo 5) — 14 produtos
 
@@ -1018,3 +1019,4 @@ Atualizado em 29/10/2026, 11:30:12. Gerado automaticamente pelo Organizador do P
 - 29/10/2026, 11:29:51 — Excluiu MONTE SEU ACAI 300ML, MONTE SEU ACAI 500ML de CAFETERIA BEBIDAS GELADAS
 - 29/10/2026, 11:30:03 — Criou a categoria MONTE SEU AÇAI
 - 29/10/2026, 11:30:10 — Mudou a ordem das categorias na tela
+- 29/10/2026, 11:30:54 — Colocou MONTE SEU ACAI 300ML também em MONTE SEU AÇAI
