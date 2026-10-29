@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:20:53.646Z",
+   "msg": "[Delivery] Excluiu a categoria D - SANDUÍCHES GOURMET"
+  },
+  {
    "t": "2026-10-29T19:20:48.062Z",
    "msg": "[Delivery] Moveu DEL SAND. NAT. ATUM COM REQUEIJÃO, DEL SAND. NAT. FRANGO COM CENOURA, DEL SAND. NAT. PEITO DE PERU e mais 1 de D - SANDUÍCHES NATURAIS para D - SANDUÍCHES CHAPA"
   },
@@ -4022,7 +4026,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:20:48.077Z",
+ "savedAt": "2026-10-29T19:20:53.662Z",
  "deliveryCategories": [
   {
    "id": "d24",
@@ -4243,13 +4247,6 @@
     "11558",
     "11559"
    ]
-  },
-  {
-   "id": "d36",
-   "code": "36",
-   "name": "D - SANDUÍCHES GOURMET",
-   "img": "img/del-36.jpg",
-   "items": []
   },
   {
    "id": "d34",
