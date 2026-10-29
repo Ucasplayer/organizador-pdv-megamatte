@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 11:30:12. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **383** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **13**
@@ -653,7 +653,10 @@ Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do P
 24. MONTE SEU ACAI 500ML — cód. 11858
 25. MONTE SEU ACAI 700ML — cód. 11873
 
-### 9. GUARANA NATURAL (grupo 5) — 14 produtos
+### 9. MONTE SEU AÇAI (NOVA) — 0 produtos
+
+
+### 10. GUARANA NATURAL (grupo 5) — 14 produtos
 
 1. GUARA FRUTA 300ML — cód. 11037
 2. GUARA FRUTA 500ML — cód. 11038
@@ -670,7 +673,7 @@ Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do P
 13. GVITAMINA 500 ML — cód. 11202
 14. GVITAMINA 700 ML — cód. 11203
 
-### 10. MEGASHAKES (grupo 9) — 9 produtos
+### 11. MEGASHAKES (grupo 9) — 9 produtos
 
 1. MEGASHAKE ACAI 300ML — cód. 305
 2. MEGASHAKE ACAI 500ML — cód. 345
@@ -682,7 +685,7 @@ Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do P
 8. MEGASHAKE MORANGO 500ML — cód. 363
 9. MEGASHAKE MORANGO 700ML — cód. 10575
 
-### 11. VITAMINAS (grupo 10) — 9 produtos
+### 12. VITAMINAS (grupo 10) — 9 produtos
 
 1. VIT.BANANA C/AVEIA 300ML — cód. 2102
 2. VIT.BANANA C/AVEIA 500ML — cód. 2103
@@ -694,7 +697,7 @@ Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do P
 8. VIT.MORANGO AO LEITE 500ML — cód. 887
 9. VIT.MORANGO AO LEITE 700ML — cód. 10687
 
-### 12. SUCOS (grupo 11) — 39 produtos
+### 13. SUCOS (grupo 11) — 39 produtos
 
 1. S.ABACAXI 300ML — cód. 616
 2. S.ABACAXI 500ML — cód. 850
@@ -736,7 +739,7 @@ Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do P
 38. S.UVA 500ML — cód. 870
 39. S.UVA 700ML — cód. 10678
 
-### 13. ÁGUA (grupo 12) — 6 produtos
+### 14. ÁGUA (grupo 12) — 6 produtos
 
 1. AGUA DE COCO 200ML — cód. 11011
 2. AGUA MINERAL S/GAS 510ML — cód. 2027
@@ -745,7 +748,7 @@ Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do P
 5. AGUA DE COCO 500ML — cód. 1801
 6. AGUA DE COCO 700ML — cód. 10597
 
-### 14. SANDUICHES (grupo 13) — 9 produtos
+### 15. SANDUICHES (grupo 13) — 9 produtos
 
 1. PAO FRANCES NA CHAPA — cód. 10361
 2. SAND. MEGALEVE — cód. 10233
@@ -757,7 +760,7 @@ Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do P
 8. SAND. NAT. PEITO DE PERU — cód. 11181
 9. SAND. NAT. SALPICAO DE FRANGO — cód. 11182
 
-### 15. SOBREMESAS (grupo 6) — 28 produtos
+### 16. SOBREMESAS (grupo 6) — 28 produtos
 
 1. BOLO DE BANANA INT MEGAMATTE — cód. 11689
 2. BOLO DE CENOURA MEGAMATTE — cód. 11768
@@ -788,7 +791,7 @@ Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do P
 27. TORTA ESPECIAL INTEIRA — cód. 10298
 28. PROMO TORTA INTEIRA — cód. 11831
 
-### 16. CONGELADOS (grupo 45) — 7 produtos
+### 17. CONGELADOS (grupo 45) — 7 produtos
 
 1. CG - BROINHA 1KG — cód. 10261
 2. CG - PAO DE QUEIJO 1KG — cód. 2127
@@ -798,7 +801,7 @@ Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do P
 6. CG - PAO DE BATATA — cód. 11368
 7. CG - PASTEL — cód. 11369
 
-### 17. EXTRA (grupo 18) — 12 produtos
+### 18. EXTRA (grupo 18) — 12 produtos
 
 1. ADICIONAL MATE FRUTA — cód. 11790
 2. PORCAO DE AMENDOIM — cód. 607
@@ -813,7 +816,7 @@ Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do P
 11. PORCAO DE PROTEINATO — cód. 613
 12. PORCAO OVOMALTINE FLOCOS — cód. 11457
 
-### 18. PROMOÇÕES (grupo 2) — 27 produtos
+### 19. PROMOÇÕES (grupo 2) — 27 produtos
 
 1. KIT CAFE 1 — cód. 10708
 2. KIT CAFE 2 — cód. 10709
@@ -843,7 +846,7 @@ Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do P
 26. PROM - SALGADO + MATE — cód. 15015
 27. PROMO COOKIE DE CHOCOLATE UNID — cód. 11294
 
-### 19. LOJISTA (NOVO) (grupo 111) — 19 produtos
+### 20. LOJISTA (NOVO) (grupo 111) — 19 produtos
 
 1. P.LOJ - 1 COOKIE + CAFE 100ML — cód. 11996
 2. P.LOJ - 1 COOKIE + CAFE 200ML — cód. 11997
@@ -865,7 +868,7 @@ Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do P
 18. P.LOJ - SANDUICHE + SUCO — cód. 11979
 19. PROM -  LOJISTA — cód. 11795
 
-### 20. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
+### 21. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
 
 1. P.MP - SANDUICHE + SUCO — cód. 12017
 2. PROM -  LOJISTA — cód. 11795
@@ -875,7 +878,7 @@ Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do P
 6. P.MP - 8 PQ/BRO + SUCO — cód. 11910
 7. P.MP - SANDUICHE + MATE OU GUA — cód. 11908
 
-### 21. FOLDER CAFETERIA (grupo 93) — 9 produtos
+### 22. FOLDER CAFETERIA (grupo 93) — 9 produtos
 
 1. FCD CAPP 200ML — cód. 12048
 2. FCD CAPP 200ML+1COOKIE — cód. 12654
@@ -887,7 +890,7 @@ Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do P
 8. FCD ESPRESSO 50ML — cód. 12650
 9. FCD SAND. MEGAMISTO — cód. 12655
 
-### 22. FOLDER COMBOS (grupo 92) — 8 produtos
+### 23. FOLDER COMBOS (grupo 92) — 8 produtos
 
 1. FCDC ACAI 300ML+GRANOLA — cód. 12661
 2. FCDC MEGASHAKE300ML+6PQ/BRO — cód. 12665
@@ -897,9 +900,6 @@ Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do P
 6. FCDC P.8 PQ/BRO+MATE300ML — cód. 12664
 7. FCDC SALGADO — cód. 12662
 8. FCDC SALGADO+MATE300ML — cód. 12666
-
-### 23. MONTE SEU AÇAI (NOVA) — 0 produtos
-
 
 ## Histórico de alterações
 
@@ -1017,3 +1017,4 @@ Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do P
 - 29/10/2026, 11:28:18 — Mudou a ordem dos produtos em SOBREMESAS
 - 29/10/2026, 11:29:51 — Excluiu MONTE SEU ACAI 300ML, MONTE SEU ACAI 500ML de CAFETERIA BEBIDAS GELADAS
 - 29/10/2026, 11:30:03 — Criou a categoria MONTE SEU AÇAI
+- 29/10/2026, 11:30:10 — Mudou a ordem das categorias na tela
