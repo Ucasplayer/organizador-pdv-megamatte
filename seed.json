@@ -2017,7 +2017,962 @@
 "12666": {
 "code": "12666",
 "name": "FCDC SALGADO+MATE300ML"
+},
+"11892": {
+"code": "11892",
+"name": "DEL 2 ACAI 700ML"
+},
+"11888": {
+"code": "11888",
+"name": "DEL 2 CROI FRAN + GUARANÁ 1L"
+},
+"11889": {
+"code": "11889",
+"name": "DEL 2 CROI FRAN + MATE 1L"
+},
+"11887": {
+"code": "11887",
+"name": "DEL 2 CROI FRANG+ 24 PQ +MATE 1L"
+},
+"11890": {
+"code": "11890",
+"name": "DEL 2 PÃES BAT C/ REQ + GUARANÁ 1L"
+},
+"11891": {
+"code": "11891",
+"name": "DEL 2 PÃES BAT C/ REQ + MATE 1L"
+},
+"11886": {
+"code": "11886",
+"name": "DEL 24 P.QUEIJO + MATE 1L"
+},
+"11514": {
+"code": "11514",
+"name": "DEL COMBO CROISSANT + MAT OU GUARA 500ML"
+},
+"11516": {
+"code": "11516",
+"name": "DEL COMBO P.12 PQ + MATE OU GUAR 500ML"
+},
+"11515": {
+"code": "11515",
+"name": "DEL COMBO PAO DE BAT + MAT OU GUAR 500ML"
+},
+"11985": {
+"code": "11985",
+"name": "DEL P.COMB - 12 PQ - MATE OU GUA 500ML"
+},
+"11987": {
+"code": "11987",
+"name": "DEL P.COMB - P.BAT. - MATE OU GUA 500ML"
+},
+"11776": {
+"code": "11776",
+"name": "KIT FOOD TO SAVE 1"
+},
+"11773": {
+"code": "11773",
+"name": "KIT FOOD TO SAVE 2"
+},
+"11774": {
+"code": "11774",
+"name": "KIT FOOD TO SAVE 3"
+},
+"11775": {
+"code": "11775",
+"name": "KIT FOOD TO SAVE 4"
+},
+"11983": {
+"code": "11983",
+"name": "PR.S.ABACAXI 300ML"
+},
+"11959": {
+"code": "11959",
+"name": "PR.S.LIMONADA SUICA 300ML"
+},
+"11980": {
+"code": "11980",
+"name": "PR.S.MAMAO 300ML"
+},
+"11970": {
+"code": "11970",
+"name": "PR.S.MANGA 300ML"
+},
+"11971": {
+"code": "11971",
+"name": "PR.S.MARACUJA 300ML"
+},
+"11533": {
+"code": "11533",
+"name": "DEL CG - PAO DE QUEIJO 1KG"
+},
+"11524": {
+"code": "11524",
+"name": "DEL P.12 P.QUEIJO"
+},
+"11736": {
+"code": "11736",
+"name": "DEL P.24 P.QUEIJO"
+},
+"11529": {
+"code": "11529",
+"name": "DEL P.8 PAES DE QUEIJO"
+},
+"11573": {
+"code": "11573",
+"name": "DEL PAO DE QUEIJO UNID"
+},
+"11772": {
+"code": "11772",
+"name": "DEL PQ GRANDE"
+},
+"11480": {
+"code": "11480",
+"name": "DEL CG - CHEESB. FORNO"
+},
+"12087": {
+"code": "12087",
+"name": "DEL CG - COOKIE DE BAUNILHA"
+},
+"11808": {
+"code": "11808",
+"name": "DEL CG - EMPADA"
+},
+"11483": {
+"code": "11483",
+"name": "DEL CG - FOLHADO"
+},
+"11484": {
+"code": "11484",
+"name": "DEL CG - FOLHADO INT"
+},
+"11485": {
+"code": "11485",
+"name": "DEL CG - PAO DE QUEIJO"
+},
+"11486": {
+"code": "11486",
+"name": "DEL CG - PASTEL"
+},
+"11487": {
+"code": "11487",
+"name": "DEL CHEESEB.FORNO CHEDDAR"
+},
+"11864": {
+"code": "11864",
+"name": "DEL CHEESEB.FORNO TRADICIONAL"
+},
+"12088": {
+"code": "12088",
+"name": "DEL COOKIE DE BAUNILHA"
+},
+"11490": {
+"code": "11490",
+"name": "DEL CROISS.INT. FRANGO C/REQUEIJAO"
+},
+"11491": {
+"code": "11491",
+"name": "DEL CROISS.INT. QUEIJO MINAS"
+},
+"11492": {
+"code": "11492",
+"name": "DEL CROISSANT 04 QUEIJOS"
+},
+"11493": {
+"code": "11493",
+"name": "DEL CROISSANT FRANGO"
+},
+"11494": {
+"code": "11494",
+"name": "DEL CROISSANT MISTO"
+},
+"11495": {
+"code": "11495",
+"name": "DEL CROISSANT PIZZA"
+},
+"11783": {
+"code": "11783",
+"name": "DEL EMPADA CAMARAO"
+},
+"11784": {
+"code": "11784",
+"name": "DEL EMPADA CARNE SECA"
+},
+"11496": {
+"code": "11496",
+"name": "DEL EMPADA FRANGO"
+},
+"11497": {
+"code": "11497",
+"name": "DEL EMPADA PALMITO"
+},
+"11866": {
+"code": "11866",
+"name": "DEL EMPADAO FRANGO (250G)"
+},
+"11501": {
+"code": "11501",
+"name": "DEL FOLHADO FRANGO"
+},
+"11502": {
+"code": "11502",
+"name": "DEL FOLHADO INT. PEITO PERU C/QUEIJO"
+},
+"11503": {
+"code": "11503",
+"name": "DEL FOLHADO PEITO DE PERU"
+},
+"11525": {
+"code": "11525",
+"name": "DEL MEGACOPAO"
+},
+"12089": {
+"code": "12089",
+"name": "DEL P.3 COOKIES DE BAUNILHA"
+},
+"12036": {
+"code": "12036",
+"name": "DEL P.BATATA CALABRESA"
+},
+"11530": {
+"code": "11530",
+"name": "DEL P.BATATA MISTO"
+},
+"11531": {
+"code": "11531",
+"name": "DEL P.BATATA PERU C/QUEIJO MINAS"
+},
+"11532": {
+"code": "11532",
+"name": "DEL P.BATATA REQUEIJAO"
+},
+"11534": {
+"code": "11534",
+"name": "DEL PAST.INT.FRANGO CEN.PASSAS"
+},
+"11535": {
+"code": "11535",
+"name": "DEL PAST.INT.PALMITO C/CHAMPIGNON"
+},
+"11536": {
+"code": "11536",
+"name": "DEL PAST.INT.QUEIJO MINAS"
+},
+"11737": {
+"code": "11737",
+"name": "DEL PROM CHEESEB.FORNO CHEDDAR"
+},
+"11738": {
+"code": "11738",
+"name": "DEL PROM SAND. NAT. PEITO DE PERU"
+},
+"12091": {
+"code": "12091",
+"name": "DEL QUICHE 4 QUEIJOS"
+},
+"12092": {
+"code": "12092",
+"name": "DEL QUICHE INT ALHO PORO"
+},
+"11745": {
+"code": "11745",
+"name": "DEL SALGADOS DIVERSOS"
+},
+"11478": {
+"code": "11478",
+"name": "DEL 2 CAIXAS DE ERVA MATE"
+},
+"11498": {
+"code": "11498",
+"name": "DEL ERVA MATE CX 250G"
+},
+"11357": {
+"code": "11357",
+"name": "DEL MATE 1 L - DELIVERY"
+},
+"11506": {
+"code": "11506",
+"name": "DEL MATE 1L"
+},
+"11507": {
+"code": "11507",
+"name": "DEL MATE 500ML"
+},
+"11508": {
+"code": "11508",
+"name": "DEL MATE C/LEITE 500ML"
+},
+"11509": {
+"code": "11509",
+"name": "DEL MATE C/PROTEINATO 500ML"
+},
+"11739": {
+"code": "11739",
+"name": "DEL PROM MATE 500ML"
+},
+"15010": {
+"code": "15010",
+"name": "DEL - ACAI BATIDO BANANA GRANOLA 300ML"
+},
+"15011": {
+"code": "15011",
+"name": "DEL - ACAI BATIDO BANANA GRANOLA 500ML"
+},
+"15012": {
+"code": "15012",
+"name": "DEL - ACAI BATIDO BANANA GRANOLA 700ML"
+},
+"15007": {
+"code": "15007",
+"name": "DEL - ACAI COM NUTELLA LEITE PO 300ML"
+},
+"15008": {
+"code": "15008",
+"name": "DEL - ACAI COM NUTELLA LEITE PO 500ML"
+},
+"15009": {
+"code": "15009",
+"name": "DEL - ACAI COM NUTELLA LEITE PO 700ML"
+},
+"15004": {
+"code": "15004",
+"name": "DEL - ACAI MEGA DO SEU JEITO 300ML"
+},
+"15005": {
+"code": "15005",
+"name": "DEL - ACAI MEGA DO SEU JEITO 500ML"
+},
+"15006": {
+"code": "15006",
+"name": "DEL - ACAI MEGA DO SEU JEITO 700ML"
+},
+"11459": {
+"code": "11459",
+"name": "DEL ACAI 300 ML - ISOPOR"
+},
+"11460": {
+"code": "11460",
+"name": "DEL ACAI 450 ML - ISOPOR"
+},
+"11358": {
+"code": "11358",
+"name": "DEL ACAI 700 ML - COMBO"
+},
+"11461": {
+"code": "11461",
+"name": "DEL ACAI 700 ML - ISOPOR"
+},
+"11462": {
+"code": "11462",
+"name": "DEL ACAI C/BANANA 300ML - ISOPOR"
+},
+"11463": {
+"code": "11463",
+"name": "DEL ACAI C/BANANA 450ML - ISOPOR"
+},
+"11464": {
+"code": "11464",
+"name": "DEL ACAI C/BANANA 700ML - ISOPOR"
+},
+"11465": {
+"code": "11465",
+"name": "DEL ACAI C/MORANGO 300ML - ISOPOR"
+},
+"11466": {
+"code": "11466",
+"name": "DEL ACAI C/MORANGO 450ML - ISOPOR"
+},
+"11467": {
+"code": "11467",
+"name": "DEL ACAI C/MORANGO 700ML - ISOPOR"
+},
+"11468": {
+"code": "11468",
+"name": "DEL ACAI FIT 300ML - ISOPOR"
+},
+"11469": {
+"code": "11469",
+"name": "DEL ACAI FIT 450ML - ISOPOR"
+},
+"11470": {
+"code": "11470",
+"name": "DEL ACAI FIT 700ML - ISOPOR"
+},
+"11471": {
+"code": "11471",
+"name": "DEL ACAI NATURAL 300ML - ISOPOR"
+},
+"11472": {
+"code": "11472",
+"name": "DEL ACAI NATURAL 450ML - ISOPOR"
+},
+"11473": {
+"code": "11473",
+"name": "DEL ACAI NATURAL 700ML - ISOPOR"
+},
+"11608": {
+"code": "11608",
+"name": "DEL ACAI OVOMALTINE 300ML"
+},
+"11606": {
+"code": "11606",
+"name": "DEL ACAI OVOMALTINE 450ML"
+},
+"11609": {
+"code": "11609",
+"name": "DEL ACAI OVOMALTINE 700ML"
+},
+"11796": {
+"code": "11796",
+"name": "DEL MEGA ACAI 300 COMBO"
+},
+"11511": {
+"code": "11511",
+"name": "DEL MEGA ACAI 300ML - ISOPOR"
+},
+"11512": {
+"code": "11512",
+"name": "DEL MEGA ACAI 450ML - ISOPOR"
+},
+"11740": {
+"code": "11740",
+"name": "DEL PROM ACAI 300 ML - ISOPOR"
+},
+"11504": {
+"code": "11504",
+"name": "DEL GUARANA 1 L"
+},
+"11359": {
+"code": "11359",
+"name": "DEL GUARANA 1 L - DELIVERY"
+},
+"11505": {
+"code": "11505",
+"name": "DEL GUARANA 500ML"
+},
+"11521": {
+"code": "11521",
+"name": "DEL BANANAPROTEIN 500ML"
+},
+"11517": {
+"code": "11517",
+"name": "DEL GUARAPROTEIN 500ML"
+},
+"11520": {
+"code": "11520",
+"name": "DEL MEGASHAKE ACAI 500ML"
+},
+"11522": {
+"code": "11522",
+"name": "DEL MEGASHAKE MORANGO 500ML"
+},
+"11566": {
+"code": "11566",
+"name": "DEL VIT.BANANA C/AVEIA 500ML"
+},
+"11567": {
+"code": "11567",
+"name": "DEL VIT.MORANGO AO LEITE 500ML"
+},
+"11518": {
+"code": "11518",
+"name": "DEL MATE 500 ML PROMOCIONAL"
+},
+"11543": {
+"code": "11543",
+"name": "DEL S.ABACAXI 500ML"
+},
+"11544": {
+"code": "11544",
+"name": "DEL S.ABACAXI C/HORTELA 500ML"
+},
+"11545": {
+"code": "11545",
+"name": "DEL S.ACEROLA 500ML"
+},
+"11546": {
+"code": "11546",
+"name": "DEL S.CAJU 500ML"
+},
+"11547": {
+"code": "11547",
+"name": "DEL S.LARANJA 500ML"
+},
+"11548": {
+"code": "11548",
+"name": "DEL S.LIMONADA SUICA 500ML"
+},
+"11549": {
+"code": "11549",
+"name": "DEL S.MAMAO 500ML"
+},
+"11550": {
+"code": "11550",
+"name": "DEL S.MANGA 500ML"
+},
+"11551": {
+"code": "11551",
+"name": "DEL S.MARACUJA 500ML"
+},
+"11552": {
+"code": "11552",
+"name": "DEL S.MORANGO 500ML"
+},
+"11553": {
+"code": "11553",
+"name": "DEL S.PESSEGO 500ML"
+},
+"11554": {
+"code": "11554",
+"name": "DEL S.UVA 500ML"
+},
+"11476": {
+"code": "11476",
+"name": "DEL AGUA MINERAL C/GAS 500ML"
+},
+"11475": {
+"code": "11475",
+"name": "DEL AGUA MINERAL S/GAS 510ML"
+},
+"11474": {
+"code": "11474",
+"name": "DEL AGUA DE COCO 500ML"
+},
+"11596": {
+"code": "11596",
+"name": "DEL PAO FRANCES NA CHAPA"
+},
+"11563": {
+"code": "11563",
+"name": "DEL SAND. MEGALEVE"
+},
+"11564": {
+"code": "11564",
+"name": "DEL SAND. MEGAMISTO"
+},
+"11565": {
+"code": "11565",
+"name": "DEL SAND. QUEIJO QUENTE"
+},
+"11560": {
+"code": "11560",
+"name": "DEL SAND. ABOBRINHA GRELH PAST BERIN"
+},
+"11561": {
+"code": "11561",
+"name": "DEL SAND. CIABATTA CARNE ASSADA"
+},
+"11555": {
+"code": "11555",
+"name": "DEL SAND. COSTELA P. AUSTRALIANO"
+},
+"11562": {
+"code": "11562",
+"name": "DEL SAND. FRANGO TOMATE AZEITONA"
+},
+"11556": {
+"code": "11556",
+"name": "DEL SAND. NAT. ATUM COM REQUEIJÃO"
+},
+"11557": {
+"code": "11557",
+"name": "DEL SAND. NAT. FRANGO COM CENOURA"
+},
+"11558": {
+"code": "11558",
+"name": "DEL SAND. NAT. PEITO DE PERU"
+},
+"11559": {
+"code": "11559",
+"name": "DEL SAND. NAT. SALPICÃO DE FRANGO"
+},
+"11477": {
+"code": "11477",
+"name": "DEL BOLO DE BANANA INT (PEDACO)"
+},
+"11769": {
+"code": "11769",
+"name": "DEL BOLO DE CENOURA MEGAMATTE"
+},
+"11741": {
+"code": "11741",
+"name": "DEL BROWNIE CHOCOLATE"
+},
+"11743": {
+"code": "11743",
+"name": "DEL BROWNIE CREME DE AVELA"
+},
+"11742": {
+"code": "11742",
+"name": "DEL BROWNIE DOCE DE LEITE"
+},
+"11479": {
+"code": "11479",
+"name": "DEL CG - BROINHA 1KG"
+},
+"11481": {
+"code": "11481",
+"name": "DEL CG - COOKIE DE CHOCOLATE"
+},
+"11488": {
+"code": "11488",
+"name": "DEL COOKIE DE CHOCOLATE"
+},
+"11572": {
+"code": "11572",
+"name": "DEL CROISSANT DE CHOCOLATE"
+},
+"11523": {
+"code": "11523",
+"name": "DEL P.12 BROINHAS"
+},
+"11526": {
+"code": "11526",
+"name": "DEL P.3 COOKIES DE CHOCOLATE"
+},
+"11528": {
+"code": "11528",
+"name": "DEL P.8 BROINHAS"
+},
+"11499": {
+"code": "11499",
+"name": "DEL TORTA BANANA C/ GRANOLA FATIA"
+},
+"11537": {
+"code": "11537",
+"name": "DEL PORCAO DE AMENDOIM"
+},
+"11538": {
+"code": "11538",
+"name": "DEL PORCAO DE GRANOLA"
+},
+"11539": {
+"code": "11539",
+"name": "DEL PORCAO DE GUARANÁ EM PÓ"
+},
+"11540": {
+"code": "11540",
+"name": "DEL PORCAO DE LEITE PO"
+},
+"11541": {
+"code": "11541",
+"name": "DEL PORCAO DE MEL"
+},
+"11542": {
+"code": "11542",
+"name": "DEL PORCAO DE PROTEINATO"
+},
+"11571": {
+"code": "11571",
+"name": "DEL PORCAO PACOCA"
 }
 },
-"log": []
+"log": [],
+"deliveryCategories": [
+{
+"id": "d39",
+"code": "39",
+"name": "D - PROMOÇÕES E COMBOS",
+"img": "img/del-39.jpg",
+"items": [
+"11892",
+"11888",
+"11889",
+"11887",
+"11890",
+"11891",
+"11886",
+"11514",
+"11516",
+"11515",
+"11985",
+"11987",
+"11776",
+"11773",
+"11774",
+"11775",
+"11983",
+"11959",
+"11980",
+"11970",
+"11971"
+]
+},
+{
+"id": "d24",
+"code": "24",
+"name": "D - PÃO DE QUEIJO",
+"img": "img/del-24.jpg",
+"items": [
+"11533",
+"11524",
+"11736",
+"11529",
+"11573",
+"11772",
+"2562",
+"10998"
+]
+},
+{
+"id": "d23",
+"code": "23",
+"name": "D - SALGADOS",
+"img": "img/del-23.jpg",
+"items": [
+"524",
+"508",
+"11480",
+"12087",
+"11808",
+"11483",
+"11484",
+"11485",
+"11486",
+"11487",
+"11864",
+"12088",
+"11490",
+"11491",
+"11492",
+"11493",
+"11494",
+"11495",
+"11783",
+"11784",
+"11496",
+"11497",
+"11866",
+"11501",
+"11502",
+"11503",
+"11525",
+"12089",
+"12036",
+"11530",
+"11531",
+"11532",
+"11534",
+"11535",
+"11536",
+"11737",
+"11738",
+"12091",
+"12092",
+"11745"
+]
+},
+{
+"id": "d25",
+"code": "25",
+"name": "D - MATE",
+"img": "img/del-25.jpg",
+"items": [
+"11478",
+"11498",
+"11357",
+"11506",
+"11507",
+"11508",
+"11509",
+"11739"
+]
+},
+{
+"id": "d22",
+"code": "22",
+"name": "D - AÇAÍ",
+"img": "img/del-22.jpg",
+"items": [
+"446",
+"458",
+"10561",
+"15010",
+"15011",
+"15012",
+"15007",
+"15008",
+"15009",
+"15004",
+"15005",
+"15006",
+"11459",
+"11460",
+"11358",
+"11461",
+"11462",
+"11463",
+"11464",
+"11465",
+"11466",
+"11467",
+"11468",
+"11469",
+"11470",
+"11471",
+"11472",
+"11473",
+"11608",
+"11606",
+"11609",
+"11796",
+"11511",
+"11512",
+"11740"
+]
+},
+{
+"id": "d29",
+"code": "29",
+"name": "D - GUARANÁ NATURAL",
+"img": "img/del-29.jpg",
+"items": [
+"11504",
+"11359",
+"11505"
+]
+},
+{
+"id": "d30",
+"code": "30",
+"name": "D - MEGASHAKES",
+"img": "img/del-30.jpg",
+"items": [
+"11521",
+"11517",
+"11520",
+"11522"
+]
+},
+{
+"id": "d31",
+"code": "31",
+"name": "D - VITAMINAS",
+"img": "img/del-31.jpg",
+"items": [
+"11566",
+"11567"
+]
+},
+{
+"id": "d40",
+"code": "40",
+"name": "D - SUCOS FUNCIONAIS",
+"img": "img/del-40.jpg",
+"items": [
+"11514",
+"11516",
+"11515",
+"11517",
+"11518"
+]
+},
+{
+"id": "d32",
+"code": "32",
+"name": "D - SUCOS",
+"img": "img/del-32.jpg",
+"items": [
+"11543",
+"11544",
+"11545",
+"11546",
+"11547",
+"11548",
+"11549",
+"11550",
+"11551",
+"11552",
+"11553",
+"11554"
+]
+},
+{
+"id": "d33",
+"code": "33",
+"name": "D - ÁGUA",
+"img": "img/del-33.jpg",
+"items": [
+"11476",
+"11475",
+"11474"
+]
+},
+{
+"id": "d35",
+"code": "35",
+"name": "D - SANDUÍCHES CHAPA",
+"img": "img/del-35.jpg",
+"items": [
+"11596",
+"11563",
+"11564",
+"11565"
+]
+},
+{
+"id": "d36",
+"code": "36",
+"name": "D - SANDUÍCHES GOURMET",
+"img": "img/del-36.jpg",
+"items": [
+"11560",
+"11561",
+"11555",
+"11562"
+]
+},
+{
+"id": "d34",
+"code": "34",
+"name": "D - SANDUÍCHES NATURAIS",
+"img": "img/del-34.jpg",
+"items": [
+"11556",
+"11557",
+"11558",
+"11559"
+]
+},
+{
+"id": "d38",
+"code": "38",
+"name": "D - SOBREMESAS",
+"img": "img/del-38.jpg",
+"items": [
+"11477",
+"11769",
+"11741",
+"11743",
+"11742",
+"11479",
+"12087",
+"11481",
+"11488",
+"11572",
+"11523",
+"11526",
+"11528",
+"11499"
+]
+},
+{
+"id": "d44",
+"code": "44",
+"name": "D - EXTRA",
+"img": "img/del-44.jpg",
+"items": [
+"11537",
+"11538",
+"11539",
+"11540",
+"11541",
+"11542",
+"11571",
+"10708",
+"10709",
+"10710"
+]
+}
+]
 }

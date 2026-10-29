@@ -37,6 +37,15 @@ button:disabled{cursor:not-allowed}
 body.editing .edit-btn{background:#D9443B;color:#fff;letter-spacing:0}
 body.editing .edit-btn:hover{background:#EE5A50}
 body.editing .top{border-bottom:3px solid var(--yellow)}
+.screen-btn{background:#EB8022;color:#fff;border:0;border-radius:20px;padding:8px 16px;font-weight:900;font-size:14px;box-shadow:0 2px 8px rgba(0,0,0,.3);white-space:nowrap}
+.screen-btn:hover{background:#F39444}
+body.delivery .screen-btn{background:#fff;color:#0A3150}
+body.delivery .sug-btn{display:none !important}
+body.delivery main{border-color:#EB8022}
+.screen-tag{display:inline-block;background:#EB8022;color:#fff;font-size:13px;font-weight:900;padding:3px 10px;border-radius:12px;margin-right:8px;vertical-align:middle;letter-spacing:.4px}
+.sum-screen{margin:22px 0 4px;padding:8px 12px;background:#0A3150;color:#fff;font-size:16px;font-weight:800}
+.sum-screen.del{background:#EB8022}
+.chip.del{border-color:#F3B27A;background:#FFF1E4;color:#9A4B0B}
 .edit-flag{display:none;background:var(--yellow);color:#000;font-weight:800;font-size:12px;padding:4px 10px;border-radius:12px;white-space:nowrap}
 body.editing .edit-flag{display:inline-block}
 body:not(.editing) .sug-btn,body:not(.editing) #undo-btn{display:none}
@@ -204,7 +213,7 @@ main{background:var(--panel);border:1px solid var(--line);display:flex;flex-dire
 @media (max-width:480px){
   .top{flex-wrap:wrap}
   .save{margin-left:0}
-  .sug-btn,.edit-btn{order:3}
+  .sug-btn,.edit-btn,.screen-btn{order:3}
   .layout{padding:6px}
   .grid-wrap{margin:0 6px}
   :root{--tile-w:104px}
@@ -221,6 +230,7 @@ main{background:var(--panel);border:1px solid var(--line);display:flex;flex-dire
     <span>Organizador do PDV<small>Mega Matte · categorias e produtos</small></span>
   </div>
   <button class="edit-btn" id="edit-btn" type="button">✏️ EDITAR</button>
+  <button class="screen-btn" id="screen-btn" type="button">🛵 Delivery</button>
   <span class="edit-flag">MODO EDIÇÃO</span>
   <button class="sug-btn" id="sug-btn" type="button">✨ Minha sugestão</button>
   <div class="save" id="save"><span class="dot"></span><span id="save-text">Carregando…</span></div>
@@ -282,7 +292,14 @@ const norm = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toUpp
 const lsGet = k => { try { return localStorage.getItem(k); } catch (_) { return null; } };
 const lsSet = (k, v) => { try { localStorage.setItem(k, v); } catch (_) {} };
 
-const cats = () => S.data.categories;
+const SCREENS = {
+  loja: { key: 'categories', label: 'Loja', icon: '🏪' },
+  delivery: { key: 'deliveryCategories', label: 'Delivery', icon: '🛵' },
+};
+const scr = () => SCREENS[S.screen] || SCREENS.loja;
+const cats = () => S.data[scr().key];
+const setCats = list => { S.data[scr().key] = list; };
+const allPlaced = () => new Set([...S.data.categories, ...S.data.deliveryCategories].flatMap(c => c.items));
 const catById = id => cats().find(c => c.id === id);
 const prod = code => S.data.products[code];
 const catsOf = code => cats().filter(c => c.items.includes(code));
@@ -310,6 +327,12 @@ async function load() {
     data = local ? JSON.parse(local) : clone(S.original);
   }
   if (!data.log) data.log = [];
+  // tela do delivery (adicionada depois): entra a partir da base se ainda não existir nos dados salvos
+  if (!data.deliveryCategories) data.deliveryCategories = clone(S.original.deliveryCategories || []);
+  for (const [k, p] of Object.entries(S.original.products)) if (!data.products[k]) data.products[k] = clone(p);
+  S.screen = location.hash === '#delivery' ? 'delivery' : 'loja';
+  document.body.classList.toggle('delivery', S.screen === 'delivery');
+  $('#screen-btn').textContent = S.screen === 'delivery' ? '🏪 Loja' : '🛵 Delivery';
   S.data = data;
   setSaveState(S.mode === 'local' ? 'local' : 'ok');
   if (S.mode === 'local') {
@@ -337,6 +360,7 @@ function change(msg, fn) {
 }
 
 function addLog(msg) {
+  if (S.screen === 'delivery' && !/^\[Delivery\]/.test(msg)) msg = '[Delivery] ' + msg;
   const log = S.data.log;
   const now = new Date();
   const last = log[0];
@@ -504,7 +528,7 @@ function catImg(c) {
 }
 
 function renderHome() {
-  $('#title').innerHTML = 'SELECIONE A CATEGORIA PARA ESCOLHA DO PRODUTO';
+  $('#title').innerHTML = (S.screen === 'delivery' ? '<span class="screen-tag">🛵 DELIVERY</span>' : '') + 'SELECIONE A CATEGORIA PARA ESCOLHA DO PRODUTO';
   $('#hint').textContent = S.edit ? 'Clique numa categoria para ver os produtos dela. Arraste uma categoria para mudar a posição dela na tela.'
     : 'Clique numa categoria para ver os produtos dela. Para fazer alterações, clique em ✏️ EDITAR no topo.';
   $('#back').hidden = true;
@@ -523,7 +547,7 @@ function renderHome() {
     const old = cats().map(c => c.id).join();
     if (old === ids.join()) return;
     change('Mudou a ordem das categorias na tela', () => {
-      S.data.categories = ids.map(id => catById(id));
+      setCats(ids.map(id => catById(id)));
     });
   });
 }
@@ -531,7 +555,7 @@ function renderHome() {
 function renderCategory() {
   const c = catById(S.catId);
   [...S.selected].forEach(code => { if (!c.items.includes(code)) S.selected.delete(code); });
-  $('#title').innerHTML = `PRODUTOS — ${esc(c.name)}` + (S.edit ? `
+  $('#title').innerHTML = (S.screen === 'delivery' ? '<span class="screen-tag">🛵 DELIVERY</span>' : '') + `PRODUTOS — ${esc(c.name)}` + (S.edit ? `
     <span class="cat-actions">
       <button class="mini-btn" data-act="rename-cat" type="button">✎ Editar nome e foto</button>
       <button class="mini-btn danger" data-act="del-cat" type="button">🗑 Excluir categoria</button>
@@ -631,6 +655,16 @@ function openCat(id, highlight) {
     if (el) { el.scrollIntoView({ block: 'center' }); el.classList.add('flash'); }
   }
 }
+function setScreen(s) {
+  S.screen = s;
+  S.view = 'home'; S.selected.clear();
+  document.body.classList.toggle('delivery', s === 'delivery');
+  $('#screen-btn').textContent = s === 'delivery' ? '🏪 Loja' : '🛵 Delivery';
+  try { history.replaceState(null, '', s === 'delivery' ? '#delivery' : location.pathname + location.search); } catch (_) {}
+  render();
+  $('#grid-wrap').scrollTop = 0;
+}
+
 function goHome() { S.view = 'home'; S.selected.clear(); render(); }
 function toggleSel(code) { S.selected.has(code) ? S.selected.delete(code) : S.selected.add(code); render(); }
 
@@ -639,6 +673,7 @@ $('#undo-btn').onclick = undo;
 $('#help-btn').onclick = showHelp;
 $('#sug-btn').onclick = showSuggestion;
 $('#edit-btn').onclick = toggleEdit;
+$('#screen-btn').onclick = () => setScreen(S.screen === 'delivery' ? 'loja' : 'delivery');
 document.addEventListener('keydown', e => {
   if (S.edit && (e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'z' && !document.querySelector('.overlay')) { e.preventDefault(); undo(); }
 });
@@ -672,7 +707,7 @@ async function deleteCategory(id) {
   const c = catById(id);
   if (!c.items.length) {
     if (await confirmBox({ title: 'Excluir categoria?', text: `A categoria <b>${esc(c.name)}</b> está vazia e vai sumir da tela.`, ok: 'Excluir categoria', danger: true })) {
-      change(`Excluiu a categoria ${c.name}`, () => { S.data.categories = cats().filter(x => x.id !== id); });
+      change(`Excluiu a categoria ${c.name}`, () => { setCats(cats().filter(x => x.id !== id)); });
       goHome();
     }
     return;
@@ -692,12 +727,12 @@ async function deleteCategory(id) {
     change(`Excluiu a categoria ${c.name} e moveu os ${c.items.length} produtos para ${t.name}`, () => {
       const tc = catById(target);
       c.items.forEach(code => { if (!tc.items.includes(code)) tc.items.push(code); });
-      S.data.categories = cats().filter(x => x.id !== id);
+      setCats(cats().filter(x => x.id !== id));
     });
     goHome();
   } else if (choice === 'drop') {
     change(`Excluiu a categoria ${c.name} (com ${c.items.length} produtos)`, () => {
-      S.data.categories = cats().filter(x => x.id !== id);
+      setCats(cats().filter(x => x.id !== id));
     });
     goHome();
   }
@@ -854,7 +889,7 @@ function cardBalanced(words, n, tw, maxW) {
 }
 
 function cardLayout(g, raw) {
-  const name = String(raw).trim().toUpperCase().replace(/\s+/g, ' ');
+  const name = String(raw).trim().toUpperCase().replace(/\s+/g, ' ').replace(/^DEL\s+/, '');
   const m = CARD_SIZE_RE.exec(name);
   const size = m ? m[1].replace(/\s/g, '') : '';
   const main = m ? name.slice(0, m.index).trim() : name;
@@ -1031,18 +1066,21 @@ function searchProducts() {
     if (q.length < 2) { res.innerHTML = '<li class="none" style="color:#6A8299">Digite pelo menos 2 letras.</li>'; return; }
     const hits = all.filter(code => norm(pname(code)).includes(q) || String(code).includes(q)).slice(0, 60);
     res.innerHTML = hits.length ? hits.map(code => {
-      const in_ = catsOf(code);
+      const in_ = [
+        ...S.data.categories.filter(c => c.items.includes(code)).map(c => ({ c, s: 'loja' })),
+        ...S.data.deliveryCategories.filter(c => c.items.includes(code)).map(c => ({ c, s: 'delivery' })),
+      ];
       const shownCode = String(code).startsWith('novo-') ? 'novo' : code;
       return `<li><span class="pname">${esc(pname(code))}</span><span class="pcode">cód. ${esc(shownCode)}</span>
         <div class="chips">${in_.length
-          ? in_.map(c => `<button class="chip" data-go="${esc(c.id)}" data-code="${esc(code)}" type="button">${esc(c.name)} ›</button>`).join('')
-          : `<span class="chip warn">Fora do PDV (não está em nenhuma categoria)</span>${S.edit ? `<button class="chip" data-back="${esc(code)}" type="button">↩ Colocar numa categoria</button>` : ''}`}</div></li>`;
+          ? in_.map(({ c, s }) => `<button class="chip ${s === 'delivery' ? 'del' : ''}" data-go="${esc(c.id)}" data-screen="${s}" data-code="${esc(code)}" type="button">${s === 'delivery' ? '🛵' : '🏪'} ${esc(c.name)} ›</button>`).join('')
+          : `<span class="chip warn">Fora do PDV (não está em nenhuma categoria da loja nem do delivery)</span>${S.edit ? `<button class="chip" data-back="${esc(code)}" type="button">↩ Colocar numa categoria</button>` : ''}`}</div></li>`;
     }).join('') : '<li style="color:#6A8299">Nenhum produto encontrado.</li>';
   };
   input.addEventListener('input', draw);
   res.addEventListener('click', async e => {
     const go = e.target.closest('[data-go]');
-    if (go) { m.close(); openCat(go.dataset.go, go.dataset.code); return; }
+    if (go) { m.close(); if (go.dataset.screen !== S.screen) setScreen(go.dataset.screen); openCat(go.dataset.go, go.dataset.code); return; }
     const back = e.target.closest('[data-back]');
     if (back) {
       const code = back.dataset.back;
@@ -1057,28 +1095,30 @@ function searchProducts() {
 }
 
 // ===================== Resumo das mudanças =====================
-function computeDiff() {
-  const O = S.original, D = S.data;
-  const oCat = Object.fromEntries(O.categories.map(c => [c.id, c]));
-  const dCat = Object.fromEntries(D.categories.map(c => [c.id, c]));
-  const newCats = D.categories.filter(c => !oCat[c.id]);
-  const delCats = O.categories.filter(c => !dCat[c.id]);
-  const renCats = D.categories.filter(c => oCat[c.id] && oCat[c.id].name !== c.name).map(c => ({ from: oCat[c.id].name, to: c.name, code: c.code }));
-  const keptOrderO = O.categories.filter(c => dCat[c.id]).map(c => c.id).join();
-  const keptOrderD = D.categories.filter(c => oCat[c.id]).map(c => c.id).join();
-  const catOrderChanged = keptOrderO !== keptOrderD || newCats.length > 0;
+const SCREEN_ORDER = () => (S.screen === 'delivery' ? ['delivery', 'loja'] : ['loja', 'delivery']);
 
+// Diferenças de uma tela (loja ou delivery) entre a base do PDV e como está agora
+function computeDiff(screen) {
+  const key = SCREENS[screen].key;
+  const O = S.original, D = S.data;
+  const oList = O[key] || [], dList = D[key] || [];
+  const oCat = Object.fromEntries(oList.map(c => [c.id, c]));
+  const dCat = Object.fromEntries(dList.map(c => [c.id, c]));
+  const newCats = dList.filter(c => !oCat[c.id]);
+  const delCats = oList.filter(c => !dCat[c.id]);
+  const renCats = dList.filter(c => oCat[c.id] && oCat[c.id].name !== c.name).map(c => ({ from: oCat[c.id].name, to: c.name, code: c.code }));
+  const keptOrderO = oList.filter(c => dCat[c.id]).map(c => c.id).join();
+  const keptOrderD = dList.filter(c => oCat[c.id]).map(c => c.id).join();
+  const catOrderChanged = keptOrderO !== keptOrderD || newCats.length > 0;
   const placeO = {}, placeD = {};
-  O.categories.forEach(c => c.items.forEach(p => (placeO[p] = placeO[p] || []).push(c)));
-  D.categories.forEach(c => c.items.forEach(p => (placeD[p] = placeD[p] || []).push(c)));
-  const allCodes = new Set([...Object.keys(placeO), ...Object.keys(placeD), ...Object.keys(D.products)]);
-  const moved = [], removed = [], added = [], renamed = [];
+  oList.forEach(c => c.items.forEach(p => (placeO[p] = placeO[p] || []).push(c)));
+  dList.forEach(c => c.items.forEach(p => (placeD[p] = placeD[p] || []).push(c)));
+  const allCodes = new Set([...Object.keys(placeO), ...Object.keys(placeD)]);
+  const moved = [], removed = [], added = [];
   allCodes.forEach(code => {
     const before = (placeO[code] || []).map(c => c.id), after = (placeD[code] || []).map(c => c.id);
     const p = D.products[code] || O.products[code] || { name: code };
-    const isNew = !O.products[code];
-    if (isNew) { added.push({ code, name: p.name, cats: (placeD[code] || []).map(c => c.name) }); return; }
-    if (O.products[code].name !== p.name) renamed.push({ code, from: O.products[code].name, to: p.name });
+    if (!O.products[code]) { added.push({ code, name: p.name, cats: (placeD[code] || []).map(c => c.name) }); return; }
     const out = before.filter(x => !after.includes(x)), inn = after.filter(x => !before.includes(x));
     if (!after.length && before.length) { removed.push({ code, name: p.name, from: before.map(id => (oCat[id] || {}).name) }); return; }
     if (out.length || inn.length) moved.push({
@@ -1088,54 +1128,66 @@ function computeDiff() {
       before: before.map(id => (oCat[id] || {}).name), after: after.map(id => dCat[id].name),
     });
   });
-  const reordered = D.categories.filter(c => {
+  const reordered = dList.filter(c => {
     const o = oCat[c.id]; if (!o) return false;
-    const common = o.items.filter(x => c.items.includes(x));
-    return common.join() !== c.items.filter(x => o.items.includes(x)).join();
+    return o.items.filter(x => c.items.includes(x)).join() !== c.items.filter(x => o.items.includes(x)).join();
   }).map(c => c.name);
-  const byName = (a, b) => a.name.localeCompare(b.name);
-  const photos = [];
-  D.categories.forEach(c => {
+  const catPhotos = [];
+  dList.forEach(c => {
     const before = oCat[c.id] ? oCat[c.id].img : null;
-    if ((c.img || null) !== (before || null)) photos.push({ type: 'Categoria', code: c.code || 'nova', name: c.name, img: c.img || null });
+    if ((c.img || null) !== (before || null)) catPhotos.push({ type: 'Categoria', code: c.code || 'nova', name: c.name, img: c.img || null });
   });
+  const byName = (a, b) => a.name.localeCompare(b.name);
+  return { newCats, delCats, renCats, catOrderChanged, moved: moved.sort(byName), removed: removed.sort(byName), added: added.sort(byName), reordered, catPhotos };
+}
+
+// Mudanças que valem para as duas telas: nome e foto do produto
+function computeGlobal() {
+  const O = S.original, D = S.data, placed = allPlaced();
+  const renamed = [], photos = [];
   Object.keys(D.products).forEach(code => {
     const p = D.products[code], o = O.products[code];
-    if ((p.img || null) !== ((o && o.img) || null) && (placeD[code] || p.img)) photos.push({ type: 'Produto', code, name: p.name, img: p.img || null });
+    if (o && o.name !== p.name) renamed.push({ code, from: o.name, to: p.name });
+    if ((p.img || null) !== ((o && o.img) || null) && (placed.has(code) || p.img)) photos.push({ type: 'Produto', code, name: p.name, img: p.img || null });
   });
-  return { newCats, delCats, renCats, catOrderChanged, moved: moved.sort(byName), removed: removed.sort(byName), added: added.sort(byName), renamed, reordered, photos };
+  return { renamed, photos };
 }
 
 function showSummary() {
-  const d = computeDiff();
-  const total = d.photos.length + d.newCats.length + d.delCats.length + d.renCats.length + d.moved.length + d.removed.length + d.added.length + d.renamed.length + d.reordered.length + (d.catOrderChanged ? 1 : 0);
+  const g = computeGlobal();
   const sec = (title, rows, head, cols) => `<h4>${title} (${rows.length})</h4>` + (rows.length
     ? `<table><tr>${head.map(h => `<th>${h}</th>`).join('')}</tr>${rows.map(r => `<tr>${cols(r).map(v => `<td>${v}</td>`).join('')}</tr>`).join('')}</table>`
     : '<div class="none">Nenhuma.</div>');
   const codeOf = c => String(c).startsWith('novo-') ? '—' : esc(c);
-  const m = modal(`
-    <h3>📋 Resumo das mudanças</h3>
-    <div class="body sum">
-      <p>Comparação entre <b>como está hoje no PDV</b> e <b>como ficou aqui</b>. É isso que o Lucas vai aplicar no sistema.</p>
+  const photoCell = r => r.img ? `<a href="${esc(r.img)}" target="_blank" rel="noopener"><img src="${esc(r.img)}" alt="" loading="lazy"></a>` : '<i>foto removida</i>';
+  const block = screen => {
+    const d = computeDiff(screen), sc = SCREENS[screen];
+    return `<div class="sum-screen ${screen === 'delivery' ? 'del' : ''}">${sc.icon} ${sc.label.toUpperCase()}</div>
       <div class="sum-stats">
         <div><b>${d.moved.length}</b><span>produtos mudaram de categoria</span></div>
         <div><b>${d.added.length}</b><span>produtos novos</span></div>
         <div><b>${d.removed.length}</b><span>produtos retirados</span></div>
         <div><b>${d.newCats.length}</b><span>categorias novas</span></div>
         <div><b>${d.delCats.length}</b><span>categorias excluídas</span></div>
-        <div><b>${d.photos.length}</b><span>fotos trocadas</span></div>
       </div>
-      ${total === 0 ? '<p class="none">Nada foi alterado ainda.</p>' : ''}
       ${sec('Categorias novas', d.newCats, ['Categoria', 'Produtos'], c => [esc(c.name), c.items.length])}
       ${sec('Categorias excluídas', d.delCats, ['Cód.', 'Categoria'], c => [esc(c.code), `<span class="strike">${esc(c.name)}</span>`])}
       ${sec('Categorias renomeadas', d.renCats, ['Cód.', 'Antes', 'Agora'], r => [esc(r.code || 'nova'), esc(r.from), `<span class="arrow">➜</span> ${esc(r.to)}`])}
       ${sec('Produtos que mudaram de categoria', d.moved, ['Cód.', 'Produto', 'Saiu de', 'Entrou em'], r => [codeOf(r.code), esc(r.name), r.from.length ? esc(r.from.join(', ')) : '—', r.to.length ? `<span class="arrow">➜</span> ${esc(r.to.join(', '))}` : '—'])}
       ${sec('Produtos novos', d.added, ['Cód.', 'Produto', 'Em'], r => [codeOf(r.code), esc(r.name), esc(r.cats.join(', ') || '(nenhuma)')])}
-      ${sec('Produtos retirados do PDV', d.removed, ['Cód.', 'Produto', 'Estava em'], r => [codeOf(r.code), esc(r.name), esc(r.from.join(', '))])}
-      ${sec('Produtos renomeados', d.renamed, ['Cód.', 'Antes', 'Agora'], r => [codeOf(r.code), esc(r.from), esc(r.to)])}
-      ${sec('Fotos trocadas', d.photos, ['Foto', 'Tipo', 'Cód.', 'Nome'], r => [r.img ? `<a href="${esc(r.img)}" target="_blank" rel="noopener"><img src="${esc(r.img)}" alt=""></a>` : '<i>foto removida</i>', r.type, codeOf(r.code), esc(r.name)])}
+      ${sec(`Produtos retirados ${screen === 'loja' ? 'da loja' : 'do delivery'}`, d.removed, ['Cód.', 'Produto', 'Estava em'], r => [codeOf(r.code), esc(r.name), esc(r.from.join(', '))])}
+      ${sec('Fotos de categoria trocadas', d.catPhotos, ['Foto', 'Cód.', 'Categoria'], r => [photoCell(r), codeOf(r.code), esc(r.name)])}
       <h4>Ordem na tela</h4>
-      <div class="none">${d.catOrderChanged ? 'A ordem das categorias mudou. ' : 'A ordem das categorias não mudou. '}${d.reordered.length ? 'Ordem dos produtos mudou em: ' + esc(d.reordered.join(', ')) + '.' : 'A ordem dos produtos não mudou.'}</div>
+      <div class="none">${d.catOrderChanged ? 'A ordem das categorias mudou. ' : 'A ordem das categorias não mudou. '}${d.reordered.length ? 'Ordem dos produtos mudou em: ' + esc(d.reordered.join(', ')) + '.' : 'A ordem dos produtos não mudou.'}</div>`;
+  };
+  const m = modal(`
+    <h3>📋 Resumo das mudanças</h3>
+    <div class="body sum">
+      <p>Comparação entre <b>como está hoje no PDV</b> e <b>como ficou aqui</b>, separado por tela. É isso que o Lucas vai aplicar no sistema.</p>
+      ${SCREEN_ORDER().map(block).join('')}
+      <div class="sum-screen">🏪🛵 VALE PARA AS DUAS TELAS</div>
+      ${sec('Produtos renomeados', g.renamed, ['Cód.', 'Antes', 'Agora'], r => [codeOf(r.code), esc(r.from), esc(r.to)])}
+      ${sec('Fotos de produto trocadas', g.photos, ['Foto', 'Cód.', 'Produto'], r => [photoCell(r), codeOf(r.code), esc(r.name)])}
     </div>
     <div class="actions">
       <button class="mbtn" id="dl-csv" type="button">⬇ Baixar planilha final (CSV)</button>
@@ -1147,36 +1199,45 @@ function showSummary() {
 }
 
 function summaryMarkdown() {
-  const d = computeDiff();
   const when = new Date().toLocaleString('pt-BR');
   const L = [];
   const cc = c => String(c).startsWith('novo-') ? '—' : c;
-  L.push('# Resumo das mudanças no PDV', '', `Atualizado em ${when}. Gerado automaticamente pelo Organizador do PDV.`, '');
-  L.push(`- Fotos trocadas: **${d.photos.length}** (as fotos ficam na pasta data/img)`, `- Produtos que mudaram de categoria: **${d.moved.length}**`, `- Produtos novos: **${d.added.length}**`, `- Produtos retirados do PDV: **${d.removed.length}**`, `- Categorias novas: **${d.newCats.length}**`, `- Categorias excluídas: **${d.delCats.length}**`, `- Categorias renomeadas: **${d.renCats.length}**`, '');
+  const mdImg = img => { const f = photoFile(img); return f ? `![foto](img/${f}) [abrir](img/${f})` : (img ? '(foto salva só no navegador)' : 'foto removida'); };
   const tbl = (title, head, rows) => {
-    L.push(`## ${title} (${rows.length})`, '');
+    L.push(`### ${title} (${rows.length})`, '');
     if (!rows.length) { L.push('_Nenhuma._', ''); return; }
     L.push('| ' + head.join(' | ') + ' |', '|' + head.map(() => '---').join('|') + '|');
     rows.forEach(r => L.push('| ' + r.map(v => String(v).replace(/\|/g, '/')).join(' | ') + ' |'));
     L.push('');
   };
-  tbl('Categorias novas', ['Categoria', 'Qtd. produtos'], d.newCats.map(c => [c.name, c.items.length]));
-  tbl('Categorias excluídas', ['Cód.', 'Categoria'], d.delCats.map(c => [c.code, c.name]));
-  tbl('Categorias renomeadas', ['Cód.', 'Antes', 'Agora'], d.renCats.map(r => [r.code || 'nova', r.from, r.to]));
-  tbl('Produtos que mudaram de categoria', ['Cód.', 'Produto', 'Saiu de', 'Entrou em', 'Fica em'], d.moved.map(r => [cc(r.code), r.name, r.from.join(', ') || '—', r.to.join(', ') || '—', r.after.join(', ')]));
-  tbl('Produtos novos', ['Cód.', 'Produto', 'Categorias'], d.added.map(r => [cc(r.code), r.name, r.cats.join(', ')]));
-  tbl('Produtos retirados do PDV', ['Cód.', 'Produto', 'Estava em'], d.removed.map(r => [cc(r.code), r.name, r.from.join(', ')]));
-  tbl('Produtos renomeados', ['Cód.', 'Antes', 'Agora'], d.renamed.map(r => [cc(r.code), r.from, r.to]));
-  const mdImg = img => { const f = photoFile(img); return f ? `![foto](img/${f}) [abrir](img/${f})` : (img ? '(foto salva só no navegador)' : 'foto removida'); };
-  tbl('Fotos trocadas', ['Foto', 'Tipo', 'Cód.', 'Nome'], d.photos.map(r => [mdImg(r.img), r.type, cc(r.code), r.name]));
-  L.push('## Ordem na tela', '', d.catOrderChanged ? '- A ordem das categorias mudou (ver estrutura abaixo).' : '- A ordem das categorias não mudou.',
-    d.reordered.length ? `- Ordem dos produtos mudou em: ${d.reordered.join(', ')}` : '- A ordem dos produtos não mudou.', '');
-  L.push('## Estrutura final (na ordem da tela)', '');
-  S.data.categories.forEach((c, i) => {
-    L.push(`### ${i + 1}. ${c.name}${c.code ? ` (grupo ${c.code})` : ' (NOVA)'} — ${c.items.length} produtos`, '');
-    c.items.forEach((code, j) => L.push(`${j + 1}. ${pname(code)} — cód. ${cc(code)}`));
-    L.push('');
-  });
+  L.push('# Resumo das mudanças no PDV', '', `Atualizado em ${when}. Gerado automaticamente pelo Organizador do PDV.`, '');
+  const g = computeGlobal();
+  for (const screen of ['loja', 'delivery']) {
+    const d = computeDiff(screen), sc = SCREENS[screen];
+    L.push(`## ${sc.icon} ${sc.label.toUpperCase()}`, '');
+    L.push(`- Produtos que mudaram de categoria: **${d.moved.length}**`, `- Produtos novos: **${d.added.length}**`, `- Produtos retirados: **${d.removed.length}**`, `- Categorias novas: **${d.newCats.length}**`, `- Categorias excluídas: **${d.delCats.length}**`, `- Categorias renomeadas: **${d.renCats.length}**`, '');
+    tbl('Categorias novas', ['Categoria', 'Qtd. produtos'], d.newCats.map(c => [c.name, c.items.length]));
+    tbl('Categorias excluídas', ['Cód.', 'Categoria'], d.delCats.map(c => [c.code, c.name]));
+    tbl('Categorias renomeadas', ['Cód.', 'Antes', 'Agora'], d.renCats.map(r => [r.code || 'nova', r.from, r.to]));
+    tbl('Produtos que mudaram de categoria', ['Cód.', 'Produto', 'Saiu de', 'Entrou em', 'Fica em'], d.moved.map(r => [cc(r.code), r.name, r.from.join(', ') || '—', r.to.join(', ') || '—', r.after.join(', ')]));
+    tbl('Produtos novos', ['Cód.', 'Produto', 'Categorias'], d.added.map(r => [cc(r.code), r.name, r.cats.join(', ')]));
+    tbl('Produtos retirados desta tela', ['Cód.', 'Produto', 'Estava em'], d.removed.map(r => [cc(r.code), r.name, r.from.join(', ')]));
+    tbl('Fotos de categoria trocadas', ['Foto', 'Cód.', 'Categoria'], d.catPhotos.map(r => [mdImg(r.img), cc(r.code), r.name]));
+    L.push('### Ordem na tela', '', d.catOrderChanged ? '- A ordem das categorias mudou (ver estrutura no fim).' : '- A ordem das categorias não mudou.',
+      d.reordered.length ? `- Ordem dos produtos mudou em: ${d.reordered.join(', ')}` : '- A ordem dos produtos não mudou.', '');
+  }
+  L.push('## Vale para as duas telas', '');
+  tbl('Produtos renomeados', ['Cód.', 'Antes', 'Agora'], g.renamed.map(r => [cc(r.code), r.from, r.to]));
+  tbl('Fotos de produto trocadas', ['Foto', 'Cód.', 'Produto'], g.photos.map(r => [mdImg(r.img), cc(r.code), r.name]));
+  for (const screen of ['loja', 'delivery']) {
+    const sc = SCREENS[screen];
+    L.push(`## Estrutura final — ${sc.icon} ${sc.label} (na ordem da tela)`, '');
+    S.data[sc.key].forEach((c, i) => {
+      L.push(`### ${i + 1}. ${c.name}${c.code ? ` (grupo ${c.code})` : ' (NOVA)'} — ${c.items.length} produtos`, '');
+      c.items.forEach((code, j) => L.push(`${j + 1}. ${pname(code)} — cód. ${cc(code)}`));
+      L.push('');
+    });
+  }
   L.push('## Histórico de alterações', '');
   S.data.log.slice().reverse().forEach(l => L.push(`- ${new Date(l.t).toLocaleString('pt-BR')} — ${l.msg}`));
   return L.join('\n');
@@ -1184,19 +1245,22 @@ function summaryMarkdown() {
 
 function finalCsv() {
   const q = v => '"' + String(v ?? '').replace(/"/g, '""') + '"';
-  const head = ['Ordem Categoria', 'Grupo', 'Descrição do Grupo', 'Ordem Produto', 'Produto', 'Descrição do produto', 'Situação', 'Foto do produto', 'Foto da categoria'];
-  const oPlace = {};
-  S.original.categories.forEach(c => c.items.forEach(p => (oPlace[p] = oPlace[p] || new Set()).add(c.id)));
+  const head = ['Tela', 'Ordem Categoria', 'Grupo', 'Descrição do Grupo', 'Ordem Produto', 'Produto', 'Descrição do produto', 'Situação', 'Foto do produto', 'Foto da categoria'];
   const rows = [head.map(q).join(';')];
-  S.data.categories.forEach((c, i) => c.items.forEach((code, j) => {
-    const p = prod(code) || { name: code };
-    let sit = 'Mantido';
-    if (!S.original.products[code]) sit = 'Produto novo';
-    else if (!(oPlace[code] && oPlace[code].has(c.id))) sit = 'Entrou nesta categoria';
-    if (c.isNew) sit += ' (categoria nova)';
-    rows.push([i + 1, c.code || 'NOVA', c.name, j + 1, String(code).startsWith('novo-') ? '' : code, p.name, sit,
-      photoFile(p.img) ? 'img/' + photoFile(p.img) : '', photoFile(c.img) ? 'img/' + photoFile(c.img) : ''].map(q).join(';'));
-  }));
+  for (const screen of ['loja', 'delivery']) {
+    const key = SCREENS[screen].key;
+    const oPlace = {};
+    (S.original[key] || []).forEach(c => c.items.forEach(p => (oPlace[p] = oPlace[p] || new Set()).add(c.id)));
+    S.data[key].forEach((c, i) => c.items.forEach((code, j) => {
+      const p = prod(code) || { name: code };
+      let sit = 'Mantido';
+      if (!S.original.products[code]) sit = 'Produto novo';
+      else if (!(oPlace[code] && oPlace[code].has(c.id))) sit = 'Entrou nesta categoria';
+      if (c.isNew) sit += ' (categoria nova)';
+      rows.push([SCREENS[screen].label, i + 1, c.code || 'NOVA', c.name, j + 1, String(code).startsWith('novo-') ? '' : code, p.name, sit,
+        photoFile(p.img) ? 'img/' + photoFile(p.img) : '', photoFile(c.img) ? 'img/' + photoFile(c.img) : ''].map(q).join(';'));
+    }));
+  }
   return '﻿' + rows.join('\r\n');
 }
 
@@ -1231,6 +1295,7 @@ async function showSuggestion() {
 }
 
 function applySuggestion() {
+  if (S.screen !== 'loja') setScreen('loja');
   const next = clone(SUG.categories);
   // mantém produtos criados aqui (que não existem no PDV original)
   const byId = Object.fromEntries(next.map(c => [c.id, c]));
@@ -1254,6 +1319,7 @@ function showHelp() {
     <div class="body">
       <p>Esta tela é uma cópia do PDV. Tudo o que você mudar aqui fica <b>salvo sozinho na nuvem</b> e o Lucas usa depois para arrumar o PDV de verdade. <b>Nada muda no PDV da loja</b> enquanto você mexe aqui.</p>
       <p><b>✏️ EDITAR:</b> o site abre só para ver. Para mudar alguma coisa, clique em <b>EDITAR</b> no topo e digite a senha. Quando terminar, clique em <b>Sair da edição</b>.</p>
+      <p><b>🛵 Delivery:</b> o botão laranja no topo troca entre a tela da <b>loja</b> e a tela do <b>delivery</b>. Cada tela tem as suas categorias; o nome e a foto de um produto valem para as duas.</p>
       <p><b>📂 Ver produtos:</b> clique numa categoria. Para voltar, use <b>Volta para Categorias</b>.</p>
       <p><b>➜ Mudar produto de categoria:</b> clique no(s) produto(s) para marcar (fica com borda amarela e ✓) e depois em <b>Mover para…</b>. Escolha a categoria de destino.</p>
       <p><b>⧉ Produto em mais de uma categoria:</b> marque e clique em <b>Colocar também em…</b>. A etiqueta verde <i>+1 categ.</i> mostra que o produto aparece em outro lugar também.</p>

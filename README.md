@@ -18,7 +18,9 @@ Cada salvamento vira um commit, com a descrição da alteração na mensagem —
 
 - `index.html` — o site inteiro (tela de categorias, tela de produtos, janelas, resumo).
 - `sugestao.json` — a proposta de organização do botão **✨ Minha sugestão** (a Marina pode aplicar com um clique e desfazer).
-- `seed.json` — como o PDV está **hoje** (gerado a partir dos CSVs exportados do Linx). É a base de comparação do resumo.
+- `seed.json` — como o PDV está **hoje** nas duas telas: `categories` (loja) e `deliveryCategories` (delivery, categorias "D - "). Os produtos são compartilhados entre as telas.
+- `img/del-*.jpg` — imagens das categorias do delivery, recortadas da tela do PDV.
+- Botão **🛵 Delivery** no topo troca para a tela do delivery (link direto: `/#delivery`). (gerado a partir dos CSVs exportados do Linx). É a base de comparação do resumo.
 - `img/` — imagens das categorias recortadas da tela do PDV, e `img/card-bg.jpg`, o fundo dos cartões automáticos.
 - `fonts/oswald-600.woff2` e `auto-cards.json` — fonte dos cartões automáticos (nome do produto) e lista dos cartões gerados em lote. Produto novo ganha o cartão sozinho; ao renomear, o cartão é refeito.
 - `api/data.js` — função da Vercel que lê e grava os dados no GitHub.
