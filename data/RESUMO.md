@@ -1,21 +1,22 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 11:29:52. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 11:30:04. Gerado automaticamente pelo Organizador do PDV.
 
 - Fotos trocadas: **383** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **13**
 - Produtos novos: **2**
 - Produtos retirados do PDV: **9**
-- Categorias novas: **2**
+- Categorias novas: **3**
 - Categorias excluídas: **4**
 - Categorias renomeadas: **1**
 
-## Categorias novas (2)
+## Categorias novas (3)
 
 | Categoria | Qtd. produtos |
 |---|---|
 | CAMPANHA BROWNIE DO LUIZ | 0 |
 | MATE FRUTA DO DIA | 0 |
+| MONTE SEU AÇAI | 0 |
 
 ## Categorias excluídas (4)
 
@@ -897,6 +898,9 @@ Atualizado em 29/10/2026, 11:29:52. Gerado automaticamente pelo Organizador do P
 7. FCDC SALGADO — cód. 12662
 8. FCDC SALGADO+MATE300ML — cód. 12666
 
+### 23. MONTE SEU AÇAI (NOVA) — 0 produtos
+
+
 ## Histórico de alterações
 
 - 23/10/2026, 11:24:25 — Criou a categoria TESTE SITE
@@ -1012,3 +1016,4 @@ Atualizado em 29/10/2026, 11:29:52. Gerado automaticamente pelo Organizador do P
 - 29/10/2026, 11:27:57 — Criou o produto P3. COOKIES DE BAUNILHA em SOBREMESAS
 - 29/10/2026, 11:28:18 — Mudou a ordem dos produtos em SOBREMESAS
 - 29/10/2026, 11:29:51 — Excluiu MONTE SEU ACAI 300ML, MONTE SEU ACAI 500ML de CAFETERIA BEBIDAS GELADAS
+- 29/10/2026, 11:30:03 — Criou a categoria MONTE SEU AÇAI

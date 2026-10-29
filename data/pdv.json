@@ -534,6 +534,14 @@
     "12662",
     "12666"
    ]
+  },
+  {
+   "id": "nmvtn433n",
+   "code": "",
+   "name": "MONTE SEU AÇAI",
+   "img": null,
+   "items": [],
+   "isNew": true
   }
  ],
  "products": {
@@ -2360,6 +2368,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T14:30:03.443Z",
+   "msg": "Criou a categoria MONTE SEU AÇAI"
+  },
+  {
    "t": "2026-10-29T14:29:51.084Z",
    "msg": "Excluiu MONTE SEU ACAI 300ML, MONTE SEU ACAI 500ML de CAFETERIA BEBIDAS GELADAS"
   },
@@ -2812,5 +2824,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T14:29:51.099Z"
+ "savedAt": "2026-10-29T14:30:03.454Z"
 }
