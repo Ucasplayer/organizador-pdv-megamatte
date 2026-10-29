@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:17:11.764Z",
+   "msg": "[Delivery] Trocou a foto da categoria D - PROMOÇÕES E COMBOS"
+  },
+  {
    "t": "2026-10-29T19:16:55.865Z",
    "msg": "[Delivery] Trocou a foto da categoria D - PÃO DE QUEIJO"
   },
@@ -3962,13 +3966,13 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:16:55.882Z",
+ "savedAt": "2026-10-29T19:17:11.776Z",
  "deliveryCategories": [
   {
    "id": "d39",
    "code": "39",
    "name": "D - PROMOÇÕES E COMBOS",
-   "img": "img/del-39.jpg",
+   "img": "api/image?f=cat-39-mvtxl8uh.jpg",
    "items": [
     "11892",
     "11888",
