@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 16:17:54. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 16:18:12. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
@@ -147,7 +147,7 @@ _Nenhuma._
 
 _Nenhuma._
 
-### Fotos de categoria trocadas (5)
+### Fotos de categoria trocadas (6)
 
 | Foto | Cód. | Categoria |
 |---|---|---|
@@ -156,6 +156,7 @@ _Nenhuma._
 | ![foto](img/cat-23-mvtxlj2p.jpg) [abrir](img/cat-23-mvtxlj2p.jpg) | 23 | D - SALGADOS |
 | ![foto](img/cat-25-mvtxltgv.jpg) [abrir](img/cat-25-mvtxltgv.jpg) | 25 | D - MATE |
 | ![foto](img/cat-22-mvtxm4h0.jpg) [abrir](img/cat-22-mvtxm4h0.jpg) | 22 | D - AÇAÍ |
+| ![foto](img/cat-29-mvtxmim2.jpg) [abrir](img/cat-29-mvtxmim2.jpg) | 29 | D - GUARANÁ NATURAL |
 
 ### Ordem na tela
 
@@ -1517,3 +1518,4 @@ _Nenhuma._
 - 29/10/2026, 16:17:25 — [Delivery] Trocou a foto da categoria D - SALGADOS
 - 29/10/2026, 16:17:38 — [Delivery] Trocou a foto da categoria D - MATE
 - 29/10/2026, 16:17:52 — [Delivery] Trocou a foto da categoria D - AÇAÍ
+- 29/10/2026, 16:18:11 — [Delivery] Trocou a foto da categoria D - GUARANÁ NATURAL

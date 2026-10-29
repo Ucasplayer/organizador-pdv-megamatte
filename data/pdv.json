@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:18:11.404Z",
+   "msg": "[Delivery] Trocou a foto da categoria D - GUARANÁ NATURAL"
+  },
+  {
    "t": "2026-10-29T19:17:52.605Z",
    "msg": "[Delivery] Trocou a foto da categoria D - AÇAÍ"
   },
@@ -3978,7 +3982,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:17:52.622Z",
+ "savedAt": "2026-10-29T19:18:11.421Z",
  "deliveryCategories": [
   {
    "id": "d39",
@@ -4136,7 +4140,7 @@
    "id": "d29",
    "code": "29",
    "name": "D - GUARANÁ NATURAL",
-   "img": "img/del-29.jpg",
+   "img": "api/image?f=cat-29-mvtxmim2.jpg",
    "items": [
     "11504",
     "11359",
