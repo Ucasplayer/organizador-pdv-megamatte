@@ -555,8 +555,8 @@
   {
    "id": "nmvtw1f45",
    "code": "",
-   "name": "K",
-   "img": null,
+   "name": "CAMPANHA RAFA & LUIZ",
+   "img": "api/image?f=cat-nmvtw1f45-mvtw9yjg.jpg",
    "items": [],
    "isNew": true
   }
@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T18:40:25.619Z",
+   "msg": "Renomeou a categoria K para CAMPANHA RAFA & LUIZ e trocou a foto da categoria CAMPANHA RAFA & LUIZ"
+  },
+  {
    "t": "2026-10-29T18:39:55.590Z",
    "msg": "Criou a categoria K"
   },
@@ -3938,7 +3942,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T18:39:55.607Z",
+ "savedAt": "2026-10-29T18:40:25.641Z",
  "deliveryCategories": [
   {
    "id": "d39",

@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 15:39:57. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 15:40:27. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
@@ -18,7 +18,7 @@ Atualizado em 29/10/2026, 15:39:57. Gerado automaticamente pelo Organizador do P
 | CAMPANHA BROWNIE DO LUIZ | 5 |
 | MATE FRUTA DO DIA | 2 |
 | RETORNAVEL MENT | 0 |
-| K | 0 |
+| CAMPANHA RAFA & LUIZ | 0 |
 
 ### Categorias excluídas (4)
 
@@ -80,7 +80,7 @@ Atualizado em 29/10/2026, 15:39:57. Gerado automaticamente pelo Organizador do P
 | 11114 | SAND. ABOBRINHA GREL PAST BERINJELA CIAB | SANDUÍCHES GOURMET |
 | 11118 | SAND. COSTELA NO PÃO AUSTRALIANO | SANDUÍCHES GOURMET |
 
-### Fotos de categoria trocadas (22)
+### Fotos de categoria trocadas (23)
 
 | Foto | Cód. | Categoria |
 |---|---|---|
@@ -106,6 +106,7 @@ Atualizado em 29/10/2026, 15:39:57. Gerado automaticamente pelo Organizador do P
 | ![foto](img/cat-110-mvqstzxq.jpg) [abrir](img/cat-110-mvqstzxq.jpg) | 110 | MINI PREÇOS (NOVOS) |
 | ![foto](img/cat-93-mvqsuv85.jpg) [abrir](img/cat-93-mvqsuv85.jpg) | 93 | FOLDER CAFETERIA |
 | ![foto](img/cat-92-mvqsv53t.jpg) [abrir](img/cat-92-mvqsv53t.jpg) | 92 | FOLDER COMBOS |
+| ![foto](img/cat-nmvtw1f45-mvtw9yjg.jpg) [abrir](img/cat-nmvtw1f45-mvtw9yjg.jpg) | nova | CAMPANHA RAFA & LUIZ |
 
 ### Ordem na tela
 
@@ -1134,7 +1135,7 @@ _Nenhuma._
 7. FCDC SALGADO — cód. 12662
 8. FCDC SALGADO+MATE300ML — cód. 12666
 
-### 24. K (NOVA) — 0 produtos
+### 24. CAMPANHA RAFA & LUIZ (NOVA) — 0 produtos
 
 
 ## Estrutura final — 🛵 Delivery (na ordem da tela)
@@ -1499,3 +1500,4 @@ _Nenhuma._
 - 29/10/2026, 15:45:37 — Criou a categoria RETORNAVEL MENT
 - 29/10/2026, 15:45:40 — Mudou a ordem das categorias na tela
 - 29/10/2026, 15:39:55 — Criou a categoria K
+- 29/10/2026, 15:40:25 — Renomeou a categoria K para CAMPANHA RAFA & LUIZ e trocou a foto da categoria CAMPANHA RAFA & LUIZ
