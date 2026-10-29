@@ -230,18 +230,6 @@
    ]
   },
   {
-   "id": "nmvtn433n",
-   "code": "",
-   "name": "MONTE SEU AÇAI",
-   "img": null,
-   "items": [
-    "11804",
-    "11858",
-    "11873"
-   ],
-   "isNew": true
-  },
-  {
    "id": "c5",
    "code": "5",
    "name": "GUARANA NATURAL",
@@ -3402,6 +3390,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T18:45:27.649Z",
+   "msg": "Excluiu a categoria MONTE SEU AÇAI (com 3 produtos)"
+  },
+  {
    "t": "2026-10-29T18:45:20.329Z",
    "msg": "Excluiu a categoria MATE RETORNÁVEL MENT"
   },
@@ -3918,7 +3910,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T18:45:20.346Z",
+ "savedAt": "2026-10-29T18:45:27.665Z",
  "deliveryCategories": [
   {
    "id": "d39",

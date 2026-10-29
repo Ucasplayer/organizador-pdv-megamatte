@@ -1,23 +1,22 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 15:45:21. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 15:45:29. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
-- Produtos que mudaram de categoria: **14**
+- Produtos que mudaram de categoria: **13**
 - Produtos novos: **8**
 - Produtos retirados: **9**
-- Categorias novas: **3**
+- Categorias novas: **2**
 - Categorias excluídas: **4**
 - Categorias renomeadas: **1**
 
-### Categorias novas (3)
+### Categorias novas (2)
 
 | Categoria | Qtd. produtos |
 |---|---|
 | CAMPANHA BROWNIE DO LUIZ | 5 |
 | MATE FRUTA DO DIA | 2 |
-| MONTE SEU AÇAI | 3 |
 
 ### Categorias excluídas (4)
 
@@ -34,7 +33,7 @@ Atualizado em 29/10/2026, 15:45:21. Gerado automaticamente pelo Organizador do P
 |---|---|---|
 | 13 | SANDUICHES CHAPA | SANDUICHES |
 
-### Produtos que mudaram de categoria (14)
+### Produtos que mudaram de categoria (13)
 
 | Cód. | Produto | Saiu de | Entrou em | Fica em |
 |---|---|---|---|---|
@@ -42,9 +41,8 @@ Atualizado em 29/10/2026, 15:45:21. Gerado automaticamente pelo Organizador do P
 | 463 | ESPRESSO DUPLO 100ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 470 | ESPRESSO DUPLO C/LEITE 200ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 11063 | ESPRESSO MACCHIATO 50ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
-| 11804 | MONTE SEU ACAI 300ML | CAFETERIA BEBIDAS GELADAS | MONTE SEU AÇAI | AÇAÍ, MONTE SEU AÇAI |
-| 11858 | MONTE SEU ACAI 500ML | CAFETERIA BEBIDAS GELADAS | MONTE SEU AÇAI | AÇAÍ, MONTE SEU AÇAI |
-| 11873 | MONTE SEU ACAI 700ML | — | MONTE SEU AÇAI | AÇAÍ, MONTE SEU AÇAI |
+| 11804 | MONTE SEU ACAI 300ML | CAFETERIA BEBIDAS GELADAS | — | AÇAÍ |
+| 11858 | MONTE SEU ACAI 500ML | CAFETERIA BEBIDAS GELADAS | — | AÇAÍ |
 | 11931 | P.MATE OU GUARANA 300ML GRATIS | COFFEE PARTY TERÊ (excluída) | — | MATE |
 | 10362 | SAND. GOURMET CIABATTA CARNE ASSADA | SANDUÍCHES GOURMET (excluída) | SANDUICHES | SANDUICHES |
 | 11113 | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE | SANDUÍCHES GOURMET (excluída) | SANDUICHES | SANDUICHES |
@@ -886,13 +884,7 @@ _Nenhuma._
 24. MONTE SEU ACAI 500ML — cód. 11858
 25. MONTE SEU ACAI 700ML — cód. 11873
 
-### 9. MONTE SEU AÇAI (NOVA) — 3 produtos
-
-1. MONTE SEU ACAI 300ML — cód. 11804
-2. MONTE SEU ACAI 500ML — cód. 11858
-3. MONTE SEU ACAI 700ML — cód. 11873
-
-### 10. GUARANA NATURAL (grupo 5) — 14 produtos
+### 9. GUARANA NATURAL (grupo 5) — 14 produtos
 
 1. GUARA FRUTA 300ML — cód. 11037
 2. GUARA FRUTA 500ML — cód. 11038
@@ -909,7 +901,7 @@ _Nenhuma._
 13. GVITAMINA 500 ML — cód. 11202
 14. GVITAMINA 700 ML — cód. 11203
 
-### 11. MEGASHAKES (grupo 9) — 9 produtos
+### 10. MEGASHAKES (grupo 9) — 9 produtos
 
 1. MEGASHAKE ACAI 300ML — cód. 305
 2. MEGASHAKE ACAI 500ML — cód. 345
@@ -921,7 +913,7 @@ _Nenhuma._
 8. MEGASHAKE MORANGO 500ML — cód. 363
 9. MEGASHAKE MORANGO 700ML — cód. 10575
 
-### 12. VITAMINAS (grupo 10) — 9 produtos
+### 11. VITAMINAS (grupo 10) — 9 produtos
 
 1. VIT.BANANA C/AVEIA 300ML — cód. 2102
 2. VIT.BANANA C/AVEIA 500ML — cód. 2103
@@ -933,7 +925,7 @@ _Nenhuma._
 8. VIT.MORANGO AO LEITE 500ML — cód. 887
 9. VIT.MORANGO AO LEITE 700ML — cód. 10687
 
-### 13. SUCOS (grupo 11) — 39 produtos
+### 12. SUCOS (grupo 11) — 39 produtos
 
 1. S.ABACAXI 300ML — cód. 616
 2. S.ABACAXI 500ML — cód. 850
@@ -975,7 +967,7 @@ _Nenhuma._
 38. S.UVA 500ML — cód. 870
 39. S.UVA 700ML — cód. 10678
 
-### 14. ÁGUA (grupo 12) — 6 produtos
+### 13. ÁGUA (grupo 12) — 6 produtos
 
 1. AGUA DE COCO 200ML — cód. 11011
 2. AGUA MINERAL S/GAS 510ML — cód. 2027
@@ -984,7 +976,7 @@ _Nenhuma._
 5. AGUA DE COCO 500ML — cód. 1801
 6. AGUA DE COCO 700ML — cód. 10597
 
-### 15. SANDUICHES (grupo 13) — 9 produtos
+### 14. SANDUICHES (grupo 13) — 9 produtos
 
 1. PAO FRANCES NA CHAPA — cód. 10361
 2. SAND. MEGALEVE — cód. 10233
@@ -996,7 +988,7 @@ _Nenhuma._
 8. SAND. NAT. PEITO DE PERU — cód. 11181
 9. SAND. NAT. SALPICAO DE FRANGO — cód. 11182
 
-### 16. SOBREMESAS (grupo 6) — 28 produtos
+### 15. SOBREMESAS (grupo 6) — 28 produtos
 
 1. BOLO DE BANANA INT MEGAMATTE — cód. 11689
 2. BOLO DE CENOURA MEGAMATTE — cód. 11768
@@ -1027,7 +1019,7 @@ _Nenhuma._
 27. TORTA ESPECIAL INTEIRA — cód. 10298
 28. PROMO TORTA INTEIRA — cód. 11831
 
-### 17. CONGELADOS (grupo 45) — 7 produtos
+### 16. CONGELADOS (grupo 45) — 7 produtos
 
 1. CG - BROINHA 1KG — cód. 10261
 2. CG - PAO DE QUEIJO 1KG — cód. 2127
@@ -1037,7 +1029,7 @@ _Nenhuma._
 6. CG - PAO DE BATATA — cód. 11368
 7. CG - PASTEL — cód. 11369
 
-### 18. EXTRA (grupo 18) — 12 produtos
+### 17. EXTRA (grupo 18) — 12 produtos
 
 1. ADICIONAL MATE FRUTA — cód. 11790
 2. PORCAO DE AMENDOIM — cód. 607
@@ -1052,7 +1044,7 @@ _Nenhuma._
 11. PORCAO DE PROTEINATO — cód. 613
 12. PORCAO OVOMALTINE FLOCOS — cód. 11457
 
-### 19. PROMOÇÕES (grupo 2) — 27 produtos
+### 18. PROMOÇÕES (grupo 2) — 27 produtos
 
 1. KIT CAFE 1 — cód. 10708
 2. KIT CAFE 2 — cód. 10709
@@ -1082,7 +1074,7 @@ _Nenhuma._
 26. PROM - SALGADO + MATE — cód. 15015
 27. PROMO COOKIE DE CHOCOLATE UNID — cód. 11294
 
-### 20. LOJISTA (NOVO) (grupo 111) — 19 produtos
+### 19. LOJISTA (NOVO) (grupo 111) — 19 produtos
 
 1. P.LOJ - 1 COOKIE + CAFE 100ML — cód. 11996
 2. P.LOJ - 1 COOKIE + CAFE 200ML — cód. 11997
@@ -1104,7 +1096,7 @@ _Nenhuma._
 18. P.LOJ - SANDUICHE + SUCO — cód. 11979
 19. PROM -  LOJISTA — cód. 11795
 
-### 21. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
+### 20. MINI PREÇOS (NOVOS) (grupo 110) — 7 produtos
 
 1. P.MP - SANDUICHE + SUCO — cód. 12017
 2. PROM -  LOJISTA — cód. 11795
@@ -1114,7 +1106,7 @@ _Nenhuma._
 6. P.MP - 8 PQ/BRO + SUCO — cód. 11910
 7. P.MP - SANDUICHE + MATE OU GUA — cód. 11908
 
-### 22. FOLDER CAFETERIA (grupo 93) — 9 produtos
+### 21. FOLDER CAFETERIA (grupo 93) — 9 produtos
 
 1. FCD CAPP 200ML — cód. 12048
 2. FCD CAPP 200ML+1COOKIE — cód. 12654
@@ -1126,7 +1118,7 @@ _Nenhuma._
 8. FCD ESPRESSO 50ML — cód. 12650
 9. FCD SAND. MEGAMISTO — cód. 12655
 
-### 23. FOLDER COMBOS (grupo 92) — 8 produtos
+### 22. FOLDER COMBOS (grupo 92) — 8 produtos
 
 1. FCDC ACAI 300ML+GRANOLA — cód. 12661
 2. FCDC MEGASHAKE300ML+6PQ/BRO — cód. 12665
@@ -1495,3 +1487,4 @@ _Nenhuma._
 - 29/10/2026, 11:39:32 — Mudou a ordem das categorias na tela
 - 29/10/2026, 12:20:54 — [Delivery] Lucas adicionou a tela do delivery (16 categorias) e colocou fotos no padrão em 162 produtos
 - 29/10/2026, 15:45:20 — Excluiu a categoria MATE RETORNÁVEL MENT
+- 29/10/2026, 15:45:27 — Excluiu a categoria MONTE SEU AÇAI (com 3 produtos)
