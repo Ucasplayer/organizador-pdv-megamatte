@@ -38,7 +38,7 @@
    "id": "nmvtw8qpu",
    "code": "",
    "name": "RETORNAVEL MENT",
-   "img": null,
+   "img": "api/image?f=cat-nmvtw8qpu-mvtwpdmk.jpg",
    "items": [],
    "isNew": true
   },
@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T18:52:25.051Z",
+   "msg": "Trocou a foto da categoria RETORNAVEL MENT"
+  },
+  {
    "t": "2026-10-29T18:40:35.698Z",
    "msg": "Mudou a ordem das categorias na tela"
   },
@@ -3946,7 +3950,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T18:40:35.709Z",
+ "savedAt": "2026-10-29T18:52:25.066Z",
  "deliveryCategories": [
   {
    "id": "d39",
