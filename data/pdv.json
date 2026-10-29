@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-29T19:20:11.616Z",
+   "msg": "[Delivery] Trocou a foto da categoria D - EXTRA"
+  },
+  {
    "t": "2026-10-29T19:19:54.331Z",
    "msg": "[Delivery] Trocou a foto da categoria D - SOBREMESAS"
   },
@@ -4006,7 +4010,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:19:54.346Z",
+ "savedAt": "2026-10-29T19:20:11.633Z",
  "deliveryCategories": [
   {
    "id": "d39",
@@ -4299,7 +4303,7 @@
    "id": "d44",
    "code": "44",
    "name": "D - EXTRA",
-   "img": "img/del-44.jpg",
+   "img": "api/image?f=cat-44-mvtxp3ni.jpg",
    "items": [
     "11537",
     "11538",

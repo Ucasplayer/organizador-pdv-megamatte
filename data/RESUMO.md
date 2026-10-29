@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 16:19:55. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 16:20:13. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
@@ -147,7 +147,7 @@ _Nenhuma._
 
 _Nenhuma._
 
-### Fotos de categoria trocadas (11)
+### Fotos de categoria trocadas (12)
 
 | Foto | Cód. | Categoria |
 |---|---|---|
@@ -162,6 +162,7 @@ _Nenhuma._
 | ![foto](img/cat-32-mvtxnscn.jpg) [abrir](img/cat-32-mvtxnscn.jpg) | 32 | D - SUCOS |
 | ![foto](img/cat-33-mvtxocg5.jpg) [abrir](img/cat-33-mvtxocg5.jpg) | 33 | D - ÁGUA |
 | ![foto](img/cat-38-mvtxopv2.jpg) [abrir](img/cat-38-mvtxopv2.jpg) | 38 | D - SOBREMESAS |
+| ![foto](img/cat-44-mvtxp3ni.jpg) [abrir](img/cat-44-mvtxp3ni.jpg) | 44 | D - EXTRA |
 
 ### Ordem na tela
 
@@ -1530,3 +1531,4 @@ _Nenhuma._
 - 29/10/2026, 16:19:24 — [Delivery] Trocou a foto da categoria D - VITAMINAS
 - 29/10/2026, 16:19:36 — [Delivery] Trocou a foto da categoria D - ÁGUA
 - 29/10/2026, 16:19:54 — [Delivery] Trocou a foto da categoria D - SOBREMESAS
+- 29/10/2026, 16:20:11 — [Delivery] Trocou a foto da categoria D - EXTRA
