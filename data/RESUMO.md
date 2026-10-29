@@ -1,10 +1,10 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 11:33:18. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 29/10/2026, 11:33:38. Gerado automaticamente pelo Organizador do PDV.
 
-- Fotos trocadas: **386** (as fotos ficam na pasta data/img)
+- Fotos trocadas: **387** (as fotos ficam na pasta data/img)
 - Produtos que mudaram de categoria: **14**
-- Produtos novos: **5**
+- Produtos novos: **6**
 - Produtos retirados do PDV: **9**
 - Categorias novas: **3**
 - Categorias excluídas: **4**
@@ -14,7 +14,7 @@ Atualizado em 29/10/2026, 11:33:18. Gerado automaticamente pelo Organizador do P
 
 | Categoria | Qtd. produtos |
 |---|---|
-| CAMPANHA BROWNIE DO LUIZ | 1 |
+| CAMPANHA BROWNIE DO LUIZ | 2 |
 | MATE FRUTA DO DIA | 2 |
 | MONTE SEU AÇAI | 3 |
 
@@ -52,12 +52,13 @@ Atualizado em 29/10/2026, 11:33:18. Gerado automaticamente pelo Organizador do P
 | 11181 | SAND. NAT. PEITO DE PERU | SANDUÍCHES NATURAIS (excluída) | SANDUICHES | SANDUICHES |
 | 11182 | SAND. NAT. SALPICAO DE FRANGO | SANDUÍCHES NATURAIS (excluída) | SANDUICHES | SANDUICHES |
 
-## Produtos novos (5)
+## Produtos novos (6)
 
 | Cód. | Produto | Categorias |
 |---|---|---|
 | — | AIA IAI |  |
 | 12113 | CHOCOMEGA DO LUIZ GELADO | CAMPANHA BROWNIE DO LUIZ |
+| 12112 | CHOCOMEGA DO LUIZ QUENTE | CAMPANHA BROWNIE DO LUIZ |
 | 12084 | P3. COOKIES DE BAUNILHA | SOBREMESAS |
 | 15502 | PROMO BRINDE MATE FRUTA DO DIA | MATE FRUTA DO DIA |
 | 11958 | PROMO MATE FRUTA DO DIA | MATE FRUTA DO DIA |
@@ -83,7 +84,7 @@ Atualizado em 29/10/2026, 11:33:18. Gerado automaticamente pelo Organizador do P
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-## Fotos trocadas (386)
+## Fotos trocadas (387)
 
 | Foto | Tipo | Cód. | Nome |
 |---|---|---|---|
@@ -445,6 +446,7 @@ Atualizado em 29/10/2026, 11:33:18. Gerado automaticamente pelo Organizador do P
 | ![foto](img/prod-12080-mvqrvc6p.jpg) [abrir](img/prod-12080-mvqrvc6p.jpg) | Produto | 12080 | COOKIE DE BAUNILHA |
 | ![foto](img/prod-12084-mvtn1d8w.jpg) [abrir](img/prod-12084-mvtn1d8w.jpg) | Produto | 12084 | P3. COOKIES DE BAUNILHA |
 | ![foto](img/prod-12093-mvqrvc84.jpg) [abrir](img/prod-12093-mvqrvc84.jpg) | Produto | 12093 | P.ACAI EM DOBRO 300ML |
+| ![foto](img/prod-12112-mvtn8mr7.jpg) [abrir](img/prod-12112-mvtn8mr7.jpg) | Produto | 12112 | CHOCOMEGA DO LUIZ QUENTE |
 | ![foto](img/prod-12113-mvtn877i.jpg) [abrir](img/prod-12113-mvtn877i.jpg) | Produto | 12113 | CHOCOMEGA DO LUIZ GELADO |
 | ![foto](img/prod-12200-mvqrvc19.jpg) [abrir](img/prod-12200-mvqrvc19.jpg) | Produto | 12200 | P.18 PQ COPO MARCELO MENT |
 | ![foto](img/prod-12650-mvqrvc9i.jpg) [abrir](img/prod-12650-mvqrvc9i.jpg) | Produto | 12650 | FCD ESPRESSO 50ML |
@@ -481,9 +483,10 @@ Atualizado em 29/10/2026, 11:33:18. Gerado automaticamente pelo Organizador do P
 
 ## Estrutura final (na ordem da tela)
 
-### 1. CAMPANHA BROWNIE DO LUIZ (NOVA) — 1 produtos
+### 1. CAMPANHA BROWNIE DO LUIZ (NOVA) — 2 produtos
 
 1. CHOCOMEGA DO LUIZ GELADO — cód. 12113
+2. CHOCOMEGA DO LUIZ QUENTE — cód. 12112
 
 ### 2. MATE FRUTA DO DIA (NOVA) — 2 produtos
 
@@ -1037,3 +1040,4 @@ Atualizado em 29/10/2026, 11:33:18. Gerado automaticamente pelo Organizador do P
 - 29/10/2026, 11:32:19 — Criou o produto PROMO MATE FRUTA DO DIA em MATE FRUTA DO DIA
 - 29/10/2026, 11:32:42 — Criou o produto PROMO BRINDE MATE FRUTA DO DIA em MATE FRUTA DO DIA
 - 29/10/2026, 11:33:16 — Criou o produto CHOCOMEGA DO LUIZ GELADO em CAMPANHA BROWNIE DO LUIZ
+- 29/10/2026, 11:33:36 — Criou o produto CHOCOMEGA DO LUIZ QUENTE em CAMPANHA BROWNIE DO LUIZ

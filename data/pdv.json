@@ -7,7 +7,8 @@
    "name": "CAMPANHA BROWNIE DO LUIZ",
    "img": "api/image?f=cat-nmvpkogad-mvpkwm7i.jpg",
    "items": [
-    "12113"
+    "12113",
+    "12112"
    ],
    "isNew": true
   },
@@ -2246,6 +2247,13 @@
    "name": "P.ACAI EM DOBRO 300ML",
    "img": "api/image?f=prod-12093-mvqrvc84.jpg"
   },
+  "12112": {
+   "code": "12112",
+   "name": "CHOCOMEGA DO LUIZ QUENTE",
+   "isNew": true,
+   "img": "api/image?f=prod-12112-mvtn8mr7.jpg",
+   "autoImg": true
+  },
   "12113": {
    "code": "12113",
    "name": "CHOCOMEGA DO LUIZ GELADO",
@@ -2397,6 +2405,10 @@
   }
  },
  "log": [
+  {
+   "t": "2026-10-29T14:33:36.874Z",
+   "msg": "Criou o produto CHOCOMEGA DO LUIZ QUENTE em CAMPANHA BROWNIE DO LUIZ"
+  },
   {
    "t": "2026-10-29T14:33:16.695Z",
    "msg": "Criou o produto CHOCOMEGA DO LUIZ GELADO em CAMPANHA BROWNIE DO LUIZ"
@@ -2882,5 +2894,5 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T14:33:16.713Z"
+ "savedAt": "2026-10-29T14:33:36.909Z"
 }
