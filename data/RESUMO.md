@@ -1,6 +1,6 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 29/10/2026, 16:21:13. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 30/10/2026, 13:02:09. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
@@ -116,21 +116,22 @@ Atualizado em 29/10/2026, 16:21:13. Gerado automaticamente pelo Organizador do P
 
 ## 🛵 DELIVERY
 
-- Produtos que mudaram de categoria: **8**
+- Produtos que mudaram de categoria: **12**
 - Produtos novos: **0**
-- Produtos retirados: **0**
+- Produtos retirados: **1**
 - Categorias novas: **0**
-- Categorias excluídas: **2**
+- Categorias excluídas: **3**
 - Categorias renomeadas: **0**
 
 ### Categorias novas (0)
 
 _Nenhuma._
 
-### Categorias excluídas (2)
+### Categorias excluídas (3)
 
 | Cód. | Categoria |
 |---|---|
+| 40 | D - SUCOS FUNCIONAIS |
 | 36 | D - SANDUÍCHES GOURMET |
 | 34 | D - SANDUÍCHES NATURAIS |
 
@@ -138,10 +139,14 @@ _Nenhuma._
 
 _Nenhuma._
 
-### Produtos que mudaram de categoria (8)
+### Produtos que mudaram de categoria (12)
 
 | Cód. | Produto | Saiu de | Entrou em | Fica em |
 |---|---|---|---|---|
+| 11514 | DEL COMBO CROISSANT + MAT OU GUARA 500ML | D - SUCOS FUNCIONAIS (excluída) | — | D - PROMOÇÕES E COMBOS |
+| 11516 | DEL COMBO P.12 PQ + MATE OU GUAR 500ML | D - SUCOS FUNCIONAIS (excluída) | — | D - PROMOÇÕES E COMBOS |
+| 11515 | DEL COMBO PAO DE BAT + MAT OU GUAR 500ML | D - SUCOS FUNCIONAIS (excluída) | — | D - PROMOÇÕES E COMBOS |
+| 11517 | DEL GUARAPROTEIN 500ML | D - SUCOS FUNCIONAIS (excluída) | — | D - MEGASHAKES |
 | 11560 | DEL SAND. ABOBRINHA GRELH PAST BERIN | D - SANDUÍCHES GOURMET (excluída) | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
 | 11561 | DEL SAND. CIABATTA CARNE ASSADA | D - SANDUÍCHES GOURMET (excluída) | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
 | 11555 | DEL SAND. COSTELA P. AUSTRALIANO | D - SANDUÍCHES GOURMET (excluída) | D - SANDUÍCHES CHAPA | D - SANDUÍCHES CHAPA |
@@ -155,9 +160,11 @@ _Nenhuma._
 
 _Nenhuma._
 
-### Produtos retirados desta tela (0)
+### Produtos retirados desta tela (1)
 
-_Nenhuma._
+| Cód. | Produto | Estava em |
+|---|---|---|
+| 11518 | DEL MATE 500 ML PROMOCIONAL | D - SUCOS FUNCIONAIS |
 
 ### Fotos de categoria trocadas (13)
 
@@ -1288,15 +1295,7 @@ _Nenhuma._
 1. DEL VIT.BANANA C/AVEIA 500ML — cód. 11566
 2. DEL VIT.MORANGO AO LEITE 500ML — cód. 11567
 
-### 8. D - SUCOS FUNCIONAIS (grupo 40) — 5 produtos
-
-1. DEL COMBO CROISSANT + MAT OU GUARA 500ML — cód. 11514
-2. DEL COMBO P.12 PQ + MATE OU GUAR 500ML — cód. 11516
-3. DEL COMBO PAO DE BAT + MAT OU GUAR 500ML — cód. 11515
-4. DEL GUARAPROTEIN 500ML — cód. 11517
-5. DEL MATE 500 ML PROMOCIONAL — cód. 11518
-
-### 9. D - SUCOS (grupo 32) — 12 produtos
+### 8. D - SUCOS (grupo 32) — 12 produtos
 
 1. DEL S.ABACAXI 500ML — cód. 11543
 2. DEL S.ABACAXI C/HORTELA 500ML — cód. 11544
@@ -1311,13 +1310,13 @@ _Nenhuma._
 11. DEL S.PESSEGO 500ML — cód. 11553
 12. DEL S.UVA 500ML — cód. 11554
 
-### 10. D - ÁGUA (grupo 33) — 3 produtos
+### 9. D - ÁGUA (grupo 33) — 3 produtos
 
 1. DEL AGUA MINERAL C/GAS 500ML — cód. 11476
 2. DEL AGUA MINERAL S/GAS 510ML — cód. 11475
 3. DEL AGUA DE COCO 500ML — cód. 11474
 
-### 11. D - SANDUÍCHES CHAPA (grupo 35) — 12 produtos
+### 10. D - SANDUÍCHES CHAPA (grupo 35) — 12 produtos
 
 1. DEL PAO FRANCES NA CHAPA — cód. 11596
 2. DEL SAND. MEGALEVE — cód. 11563
@@ -1332,7 +1331,7 @@ _Nenhuma._
 11. DEL SAND. NAT. PEITO DE PERU — cód. 11558
 12. DEL SAND. NAT. SALPICÃO DE FRANGO — cód. 11559
 
-### 12. D - SOBREMESAS (grupo 38) — 14 produtos
+### 11. D - SOBREMESAS (grupo 38) — 14 produtos
 
 1. DEL BOLO DE BANANA INT (PEDACO) — cód. 11477
 2. DEL BOLO DE CENOURA MEGAMATTE — cód. 11769
@@ -1349,7 +1348,7 @@ _Nenhuma._
 13. DEL P.8 BROINHAS — cód. 11528
 14. DEL TORTA BANANA C/ GRANOLA FATIA — cód. 11499
 
-### 13. D - EXTRA (grupo 44) — 10 produtos
+### 12. D - EXTRA (grupo 44) — 10 produtos
 
 1. DEL PORCAO DE AMENDOIM — cód. 11537
 2. DEL PORCAO DE GRANOLA — cód. 11538
@@ -1362,7 +1361,7 @@ _Nenhuma._
 9. KIT CAFE 2 — cód. 10709
 10. KIT CAFE 3 — cód. 10710
 
-### 14. D - PROMOÇÕES E COMBOS (grupo 39) — 21 produtos
+### 13. D - PROMOÇÕES E COMBOS (grupo 39) — 21 produtos
 
 1. DEL 2 ACAI 700ML — cód. 11892
 2. DEL 2 CROI FRAN + GUARANÁ 1L — cód. 11888
@@ -1545,3 +1544,4 @@ _Nenhuma._
 - 29/10/2026, 16:20:53 — [Delivery] Excluiu a categoria D - SANDUÍCHES GOURMET
 - 29/10/2026, 16:20:56 — [Delivery] Excluiu a categoria D - SANDUÍCHES NATURAIS
 - 29/10/2026, 16:21:12 — [Delivery] Trocou a foto da categoria D - SANDUÍCHES CHAPA
+- 30/10/2026, 13:02:07 — [Delivery] Excluiu a categoria D - SUCOS FUNCIONAIS (com 5 produtos)

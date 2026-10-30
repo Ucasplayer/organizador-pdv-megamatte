@@ -3406,6 +3406,10 @@
  },
  "log": [
   {
+   "t": "2026-10-30T16:02:07.655Z",
+   "msg": "[Delivery] Excluiu a categoria D - SUCOS FUNCIONAIS (com 5 produtos)"
+  },
+  {
    "t": "2026-10-29T19:21:12.463Z",
    "msg": "[Delivery] Trocou a foto da categoria D - SANDUÍCHES CHAPA"
   },
@@ -4034,7 +4038,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-29T19:21:12.480Z",
+ "savedAt": "2026-10-30T16:02:07.670Z",
  "deliveryCategories": [
   {
    "id": "d24",
@@ -4190,19 +4194,6 @@
    "items": [
     "11566",
     "11567"
-   ]
-  },
-  {
-   "id": "d40",
-   "code": "40",
-   "name": "D - SUCOS FUNCIONAIS",
-   "img": "img/del-40.jpg",
-   "items": [
-    "11514",
-    "11516",
-    "11515",
-    "11517",
-    "11518"
    ]
   },
   {
