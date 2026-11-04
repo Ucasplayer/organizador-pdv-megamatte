@@ -1,10 +1,10 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 30/10/2026, 13:02:09. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 04/11/2026, 10:08:55. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
-- Produtos que mudaram de categoria: **13**
+- Produtos que mudaram de categoria: **16**
 - Produtos novos: **8**
 - Produtos retirados: **9**
 - Categorias novas: **4**
@@ -35,7 +35,7 @@ Atualizado em 30/10/2026, 13:02:09. Gerado automaticamente pelo Organizador do P
 |---|---|---|
 | 13 | SANDUICHES CHAPA | SANDUICHES |
 
-### Produtos que mudaram de categoria (13)
+### Produtos que mudaram de categoria (16)
 
 | Cód. | Produto | Saiu de | Entrou em | Fica em |
 |---|---|---|---|---|
@@ -43,6 +43,9 @@ Atualizado em 30/10/2026, 13:02:09. Gerado automaticamente pelo Organizador do P
 | 463 | ESPRESSO DUPLO 100ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 470 | ESPRESSO DUPLO C/LEITE 200ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
 | 11063 | ESPRESSO MACCHIATO 50ML | CAFETERIA ESPRESSO (excluída) | CAFETERIA BEBIDAS QUENTES | CAFETERIA BEBIDAS QUENTES |
+| 11451 | MATE OVOMALTINE 300ML | CAFETERIA BEBIDAS GELADAS | — | MATE |
+| 11452 | MATE OVOMALTINE 500ML | CAFETERIA BEBIDAS GELADAS | — | MATE |
+| 11453 | MATE OVOMALTINE 700ML | CAFETERIA BEBIDAS GELADAS | — | MATE |
 | 11804 | MONTE SEU ACAI 300ML | CAFETERIA BEBIDAS GELADAS | — | AÇAÍ |
 | 11858 | MONTE SEU ACAI 500ML | CAFETERIA BEBIDAS GELADAS | — | AÇAÍ |
 | 11931 | P.MATE OU GUARANA 300ML GRATIS | COFFEE PARTY TERÊ (excluída) | — | MATE |
@@ -885,7 +888,7 @@ _Nenhuma._
 21. MOCACCINO 100ML — cód. 11671
 22. MOCACCINO 200ML — cód. 11064
 
-### 9. CAFETERIA BEBIDAS GELADAS (grupo 21) — 11 produtos
+### 9. CAFETERIA BEBIDAS GELADAS (grupo 21) — 8 produtos
 
 1. CAPPUCCINO COM NUTELLA GELADO 300ML — cód. 11309
 2. CAPPUCCINO COM NUTELLA GELADO 500ML — cód. 11310
@@ -895,9 +898,6 @@ _Nenhuma._
 6. CHOCOLATE GELADO 500ML — cód. 11595
 7. FRAPPE OVOMALTINE 300ML — cód. 11449
 8. FRAPPE OVOMALTINE 500ML — cód. 11859
-9. MATE OVOMALTINE 300ML — cód. 11451
-10. MATE OVOMALTINE 500ML — cód. 11452
-11. MATE OVOMALTINE 700ML — cód. 11453
 
 ### 10. AÇAÍ (grupo 8) — 25 produtos
 
@@ -1545,3 +1545,4 @@ _Nenhuma._
 - 29/10/2026, 16:20:56 — [Delivery] Excluiu a categoria D - SANDUÍCHES NATURAIS
 - 29/10/2026, 16:21:12 — [Delivery] Trocou a foto da categoria D - SANDUÍCHES CHAPA
 - 30/10/2026, 13:02:07 — [Delivery] Excluiu a categoria D - SUCOS FUNCIONAIS (com 5 produtos)
+- 04/11/2026, 10:08:54 — Excluiu MATE OVOMALTINE 300ML, MATE OVOMALTINE 500ML, MATE OVOMALTINE 700ML de CAFETERIA BEBIDAS GELADAS

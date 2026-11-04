@@ -206,10 +206,7 @@
     "1806",
     "11595",
     "11449",
-    "11859",
-    "11451",
-    "11452",
-    "11453"
+    "11859"
    ]
   },
   {
@@ -3406,6 +3403,10 @@
  },
  "log": [
   {
+   "t": "2026-11-04T13:08:54.153Z",
+   "msg": "Excluiu MATE OVOMALTINE 300ML, MATE OVOMALTINE 500ML, MATE OVOMALTINE 700ML de CAFETERIA BEBIDAS GELADAS"
+  },
+  {
    "t": "2026-10-30T16:02:07.655Z",
    "msg": "[Delivery] Excluiu a categoria D - SUCOS FUNCIONAIS (com 5 produtos)"
   },
@@ -4038,7 +4039,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-10-30T16:02:07.670Z",
+ "savedAt": "2026-11-04T13:08:54.173Z",
  "deliveryCategories": [
   {
    "id": "d24",
