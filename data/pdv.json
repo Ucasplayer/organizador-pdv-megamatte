@@ -40,7 +40,8 @@
    "name": "RETORNAVEL MENT",
    "img": "api/image?f=cat-nmvtw8qpu-mvtx05ho.jpg",
    "items": [
-    "14501"
+    "14501",
+    "14500"
    ],
    "isNew": true
   },
@@ -3281,6 +3282,13 @@
    "name": "FCDC P.3 COOKIES",
    "img": "api/image?f=prod-12668-mvqrvc9n.jpg"
   },
+  "14500": {
+   "code": "14500",
+   "name": "MATE RETORNAVEL MENT",
+   "isNew": true,
+   "img": "api/image?f=prod-14500-mw25pzyd.jpg",
+   "autoImg": true
+  },
   "14501": {
    "code": "14501",
    "name": "GUARANA RETORNAVEL MENT",
@@ -3411,6 +3419,10 @@
   }
  },
  "log": [
+  {
+   "t": "2026-11-04T13:33:09.445Z",
+   "msg": "Criou o produto MATE RETORNAVEL MENT em RETORNAVEL MENT"
+  },
   {
    "t": "2026-11-04T13:32:55.692Z",
    "msg": "Criou o produto GUARANA RETORNAVEL MENT em RETORNAVEL MENT"
@@ -4052,7 +4064,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-11-04T13:32:55.725Z",
+ "savedAt": "2026-11-04T13:33:09.479Z",
  "deliveryCategories": [
   {
    "id": "d24",
