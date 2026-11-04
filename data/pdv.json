@@ -39,7 +39,9 @@
    "code": "",
    "name": "RETORNAVEL MENT",
    "img": "api/image?f=cat-nmvtw8qpu-mvtx05ho.jpg",
-   "items": [],
+   "items": [
+    "14501"
+   ],
    "isNew": true
   },
   {
@@ -3279,6 +3281,13 @@
    "name": "FCDC P.3 COOKIES",
    "img": "api/image?f=prod-12668-mvqrvc9n.jpg"
   },
+  "14501": {
+   "code": "14501",
+   "name": "GUARANA RETORNAVEL MENT",
+   "isNew": true,
+   "img": "api/image?f=prod-14501-mw25poz7.jpg",
+   "autoImg": true
+  },
   "15004": {
    "code": "15004",
    "name": "DEL - ACAI MEGA DO SEU JEITO 300ML",
@@ -3402,6 +3411,10 @@
   }
  },
  "log": [
+  {
+   "t": "2026-11-04T13:32:55.692Z",
+   "msg": "Criou o produto GUARANA RETORNAVEL MENT em RETORNAVEL MENT"
+  },
   {
    "t": "2026-11-04T13:08:54.153Z",
    "msg": "Excluiu MATE OVOMALTINE 300ML, MATE OVOMALTINE 500ML, MATE OVOMALTINE 700ML de CAFETERIA BEBIDAS GELADAS"
@@ -4039,7 +4052,7 @@
    "msg": "Criou a categoria TESTE SITE"
   }
  ],
- "savedAt": "2026-11-04T13:08:54.173Z",
+ "savedAt": "2026-11-04T13:32:55.725Z",
  "deliveryCategories": [
   {
    "id": "d24",

@@ -1,11 +1,11 @@
 # Resumo das mudanças no PDV
 
-Atualizado em 04/11/2026, 10:08:55. Gerado automaticamente pelo Organizador do PDV.
+Atualizado em 04/11/2026, 10:32:57. Gerado automaticamente pelo Organizador do PDV.
 
 ## 🏪 LOJA
 
 - Produtos que mudaram de categoria: **16**
-- Produtos novos: **8**
+- Produtos novos: **9**
 - Produtos retirados: **9**
 - Categorias novas: **4**
 - Categorias excluídas: **4**
@@ -18,7 +18,7 @@ Atualizado em 04/11/2026, 10:08:55. Gerado automaticamente pelo Organizador do P
 | CAMPANHA RAFA & LUIZ | 0 |
 | CAMPANHA BROWNIE DO LUIZ | 5 |
 | MATE FRUTA DO DIA | 2 |
-| RETORNAVEL MENT | 0 |
+| RETORNAVEL MENT | 1 |
 
 ### Categorias excluídas (4)
 
@@ -56,12 +56,13 @@ Atualizado em 04/11/2026, 10:08:55. Gerado automaticamente pelo Organizador do P
 | 11181 | SAND. NAT. PEITO DE PERU | SANDUÍCHES NATURAIS (excluída) | SANDUICHES | SANDUICHES |
 | 11182 | SAND. NAT. SALPICAO DE FRANGO | SANDUÍCHES NATURAIS (excluída) | SANDUICHES | SANDUICHES |
 
-### Produtos novos (8)
+### Produtos novos (9)
 
 | Cód. | Produto | Categorias |
 |---|---|---|
 | 12113 | CHOCOMEGA DO LUIZ GELADO | CAMPANHA BROWNIE DO LUIZ |
 | 12112 | CHOCOMEGA DO LUIZ QUENTE | CAMPANHA BROWNIE DO LUIZ |
+| 14501 | GUARANA RETORNAVEL MENT | RETORNAVEL MENT |
 | 12111 | MEGA CAPUCCINO DO LUIZ GELADO | CAMPANHA BROWNIE DO LUIZ |
 | 12110 | MEGA CAPUCCINO DO LUIZ QUENTE | CAMPANHA BROWNIE DO LUIZ |
 | 12114 | MINI BROWNIE DO LUIZ | CAMPANHA BROWNIE DO LUIZ |
@@ -201,7 +202,7 @@ _Nenhuma._
 | 10362 | SAND. CIABATTA CARNE ASSADA | SAND. GOURMET CIABATTA CARNE ASSADA |
 | 11113 | SAND. FRANGO TOMATE SECO AZEITO BAGUETE | SAND. GOURMET FRANGO TOMATE SECO AZEITO BAGUETE |
 
-### Fotos de produto trocadas (530)
+### Fotos de produto trocadas (531)
 
 | Foto | Cód. | Produto |
 |---|---|---|
@@ -714,6 +715,7 @@ _Nenhuma._
 | ![foto](img/prod-12666-mvqrvc9r.jpg) [abrir](img/prod-12666-mvqrvc9r.jpg) | 12666 | FCDC SALGADO+MATE300ML |
 | ![foto](img/prod-12667-mvqrvc9m.jpg) [abrir](img/prod-12667-mvqrvc9m.jpg) | 12667 | FCDC P.12 PQ/BRO+MATE300ML |
 | ![foto](img/prod-12668-mvqrvc9n.jpg) [abrir](img/prod-12668-mvqrvc9n.jpg) | 12668 | FCDC P.3 COOKIES |
+| ![foto](img/prod-14501-mw25poz7.jpg) [abrir](img/prod-14501-mw25poz7.jpg) | 14501 | GUARANA RETORNAVEL MENT |
 | ![foto](img/prod-15004-mvtoxez5.jpg) [abrir](img/prod-15004-mvtoxez5.jpg) | 15004 | DEL - ACAI MEGA DO SEU JEITO 300ML |
 | ![foto](img/prod-15005-mvtoxez6.jpg) [abrir](img/prod-15005-mvtoxez6.jpg) | 15005 | DEL - ACAI MEGA DO SEU JEITO 500ML |
 | ![foto](img/prod-15006-mvtoxez7.jpg) [abrir](img/prod-15006-mvtoxez7.jpg) | 15006 | DEL - ACAI MEGA DO SEU JEITO 700ML |
@@ -754,8 +756,9 @@ _Nenhuma._
 1. PROMO MATE FRUTA DO DIA — cód. 11958
 2. PROMO BRINDE MATE FRUTA DO DIA — cód. 15502
 
-### 4. RETORNAVEL MENT (NOVA) — 0 produtos
+### 4. RETORNAVEL MENT (NOVA) — 1 produtos
 
+1. GUARANA RETORNAVEL MENT — cód. 14501
 
 ### 5. PAO DE QUEIJO (grupo 19) — 8 produtos
 
@@ -1546,3 +1549,4 @@ _Nenhuma._
 - 29/10/2026, 16:21:12 — [Delivery] Trocou a foto da categoria D - SANDUÍCHES CHAPA
 - 30/10/2026, 13:02:07 — [Delivery] Excluiu a categoria D - SUCOS FUNCIONAIS (com 5 produtos)
 - 04/11/2026, 10:08:54 — Excluiu MATE OVOMALTINE 300ML, MATE OVOMALTINE 500ML, MATE OVOMALTINE 700ML de CAFETERIA BEBIDAS GELADAS
+- 04/11/2026, 10:32:55 — Criou o produto GUARANA RETORNAVEL MENT em RETORNAVEL MENT
